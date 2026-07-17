@@ -1,0 +1,7 @@
+.codex/
+.agents/
+outputs/
+work/
+*.zip
+node_modules/
+*.log
