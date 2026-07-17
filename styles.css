@@ -894,6 +894,91 @@ select:focus {
   line-height: 1.75;
 }
 
+.note-category-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 28px 22px 0;
+}
+
+.note-category-nav a {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 42px;
+  padding: 0 15px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.note-category-nav a:hover,
+.note-category-nav a:focus-visible {
+  border-color: rgba(49, 91, 58, 0.38);
+  color: var(--leaf);
+}
+
+.note-category-nav span {
+  display: inline-grid;
+  min-width: 24px;
+  height: 24px;
+  place-items: center;
+  border-radius: 999px;
+  background: var(--sage);
+  color: var(--leaf-dark);
+  font-size: 0.78rem;
+}
+
+.notes-category-section {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 72px 22px 0;
+  scroll-margin-top: 96px;
+}
+
+.notes-category-section:last-of-type {
+  padding-bottom: 86px;
+}
+
+.notes-category-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--line);
+}
+
+.notes-category-heading h2 {
+  margin: 0;
+  color: var(--leaf-dark);
+}
+
+.notes-category-heading span {
+  color: var(--muted);
+  font-family: var(--font-ui);
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.notes-empty-category {
+  padding: 28px;
+  border: 1px dashed var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--muted);
+  font-family: var(--font-ui);
+  font-weight: 600;
+}
+
 .notes-list {
   display: grid;
   gap: 26px;
@@ -1301,6 +1386,10 @@ input:focus {
     grid-template-columns: 220px 1fr;
   }
 
+  .notes-category-heading {
+    align-items: flex-start;
+  }
+
   .note-header h1,
   .notes-hero h1 {
     font-size: 2.65rem;
@@ -1388,6 +1477,28 @@ input:focus {
 
   .note-card img {
     min-height: 220px;
+  }
+
+  .note-category-nav {
+    padding: 22px 18px 0;
+  }
+
+  .note-category-nav a {
+    flex: 1 1 calc(50% - 8px);
+    justify-content: space-between;
+  }
+
+  .notes-category-section {
+    padding: 54px 18px 0;
+  }
+
+  .notes-category-heading {
+    display: block;
+  }
+
+  .notes-category-heading span {
+    display: inline-block;
+    margin-top: 8px;
   }
 
   .note-article {
