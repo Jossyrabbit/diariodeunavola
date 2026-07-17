@@ -1,0 +1,7 @@
+Calendario de etapas - Diario de una Volá
+
+Germinacion: observar humedad, temperatura y desarrollo radicular.
+Vegetacion: registrar riego, ambiente, poda y crecimiento.
+Floracion: revisar fotoperiodo, nutricion, ventilacion y olor.
+Cosecha: observar tricomas, limpieza y secado.
+Curado: registrar envase, humedad y apertura.

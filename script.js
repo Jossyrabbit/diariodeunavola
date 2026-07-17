@@ -227,35 +227,54 @@ const siteSearchForm = document.querySelector(".search-page-form");
 const siteSearchInput = document.querySelector("#site-search-input");
 const siteSearchResults = document.querySelector("#site-search-results");
 const siteSearchCount = document.querySelector("#site-search-count");
+const siteSearchCategory = document.querySelector("#site-search-category");
+const siteSearchDate = document.querySelector("#site-search-date");
+const siteSearchLevel = document.querySelector("#site-search-level");
 
 function renderSiteSearchResults(query) {
   if (!siteSearchResults) return;
   const normalizedQuery = normalize(query);
-  const results = normalizedQuery
-    ? searchIndex.filter((item) => normalize([
+  const selectedCategory = siteSearchCategory?.value || "";
+  const selectedYear = siteSearchDate?.value || "";
+  const selectedLevel = siteSearchLevel?.value || "";
+  const results = searchIndex.filter((item) => {
+    const matchesQuery = normalizedQuery
+      ? normalize([
       item.title,
       item.category,
       item.excerpt,
       item.type,
-    ].join(" ")).includes(normalizedQuery))
-    : searchIndex.slice(0, 8);
+      item.author,
+      item.series,
+      item.keywords,
+    ].join(" ")).includes(normalizedQuery)
+      : true;
+    const matchesCategory = !selectedCategory || item.category === selectedCategory;
+    const matchesYear = !selectedYear || item.year === selectedYear;
+    const matchesLevel = !selectedLevel || item.level === selectedLevel;
+    return matchesQuery && matchesCategory && matchesYear && matchesLevel;
+  });
 
-  siteSearchResults.innerHTML = results.map((item) => `
+  const visibleResults = normalizedQuery || selectedCategory || selectedYear || selectedLevel
+    ? results
+    : results.slice(0, 8);
+
+  siteSearchResults.innerHTML = visibleResults.map((item) => `
     <a class="search-result" href="${escapeHtml(item.url)}">
       <span>${escapeHtml(item.type)} / ${escapeHtml(item.category || "DDV")}</span>
       <strong>${escapeHtml(item.title)}</strong>
       <p>${escapeHtml(item.excerpt || "")}</p>
-      <small>${escapeHtml([item.date, item.readTime].filter(Boolean).join(" / "))}</small>
+      <small>${escapeHtml([item.date, item.readTime, item.series, item.level].filter(Boolean).join(" / "))}</small>
     </a>
   `).join("");
 
   if (siteSearchCount) {
-    if (!normalizedQuery) {
+    if (!normalizedQuery && !selectedCategory && !selectedYear && !selectedLevel) {
       siteSearchCount.textContent = "Mostrando una seleccion inicial. Escribe para filtrar por tema.";
-    } else if (results.length === 1) {
+    } else if (visibleResults.length === 1) {
       siteSearchCount.textContent = "1 resultado encontrado.";
     } else {
-      siteSearchCount.textContent = `${results.length} resultados encontrados.`;
+      siteSearchCount.textContent = `${visibleResults.length} resultados encontrados.`;
     }
   }
 }
@@ -271,6 +290,10 @@ function initializeSiteSearch() {
     renderSiteSearchResults(siteSearchInput.value);
   });
 
+  [siteSearchCategory, siteSearchDate, siteSearchLevel].forEach((control) => {
+    control?.addEventListener("change", () => renderSiteSearchResults(siteSearchInput.value));
+  });
+
   siteSearchForm?.addEventListener("submit", (event) => {
     event.preventDefault();
     renderSiteSearchResults(siteSearchInput.value);
@@ -281,3 +304,32 @@ function initializeSiteSearch() {
 }
 
 initializeSiteSearch();
+
+const newsletterForms = document.querySelectorAll(".newsletter-panel");
+
+newsletterForms.forEach((form) => {
+  form.addEventListener("submit", (event) => {
+    const email = form.querySelector("input[type='email']");
+    const interest = form.querySelector("select[name='interest']");
+    const consent = form.querySelector("input[name='consent']");
+    const message = form.querySelector(".form-message");
+    const emailIsValid = email instanceof HTMLInputElement && email.validity.valid && email.value.trim();
+    const interestIsValid = !(interest instanceof HTMLSelectElement) || interest.value;
+    const consentIsValid = !(consent instanceof HTMLInputElement) || consent.checked;
+
+    if (!emailIsValid || !interestIsValid || !consentIsValid) {
+      event.preventDefault();
+      if (message) {
+        message.textContent = "Revisa el correo, selecciona un interes y acepta recibir correos para continuar.";
+        message.classList.add("is-error");
+      }
+      return;
+    }
+
+    if (message) {
+      message.textContent = "Listo. Te llevaremos a la confirmacion.";
+      message.classList.remove("is-error");
+      message.classList.add("is-success");
+    }
+  });
+});

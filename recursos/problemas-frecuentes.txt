@@ -1,0 +1,7 @@
+Guía de problemas frecuentes - Diario de una Volá
+
+1. Observa si el problema aparece en hojas nuevas o antiguas.
+2. Revisa pH, EC, temperatura, humedad y ventilacion.
+3. Registra cambios recientes antes de corregir.
+4. Ajusta de a un factor por vez cuando sea posible.
+5. Consulta fuentes confiables y evita sobrerreaccionar.
