@@ -110,6 +110,11 @@ a {
   background: var(--sage);
 }
 
+.site-nav a[aria-current="page"] {
+  color: var(--leaf-dark);
+  background: var(--sage-strong);
+}
+
 .site-nav .nav-cta {
   color: var(--surface);
   background: var(--leaf);
@@ -483,6 +488,30 @@ h3 {
   max-width: 660px;
   margin-bottom: 0;
   color: rgba(255, 255, 255, 0.86);
+}
+
+.catalog-page-hero {
+  padding: 82px max(22px, calc((100vw - var(--max)) / 2)) 42px;
+  background:
+    linear-gradient(90deg, rgba(251, 251, 247, 0.96), rgba(251, 251, 247, 0.78)),
+    url("https://static.wixstatic.com/media/1287cc_b9b12e2d02954a3386cd1e21f445bdc8~mv2.jpg/v1/fill/w_1600,h_700,fp_0.50_0.50,q_90,enc_avif,quality_auto/1287cc_b9b12e2d02954a3386cd1e21f445bdc8~mv2.jpg") center / cover;
+  border-bottom: 1px solid var(--line);
+}
+
+.catalog-page-hero h1,
+.catalog-page-hero p {
+  max-width: 760px;
+}
+
+.catalog-page-hero h1 {
+  margin-bottom: 14px;
+  color: var(--leaf-dark);
+  font-size: 3.2rem;
+}
+
+.catalog-page-hero p:not(.eyebrow) {
+  color: var(--muted);
+  font-size: 1.08rem;
 }
 
 .catalog-section {
@@ -864,6 +893,14 @@ input:focus {
     padding: 78px 20px 68px;
   }
 
+  .catalog-page-hero {
+    padding: 70px 20px 34px;
+  }
+
+  .catalog-page-hero h1 {
+    font-size: 2.8rem;
+  }
+
   h1 {
     font-size: 3.1rem;
   }
@@ -910,6 +947,14 @@ input:focus {
 
   .hero {
     min-height: 500px;
+  }
+
+  .catalog-page-hero {
+    padding: 56px 18px 28px;
+  }
+
+  .catalog-page-hero h1 {
+    font-size: 2.25rem;
   }
 
   h1 {

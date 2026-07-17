@@ -28,7 +28,7 @@
       <nav class="site-nav" id="site-nav" aria-label="Navegación principal">
         <a href="#articulos">Artículos</a>
         <a href="#eventos">Eventos</a>
-        <a href="#tienda">Catalogo</a>
+        <a href="catalogo.html">Catalogo</a>
         <a href="#comunidad">Comunidad</a>
         <a class="nav-cta" href="#newsletter">Suscribirse</a>
       </nav>
@@ -100,7 +100,7 @@
           <div>
             <h3>Tienda</h3>
             <p>Insumos, semillas, sustratos y accesorios seleccionados para cultivo.</p>
-            <a href="https://diariodeunavola.wixsite.com/website/shop-1">Ver tienda actual</a>
+            <a href="catalogo.html">Ver catalogo</a>
           </div>
         </article>
 
@@ -192,64 +192,7 @@
             La tienda puede crecer por etapas: primero catálogo enlazado, después carrito, pagos y administración completa.
           </p>
         </div>
-        <a class="button primary" href="#catalogo-productos">Ver catalogo</a>
-      </section>
-
-      <section class="catalog-section section-pad" id="catalogo-productos" aria-labelledby="catalogo-title">
-        <div class="section-heading catalog-heading">
-          <div>
-            <p class="eyebrow">Catalogo</p>
-            <h2 id="catalogo-title">Productos publicados</h2>
-            <p>Disponibilidad y despacho se confirman antes de cerrar cada pedido.</p>
-          </div>
-          <div class="catalog-count" aria-live="polite">
-            <strong id="catalog-total">0</strong>
-            <span>productos</span>
-          </div>
-        </div>
-
-        <div class="catalog-toolbar" aria-label="Filtros de catalogo">
-          <label for="catalog-search">
-            Buscar
-            <input id="catalog-search" type="search" placeholder="Nombre, marca o SKU">
-          </label>
-          <label for="catalog-category">
-            Categoria
-            <select id="catalog-category">
-              <option value="">Todas</option>
-            </select>
-          </label>
-          <label for="catalog-subcategory">
-            Subcategoria
-            <select id="catalog-subcategory">
-              <option value="">Todas</option>
-            </select>
-          </label>
-          <label for="catalog-sort">
-            Orden
-            <select id="catalog-sort">
-              <option value="name">Nombre A-Z</option>
-              <option value="price-asc">Precio menor</option>
-              <option value="price-desc">Precio mayor</option>
-            </select>
-          </label>
-        </div>
-
-        <div class="catalog-results-line">
-          <span id="catalog-status">Cargando productos...</span>
-          <button class="link-button" id="catalog-clear" type="button">Limpiar filtros</button>
-        </div>
-
-        <div class="product-grid" id="product-grid" aria-live="polite"></div>
-
-        <div class="catalog-empty" id="catalog-empty" hidden>
-          <h3>No hay productos con esos filtros</h3>
-          <p>Prueba con otra categoria o una busqueda mas amplia.</p>
-        </div>
-
-        <div class="catalog-more">
-          <button class="button secondary dark" id="catalog-load-more" type="button" hidden>Ver mas productos</button>
-        </div>
+        <a class="button primary" href="catalogo.html">Ver catalogo</a>
       </section>
 
       <section class="community-section" id="comunidad" aria-labelledby="community-title">
@@ -296,7 +239,6 @@
       </nav>
     </footer>
 
-    <script src="products-data.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

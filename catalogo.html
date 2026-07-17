@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Catalogo de productos Diario de una Vola para cultivo, iluminacion, ventilacion, sustratos y accesorios.">
+    <title>Catalogo | Diario de una Vola</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html#inicio" aria-label="Diario de una Vola">
+        <span class="brand-mark">DV</span>
+        <span>
+          <strong>Diario de una Vola</strong>
+          <small>Revista cannabica desde 2016</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+        Menu
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Navegacion principal">
+        <a href="index.html#articulos">Articulos</a>
+        <a href="index.html#eventos">Eventos</a>
+        <a href="catalogo.html" aria-current="page">Catalogo</a>
+        <a href="index.html#comunidad">Comunidad</a>
+        <a class="nav-cta" href="index.html#newsletter">Suscribirse</a>
+      </nav>
+    </header>
+
+    <main id="catalogo">
+      <section class="catalog-page-hero" aria-labelledby="catalog-page-title">
+        <p class="eyebrow">Tienda</p>
+        <h1 id="catalog-page-title">Catalogo Diario de una Vola</h1>
+        <p>Productos seleccionados para cultivo, iluminacion, ventilacion, sustratos, accesorios y smokeshop.</p>
+      </section>
+
+      <section class="catalog-section section-pad" id="catalogo-productos" aria-labelledby="catalogo-title">
+        <div class="section-heading catalog-heading">
+          <div>
+            <p class="eyebrow">Catalogo</p>
+            <h2 id="catalogo-title">Productos publicados</h2>
+            <p>Disponibilidad y despacho se confirman antes de cerrar cada pedido.</p>
+          </div>
+          <div class="catalog-count" aria-live="polite">
+            <strong id="catalog-total">0</strong>
+            <span>productos</span>
+          </div>
+        </div>
+
+        <div class="catalog-toolbar" aria-label="Filtros de catalogo">
+          <label for="catalog-search">
+            Buscar
+            <input id="catalog-search" type="search" placeholder="Nombre, marca o SKU">
+          </label>
+          <label for="catalog-category">
+            Categoria
+            <select id="catalog-category">
+              <option value="">Todas</option>
+            </select>
+          </label>
+          <label for="catalog-subcategory">
+            Subcategoria
+            <select id="catalog-subcategory">
+              <option value="">Todas</option>
+            </select>
+          </label>
+          <label for="catalog-sort">
+            Orden
+            <select id="catalog-sort">
+              <option value="name">Nombre A-Z</option>
+              <option value="price-asc">Precio menor</option>
+              <option value="price-desc">Precio mayor</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="catalog-results-line">
+          <span id="catalog-status">Cargando productos...</span>
+          <button class="link-button" id="catalog-clear" type="button">Limpiar filtros</button>
+        </div>
+
+        <div class="product-grid" id="product-grid" aria-live="polite"></div>
+
+        <div class="catalog-empty" id="catalog-empty" hidden>
+          <h3>No hay productos con esos filtros</h3>
+          <p>Prueba con otra categoria o una busqueda mas amplia.</p>
+        </div>
+
+        <div class="catalog-more">
+          <button class="button secondary dark" id="catalog-load-more" type="button" hidden>Ver mas productos</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>Diario de una Vola</strong>
+        <p>Contenido informativo para personas mayores de edad. Revisa siempre la normativa vigente de tu territorio.</p>
+      </div>
+      <nav aria-label="Enlaces secundarios">
+        <a href="index.html#inicio">Inicio</a>
+        <a href="index.html#eventos">Eventos</a>
+        <a href="https://diariodeunavola.wixsite.com/website/forum">Foro</a>
+      </nav>
+    </footer>
+
+    <script src="products-data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
