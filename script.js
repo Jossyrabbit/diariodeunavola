@@ -221,3 +221,63 @@ function initializeCatalog() {
 }
 
 initializeCatalog();
+
+const searchIndex = Array.isArray(window.DDV_SEARCH_INDEX) ? window.DDV_SEARCH_INDEX : [];
+const siteSearchForm = document.querySelector(".search-page-form");
+const siteSearchInput = document.querySelector("#site-search-input");
+const siteSearchResults = document.querySelector("#site-search-results");
+const siteSearchCount = document.querySelector("#site-search-count");
+
+function renderSiteSearchResults(query) {
+  if (!siteSearchResults) return;
+  const normalizedQuery = normalize(query);
+  const results = normalizedQuery
+    ? searchIndex.filter((item) => normalize([
+      item.title,
+      item.category,
+      item.excerpt,
+      item.type,
+    ].join(" ")).includes(normalizedQuery))
+    : searchIndex.slice(0, 8);
+
+  siteSearchResults.innerHTML = results.map((item) => `
+    <a class="search-result" href="${escapeHtml(item.url)}">
+      <span>${escapeHtml(item.type)} / ${escapeHtml(item.category || "DDV")}</span>
+      <strong>${escapeHtml(item.title)}</strong>
+      <p>${escapeHtml(item.excerpt || "")}</p>
+      <small>${escapeHtml([item.date, item.readTime].filter(Boolean).join(" / "))}</small>
+    </a>
+  `).join("");
+
+  if (siteSearchCount) {
+    if (!normalizedQuery) {
+      siteSearchCount.textContent = "Mostrando una seleccion inicial. Escribe para filtrar por tema.";
+    } else if (results.length === 1) {
+      siteSearchCount.textContent = "1 resultado encontrado.";
+    } else {
+      siteSearchCount.textContent = `${results.length} resultados encontrados.`;
+    }
+  }
+}
+
+function initializeSiteSearch() {
+  if (!siteSearchInput || !siteSearchResults) return;
+  const params = new URLSearchParams(window.location.search);
+  const initialQuery = params.get("q") || "";
+  siteSearchInput.value = initialQuery;
+  renderSiteSearchResults(initialQuery);
+
+  siteSearchInput.addEventListener("input", () => {
+    renderSiteSearchResults(siteSearchInput.value);
+  });
+
+  siteSearchForm?.addEventListener("submit", (event) => {
+    event.preventDefault();
+    renderSiteSearchResults(siteSearchInput.value);
+    const query = siteSearchInput.value.trim();
+    const nextUrl = query ? `?q=${encodeURIComponent(query)}` : window.location.pathname;
+    window.history.replaceState(null, "", nextUrl);
+  });
+}
+
+initializeSiteSearch();

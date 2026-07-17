@@ -1,0 +1,6 @@
+Planificador basico de riego - Diario de una Volá
+
+Fecha | Planta | Volumen | pH | EC | Nutrientes | Observaciones
+------|--------|---------|----|----|------------|--------------
+
+Usa este formato como punto de partida y ajustalo a tu metodo.

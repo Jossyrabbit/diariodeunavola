@@ -1,19 +1,37 @@
 <!doctype html>
 <html lang="es">
   <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Catalogo de productos Diario de una Vola para cultivo, iluminacion, ventilacion, sustratos y accesorios.">
-    <title>Catalogo | Diario de una Vola</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Catalogo de productos seleccionados por Diario de una Volá para cultivo, iluminacion, ventilacion, sustratos y accesorios.">
+    <link rel="canonical" href="https://diariodeunavola.netlify.app/catalogo.html">
+    <meta property="og:site_name" content="Diario de una Volá">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Catalogo | Diario de una Volá">
+    <meta property="og:description" content="Catalogo de productos seleccionados por Diario de una Volá para cultivo, iluminacion, ventilacion, sustratos y accesorios.">
+    <meta property="og:url" content="https://diariodeunavola.netlify.app/catalogo.html">
+    <meta property="og:image" content="https://static.wixstatic.com/media/1287cc_9b7b1f6130bd4ab78fbfe3cd286fecb8~mv2.jpg/v1/fill/w_1600,h_900,fp_0.50_0.50,q_90,enc_avif,quality_auto/1287cc_9b7b1f6130bd4ab78fbfe3cd286fecb8~mv2.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Catalogo | Diario de una Volá">
+    <meta name="twitter:description" content="Catalogo de productos seleccionados por Diario de una Volá para cultivo, iluminacion, ventilacion, sustratos y accesorios.">
+    <meta name="twitter:image" content="https://static.wixstatic.com/media/1287cc_9b7b1f6130bd4ab78fbfe3cd286fecb8~mv2.jpg/v1/fill/w_1600,h_900,fp_0.50_0.50,q_90,enc_avif,quality_auto/1287cc_9b7b1f6130bd4ab78fbfe3cd286fecb8~mv2.jpg">
+    <title>Catalogo | Diario de una Volá</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://static.wixstatic.com">
+    <link rel="stylesheet" href="/styles.css">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Catalogo | Diario de una Volá","description":"Catalogo de productos seleccionados por Diario de una Volá para cultivo, iluminacion, ventilacion, sustratos y accesorios.","url":"https://diariodeunavola.netlify.app/catalogo.html"}</script>
   </head>
   <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
     <header class="site-header">
-      <a class="brand" href="index.html#inicio" aria-label="Diario de una Vola">
+      <a class="brand" href="/index.html" aria-label="Diario de una Volá">
         <span class="brand-mark">DV</span>
         <span>
-          <strong>Diario de una Vola</strong>
-          <small>Revista cannabica desde 2016</small>
+          <strong>Diario de una Volá</strong>
+          <small>Revista cannábica chilena</small>
         </span>
       </a>
 
@@ -24,22 +42,32 @@
         Menu
       </button>
 
-      <nav class="site-nav" id="site-nav" aria-label="Navegacion principal">
-        <a href="notas.html">Notas</a>
-        <a href="index.html#eventos">Eventos</a>
-        <a href="catalogo.html" aria-current="page">Catalogo</a>
-        <a href="index.html#comunidad">Comunidad</a>
-        <a class="nav-cta" href="index.html#newsletter">Suscribirse</a>
+      <nav class="site-nav" id="site-nav" aria-label="Navegación principal">
+        <a href="/index.html">Inicio</a>
+        <a href="/notas.html" aria-current="page">Revista</a>
+        <a href="/categorias/cultivo.html">Cultivo</a>
+        <a href="/categorias/cultura.html">Cultura</a>
+        <a href="/categorias/actualidad.html">Actualidad</a>
+        <a href="/eventos.html">Eventos</a>
+        <a href="/comunidad.html">Comunidad</a>
       </nav>
+
+      <div class="header-actions">
+        <form class="site-search" action="/buscar.html" method="get" role="search">
+          <label class="sr-only" for="header-search">Buscar en Diario de una Volá</label>
+          <input id="header-search" name="q" type="search" placeholder="Buscar">
+          <button type="submit">Buscar</button>
+        </form>
+        <a class="button nav-cta" href="/index.html#newsletter">Suscribirse</a>
+      </div>
     </header>
+    <main id="contenido">
 
-    <main id="catalogo">
       <section class="catalog-page-hero" aria-labelledby="catalog-page-title">
-        <p class="eyebrow">Tienda</p>
-        <h1 id="catalog-page-title">Catalogo Diario de una Vola</h1>
-        <p>Productos seleccionados para cultivo, iluminacion, ventilacion, sustratos, accesorios y smokeshop.</p>
+        <p class="eyebrow">Catalogo</p>
+        <h1 id="catalog-page-title">Productos seleccionados</h1>
+        <p>Una herramienta separada de la revista para consultar insumos, precios y fichas de proveedor.</p>
       </section>
-
       <section class="catalog-section section-pad" id="catalogo-productos" aria-labelledby="catalogo-title">
         <div class="section-heading catalog-heading">
           <div>
@@ -52,65 +80,38 @@
             <span>productos</span>
           </div>
         </div>
-
         <div class="catalog-toolbar" aria-label="Filtros de catalogo">
-          <label for="catalog-search">
-            Buscar
-            <input id="catalog-search" type="search" placeholder="Nombre, marca o SKU">
-          </label>
-          <label for="catalog-category">
-            Categoria
-            <select id="catalog-category">
-              <option value="">Todas</option>
-            </select>
-          </label>
-          <label for="catalog-subcategory">
-            Subcategoria
-            <select id="catalog-subcategory">
-              <option value="">Todas</option>
-            </select>
-          </label>
-          <label for="catalog-sort">
-            Orden
-            <select id="catalog-sort">
-              <option value="name">Nombre A-Z</option>
-              <option value="price-asc">Precio menor</option>
-              <option value="price-desc">Precio mayor</option>
-            </select>
-          </label>
+          <label for="catalog-search">Buscar<input id="catalog-search" type="search" placeholder="Nombre, marca o SKU"></label>
+          <label for="catalog-category">Categoria<select id="catalog-category"><option value="">Todas</option></select></label>
+          <label for="catalog-subcategory">Subcategoria<select id="catalog-subcategory"><option value="">Todas</option></select></label>
+          <label for="catalog-sort">Orden<select id="catalog-sort"><option value="name">Nombre A-Z</option><option value="price-asc">Precio menor</option><option value="price-desc">Precio mayor</option></select></label>
         </div>
-
         <div class="catalog-results-line">
           <span id="catalog-status">Cargando productos...</span>
           <button class="link-button" id="catalog-clear" type="button">Limpiar filtros</button>
         </div>
-
         <div class="product-grid" id="product-grid" aria-live="polite"></div>
-
-        <div class="catalog-empty" id="catalog-empty" hidden>
-          <h3>No hay productos con esos filtros</h3>
-          <p>Prueba con otra categoria o una busqueda mas amplia.</p>
-        </div>
-
-        <div class="catalog-more">
-          <button class="button secondary dark" id="catalog-load-more" type="button" hidden>Ver mas productos</button>
-        </div>
+        <div class="catalog-empty" id="catalog-empty" hidden><h3>No hay productos con esos filtros</h3><p>Prueba con otra categoria o una busqueda mas amplia.</p></div>
+        <div class="catalog-more"><button class="button secondary dark" id="catalog-load-more" type="button" hidden>Ver mas productos</button></div>
       </section>
     </main>
 
     <footer class="site-footer">
       <div>
-        <strong>Diario de una Vola</strong>
-        <p>Contenido informativo para personas mayores de edad. Revisa siempre la normativa vigente de tu territorio.</p>
+        <strong>Diario de una Volá</strong>
+        <p>Revista digital chilena sobre cannabis, cultura, cultivo, salud, legislacion y comunidad. Contenido informativo para personas mayores de edad.</p>
       </div>
       <nav aria-label="Enlaces secundarios">
-        <a href="index.html#inicio">Inicio</a>
-        <a href="index.html#eventos">Eventos</a>
-        <a href="https://diariodeunavola.wixsite.com/website/forum">Foro</a>
+        <a href="/notas.html">Revista</a>
+        <a href="/categorias/cultivo.html">Cultivo</a>
+        <a href="/categorias/cultura.html">Cultura</a>
+        <a href="/categorias/actualidad.html">Actualidad</a>
+        <a href="/eventos.html">Eventos</a>
+        <a href="/buscar.html">Buscar</a>
+        <a href="https://www.instagram.com/ddv.chile/" target="_blank" rel="noopener noreferrer">Instagram</a>
       </nav>
     </footer>
-
-    <script src="products-data.js"></script>
-    <script src="script.js"></script>
+    <script src="/products-data.js"></script>
+    <script src="/script.js"></script>
   </body>
 </html>
