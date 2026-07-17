@@ -5,6 +5,8 @@ Esta carpeta contiene la version estatica del sitio y el primer catalogo cargado
 ## Archivos principales
 
 - `index.html`: estructura principal de la pagina.
+- `notas.html`: archivo editorial con notas migradas desde Wix.
+- `notas/`: paginas individuales de notas.
 - `styles.css`: diseno visual y version movil.
 - `script.js`: menu movil, buscador, filtros y carga del catalogo.
 - `products-data.js`: datos que usa la web para mostrar los productos.

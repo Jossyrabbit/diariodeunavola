@@ -739,6 +739,162 @@ select:focus {
   margin-top: 24px;
 }
 
+.notes-hero {
+  padding: 82px max(22px, calc((100vw - var(--max)) / 2)) 46px;
+  background:
+    linear-gradient(90deg, rgba(251, 251, 247, 0.96), rgba(251, 251, 247, 0.78)),
+    url("https://static.wixstatic.com/media/1287cc_9b7b1f6130bd4ab78fbfe3cd286fecb8~mv2.jpg/v1/fill/w_1600,h_720,fp_0.50_0.50,q_90,enc_avif,quality_auto/1287cc_9b7b1f6130bd4ab78fbfe3cd286fecb8~mv2.jpg") center / cover;
+  border-bottom: 1px solid var(--line);
+}
+
+.notes-hero h1,
+.notes-hero p {
+  max-width: 760px;
+}
+
+.notes-hero h1 {
+  margin-bottom: 14px;
+  color: var(--leaf-dark);
+  font-size: 3.2rem;
+}
+
+.notes-hero p:not(.eyebrow) {
+  color: var(--muted);
+  font-size: 1.08rem;
+}
+
+.notes-list {
+  display: grid;
+  gap: 18px;
+}
+
+.note-card {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 22px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.note-card img {
+  height: 100%;
+  min-height: 190px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.note-card h2 {
+  margin-bottom: 8px;
+  font-size: 1.45rem;
+}
+
+.note-card h2 a {
+  text-decoration: none;
+}
+
+.note-card p {
+  color: var(--muted);
+}
+
+.note-meta {
+  margin-bottom: 10px;
+  color: var(--clay);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.note-article {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 70px 22px 30px;
+}
+
+.back-link {
+  display: inline-flex;
+  margin-bottom: 22px;
+  color: var(--leaf);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.note-header h1 {
+  margin-bottom: 14px;
+  color: var(--leaf-dark);
+  font-size: 3rem;
+}
+
+.note-hero-image {
+  max-height: 520px;
+  margin: 30px 0;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.note-body {
+  font-size: 1.05rem;
+}
+
+.note-body p {
+  margin-bottom: 22px;
+}
+
+.note-source {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 36px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.note-source a {
+  color: var(--leaf);
+  font-weight: 800;
+}
+
+.related-notes {
+  background: var(--sage);
+}
+
+.related-note-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  max-width: var(--max);
+  margin: 0 auto;
+}
+
+.related-note {
+  min-height: 150px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  text-decoration: none;
+}
+
+.related-note span,
+.related-note strong {
+  display: block;
+}
+
+.related-note span {
+  margin-bottom: 10px;
+  color: var(--clay);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.related-note strong {
+  color: var(--ink);
+  line-height: 1.25;
+}
+
 .community-section {
   display: grid;
   align-items: center;
@@ -918,8 +1074,18 @@ input:focus {
 
   .feature-grid,
   .event-grid,
-  .product-grid {
+  .product-grid,
+  .related-note-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .note-card {
+    grid-template-columns: 220px 1fr;
+  }
+
+  .note-header h1,
+  .notes-hero h1 {
+    font-size: 2.65rem;
   }
 
   .catalog-heading {
@@ -994,8 +1160,23 @@ input:focus {
   .feature-grid,
   .event-grid,
   .product-grid,
-  .catalog-toolbar {
+  .catalog-toolbar,
+  .note-card,
+  .related-note-grid {
     grid-template-columns: 1fr;
+  }
+
+  .note-card img {
+    min-height: 220px;
+  }
+
+  .note-article {
+    padding: 52px 18px 24px;
+  }
+
+  .note-header h1,
+  .notes-hero h1 {
+    font-size: 2.15rem;
   }
 
   .intro-stats div {
