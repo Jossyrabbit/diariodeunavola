@@ -1,18 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Lora:wght@400;500&family=Manrope:wght@500;600;700&display=swap");
+
 :root {
-  --ink: #20231f;
-  --muted: #62695f;
-  --paper: #fbfbf7;
+  --ink: #1f1f1f;
+  --muted: #666666;
+  --paper: #fcfbf7;
   --surface: #ffffff;
-  --sage: #edf4ea;
-  --sage-strong: #dcead8;
-  --line: #d9ded4;
-  --leaf: #2f6042;
-  --leaf-dark: #1f3f2c;
+  --sage: #eef5ec;
+  --sage-strong: #dcebd8;
+  --line: #e4dfd3;
+  --leaf: #315b3a;
+  --leaf-hover: #4f8c58;
+  --leaf-dark: #243f2c;
   --clay: #a7603f;
   --gold: #c7a65b;
-  --charcoal: #171b16;
-  --shadow: 0 14px 36px rgba(32, 35, 31, 0.1);
+  --charcoal: #1f1f1f;
+  --shadow: 0 18px 44px rgba(31, 31, 31, 0.08);
+  --font-display: "Bricolage Grotesque", Arial, Helvetica, sans-serif;
+  --font-ui: "Manrope", Arial, Helvetica, sans-serif;
+  --font-reader: "Lora", Georgia, serif;
   --max: 1120px;
+  --read: 70ch;
 }
 
 * {
@@ -26,10 +33,10 @@ html {
 body {
   margin: 0;
   color: var(--ink);
-  background:
-    linear-gradient(180deg, var(--paper), #f2f7f0 48%, var(--paper));
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.65;
+  background: var(--paper);
+  font-family: var(--font-ui);
+  font-weight: 500;
+  line-height: 1.7;
 }
 
 img {
@@ -38,7 +45,14 @@ img {
 }
 
 a {
-  color: inherit;
+  color: var(--leaf);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+a:hover,
+a:focus-visible {
+  color: var(--leaf-hover);
 }
 
 .site-header {
@@ -60,6 +74,7 @@ a {
   display: flex;
   align-items: center;
   gap: 12px;
+  color: var(--ink);
   text-decoration: none;
 }
 
@@ -71,6 +86,7 @@ a {
   color: var(--surface);
   background: var(--leaf-dark);
   border-radius: 8px;
+  font-family: var(--font-display);
   font-weight: 800;
 }
 
@@ -80,13 +96,16 @@ a {
 }
 
 .brand strong {
+  font-family: var(--font-display);
   font-size: 0.98rem;
+  font-weight: 800;
   line-height: 1.2;
 }
 
 .brand small {
   color: var(--muted);
   font-size: 0.78rem;
+  font-weight: 600;
 }
 
 .site-nav {
@@ -101,7 +120,7 @@ a {
   color: var(--muted);
   text-decoration: none;
   font-size: 0.94rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .site-nav a:hover,
@@ -129,7 +148,8 @@ a {
   border-radius: 8px;
   color: var(--ink);
   background: transparent;
-  font-weight: 700;
+  font-family: var(--font-ui);
+  font-weight: 600;
 }
 
 .menu-toggle span {
@@ -146,7 +166,7 @@ a {
   padding: 86px max(22px, calc((100vw - var(--max)) / 2)) 76px;
   color: var(--surface);
   background:
-    linear-gradient(90deg, rgba(17, 26, 17, 0.72), rgba(17, 26, 17, 0.3)),
+    linear-gradient(90deg, rgba(31, 31, 31, 0.7), rgba(31, 31, 31, 0.24)),
     url("https://static.wixstatic.com/media/1287cc_06f5607372d44cab8855bad4c0ab7ed6~mv2.jpg/v1/fill/w_1898,h_749,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/1287cc_06f5607372d44cab8855bad4c0ab7ed6~mv2.jpg") center / cover;
 }
 
@@ -157,7 +177,8 @@ a {
 .eyebrow {
   margin: 0 0 12px;
   color: var(--clay);
-  font-weight: 800;
+  font-family: var(--font-ui);
+  font-weight: 700;
   text-transform: uppercase;
   font-size: 0.76rem;
 }
@@ -173,28 +194,37 @@ p {
   margin-top: 0;
 }
 
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
 h1 {
   margin-bottom: 18px;
-  font-size: 4rem;
-  line-height: 1.02;
+  font-size: 4.5rem;
+  line-height: 0.98;
 }
 
 h2 {
   margin-bottom: 16px;
-  font-size: 2.2rem;
-  line-height: 1.15;
+  font-size: 2.625rem;
+  line-height: 1.08;
 }
 
 h3 {
   margin-bottom: 10px;
-  font-size: 1.25rem;
-  line-height: 1.25;
+  font-size: 1.75rem;
+  line-height: 1.14;
 }
 
 .hero-copy {
   max-width: 580px;
   margin-bottom: 28px;
-  font-size: 1.12rem;
+  font-size: 1.16rem;
+  line-height: 1.75;
 }
 
 .hero-actions,
@@ -213,7 +243,8 @@ h3 {
   border: 1px solid transparent;
   border-radius: 8px;
   text-decoration: none;
-  font-weight: 800;
+  font-family: var(--font-ui);
+  font-weight: 700;
   cursor: pointer;
 }
 
@@ -236,10 +267,10 @@ h3 {
 .intro-section {
   display: grid;
   grid-template-columns: 1.25fr 1fr;
-  gap: 20px;
+  gap: 24px;
   max-width: var(--max);
   margin: 0 auto;
-  padding: 42px 22px 0;
+  padding: 56px 22px 0;
 }
 
 .intro-copy,
@@ -250,8 +281,9 @@ h3 {
 }
 
 .intro-copy {
-  padding: 28px;
-  font-size: 1.12rem;
+  padding: 34px;
+  font-size: 1.18rem;
+  line-height: 1.75;
 }
 
 .intro-copy p {
@@ -280,24 +312,30 @@ h3 {
 
 .intro-stats strong {
   color: var(--leaf);
-  font-size: 1.85rem;
+  font-family: var(--font-display);
+  font-size: 2rem;
   line-height: 1.1;
 }
 
 .intro-stats span {
   color: var(--muted);
   font-size: 0.86rem;
+  font-weight: 600;
 }
 
 .section-pad {
   max-width: var(--max);
   margin: 0 auto;
-  padding: 82px 22px;
+  padding: 104px 22px;
 }
 
 .section-heading {
   max-width: 700px;
-  margin-bottom: 28px;
+  margin-bottom: 38px;
+}
+
+.section-heading p {
+  max-width: 62ch;
 }
 
 .feature-grid {
@@ -344,7 +382,7 @@ h3 {
 .article-layout {
   display: grid;
   grid-template-columns: 1.35fr 0.8fr;
-  gap: 18px;
+  gap: 24px;
 }
 
 .article-main,
@@ -368,7 +406,7 @@ h3 {
 }
 
 .article-main div {
-  padding: 30px;
+  padding: 38px;
 }
 
 .tag {
@@ -379,29 +417,29 @@ h3 {
   color: var(--leaf-dark);
   background: var(--sage);
   font-size: 0.78rem;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .text-link {
   color: var(--leaf);
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .article-list {
   display: grid;
-  gap: 12px;
+  gap: 14px;
 }
 
 .article-list a {
   display: block;
-  padding: 22px;
+  padding: 26px;
   text-decoration: none;
 }
 
 .article-list a:hover,
 .article-list a:focus-visible {
-  border-color: rgba(47, 96, 66, 0.45);
-  box-shadow: 0 8px 22px rgba(32, 35, 31, 0.06);
+  border-color: rgba(49, 91, 58, 0.45);
+  box-shadow: 0 10px 26px rgba(31, 31, 31, 0.06);
 }
 
 .article-list span {
@@ -409,12 +447,14 @@ h3 {
   margin-bottom: 8px;
   color: var(--clay);
   font-size: 0.8rem;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .article-list strong {
   display: block;
-  font-size: 1.16rem;
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: 1.25rem;
   line-height: 1.25;
 }
 
@@ -452,7 +492,8 @@ h3 {
   border-radius: 8px;
   color: var(--leaf-dark);
   background: var(--paper);
-  font-weight: 900;
+  font-family: var(--font-display);
+  font-weight: 800;
   text-align: center;
 }
 
@@ -467,7 +508,7 @@ h3 {
 
 .event-card a {
   color: var(--leaf);
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .shop-band {
@@ -506,12 +547,13 @@ h3 {
 .catalog-page-hero h1 {
   margin-bottom: 14px;
   color: var(--leaf-dark);
-  font-size: 3.2rem;
+  font-size: 4.25rem;
 }
 
 .catalog-page-hero p:not(.eyebrow) {
   color: var(--muted);
-  font-size: 1.08rem;
+  font-size: 1.18rem;
+  line-height: 1.75;
 }
 
 .catalog-section {
@@ -554,6 +596,7 @@ h3 {
 
 .catalog-count strong {
   color: var(--leaf);
+  font-family: var(--font-display);
   font-size: 2rem;
   line-height: 1;
 }
@@ -561,7 +604,7 @@ h3 {
 .catalog-count span {
   color: var(--muted);
   font-size: 0.82rem;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .catalog-toolbar {
@@ -580,18 +623,19 @@ h3 {
   gap: 6px;
   color: var(--muted);
   font-size: 0.8rem;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 select {
   width: 100%;
   min-height: 46px;
   padding: 11px 36px 11px 14px;
-  border: 1px solid #c9d0c6;
+  border: 1px solid var(--line);
   border-radius: 8px;
   color: var(--ink);
   background: var(--paper);
-  font: inherit;
+  font-family: var(--font-ui);
+  font-weight: 600;
 }
 
 select:focus {
@@ -608,7 +652,7 @@ select:focus {
   margin-bottom: 18px;
   color: var(--muted);
   font-size: 0.92rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .link-button {
@@ -616,8 +660,8 @@ select:focus {
   border: 0;
   color: var(--leaf);
   background: transparent;
-  font: inherit;
-  font-weight: 900;
+  font-family: var(--font-ui);
+  font-weight: 700;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -660,7 +704,7 @@ select:focus {
 .product-kicker {
   color: var(--clay);
   font-size: 0.72rem;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1.3;
   text-transform: uppercase;
 }
@@ -668,7 +712,9 @@ select:focus {
 .product-card h3 {
   margin: 0;
   min-height: 3.2em;
+  font-family: var(--font-display);
   font-size: 0.98rem;
+  font-weight: 700;
   line-height: 1.35;
 }
 
@@ -685,14 +731,15 @@ select:focus {
   color: var(--muted);
   background: var(--sage);
   font-size: 0.72rem;
-  font-weight: 800;
+  font-weight: 600;
   overflow-wrap: anywhere;
 }
 
 .product-price {
   color: var(--leaf-dark);
+  font-family: var(--font-ui);
   font-size: 1.22rem;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .product-actions {
@@ -755,24 +802,25 @@ select:focus {
 .notes-hero h1 {
   margin-bottom: 14px;
   color: var(--leaf-dark);
-  font-size: 3.2rem;
+  font-size: 4.25rem;
 }
 
 .notes-hero p:not(.eyebrow) {
   color: var(--muted);
-  font-size: 1.08rem;
+  font-size: 1.18rem;
+  line-height: 1.75;
 }
 
 .notes-list {
   display: grid;
-  gap: 18px;
+  gap: 26px;
 }
 
 .note-card {
   display: grid;
-  grid-template-columns: 260px 1fr;
-  gap: 22px;
-  padding: 18px;
+  grid-template-columns: 310px 1fr;
+  gap: 30px;
+  padding: 22px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--surface);
@@ -780,14 +828,16 @@ select:focus {
 
 .note-card img {
   height: 100%;
-  min-height: 190px;
+  min-height: 230px;
   border-radius: 8px;
   object-fit: cover;
 }
 
 .note-card h2 {
-  margin-bottom: 8px;
-  font-size: 1.45rem;
+  max-width: 760px;
+  margin-bottom: 12px;
+  font-size: 2rem;
+  line-height: 1.08;
 }
 
 .note-card h2 a {
@@ -795,49 +845,65 @@ select:focus {
 }
 
 .note-card p {
+  max-width: 68ch;
   color: var(--muted);
+  font-family: var(--font-reader);
+  font-size: 1.06rem;
+  line-height: 1.75;
 }
 
 .note-meta {
   margin-bottom: 10px;
   color: var(--clay);
   font-size: 0.82rem;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .note-article {
-  max-width: 860px;
+  max-width: 1080px;
   margin: 0 auto;
-  padding: 70px 22px 30px;
+  padding: 88px 22px 44px;
 }
 
 .back-link {
   display: inline-flex;
   margin-bottom: 22px;
   color: var(--leaf);
-  font-weight: 800;
+  font-weight: 700;
   text-decoration: none;
+}
+
+.note-header {
+  max-width: 860px;
+  margin: 0 auto;
 }
 
 .note-header h1 {
   margin-bottom: 14px;
   color: var(--leaf-dark);
-  font-size: 3rem;
+  font-size: 4rem;
+  line-height: 1;
 }
 
 .note-hero-image {
+  width: 100%;
   max-height: 520px;
-  margin: 30px 0;
+  margin: 38px 0 44px;
   border-radius: 8px;
   object-fit: cover;
 }
 
 .note-body {
-  font-size: 1.05rem;
+  max-width: var(--read);
+  margin: 0 auto;
+  font-family: var(--font-reader);
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.8;
 }
 
 .note-body p {
-  margin-bottom: 22px;
+  margin-bottom: 1.35em;
 }
 
 .note-source {
@@ -845,6 +911,9 @@ select:focus {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 12px;
+  max-width: var(--read);
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 36px;
   padding-top: 18px;
   border-top: 1px solid var(--line);
@@ -854,7 +923,7 @@ select:focus {
 
 .note-source a {
   color: var(--leaf);
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .related-notes {
@@ -864,14 +933,14 @@ select:focus {
 .related-note-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 14px;
+  gap: 18px;
   max-width: var(--max);
   margin: 0 auto;
 }
 
 .related-note {
   min-height: 150px;
-  padding: 18px;
+  padding: 22px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--surface);
@@ -887,7 +956,7 @@ select:focus {
   margin-bottom: 10px;
   color: var(--clay);
   font-size: 0.78rem;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .related-note strong {
@@ -926,7 +995,7 @@ select:focus {
 }
 
 .newsletter-form {
-  padding: 26px;
+  padding: 30px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--surface);
@@ -935,7 +1004,8 @@ select:focus {
 .newsletter-form label {
   display: block;
   margin-bottom: 8px;
-  font-weight: 800;
+  color: var(--muted);
+  font-weight: 700;
 }
 
 .newsletter-form div {
@@ -948,10 +1018,12 @@ input {
   width: 100%;
   min-height: 46px;
   padding: 11px 14px;
-  border: 1px solid #c9d0c6;
+  border: 1px solid var(--line);
   border-radius: 8px;
+  color: var(--ink);
   background: var(--paper);
-  font: inherit;
+  font-family: var(--font-ui);
+  font-weight: 500;
 }
 
 input:focus {
@@ -981,7 +1053,7 @@ input:focus {
 }
 
 .site-footer a {
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .thanks-page {
