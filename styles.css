@@ -906,6 +906,67 @@ select:focus {
   margin-bottom: 1.35em;
 }
 
+.note-products {
+  max-width: 1080px;
+  margin: 52px auto 0;
+  padding-top: 34px;
+  border-top: 1px solid var(--line);
+}
+
+.note-products-heading {
+  max-width: var(--read);
+  margin: 0 auto 24px;
+}
+
+.note-products-heading h2 {
+  margin: 0;
+  color: var(--leaf-dark);
+  font-size: 2rem;
+}
+
+.note-product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.note-product-card {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.note-product-media {
+  display: block;
+  aspect-ratio: 1 / 1;
+  background: var(--sage);
+}
+
+.note-product-media img {
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+  object-fit: contain;
+}
+
+.note-product-body {
+  display: grid;
+  gap: 10px;
+  padding: 16px;
+}
+
+.note-product-body h3 {
+  margin: 0;
+  min-height: 3.5em;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
 .note-source {
   display: flex;
   flex-wrap: wrap;
@@ -1147,6 +1208,7 @@ input:focus {
   .feature-grid,
   .event-grid,
   .product-grid,
+  .note-product-grid,
   .related-note-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1232,6 +1294,7 @@ input:focus {
   .feature-grid,
   .event-grid,
   .product-grid,
+  .note-product-grid,
   .catalog-toolbar,
   .note-card,
   .related-note-grid {
@@ -1294,6 +1357,10 @@ input:focus {
   }
 
   .product-card h3 {
+    min-height: 0;
+  }
+
+  .note-product-body h3 {
     min-height: 0;
   }
 
