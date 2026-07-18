@@ -2253,6 +2253,37 @@ body {
   text-decoration: none;
 }
 
+.featured-article-media {
+  position: relative;
+  display: block;
+  min-height: 100%;
+}
+
+.featured-article-media span {
+  position: absolute;
+  left: 14px;
+  bottom: 14px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  color: var(--surface);
+  background: rgba(36, 63, 44, 0.9);
+  font-size: 0.76rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.featured-reader-note {
+  padding: 14px 16px;
+  border-left: 4px solid var(--leaf);
+  border-radius: 8px;
+  background: var(--sage);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: 0.96rem;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
 .category-tile-grid,
 .series-card-grid,
 .community-actions-grid,
@@ -2677,5 +2708,50 @@ body {
 
   .note-body {
     font-size: 18px;
+  }
+}
+
+@media (min-width: 980px) and (max-width: 1180px) {
+  .site-header {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+
+  .menu-toggle {
+    display: inline-flex;
+  }
+
+  .site-nav {
+    grid-column: 1 / -1;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 4px;
+    width: 100%;
+    padding: 10px 0 0;
+  }
+
+  .site-nav.is-open {
+    display: flex;
+  }
+
+  .site-nav a {
+    min-height: 44px;
+    padding: 10px 12px;
+  }
+
+  .header-actions {
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1181px) {
+  .site-nav a {
+    padding-inline: 9px;
+    font-size: 0.88rem;
+  }
+
+  .header-actions {
+    width: 300px;
   }
 }
