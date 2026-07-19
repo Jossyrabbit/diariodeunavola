@@ -15,6 +15,27 @@ if (menuButton && nav) {
   });
 }
 
+document.querySelectorAll("[data-share-url]").forEach((button) => {
+  button.addEventListener("click", async () => {
+    const title = button.dataset.shareTitle || document.title;
+    const url = button.dataset.shareUrl || window.location.href;
+    try {
+      if (navigator.share) {
+        await navigator.share({ title, url });
+        return;
+      }
+      await navigator.clipboard.writeText(url);
+      const originalText = button.textContent;
+      button.textContent = "Enlace copiado";
+      window.setTimeout(() => {
+        button.textContent = originalText;
+      }, 1800);
+    } catch {
+      window.location.href = `mailto:?subject=${encodeURIComponent(title)}&body=${encodeURIComponent(url)}`;
+    }
+  });
+});
+
 const catalog = window.DDV_CATALOG || { products: [] };
 const products = Array.isArray(catalog.products) ? catalog.products : [];
 
