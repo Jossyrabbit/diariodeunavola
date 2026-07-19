@@ -28,6 +28,7 @@ const totalLabel = document.querySelector("#catalog-total");
 const emptyState = document.querySelector("#catalog-empty");
 const clearButton = document.querySelector("#catalog-clear");
 const loadMoreButton = document.querySelector("#catalog-load-more");
+const quickCatalogButtons = document.querySelectorAll("[data-catalog-quick]");
 
 const pageSize = 36;
 let visibleLimit = pageSize;
@@ -217,6 +218,22 @@ function initializeCatalog() {
   loadMoreButton?.addEventListener("click", () => {
     visibleLimit += pageSize;
     renderProducts();
+  });
+
+  quickCatalogButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const category = button.dataset.category || "";
+      const subcategory = button.dataset.subcategory || "";
+      const query = button.dataset.query || "";
+
+      if (searchInput) searchInput.value = query;
+      if (categorySelect) categorySelect.value = category;
+      updateSubcategoryOptions();
+      if (subcategorySelect) subcategorySelect.value = subcategory;
+      if (sortSelect) sortSelect.value = "name";
+      applyFilters();
+      document.querySelector("#catalogo-productos")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
   });
 }
 

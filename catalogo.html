@@ -65,16 +65,183 @@
     <main id="contenido">
 
       <section class="catalog-page-hero" aria-labelledby="catalog-page-title">
-        <p class="eyebrow">Catalogo</p>
-        <h1 id="catalog-page-title">Productos e insumos seleccionados</h1>
-        <p>Una selección de herramientas, insumos y proyectos relacionados con el cultivo responsable.</p>
+        <div>
+          <p class="eyebrow">Catálogo DDV</p>
+          <h1 id="catalog-page-title">Encuentra insumos sin perderte en la vitrina.</h1>
+          <p>Una selección de herramientas, productos e insumos relacionados con cultivo responsable, organizada por objetivo, categoría y búsqueda directa.</p>
+          <div class="catalog-hero-actions">
+            <a class="button primary" href="#catalogo-productos">Ver catálogo completo</a>
+            <a class="button secondary" href="#compra-por-objetivo">Comprar según objetivo</a>
+          </div>
+        </div>
+        <aside class="catalog-hero-panel" aria-label="Resumen del catálogo">
+          <strong>436</strong>
+          <span>productos cargados</span>
+          <p>Filtra por necesidad, categoría o precio antes de consultar disponibilidad.</p>
+        </aside>
+      </section>
+      <section class="catalog-discovery" id="compra-por-objetivo" aria-labelledby="catalog-objectives-title">
+        <div class="catalog-section-heading">
+          <p class="eyebrow">Compra según tu objetivo</p>
+          <h2 id="catalog-objectives-title">Partamos por lo que necesitas resolver</h2>
+          <p>Una persona que cultiva no piensa primero en SKU: piensa en luz, olor, riego, espacio, nutrición o consumo. Estos accesos filtran el catálogo por ti.</p>
+        </div>
+        <div class="catalog-objective-grid">
+          
+          <button class="catalog-objective-card" type="button" data-catalog-quick data-category="Cultivo" data-subcategory="Carpas y macetas" data-query="carpa maceta">
+            <span>Cultivo</span>
+            <strong>Armar mi primer indoor</strong>
+            <small>Carpas, macetas, luz y accesorios base para partir sin perderse entre cientos de productos.</small>
+          </button>
+          <button class="catalog-objective-card" type="button" data-catalog-quick data-category="Control de olores" data-subcategory="" data-query="olor filtro gel">
+            <span>Control de olores</span>
+            <strong>Mejorar el olor</strong>
+            <small>Filtros, geles y soluciones para mantener discreción y ambiente más controlado.</small>
+          </button>
+          <button class="catalog-objective-card" type="button" data-catalog-quick data-category="Iluminación Profesional" data-subcategory="LED" data-query="led">
+            <span>Iluminación Profesional</span>
+            <strong>Elegir iluminación</strong>
+            <small>LED, CMH y sodio/haluro para comparar potencia, precio y tipo de cultivo.</small>
+          </button>
+          <button class="catalog-objective-card" type="button" data-catalog-quick data-category="Cultivo" data-subcategory="Riego" data-query="ph ec medidor">
+            <span>Cultivo</span>
+            <strong>Ordenar riego y medición</strong>
+            <small>Medidores, filtros de agua y accesorios para cuidar pH, EC y regularidad.</small>
+          </button>
+          <button class="catalog-objective-card" type="button" data-catalog-quick data-category="Cultivo" data-subcategory="Fertilizantes" data-query="fertilizante sustrato">
+            <span>Cultivo</span>
+            <strong>Cambiar sustrato o nutrición</strong>
+            <small>Sustratos, fertilizantes y complementos para leer la planta con más criterio.</small>
+          </button>
+          <button class="catalog-objective-card" type="button" data-catalog-quick data-category="Smokeshop" data-subcategory="" data-query="bong pipa grinder">
+            <span>Smokeshop</span>
+            <strong>Buscar accesorios de consumo</strong>
+            <small>Smokeshop, parafernalia, pipas y bongs sin mezclarlo con el contenido editorial.</small>
+          </button>
+        </div>
+      </section>
+      <section class="catalog-discovery catalog-categories-panel" aria-labelledby="catalog-categories-title">
+        <div class="catalog-section-heading">
+          <p class="eyebrow">Categorías principales</p>
+          <h2 id="catalog-categories-title">Explora por familia de producto</h2>
+        </div>
+        <div class="catalog-category-grid">
+          
+          <button class="catalog-category-card" type="button" data-catalog-quick data-category="Cultivo">
+            <img src="https://www.tienda.tecnogrow.cl/web/image/product.template/23317/image_512/%5BGROWTRAY1M%5D%20BANDEJA%20GROW%20TRAY%201m%20x%201m?unique=4c56b04" alt="Productos de Cultivo" loading="lazy" decoding="async">
+            <span>284 productos</span>
+            <strong>Cultivo</strong>
+            <small>6 subcategorías</small>
+          </button>
+          <button class="catalog-category-card" type="button" data-catalog-quick data-category="Smokeshop">
+            <img src="https://www.tienda.tecnogrow.cl/web/image/product.template/22664/image_512/%5B4040%5D%20COIL%20MASTER%20521%20MINI%20V2?unique=53d64eb" alt="Productos de Smokeshop" loading="lazy" decoding="async">
+            <span>96 productos</span>
+            <strong>Smokeshop</strong>
+            <small>6 subcategorías</small>
+          </button>
+          <button class="catalog-category-card" type="button" data-catalog-quick data-category="Iluminación Profesional">
+            <img src="https://www.tienda.tecnogrow.cl/web/image/product.template/22475/image_512/%5B4694%5D%20BALASTRO%20600w%20NANOLUX?unique=f4e137e" alt="Productos de Iluminación Profesional" loading="lazy" decoding="async">
+            <span>26 productos</span>
+            <strong>Iluminación Profesional</strong>
+            <small>4 subcategorías</small>
+          </button>
+          <button class="catalog-category-card" type="button" data-catalog-quick data-category="Control de olores">
+            <img src="https://www.tienda.tecnogrow.cl/web/image/product.template/23463/image_512/SOMA%20GEL%20BERRIES%20BIOECOLOGICAL?unique=53d64eb" alt="Productos de Control de olores" loading="lazy" decoding="async">
+            <span>11 productos</span>
+            <strong>Control de olores</strong>
+            <small>2 subcategorías</small>
+          </button>
+          <button class="catalog-category-card" type="button" data-catalog-quick data-category="Filtro de agua">
+            <img src="https://www.tienda.tecnogrow.cl/web/image/product.template/22985/image_512/%5BAR21%5D%20MEMBRANA%2075G%20OSMOSIS%20INVERSA%2010%22%2075G?unique=53d64eb" alt="Productos de Filtro de agua" loading="lazy" decoding="async">
+            <span>11 productos</span>
+            <strong>Filtro de agua</strong>
+            <small>2 subcategorías</small>
+          </button>
+          <button class="catalog-category-card" type="button" data-catalog-quick data-category="Gafas de cultivo">
+            <img src="https://www.tienda.tecnogrow.cl/web/image/product.template/22473/image_512/%5BFGV260%5D%20AVIATOR%20FX%20CLIP%20ON%2C%20FULL%20SPECTRUM%2C%20LED%2C%20CMH%20METHOD%20SEVEN?unique=53d64eb" alt="Productos de Gafas de cultivo" loading="lazy" decoding="async">
+            <span>8 productos</span>
+            <strong>Gafas de cultivo</strong>
+            <small>1 subcategorías</small>
+          </button>
+        </div>
+      </section>
+      
+      <section class="catalog-discovery catalog-featured" aria-labelledby="catalog-featured-title">
+        <div class="catalog-section-heading">
+          <p class="eyebrow">Selección rápida</p>
+          <h2 id="catalog-featured-title">Productos para mirar primero</h2>
+          <p>Una muestra inicial para orientar la búsqueda. La disponibilidad y despacho se confirman antes de cerrar cada pedido.</p>
+        </div>
+        <div class="catalog-feature-grid">
+          
+        <article class="catalog-feature-card">
+          <a class="catalog-feature-media" href="https://www.tienda.tecnogrow.cl/shop/led-rg150-led-board-quantum-nanolux-150w-22924?category=4489" target="_blank" rel="noopener noreferrer">
+            <img src="https://www.tienda.tecnogrow.cl/web/image/product.template/22924/image_512/%5BLED-RG150%5D%20LED%20BOARD%20QUANTUM%20NANOLUX%20150W?unique=b16f1f6" alt="LED BOARD QUANTUM NANOLUX 150W" loading="lazy" decoding="async">
+          </a>
+          <div>
+            <p class="product-kicker">Iluminación Profesional / LED</p>
+            <h3>LED BOARD QUANTUM NANOLUX 150W</h3>
+            <p>Nanolux</p>
+            <strong class="product-price">$254.477</strong>
+            <div class="product-actions">
+              <a class="button primary small" href="https://wa.me/?text=Hola%20Diario%20de%20una%20Vola%2C%20quiero%20consultar%20por%20este%20producto%3A%0ALED%20BOARD%20QUANTUM%20NANOLUX%20150W%0ASKU%3A%20LED-RG150%0APrecio%20web%3A%20%24254.477%0Ahttps%3A%2F%2Fwww.tienda.tecnogrow.cl%2Fshop%2Fled-rg150-led-board-quantum-nanolux-150w-22924%3Fcategory%3D4489" target="_blank" rel="noopener noreferrer">Consultar</a>
+              <a class="button ghost small" href="https://www.tienda.tecnogrow.cl/shop/led-rg150-led-board-quantum-nanolux-150w-22924?category=4489" target="_blank" rel="noopener noreferrer">Ficha</a>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-feature-card">
+          <a class="catalog-feature-media" href="https://www.tienda.tecnogrow.cl/shop/2538-carpa-indoor-tecnogrow-80x80x180-cm-22641?category=4479" target="_blank" rel="noopener noreferrer">
+            <img src="https://www.tienda.tecnogrow.cl/web/image/product.template/22641/image_512/%5B2538%5D%20CARPA%20INDOOR%20TECNOGROW%2080x80x180%20cm?unique=53d64eb" alt="CARPA INDOOR TECNOGROW 80x80x180 cm" loading="lazy" decoding="async">
+          </a>
+          <div>
+            <p class="product-kicker">Cultivo / Carpas y macetas</p>
+            <h3>CARPA INDOOR TECNOGROW 80x80x180 cm</h3>
+            <p>TECNOGROW</p>
+            <strong class="product-price">$91.355</strong>
+            <div class="product-actions">
+              <a class="button primary small" href="https://wa.me/?text=Hola%20Diario%20de%20una%20Vola%2C%20quiero%20consultar%20por%20este%20producto%3A%0ACARPA%20INDOOR%20TECNOGROW%2080x80x180%20cm%0ASKU%3A%202538%0APrecio%20web%3A%20%2491.355%0Ahttps%3A%2F%2Fwww.tienda.tecnogrow.cl%2Fshop%2F2538-carpa-indoor-tecnogrow-80x80x180-cm-22641%3Fcategory%3D4479" target="_blank" rel="noopener noreferrer">Consultar</a>
+              <a class="button ghost small" href="https://www.tienda.tecnogrow.cl/shop/2538-carpa-indoor-tecnogrow-80x80x180-cm-22641?category=4479" target="_blank" rel="noopener noreferrer">Ficha</a>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-feature-card">
+          <a class="catalog-feature-media" href="https://www.tienda.tecnogrow.cl/shop/soma-gel-berries-bioecological-23463?category=4497" target="_blank" rel="noopener noreferrer">
+            <img src="https://www.tienda.tecnogrow.cl/web/image/product.template/23463/image_512/SOMA%20GEL%20BERRIES%20BIOECOLOGICAL?unique=53d64eb" alt="SOMA GEL BERRIES BIOECOLOGICAL" loading="lazy" decoding="async">
+          </a>
+          <div>
+            <p class="product-kicker">Control de olores / General</p>
+            <h3>SOMA GEL BERRIES BIOECOLOGICAL</h3>
+            <p>BIOECOLOGICAL</p>
+            <strong class="product-price">$13.182</strong>
+            <div class="product-actions">
+              <a class="button primary small" href="https://wa.me/?text=Hola%20Diario%20de%20una%20Vola%2C%20quiero%20consultar%20por%20este%20producto%3A%0ASOMA%20GEL%20BERRIES%20BIOECOLOGICAL%0APrecio%20web%3A%20%2413.182%0Ahttps%3A%2F%2Fwww.tienda.tecnogrow.cl%2Fshop%2Fsoma-gel-berries-bioecological-23463%3Fcategory%3D4497" target="_blank" rel="noopener noreferrer">Consultar</a>
+              <a class="button ghost small" href="https://www.tienda.tecnogrow.cl/shop/soma-gel-berries-bioecological-23463?category=4497" target="_blank" rel="noopener noreferrer">Ficha</a>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-feature-card">
+          <a class="catalog-feature-media" href="https://www.tienda.tecnogrow.cl/shop/congoteo3-5mm-conector-riego-por-goteo-3-5mm-23348?category=4495" target="_blank" rel="noopener noreferrer">
+            <img src="https://www.tienda.tecnogrow.cl/web/image/product.template/23348/image_512/%5BCONGOTEO3-5MM%5D%20CONECTOR%20RIEGO%20POR%20GOTEO%203-5mm?unique=53d64eb" alt="CONECTOR RIEGO POR GOTEO 3-5mm" loading="lazy" decoding="async">
+          </a>
+          <div>
+            <p class="product-kicker">Cultivo / Riego</p>
+            <h3>CONECTOR RIEGO POR GOTEO 3-5mm</h3>
+            <p>Producto seleccionado</p>
+            <strong class="product-price">$181</strong>
+            <div class="product-actions">
+              <a class="button primary small" href="https://wa.me/?text=Hola%20Diario%20de%20una%20Vola%2C%20quiero%20consultar%20por%20este%20producto%3A%0ACONECTOR%20RIEGO%20POR%20GOTEO%203-5mm%0ASKU%3A%20CONGOTEO3-5MM%0APrecio%20web%3A%20%24181%0Ahttps%3A%2F%2Fwww.tienda.tecnogrow.cl%2Fshop%2Fcongoteo3-5mm-conector-riego-por-goteo-3-5mm-23348%3Fcategory%3D4495" target="_blank" rel="noopener noreferrer">Consultar</a>
+              <a class="button ghost small" href="https://www.tienda.tecnogrow.cl/shop/congoteo3-5mm-conector-riego-por-goteo-3-5mm-23348?category=4495" target="_blank" rel="noopener noreferrer">Ficha</a>
+            </div>
+          </div>
+        </article>
+        </div>
       </section>
       <section class="catalog-section section-pad" id="catalogo-productos" aria-labelledby="catalogo-title">
         <div class="section-heading catalog-heading">
           <div>
-            <p class="eyebrow">Catalogo</p>
-            <h2 id="catalogo-title">Productos publicados</h2>
-            <p>Disponibilidad y despacho se confirman antes de cerrar cada pedido.</p>
+            <p class="eyebrow">Catálogo completo</p>
+            <h2 id="catalogo-title">Todos los productos publicados</h2>
+            <p>Busca por nombre, marca, SKU, categoría o subcategoría. Los accesos superiores también actualizan estos filtros.</p>
           </div>
           <div class="catalog-count" aria-live="polite">
             <strong id="catalog-total">0</strong>
