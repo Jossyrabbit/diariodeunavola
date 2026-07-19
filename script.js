@@ -36,6 +36,8 @@ let filteredProducts = [];
 let activeQuickTerms = [];
 let activeQuickCategories = [];
 let activeQuickSubcategories = [];
+let activeQuickTagCategories = [];
+let activeQuickTagSubcategories = [];
 
 function normalize(value) {
   return String(value || "")
@@ -102,12 +104,17 @@ function productMatches(product, query, category, subcategory, quickTerms = []) 
     product.subcategory,
   ].join(" "));
   const terms = queryTerms(query);
-  const matchesQuick = activeQuickCategories.length || activeQuickSubcategories.length || quickTerms.length
+  const hasQuickRule = activeQuickCategories.length || activeQuickSubcategories.length || quickTerms.length;
+  const inQuickTagScope = activeQuickTagCategories.length || activeQuickTagSubcategories.length
+    ? activeQuickTagCategories.includes(product.category)
+      || activeQuickTagSubcategories.includes(product.subcategory)
+    : true;
+  const matchesQuick = hasQuickRule
     ? activeQuickCategories.includes(product.category)
       || activeQuickSubcategories.includes(product.subcategory)
-      || quickTerms.some((term) => haystack.includes(term))
+      || (inQuickTagScope && quickTerms.some((term) => haystack.includes(term)))
     : true;
-  const matchesQuery = quickTerms.length || activeQuickCategories.length || activeQuickSubcategories.length
+  const matchesQuery = hasQuickRule
     ? matchesQuick
     : terms.every((term) => haystack.includes(term));
 
@@ -120,6 +127,8 @@ function resetQuickFilters() {
   activeQuickTerms = [];
   activeQuickCategories = [];
   activeQuickSubcategories = [];
+  activeQuickTagCategories = [];
+  activeQuickTagSubcategories = [];
 }
 
 function sortProducts(items, sortMode) {
@@ -268,6 +277,8 @@ function initializeCatalog() {
       activeQuickCategories = dataList(button.dataset.categories || category);
       activeQuickSubcategories = dataList(button.dataset.subcategories || subcategory);
       activeQuickTerms = queryTerms(button.dataset.tags || "");
+      activeQuickTagCategories = dataList(button.dataset.tagCategories || "");
+      activeQuickTagSubcategories = dataList(button.dataset.tagSubcategories || "");
 
       if (searchInput) searchInput.value = query;
       if (categorySelect) categorySelect.value = category && activeQuickCategories.length === 1 ? category : "";
