@@ -36,6 +36,45 @@ document.querySelectorAll("[data-share-url]").forEach((button) => {
   });
 });
 
+document.querySelectorAll("form[name='newsletter-ddv']").forEach((form) => {
+  form.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const submitButton = form.querySelector("button[type='submit']");
+    const formMessage = form.querySelector(".form-message");
+    const formData = new FormData(form);
+    const body = new URLSearchParams();
+    formData.forEach((value, key) => body.append(key, String(value)));
+
+    if (submitButton) {
+      submitButton.disabled = true;
+      submitButton.textContent = "Enviando...";
+    }
+    if (formMessage) {
+      formMessage.classList.remove("is-error");
+      formMessage.textContent = "Estamos guardando tu suscripción.";
+    }
+
+    try {
+      const response = await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: body.toString(),
+      });
+      if (!response.ok) throw new Error(`Subscription failed with ${response.status}`);
+      window.location.assign("/gracias.html?form=newsletter-ddv");
+    } catch {
+      if (formMessage) {
+        formMessage.classList.add("is-error");
+        formMessage.innerHTML = `No pudimos guardar tus datos en este momento. Puedes intentarlo nuevamente o <a href="https://wa.me/${DDV_WHATSAPP_NUMBER}?text=Hola%20Diario%20de%20una%20Vola%2C%20quiero%20suscribirme%20a%20la%20revista." target="_blank" rel="noopener noreferrer">escribirnos por WhatsApp</a>.`;
+      }
+      if (submitButton) {
+        submitButton.disabled = false;
+        submitButton.textContent = "Suscribirme";
+      }
+    }
+  });
+});
+
 const catalog = window.DDV_CATALOG || { products: [] };
 const products = Array.isArray(catalog.products)
   ? catalog.products.filter((product) => product
