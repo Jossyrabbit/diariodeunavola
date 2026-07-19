@@ -19,6 +19,8 @@ if (magazineReader) {
   let focusPage = 0;
   let touchStartX = 0;
   let touchStartY = 0;
+  let isTurningPage = false;
+  let turnTimer = 0;
 
   const pageGroups = () => {
     if (!desktopView.matches) return pages.map((_, index) => [index]);
@@ -53,7 +55,19 @@ if (magazineReader) {
     return found >= 0 ? found : 0;
   };
 
-  const showPage = (pageIndex, { direction = "forward", moveFocus = false, updateHash = true } = {}) => {
+  const fitPageContent = (page) => {
+    if (!page || page.hidden) return;
+    page.classList.remove("is-dense", "is-very-dense");
+    if (page.scrollHeight > page.clientHeight + 2) page.classList.add("is-dense");
+    if (page.scrollHeight > page.clientHeight + 2) page.classList.add("is-very-dense");
+  };
+
+  const showPage = (pageIndex, {
+    direction = "forward",
+    moveFocus = false,
+    updateHash = true,
+    animate = true,
+  } = {}) => {
     const safePageIndex = Math.max(0, Math.min(pageIndex, pages.length - 1));
     const groups = pageGroups();
     activeGroup = groupForPage(safePageIndex);
@@ -73,9 +87,12 @@ if (magazineReader) {
     visiblePages.forEach((index, position) => {
       const page = pages[index];
       page.classList.add(position === 0 && visiblePages.length > 1 ? "is-left-page" : "is-right-page");
-      if (!reducedMotion.matches) page.classList.add(direction === "backward" ? "is-entering-backward" : "is-entering-forward");
+      if (animate && !reducedMotion.matches) {
+        page.classList.add(direction === "backward" ? "is-entering-backward" : "is-entering-forward");
+      }
     });
     pageDeck?.classList.toggle("shows-single-page", visiblePages.length === 1);
+    requestAnimationFrame(() => visiblePages.forEach((index) => fitPageContent(pages[index])));
 
     const firstNumber = visiblePages[0] + 1;
     const lastNumber = visiblePages[visiblePages.length - 1] + 1;
@@ -106,11 +123,64 @@ if (magazineReader) {
     }
   };
 
+  const createTurnSheet = (page, direction) => {
+    const sheet = document.createElement("div");
+    sheet.className = `magazine-turn-sheet is-${direction}`;
+    sheet.setAttribute("aria-hidden", "true");
+
+    const front = page.cloneNode(true);
+    front.removeAttribute("id");
+    front.removeAttribute("hidden");
+    front.classList.remove("is-entering-forward", "is-entering-backward", "is-left-page", "is-right-page");
+    front.classList.add("magazine-turn-face", "magazine-turn-front");
+    front.querySelectorAll("[id]").forEach((element) => element.removeAttribute("id"));
+    front.querySelectorAll("a, button, [tabindex]").forEach((element) => element.setAttribute("tabindex", "-1"));
+
+    const back = document.createElement("div");
+    back.className = "magazine-turn-face magazine-turn-back";
+    sheet.append(front, back);
+    return sheet;
+  };
+
+  const turnMobilePage = (targetPage, direction) => {
+    if (!pageDeck || desktopView.matches || reducedMotion.matches) {
+      showPage(targetPage, { direction, moveFocus: true });
+      return;
+    }
+    if (isTurningPage || targetPage === focusPage) return;
+
+    isTurningPage = true;
+    magazineReader.classList.add("is-turning-page");
+    const sheetPage = direction === "forward" ? pages[focusPage] : pages[targetPage];
+    const sheet = createTurnSheet(sheetPage, direction);
+    pageDeck.append(sheet);
+
+    if (direction === "forward") {
+      showPage(targetPage, { direction, moveFocus: true, animate: false });
+    }
+
+    const finishTurn = () => {
+      if (!isTurningPage) return;
+      window.clearTimeout(turnTimer);
+      if (direction === "backward") {
+        showPage(targetPage, { direction, moveFocus: true, animate: false });
+      }
+      sheet.remove();
+      magazineReader.classList.remove("is-turning-page");
+      isTurningPage = false;
+    };
+
+    sheet.addEventListener("animationend", finishTurn, { once: true });
+    turnTimer = window.setTimeout(finishTurn, 850);
+    requestAnimationFrame(() => sheet.classList.add("is-turning"));
+  };
+
   const moveGroup = (offset) => {
     const groups = pageGroups();
     const targetGroup = Math.max(0, Math.min(activeGroup + offset, groups.length - 1));
     if (targetGroup === activeGroup) return;
-    showPage(groups[targetGroup][0], { direction: offset < 0 ? "backward" : "forward", moveFocus: true });
+    const direction = offset < 0 ? "backward" : "forward";
+    turnMobilePage(groups[targetGroup][0], direction);
   };
 
   previousButton?.addEventListener("click", () => moveGroup(-1));
@@ -152,6 +222,7 @@ if (magazineReader) {
   }, { passive: true });
 
   magazineReader.addEventListener("touchend", (event) => {
+    if (isTurningPage) return;
     const touch = event.changedTouches[0];
     const distanceX = touch.clientX - touchStartX;
     const distanceY = touch.clientY - touchStartY;
@@ -159,7 +230,13 @@ if (magazineReader) {
     moveGroup(distanceX < 0 ? 1 : -1);
   }, { passive: true });
 
-  desktopView.addEventListener("change", () => showPage(focusPage, { updateHash: false }));
+  desktopView.addEventListener("change", () => {
+    window.clearTimeout(turnTimer);
+    pageDeck?.querySelector(".magazine-turn-sheet")?.remove();
+    magazineReader.classList.remove("is-turning-page");
+    isTurningPage = false;
+    showPage(focusPage, { updateHash: false, animate: false });
+  });
 
   if (!document.fullscreenEnabled || !magazineReader.requestFullscreen) {
     fullscreenButton?.setAttribute("hidden", "");

@@ -5928,3 +5928,323 @@ body {
     animation: none;
   }
 }
+
+/* Formato carta y paso de hoja */
+.magazine-page-deck {
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.magazine-leaf,
+.magazine-leaf.magazine-cover-spread,
+.magazine-leaf.magazine-end-spread,
+.magazine-editorial-page,
+.magazine-text-page {
+  min-height: 0;
+  aspect-ratio: 8.5 / 11;
+}
+
+.magazine-cover-copy h1 {
+  font-size: clamp(3.4rem, 6vw, 5.4rem);
+}
+
+.magazine-turn-sheet {
+  position: absolute;
+  z-index: 12;
+  inset: 0;
+  pointer-events: none;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.magazine-turn-sheet.is-forward {
+  transform-origin: left center;
+}
+
+.magazine-turn-sheet.is-backward {
+  transform: rotateY(-180deg);
+  transform-origin: left center;
+}
+
+.magazine-turn-sheet.is-forward.is-turning {
+  animation: magazine-sheet-forward 720ms cubic-bezier(0.42, 0, 0.2, 1) both;
+}
+
+.magazine-turn-sheet.is-backward.is-turning {
+  animation: magazine-sheet-backward 720ms cubic-bezier(0.42, 0, 0.2, 1) both;
+}
+
+.magazine-turn-face {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  aspect-ratio: auto;
+  overflow: hidden;
+  border-radius: 2px;
+  backface-visibility: hidden;
+}
+
+.magazine-turn-front {
+  box-shadow: inset -12px 0 18px rgba(31, 31, 31, 0.08), 10px 10px 28px rgba(31, 31, 31, 0.2);
+}
+
+.magazine-turn-back {
+  background: #f7f5ef;
+  box-shadow: inset 14px 0 22px rgba(31, 31, 31, 0.1), 10px 10px 28px rgba(31, 31, 31, 0.18);
+  transform: rotateY(180deg);
+}
+
+@keyframes magazine-sheet-forward {
+  0% { transform: rotateY(0deg); }
+  46% { box-shadow: 18px 12px 34px rgba(31, 31, 31, 0.24); }
+  100% { transform: rotateY(-180deg); }
+}
+
+@keyframes magazine-sheet-backward {
+  0% { transform: rotateY(-180deg); }
+  54% { box-shadow: 18px 12px 34px rgba(31, 31, 31, 0.24); }
+  100% { transform: rotateY(0deg); }
+}
+
+.magazine-reader.is-turning-page .magazine-reader-nav button {
+  pointer-events: none;
+}
+
+@media (max-width: 900px) {
+  .magazine-stage {
+    display: grid;
+    overflow: hidden;
+    place-items: center;
+    padding: 16px 20px;
+    background: #dedbd2;
+  }
+
+  .magazine-page-deck {
+    width: min(calc(100vw - 40px), 420px, 52svh);
+    aspect-ratio: 8.5 / 11;
+    touch-action: pan-y;
+  }
+
+  .magazine-page-deck.shows-single-page .magazine-leaf,
+  .magazine-page-deck .magazine-leaf {
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+    aspect-ratio: auto;
+    overflow: hidden;
+    border: 1px solid rgba(95, 92, 83, 0.22);
+    border-radius: 2px;
+    box-shadow: inset -7px 0 12px rgba(31, 31, 31, 0.035), 0 14px 32px rgba(31, 31, 31, 0.19);
+  }
+
+  .magazine-leaf.magazine-cover-spread,
+  .magazine-leaf.magazine-end-spread,
+  .magazine-editorial-page,
+  .magazine-text-page {
+    min-height: 0;
+  }
+
+  .magazine-editorial-page,
+  .magazine-toc-page,
+  .magazine-text-page,
+  .magazine-opener-copy {
+    padding: 20px 18px 30px;
+  }
+
+  .magazine-cover-copy {
+    padding: 24px 20px 30px;
+  }
+
+  .magazine-cover-copy > p:first-child {
+    margin-bottom: 7px;
+    color: #fff;
+    font-size: 0.9rem;
+  }
+
+  .magazine-cover-copy > span {
+    font-size: 0.68rem;
+  }
+
+  .magazine-cover-copy h1 {
+    margin: 11px 0;
+    font-size: 2.65rem;
+    line-height: 0.92;
+  }
+
+  .magazine-cover-intro {
+    max-width: 34ch;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.78rem;
+    line-height: 1.5;
+  }
+
+  .magazine-cover-folio {
+    top: 18px;
+    right: 18px;
+    width: 54px;
+    font-size: 0.7rem;
+  }
+
+  .magazine-editorial-page h2,
+  .magazine-toc-page h2,
+  .magazine-end-spread h2 {
+    margin: 6px 0 12px;
+    font-size: 1.65rem;
+    line-height: 1;
+  }
+
+  .magazine-editorial-page > p:not(.eyebrow),
+  .magazine-end-spread > div > p:not(.eyebrow) {
+    margin: 0;
+    font-size: 0.78rem;
+    line-height: 1.58;
+  }
+
+  .magazine-signature {
+    padding-top: 14px;
+  }
+
+  .magazine-signature .brand-mark {
+    width: 34px;
+    height: 34px;
+    font-size: 0.75rem;
+  }
+
+  .magazine-signature strong,
+  .magazine-signature small {
+    font-size: 0.68rem;
+  }
+
+  .magazine-toc-page button {
+    grid-template-columns: 24px minmax(0, 1fr);
+    gap: 6px;
+    min-height: 52px;
+    padding: 5px 0;
+  }
+
+  .magazine-toc-page button > span,
+  .magazine-toc-page button > small {
+    font-size: 0.56rem;
+  }
+
+  .magazine-toc-page button > strong {
+    font-size: 0.72rem;
+    line-height: 1.12;
+  }
+
+  .magazine-article-opener {
+    grid-template-rows: 43% 57%;
+  }
+
+  .magazine-article-opener figure {
+    min-height: 0;
+  }
+
+  .magazine-opener-copy .category-link {
+    font-size: 0.6rem;
+  }
+
+  .magazine-opener-copy h2 {
+    max-width: 15ch;
+    margin: 7px 0 8px;
+    font-size: 1.55rem;
+    line-height: 0.98;
+  }
+
+  .magazine-opener-copy > p {
+    font-size: 0.7rem;
+    line-height: 1.42;
+    -webkit-line-clamp: 3;
+  }
+
+  .magazine-opener-copy .magazine-byline {
+    gap: 4px 9px;
+    padding-top: 8px;
+    font-size: 0.56rem;
+  }
+
+  .magazine-running-head {
+    gap: 3px;
+    margin-bottom: 10px;
+    padding-bottom: 7px;
+  }
+
+  .magazine-running-head span,
+  .magazine-running-head strong {
+    font-size: 0.58rem;
+    line-height: 1.22;
+  }
+
+  .magazine-page-copy.note-body {
+    font-size: 0.76rem;
+    line-height: 1.56;
+  }
+
+  .magazine-page-copy.note-body p {
+    margin-bottom: 0.72em;
+  }
+
+  .magazine-page-copy .article-pullquote {
+    margin: 9px 0;
+    padding: 7px 10px;
+    font-size: 0.82rem;
+  }
+
+  .magazine-page-footer {
+    padding-top: 8px;
+  }
+
+  .magazine-page-footer .button {
+    min-height: 34px;
+    padding: 6px 10px;
+    font-size: 0.65rem;
+  }
+
+  .magazine-page-number {
+    right: 15px;
+    bottom: 10px;
+    font-size: 0.56rem;
+  }
+
+  .magazine-end-spread {
+    padding: 26px 20px 32px;
+  }
+
+  .magazine-end-links {
+    gap: 7px;
+    margin: 14px 0;
+  }
+
+  .magazine-end-links .button {
+    min-height: 36px;
+    padding: 7px 10px;
+    font-size: 0.68rem;
+  }
+
+  .magazine-library-link {
+    font-size: 0.68rem;
+  }
+
+  .magazine-text-page.is-dense .magazine-page-copy.note-body {
+    font-size: 0.69rem;
+    line-height: 1.48;
+  }
+
+  .magazine-text-page.is-very-dense .magazine-page-copy.note-body {
+    font-size: 0.63rem;
+    line-height: 1.42;
+  }
+
+  .magazine-text-page.is-very-dense .magazine-page-copy.note-body p {
+    margin-bottom: 0.5em;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .magazine-turn-sheet.is-forward.is-turning,
+  .magazine-turn-sheet.is-backward.is-turning {
+    animation: none;
+  }
+}
