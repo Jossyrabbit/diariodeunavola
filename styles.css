@@ -2912,6 +2912,47 @@ body {
   padding-top: 12px;
 }
 
+.catalog-banner {
+  display: grid;
+  gap: 20px;
+  max-width: var(--max);
+  margin: 18px auto 14px;
+  padding: 26px 20px;
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(36, 63, 44, 0.96), rgba(49, 91, 58, 0.9) 48%, rgba(167, 96, 63, 0.9)),
+    url("https://static.wixstatic.com/media/1287cc_9b7b1f6130bd4ab78fbfe3cd286fecb8~mv2.jpg/v1/fill/w_1200,h_520,fp_0.50_0.50,q_82,enc_avif,quality_auto/1287cc_9b7b1f6130bd4ab78fbfe3cd286fecb8~mv2.jpg") center / cover;
+  color: var(--surface);
+}
+
+.catalog-banner .eyebrow {
+  color: var(--gold);
+}
+
+.catalog-banner h2 {
+  max-width: 780px;
+  margin-bottom: 10px;
+  color: var(--surface);
+  font-size: 2rem;
+}
+
+.catalog-banner p:not(.eyebrow) {
+  max-width: 660px;
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.84);
+}
+
+.catalog-banner-actions {
+  display: grid;
+  gap: 10px;
+}
+
+.catalog-banner .button.secondary {
+  color: var(--surface);
+  border-color: rgba(255, 255, 255, 0.45);
+  background: rgba(255, 255, 255, 0.1);
+}
+
 .catalog-category-card {
   display: grid;
   gap: 9px;
@@ -3016,6 +3057,16 @@ body {
   .catalog-category-grid,
   .catalog-feature-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .catalog-banner {
+    grid-template-columns: minmax(0, 1fr) max-content;
+    align-items: center;
+    padding: 34px;
+  }
+
+  .catalog-banner-actions {
+    min-width: 210px;
   }
 }
 

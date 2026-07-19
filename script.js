@@ -34,6 +34,8 @@ const pageSize = 36;
 let visibleLimit = pageSize;
 let filteredProducts = [];
 let activeQuickTerms = [];
+let activeQuickCategories = [];
+let activeQuickSubcategories = [];
 
 function normalize(value) {
   return String(value || "")
@@ -66,9 +68,16 @@ function uniqueSorted(values) {
 
 function queryTerms(value) {
   return normalize(value)
-    .split(/\s+/)
+    .split(/[\s|,]+/)
     .map((term) => term.trim())
     .filter((term) => term.length > 1);
+}
+
+function dataList(value) {
+  return String(value || "")
+    .split("|")
+    .map((item) => item.trim())
+    .filter(Boolean);
 }
 
 function fillSelect(select, values, placeholder) {
@@ -93,13 +102,24 @@ function productMatches(product, query, category, subcategory, quickTerms = []) 
     product.subcategory,
   ].join(" "));
   const terms = queryTerms(query);
-  const matchesQuery = quickTerms.length
-    ? quickTerms.some((term) => haystack.includes(term))
+  const matchesQuick = activeQuickCategories.length || activeQuickSubcategories.length || quickTerms.length
+    ? activeQuickCategories.includes(product.category)
+      || activeQuickSubcategories.includes(product.subcategory)
+      || quickTerms.some((term) => haystack.includes(term))
+    : true;
+  const matchesQuery = quickTerms.length || activeQuickCategories.length || activeQuickSubcategories.length
+    ? matchesQuick
     : terms.every((term) => haystack.includes(term));
 
   return matchesQuery
     && (!category || product.category === category)
     && (!subcategory || product.subcategory === subcategory);
+}
+
+function resetQuickFilters() {
+  activeQuickTerms = [];
+  activeQuickCategories = [];
+  activeQuickSubcategories = [];
 }
 
 function sortProducts(items, sortMode) {
@@ -208,21 +228,25 @@ function initializeCatalog() {
   renderProducts();
 
   searchInput?.addEventListener("input", () => {
-    activeQuickTerms = [];
+    resetQuickFilters();
     applyFilters();
   });
   sortSelect?.addEventListener("change", () => applyFilters());
 
   categorySelect?.addEventListener("change", () => {
+    resetQuickFilters();
     if (subcategorySelect) subcategorySelect.value = "";
     updateSubcategoryOptions();
     applyFilters();
   });
 
-  subcategorySelect?.addEventListener("change", () => applyFilters());
+  subcategorySelect?.addEventListener("change", () => {
+    resetQuickFilters();
+    applyFilters();
+  });
 
   clearButton?.addEventListener("click", () => {
-    activeQuickTerms = [];
+    resetQuickFilters();
     if (searchInput) searchInput.value = "";
     if (categorySelect) categorySelect.value = "";
     if (subcategorySelect) subcategorySelect.value = "";
@@ -241,12 +265,14 @@ function initializeCatalog() {
       const category = button.dataset.category || "";
       const subcategory = button.dataset.subcategory || "";
       const query = button.dataset.query || "";
+      activeQuickCategories = dataList(button.dataset.categories || category);
+      activeQuickSubcategories = dataList(button.dataset.subcategories || subcategory);
       activeQuickTerms = queryTerms(button.dataset.tags || "");
 
       if (searchInput) searchInput.value = query;
-      if (categorySelect) categorySelect.value = category;
+      if (categorySelect) categorySelect.value = category && activeQuickCategories.length === 1 ? category : "";
       updateSubcategoryOptions();
-      if (subcategorySelect) subcategorySelect.value = subcategory;
+      if (subcategorySelect) subcategorySelect.value = subcategory && activeQuickSubcategories.length === 1 ? subcategory : "";
       if (sortSelect) sortSelect.value = "name";
       applyFilters();
       document.querySelector("#catalogo-productos")?.scrollIntoView({ behavior: "smooth", block: "start" });
