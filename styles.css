@@ -6248,3 +6248,313 @@ body {
     animation: none;
   }
 }
+
+/* Maqueta editorial reutilizable */
+.magazine-opener-kicker {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.magazine-opener-kicker > span {
+  display: grid;
+  width: 34px;
+  aspect-ratio: 1;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.48);
+  border-radius: 50%;
+  place-items: center;
+  font-family: var(--font-ui);
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+
+.magazine-article-opener figure figcaption {
+  position: absolute;
+  z-index: 2;
+  right: 12px;
+  bottom: 10px;
+  max-width: calc(100% - 24px);
+  padding: 6px 8px;
+  color: #fff;
+  background: rgba(20, 35, 24, 0.82);
+  font-family: var(--font-ui);
+  font-size: 0.58rem;
+  line-height: 1.35;
+}
+
+.magazine-copy-columns {
+  column-count: 2;
+  column-gap: 28px;
+  column-rule: 1px solid rgba(194, 187, 174, 0.62);
+}
+
+.magazine-copy-columns p,
+.magazine-copy-columns blockquote {
+  break-inside: avoid;
+}
+
+.magazine-copy-columns.has-drop-cap > p:first-child::first-letter {
+  float: left;
+  margin: 0.02em 0.11em 0 0;
+  color: var(--leaf);
+  font-family: var(--font-display);
+  font-size: 4.4em;
+  font-weight: 800;
+  line-height: 0.76;
+}
+
+.magazine-layout-photo .magazine-inline-image {
+  position: relative;
+  flex: 0 0 36%;
+  min-height: 0;
+  margin: 0 0 18px;
+  overflow: hidden;
+  background: var(--leaf-dark);
+}
+
+.magazine-layout-photo.is-very-dense .magazine-inline-image {
+  flex-basis: 28%;
+}
+
+.magazine-layout-photo.is-very-dense .magazine-page-copy.note-body {
+  font-size: 0.84rem;
+  line-height: 1.52;
+}
+
+.magazine-inline-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 42%;
+}
+
+.magazine-inline-image figcaption {
+  position: absolute;
+  right: 10px;
+  bottom: 8px;
+  max-width: calc(100% - 20px);
+  padding: 5px 7px;
+  color: #fff;
+  background: rgba(20, 35, 24, 0.84);
+  font-family: var(--font-ui);
+  font-size: 0.56rem;
+  line-height: 1.35;
+}
+
+.magazine-quote-layout {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  gap: 20px;
+  min-height: 0;
+}
+
+.magazine-quote-layout > blockquote {
+  position: relative;
+  margin: 0;
+  padding: 18px 22px 18px 54px;
+  color: var(--leaf-dark);
+  background: #e9eee5;
+  border-top: 1px solid #c8d4c5;
+  border-bottom: 1px solid #c8d4c5;
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 750;
+  line-height: 1.15;
+}
+
+.magazine-quote-layout > blockquote::before {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: var(--clay);
+  content: "\201C";
+  font-family: var(--font-reader);
+  font-size: 3.8rem;
+  line-height: 1;
+}
+
+.magazine-quote-layout .magazine-page-copy {
+  column-count: 2;
+  column-gap: 28px;
+  column-rule: 1px solid rgba(194, 187, 174, 0.62);
+}
+
+@media (max-width: 900px) {
+  .magazine-reader-tools button[data-magazine-print] {
+    display: none;
+  }
+
+  .magazine-article-opener figure figcaption {
+    right: 7px;
+    bottom: 6px;
+    max-width: calc(100% - 14px);
+    padding: 4px 6px;
+    font-size: 0.48rem;
+  }
+
+  .magazine-opener-kicker > span {
+    width: 25px;
+    font-size: 0.52rem;
+  }
+
+  .magazine-copy-columns,
+  .magazine-quote-layout .magazine-page-copy {
+    column-gap: 14px;
+  }
+
+  .magazine-copy-columns.has-drop-cap > p:first-child::first-letter {
+    font-size: 3.8em;
+  }
+
+  .magazine-layout-photo .magazine-inline-image {
+    flex-basis: 34%;
+    margin: 0 0 9px;
+  }
+
+  .magazine-inline-image figcaption {
+    right: 6px;
+    bottom: 5px;
+    max-width: calc(100% - 12px);
+    padding: 3px 5px;
+    font-size: 0.46rem;
+  }
+
+  .magazine-quote-layout {
+    gap: 9px;
+  }
+
+  .magazine-quote-layout > blockquote {
+    padding: 9px 11px 9px 30px;
+    font-size: 0.82rem;
+    line-height: 1.08;
+  }
+
+  .magazine-quote-layout > blockquote::before {
+    top: 3px;
+    left: 9px;
+    font-size: 2.2rem;
+  }
+
+  .magazine-layout-photo.is-dense .magazine-inline-image,
+  .magazine-layout-photo.is-very-dense .magazine-inline-image {
+    flex-basis: 29%;
+  }
+
+  .magazine-layout-photo.is-very-dense .magazine-inline-image {
+    flex-basis: 25%;
+  }
+
+  .magazine-layout-photo.is-very-dense .magazine-page-copy.note-body {
+    font-size: 0.59rem;
+    line-height: 1.34;
+  }
+}
+
+@media print {
+  @page {
+    size: Letter portrait;
+    margin: 0;
+  }
+
+  html,
+  body {
+    width: 8.5in;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+  }
+
+  body,
+  .magazine-reader,
+  .magazine-leaf {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .site-header,
+  .site-footer,
+  .magazine-reader-header,
+  .magazine-progress,
+  .magazine-reader-nav,
+  .magazine-index-dialog,
+  .magazine-page-footer {
+    display: none !important;
+  }
+
+  main,
+  .magazine-reader,
+  .magazine-stage,
+  .magazine-page-deck {
+    width: 8.5in !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+  }
+
+  .magazine-page-deck {
+    display: block !important;
+    perspective: none !important;
+  }
+
+  [data-magazine-leaf] {
+    width: 8.5in !important;
+    height: 11in !important;
+    min-height: 11in !important;
+    max-height: 11in !important;
+    margin: 0 !important;
+    overflow: hidden !important;
+    aspect-ratio: auto !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    break-after: page;
+    break-inside: avoid;
+    page-break-after: always;
+  }
+
+  [data-magazine-leaf][hidden] {
+    display: block !important;
+  }
+
+  [data-magazine-leaf].magazine-cover-spread,
+  [data-magazine-leaf].magazine-article-opener,
+  [data-magazine-leaf].magazine-end-spread {
+    display: grid !important;
+  }
+
+  [data-magazine-leaf].magazine-editorial-page,
+  [data-magazine-leaf].magazine-text-page {
+    display: flex !important;
+  }
+
+  [data-magazine-leaf].magazine-toc-page {
+    display: block !important;
+  }
+
+  .magazine-turn-sheet {
+    display: none !important;
+  }
+
+  .magazine-page-copy.note-body {
+    font-size: 10pt !important;
+    line-height: 1.52 !important;
+  }
+
+  .magazine-running-head span,
+  .magazine-running-head strong {
+    font-size: 7.5pt !important;
+  }
+
+  .magazine-page-number {
+    font-size: 7pt !important;
+  }
+
+  a {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+}

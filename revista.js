@@ -12,6 +12,7 @@ if (magazineReader) {
   const indexDialog = magazineReader.querySelector("[data-magazine-index]");
   const indexOpenButton = magazineReader.querySelector("[data-magazine-index-open]");
   const indexCloseButton = magazineReader.querySelector("[data-magazine-index-close]");
+  const printButton = magazineReader.querySelector("[data-magazine-print]");
   const fullscreenButton = magazineReader.querySelector("[data-magazine-fullscreen]");
   const desktopView = window.matchMedia("(min-width: 901px)");
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
@@ -21,6 +22,7 @@ if (magazineReader) {
   let touchStartY = 0;
   let isTurningPage = false;
   let turnTimer = 0;
+  let pageBeforePrint = 0;
 
   const pageGroups = () => {
     if (!desktopView.matches) return pages.map((_, index) => [index]);
@@ -237,6 +239,35 @@ if (magazineReader) {
     isTurningPage = false;
     showPage(focusPage, { updateHash: false, animate: false });
   });
+
+  const preparePrintEdition = () => {
+    if (magazineReader.classList.contains("is-printing")) return;
+    pageBeforePrint = focusPage;
+    window.clearTimeout(turnTimer);
+    pageDeck?.querySelector(".magazine-turn-sheet")?.remove();
+    magazineReader.classList.remove("is-turning-page");
+    magazineReader.classList.add("is-printing");
+    isTurningPage = false;
+    pages.forEach((page) => {
+      page.hidden = false;
+      page.setAttribute("aria-hidden", "false");
+      page.classList.remove("is-left-page", "is-right-page", "is-entering-forward", "is-entering-backward");
+    });
+  };
+
+  const restoreDigitalEdition = () => {
+    if (!magazineReader.classList.contains("is-printing")) return;
+    magazineReader.classList.remove("is-printing");
+    showPage(pageBeforePrint, { updateHash: false, animate: false });
+  };
+
+  printButton?.addEventListener("click", () => {
+    preparePrintEdition();
+    window.print();
+    window.setTimeout(restoreDigitalEdition, 0);
+  });
+  window.addEventListener("beforeprint", preparePrintEdition);
+  window.addEventListener("afterprint", restoreDigitalEdition);
 
   if (!document.fullscreenEnabled || !magazineReader.requestFullscreen) {
     fullscreenButton?.setAttribute("hidden", "");
