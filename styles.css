@@ -2449,6 +2449,176 @@ body {
   color: #9b2f24;
 }
 
+.form-hidden {
+  display: none;
+}
+
+.field-help {
+  display: block;
+  margin-top: -6px;
+  color: var(--muted);
+  font-family: var(--font-ui);
+  font-size: 0.86rem;
+  line-height: 1.5;
+}
+
+.interest-options {
+  display: grid;
+  gap: 12px;
+  margin: 6px 0;
+  padding: 0;
+  border: 0;
+}
+
+.interest-options legend {
+  margin-bottom: 4px;
+  color: var(--leaf-dark);
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  font-weight: 800;
+}
+
+.interest-options > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+}
+
+.interest-options label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.interest-options input {
+  width: 18px;
+  min-height: 18px;
+  accent-color: var(--leaf);
+}
+
+.interest-options span {
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.subscription-hero {
+  display: grid;
+  gap: 28px;
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 72px 18px 36px;
+}
+
+.subscription-hero h1 {
+  max-width: 760px;
+  margin: 0 0 14px;
+  color: var(--leaf-dark);
+  font-size: clamp(2.55rem, 7vw, 5rem);
+  line-height: 0.95;
+}
+
+.subscription-hero p {
+  max-width: 720px;
+  margin: 0;
+  color: var(--muted);
+  font-family: var(--font-reader);
+  font-size: clamp(1.1rem, 2.8vw, 1.45rem);
+  line-height: 1.75;
+}
+
+.subscription-points {
+  display: grid;
+  gap: 12px;
+}
+
+.subscription-points article,
+.subscription-note {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.subscription-points span {
+  color: var(--clay);
+  font-family: var(--font-ui);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.subscription-points h2,
+.subscription-note h2 {
+  margin: 6px 0 8px;
+  color: var(--leaf-dark);
+  font-size: 1.35rem;
+}
+
+.subscription-points p,
+.subscription-note p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.subscription-note p + p {
+  margin-top: 12px;
+}
+
+.subscription-section {
+  display: grid;
+  gap: 22px;
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 28px 18px 72px;
+}
+
+.subscription-section .newsletter-panel {
+  margin: 0;
+}
+
+.article-correction-link {
+  align-self: center;
+}
+
+@media (min-width: 860px) {
+  .subscription-hero {
+    grid-template-columns: minmax(0, 1.45fr) minmax(280px, 0.75fr);
+    align-items: end;
+  }
+
+  .subscription-section {
+    grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
+    align-items: start;
+  }
+
+  .subscription-note {
+    position: sticky;
+    top: 92px;
+  }
+}
+
+@media (max-width: 720px) {
+  .subscription-hero {
+    padding-top: 42px;
+  }
+
+  .subscription-points article,
+  .subscription-note {
+    padding: 16px;
+  }
+
+  .interest-options > div {
+    grid-template-columns: 1fr;
+  }
+}
+
 .breadcrumb {
   display: flex;
   flex-wrap: wrap;

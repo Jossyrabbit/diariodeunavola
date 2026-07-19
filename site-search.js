@@ -683,7 +683,7 @@ window.DDV_SEARCH_INDEX = [
     "title": "Bingonnabis",
     "category": "Evento anterior",
     "url": "/eventos/bingonnabis.html",
-    "excerpt": "Encuentro cannabico comunitario publicado en la agenda anterior de Diario de una Vola.",
+    "excerpt": "Encuentro cannabico comunitario registrado en la agenda de Diario de una Vola.",
     "date": "19 abr 2026",
     "readTime": "La Serena / Coquimbo"
   },
@@ -701,7 +701,7 @@ window.DDV_SEARCH_INDEX = [
     "title": "Cata Secreta Vol. 3",
     "category": "Evento anterior",
     "url": "/eventos/cata-secreta-vol-3.html",
-    "excerpt": "Cata y encuentro publicado originalmente en la plataforma anterior de Wix.",
+    "excerpt": "Cata y encuentro publicado en la agenda historica de Diario de una Vola.",
     "date": "16 mar 2026",
     "readTime": "Reñaca"
   },

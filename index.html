@@ -19,7 +19,6 @@
     <title>Diario de una Vola | Revista cannábica chilena</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://static.wixstatic.com">
     <link rel="stylesheet" href="/styles.css">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Diario de una Vola | Revista cannábica chilena","description":"Revista digital chilena sobre cannabis, cultivo, ciencia y salud, legislacion, cultura, actualidad, entrevistas y eventos.","url":"https://diariodeunavola.netlify.app/"}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Diario de una Vola","url":"https://diariodeunavola.netlify.app","sameAs":["https://www.instagram.com/ddv.chile/"]}</script>
@@ -61,7 +60,7 @@
           <input id="header-search" name="q" type="search" placeholder="Buscar">
           <button type="submit">Buscar</button>
         </form>
-        <a class="button nav-cta" href="/index.html#newsletter">Suscribirme</a>
+        <a class="button nav-cta" href="/suscripcion.html">Suscribirme</a>
       </div>
     </header>
     <main id="contenido">
@@ -316,7 +315,7 @@
           <a href="/contacto.html"><strong>Enviar una pregunta</strong><span>Para dudas editoriales o temas que quieres ver publicados.</span></a>
           <a href="/comunidad.html#experiencias"><strong>Compartir una experiencia</strong><span>Relatos, aprendizajes y observaciones de la comunidad.</span></a>
           <a href="/comunidad.html#lista-espera"><strong>Unirse a la lista de espera</strong><span>Para futuras herramientas comunitarias de DDV.</span></a>
-          <a href="https://diariodeunavola.wixsite.com/website/forum" target="_blank" rel="noopener noreferrer"><strong>Explorar conversaciones existentes</strong><span>Contenido alojado temporalmente en el archivo anterior de DDV.</span></a>
+          <a href="/suscripcion.html"><strong>Elegir temas de lectura</strong><span>Recibe notas, eventos y archivo editorial según tus intereses.</span></a>
         </div>
       </section>
 
@@ -339,28 +338,61 @@
       </section>
 
       <section class="newsletter-section-v2" id="newsletter" aria-labelledby="newsletter-title">
-        <form class="newsletter-panel" name="newsletter-ddv" method="post" action="/gracias.html" data-netlify="true">
+
+        <form class="newsletter-panel newsletter-preferences" name="newsletter-ddv" method="post" action="/gracias.html" data-netlify="true" netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="newsletter-ddv">
-          <h2 id="newsletter-title">Una selección útil, no correos por llenar tu bandeja</h2>
-          <p>Recibe nuevos artículos, recursos y agenda de eventos. Máximo dos correos al mes.</p>
+          <input type="hidden" name="source" value="newsletter">
+          <p class="form-hidden"><label>No completar <input name="bot-field"></label></p>
+          <h2 id="newsletter-title">Recibe DDV según lo que te interesa</h2>
+          <p>Elige tus temas y te enviaremos notas nuevas, lecturas antiguas seleccionadas y avisos útiles sin llenar tu bandeja.</p>
           <div class="newsletter-fields">
             <label for="newsletter-name">Nombre <span>opcional</span></label>
             <input id="newsletter-name" name="name" type="text" autocomplete="name" placeholder="Tu nombre">
             <label for="newsletter-email">Correo</label>
             <input id="newsletter-email" name="email" type="email" placeholder="tu@email.cl" required>
-            <label for="newsletter-interest">Interés principal</label>
-            <select id="newsletter-interest" name="interest" required>
-              <option value="">Selecciona un interés</option>
-              <option>Cultivo</option>
-              <option>Cultura</option>
-              <option>Actualidad</option>
-              <option>Eventos</option>
+            <label for="newsletter-whatsapp">WhatsApp <span>recomendado</span></label>
+            <input id="newsletter-whatsapp" name="whatsapp" type="tel" autocomplete="tel" placeholder="+56 9 1234 5678">
+            <small class="field-help">Nos ayuda si pides orientación, eventos o avisos importantes. El correo sigue siendo el canal principal.</small>
+            <fieldset class="interest-options">
+              <legend>Qué quieres recibir</legend>
+              <div>
+                <label for="newsletter-interest-0">
+                  <input id="newsletter-interest-0" name="interests" type="checkbox" value="Cultivo">
+                  <span>Cultivo</span>
+                </label><label for="newsletter-interest-1">
+                  <input id="newsletter-interest-1" name="interests" type="checkbox" value="Ciencia y salud">
+                  <span>Ciencia y salud</span>
+                </label><label for="newsletter-interest-2">
+                  <input id="newsletter-interest-2" name="interests" type="checkbox" value="Legislación">
+                  <span>Legislación</span>
+                </label><label for="newsletter-interest-3">
+                  <input id="newsletter-interest-3" name="interests" type="checkbox" value="Cultura">
+                  <span>Cultura</span>
+                </label><label for="newsletter-interest-4">
+                  <input id="newsletter-interest-4" name="interests" type="checkbox" value="Actualidad">
+                  <span>Actualidad</span>
+                </label><label for="newsletter-interest-5">
+                  <input id="newsletter-interest-5" name="interests" type="checkbox" value="Eventos">
+                  <span>Eventos</span>
+                </label><label for="newsletter-interest-6">
+                  <input id="newsletter-interest-6" name="interests" type="checkbox" value="Catálogo e insumos">
+                  <span>Catálogo e insumos</span>
+                </label>
+              </div>
+            </fieldset>
+            <label for="newsletter-frequency">Frecuencia preferida</label>
+            <select id="newsletter-frequency" name="frequency" required>
+              <option value="">Selecciona una frecuencia</option>
+              <option>Cuando salga una nota nueva de mis temas</option>
+              <option>Resumen semanal</option>
+              <option>Resumen mensual</option>
+              <option>Solo eventos y avisos importantes</option>
             </select>
             <label class="checkbox-label" for="newsletter-consent">
               <input id="newsletter-consent" name="consent" type="checkbox" required>
-              Acepto recibir correos de Diario de una Vola.
+              Acepto recibir correos de Diario de una Vola y entiendo que puedo pedir salir de la lista cuando quiera.
             </label>
-            <p class="form-message" id="newsletter-message" aria-live="polite"></p>
+            <p class="form-message" aria-live="polite"></p>
             <button class="button primary" type="submit">Suscribirme</button>
           </div>
         </form>
@@ -385,7 +417,7 @@
           <a href="/revista/">Últimas publicaciones</a>
           <a href="/buscar.html">Buscar</a>
           <a href="/autores/equipo-ddv.html">Autores</a>
-          <a href="/index.html#newsletter">Newsletter</a>
+          <a href="/suscripcion.html">Newsletter</a>
         </nav>
         <nav aria-label="Categorías">
           <strong>Categorías</strong>

@@ -644,16 +644,20 @@ newsletterForms.forEach((form) => {
   form.addEventListener("submit", (event) => {
     const email = form.querySelector("input[type='email']");
     const interest = form.querySelector("select[name='interest']");
+    const frequency = form.querySelector("select[name='frequency']");
+    const interestChecks = [...form.querySelectorAll("input[name='interests']")];
     const consent = form.querySelector("input[name='consent']");
     const message = form.querySelector(".form-message");
     const emailIsValid = email instanceof HTMLInputElement && email.validity.valid && email.value.trim();
     const interestIsValid = !(interest instanceof HTMLSelectElement) || interest.value;
+    const interestsAreValid = interestChecks.length === 0 || interestChecks.some((input) => input.checked);
+    const frequencyIsValid = !(frequency instanceof HTMLSelectElement) || frequency.value;
     const consentIsValid = !(consent instanceof HTMLInputElement) || consent.checked;
 
-    if (!emailIsValid || !interestIsValid || !consentIsValid) {
+    if (!emailIsValid || !interestIsValid || !interestsAreValid || !frequencyIsValid || !consentIsValid) {
       event.preventDefault();
       if (message) {
-        message.textContent = "Revisa el correo, selecciona un interes y acepta recibir correos para continuar.";
+        message.textContent = "Revisa el correo, selecciona al menos un tema, elige una frecuencia y acepta recibir correos para continuar.";
         message.classList.add("is-error");
       }
       return;
