@@ -1,42 +1,1682 @@
 window.DDV_CATALOG = {
-  "generatedAt": "2026-07-17T04:11:11.274Z",
-  "sourceFile": "catalogo-productos-tecnogrow-actualizado (3).xlsx",
-  "mode": "published-only",
+  "generatedAt": "2026-07-19T06:50:00.747Z",
+  "sourceFile": "catalogo-categorizacion-ddv (1).xlsx",
+  "mode": "manual-ddv-categorization",
   "totalRows": 436,
   "totalExtracted": 436,
   "totalVisible": 436,
   "categoryCounts": {
+    "Accesorios de cultivo": 25,
+    "Carpas y macetas": 18,
     "Control de olores": 11,
-    "Cultivo": 284,
+    "Fertilizantes y nutrición": 199,
     "Filtro de agua": 11,
     "Gafas de cultivo": 8,
-    "Iluminación Profesional": 26,
-    "Smokeshop": 96
+    "Iluminación": 26,
+    "Limpieza": 14,
+    "Riego y medición": 13,
+    "Smokeshop y parafernalia": 82,
+    "Sustratos": 8,
+    "Ventilación y olor": 21
   },
   "subcategoryCounts": {
+    "Accesorios de cultivo / Accesorios": 25,
+    "Carpas y macetas / Carpas y macetas": 18,
     "Control de olores / General": 10,
     "Control de olores / Limpieza": 1,
-    "Cultivo / Accesorios": 25,
-    "Cultivo / Carpas y macetas": 18,
-    "Cultivo / Fertilizantes": 199,
-    "Cultivo / Riego": 13,
-    "Cultivo / Sustratos": 8,
-    "Cultivo / Ventilacion": 21,
-    "Filtro de agua / General": 6,
-    "Filtro de agua / Parafernalia": 5,
-    "Gafas de cultivo / General": 8,
-    "Iluminación Profesional / Accesorios": 5,
-    "Iluminación Profesional / CMH": 2,
-    "Iluminación Profesional / LED": 14,
-    "Iluminación Profesional / Sodio haluro": 5,
-    "Smokeshop / Accesorios": 13,
-    "Smokeshop / General": 8,
-    "Smokeshop / Limpieza": 14,
-    "Smokeshop / Mallas": 4,
-    "Smokeshop / Parafernalia": 11,
-    "Smokeshop / Pipas Bong": 46
+    "Fertilizantes y nutrición / Control pH y minerales": 12,
+    "Fertilizantes y nutrición / Fertilizantes": 187,
+    "Filtro de agua / Filtros y accesorios": 11,
+    "Gafas de cultivo / Gafas": 8,
+    "Iluminación / Accesorios": 5,
+    "Iluminación / CMH": 2,
+    "Iluminación / LED": 14,
+    "Iluminación / Sodio haluro": 5,
+    "Limpieza / Limpieza": 14,
+    "Riego y medición / Riego y medición": 13,
+    "Smokeshop y parafernalia / Accesorios": 13,
+    "Smokeshop y parafernalia / Mallas": 4,
+    "Smokeshop y parafernalia / Parafernalia": 11,
+    "Smokeshop y parafernalia / Pipas Bong": 46,
+    "Smokeshop y parafernalia / Smokeshop": 8,
+    "Sustratos / Sustratos": 8,
+    "Ventilación y olor / Ventilación": 21
   },
   "products": [
+    {
+      "id": "p-372",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/growtray1m-bandeja-grow-tray-1m-x-1m-23317?category=4478",
+      "sku": "GROWTRAY1M",
+      "name": "BANDEJA GROW TRAY 1m x 1m",
+      "category": "Accesorios de cultivo",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 25000,
+      "finalPrice": 45769.230769230766,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23317/image_512/%5BGROWTRAY1M%5D%20BANDEJA%20GROW%20TRAY%201m%20x%201m?unique=4c56b04",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Accesorios",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-353",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/tabs122-bandeja-grow-tray-abs-1-22m-x-1-22m-22838?category=4478",
+      "sku": "TABS122",
+      "name": "BANDEJA GROW TRAY ABS 1.22m x 1.22m",
+      "category": "Accesorios de cultivo",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 39900,
+      "finalPrice": 73047.69230769231,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22838/image_512/%5BTABS122%5D%20BANDEJA%20GROW%20TRAY%20ABS%201.22m%20x%201.22m?unique=e3b3a66",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Accesorios",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-375",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/tabs244-bandeja-grow-tray-abs-1-22m-x-2-44m-23460?category=4478",
+      "sku": "TABS244",
+      "name": "BANDEJA GROW TRAY ABS 1.22m x 2.44m",
+      "category": "Accesorios de cultivo",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 74900,
+      "finalPrice": 137124.61538461538,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23460/image_512/%5BTABS244%5D%20BANDEJA%20GROW%20TRAY%20ABS%201.22m%20x%202.44m?unique=4c56b04",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Accesorios",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-374",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/bomba-sumergible-vivosun-23457?category=4478",
+      "sku": "",
+      "name": "BOMBA SUMERGIBLE VIVOSUN",
+      "category": "Accesorios de cultivo",
+      "subcategory": "Accesorios",
+      "brand": "VIVOSUN",
+      "cost": 19900,
+      "finalPrice": 36432.30769230769,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23457/image_512/BOMBA%20SUMERGIBLE%20VIVOSUN?unique=4cc8b7e",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Accesorios",
+      "objective": "Ninguno / revisar",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ninguno / revisar",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-356",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/desh50-deshumidificador-50-litros-23314?category=4478",
+      "sku": "DESH50",
+      "name": "DESHUMIDIFICADOR 50 LITROS",
+      "category": "Accesorios de cultivo",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 290000,
+      "finalPrice": 530923.0769230769,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23314/image_512/%5BDESH50%5D%20DESHUMIDIFICADOR%2050%20LITROS?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Accesorios",
+      "objective": "Ninguno / revisar",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ninguno / revisar",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-369",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4380-grow-cap-4-22834?category=4478",
+      "sku": "4380",
+      "name": "GROW CAP 4",
+      "category": "Accesorios de cultivo",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 2458,
+      "finalPrice": 4500.030769230769,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22834/image_512/%5B4380%5D%20GROW%20CAP%204?unique=5d0ddea",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Accesorios",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-368",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4067-grow-clip-para-grow-cap-22837?category=4478",
+      "sku": "4067",
+      "name": "GROW CLIP (PARA GROW CAP)",
+      "category": "Accesorios de cultivo",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 435,
+      "finalPrice": 796.3846153846154,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22837/image_512/%5B4067%5D%20GROW%20CLIP%20%28PARA%20GROW%20CAP%29?unique=5d0ddea",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Accesorios",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-367",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4749-guantes-de-nylon-22843?category=4478",
+      "sku": "4749",
+      "name": "GUANTES DE NYLON",
+      "category": "Accesorios de cultivo",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 3396,
+      "finalPrice": 6217.292307692307,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22843/image_512/%5B4749%5D%20GUANTES%20DE%20NYLON?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Accesorios",
+      "objective": "Ninguno / revisar",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ninguno / revisar",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-355",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4745-lanza-de-riego-22923?category=4478",
+      "sku": "4745",
+      "name": "LANZA DE RIEGO",
+      "category": "Accesorios de cultivo",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 8900,
+      "finalPrice": 16293.846153846152,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22923/image_512/%5B4745%5D%20LANZA%20DE%20RIEGO?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Accesorios",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-366",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4747-malla-scrog-22957?category=4478",
+      "sku": "4747",
+      "name": "MALLA SCROG",
+      "category": "Accesorios de cultivo",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 4900,
+      "finalPrice": 8970.76923076923,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22957/image_512/%5B4747%5D%20MALLA%20SCROG?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Accesorios",
+      "objective": "Ninguno / revisar",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ninguno / revisar",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-365",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4741-manto-calefactor-22973?category=4478",
+      "sku": "4741",
+      "name": "MANTO CALEFACTOR",
+      "category": "Accesorios de cultivo",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 10900,
+      "finalPrice": 19955.384615384613,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22973/image_512/%5B4741%5D%20MANTO%20CALEFACTOR?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Accesorios",
+      "objective": "Ninguno / revisar",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ninguno / revisar",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-364",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4733-medidor-de-ph-digital-22983?category=4478",
+      "sku": "4733",
+      "name": "MEDIDOR DE PH DIGITAL",
+      "category": "Accesorios de cultivo",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 32696,
+      "finalPrice": 59858.830769230764,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22983/image_512/%5B4733%5D%20MEDIDOR%20DE%20PH%20DIGITAL?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Accesorios",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-363",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4765-medidor-ec-22984?category=4478",
+      "sku": "4765",
+      "name": "MEDIDOR EC",
+      "category": "Accesorios de cultivo",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 34900,
+      "finalPrice": 63893.84615384615,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22984/image_512/%5B4765%5D%20MEDIDOR%20EC?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Accesorios",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-362",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/331802-ph-meter-yellow-23069?category=4478",
+      "sku": "331802",
+      "name": "PH meter (Yellow)",
+      "category": "Accesorios de cultivo",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 9899,
+      "finalPrice": 18122.784615384615,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23069/image_512/%5B331802%5D%20PH%20meter%20%28Yellow%29?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Accesorios",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-373",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/polear18-polea-ratchet-1-8-23321?category=4478",
+      "sku": "POLEAR18",
+      "name": "POLEA RATCHET 1/8",
+      "category": "Accesorios de cultivo",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 3900,
+      "finalPrice": 7140,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23321/image_512/%5BPOLEAR18%5D%20POLEA%20RATCHET%201-8?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Accesorios",
+      "objective": "Ninguno / revisar",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ninguno / revisar",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-357",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4890-pulverizador-manual-2l-23102?category=4478",
+      "sku": "4890",
+      "name": "PULVERIZADOR MANUAL 2L",
+      "category": "Accesorios de cultivo",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 4800,
+      "finalPrice": 8787.692307692307,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23102/image_512/%5B4890%5D%20PULVERIZADOR%20MANUAL%202L?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Accesorios",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-370",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/temporizador-timer-analogo-23313?category=4478",
+      "sku": "",
+      "name": "TEMPORIZADOR TIMER ANALOGO",
+      "category": "Accesorios de cultivo",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 3500,
+      "finalPrice": 6407.692307692308,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23313/image_512/TEMPORIZADOR%20TIMER%20ANALOGO?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Accesorios",
+      "objective": "Ninguno / revisar",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ninguno / revisar",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-361",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3504-termohigrometro-23201?category=4478",
+      "sku": "3504",
+      "name": "TERMOHIGROMETRO",
+      "category": "Accesorios de cultivo",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 3500,
+      "finalPrice": 6407.692307692308,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23201/image_512/%5B3504%5D%20TERMOHIGROMETRO?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Accesorios",
+      "objective": "Ninguno / revisar",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ninguno / revisar",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-358",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/332020-tijera-bonsai-1-5-in-straight-blades-22602?category=4478",
+      "sku": "332020",
+      "name": "TIJERA BONSAI 1.5 IN STRAIGHT BLADES",
+      "category": "Accesorios de cultivo",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 2990,
+      "finalPrice": 5474,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22602/image_512/%5B332020%5D%20TIJERA%20BONSAI%201.5%20IN%20STRAIGHT%20BLADES?unique=5af7fa9",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Accesorios",
+      "objective": "Ninguno / revisar",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ninguno / revisar",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-360",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3502-tijera-podadora-23218?category=4478",
+      "sku": "3502",
+      "name": "TIJERA PODADORA",
+      "category": "Accesorios de cultivo",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 2250,
+      "finalPrice": 4119.2307692307695,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23218/image_512/%5B3502%5D%20TIJERA%20PODADORA?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Accesorios",
+      "objective": "Ninguno / revisar",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ninguno / revisar",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-354",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/tijpuntacurv-tijera-podadora-punta-curva-verde-23322?category=4478",
+      "sku": "TIJPUNTACURV",
+      "name": "TIJERA PODADORA PUNTA CURVA VERDE",
+      "category": "Accesorios de cultivo",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 2500,
+      "finalPrice": 4576.923076923077,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23322/image_512/%5BTIJPUNTACURV%5D%20TIJERA%20PODADORA%20PUNTA%20CURVA%20VERDE?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Accesorios",
+      "objective": "Ninguno / revisar",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ninguno / revisar",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-371",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/tijpuntarect-tijera-podadora-punta-recta-verde-23315?category=4478",
+      "sku": "TIJPUNTARECT",
+      "name": "TIJERA PODADORA PUNTA RECTA VERDE",
+      "category": "Accesorios de cultivo",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 2500,
+      "finalPrice": 4576.923076923077,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23315/image_512/%5BTIJPUNTARECT%5D%20TIJERA%20PODADORA%20PUNTA%20RECTA%20VERDE?unique=5af7fa9",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Accesorios",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-359",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3661-tijera-punta-curva-23219?category=4478",
+      "sku": "3661",
+      "name": "TIJERA PUNTA CURVA",
+      "category": "Accesorios de cultivo",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 2450,
+      "finalPrice": 4485.384615384615,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23219/image_512/%5B3661%5D%20TIJERA%20PUNTA%20CURVA?unique=5af7fa9",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Accesorios",
+      "objective": "Ninguno / revisar",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ninguno / revisar",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-376",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/timer-wifi-app-tecnogrow-23982?category=4478",
+      "sku": "",
+      "name": "TIMER WIFI APP TECNOGROW",
+      "category": "Accesorios de cultivo",
+      "subcategory": "Accesorios",
+      "brand": "TECNOGROW",
+      "cost": 9900,
+      "finalPrice": 18124.615384615383,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23982/image_512/TIMER%20WIFI%20APP%20TECNOGROW?unique=b7e6a9e",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Accesorios",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-352",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/trim-tray-set-dabstuffs-23344?category=4478",
+      "sku": "",
+      "name": "TRIM TRAY SET DABSTUFFS",
+      "category": "Accesorios de cultivo",
+      "subcategory": "Accesorios",
+      "brand": "DABSTUFFS",
+      "cost": 39900,
+      "finalPrice": 73047.69230769231,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23344/image_512/TRIM%20TRAY%20SET%20DABSTUFFS?unique=5af7fa9",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Accesorios",
+      "objective": "Ninguno / revisar",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ninguno / revisar",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-414",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2540-carpa-indoor-tecnogrow-120x120x200-cm-22637?category=4479",
+      "sku": "2540",
+      "name": "CARPA INDOOR TECNOGROW 120x120x200 cm",
+      "category": "Carpas y macetas",
+      "subcategory": "Carpas y macetas",
+      "brand": "TECNOGROW",
+      "cost": 65900,
+      "finalPrice": 120647.6923076923,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22637/image_512/%5B2540%5D%20CARPA%20INDOOR%20TECNOGROW%20120x120x200%20cm?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Carpas y macetas",
+      "objective": "Armar mi primer indoor",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-413",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2538-carpa-indoor-tecnogrow-80x80x180-cm-22641?category=4479",
+      "sku": "2538",
+      "name": "CARPA INDOOR TECNOGROW 80x80x180 cm",
+      "category": "Carpas y macetas",
+      "subcategory": "Carpas y macetas",
+      "brand": "TECNOGROW",
+      "cost": 49900,
+      "finalPrice": 91355.38461538461,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22641/image_512/%5B2538%5D%20CARPA%20INDOOR%20TECNOGROW%2080x80x180%20cm?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Carpas y macetas",
+      "objective": "Armar mi primer indoor",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-402",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2564-maceta-cuadrada-11-22939?category=4479",
+      "sku": "2564",
+      "name": "MACETA CUADRADA 11",
+      "category": "Carpas y macetas",
+      "subcategory": "Carpas y macetas",
+      "brand": "",
+      "cost": 980,
+      "finalPrice": 1794.1538461538462,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22939/image_512/%5B2564%5D%20MACETA%20CUADRADA%2011?unique=4cc8b7e",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Carpas y macetas",
+      "objective": "Armar mi primer indoor",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Armar mi primer indoor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-412",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4065-maceta-cuadrada-5-5-22940?category=4479",
+      "sku": "4065",
+      "name": "MACETA CUADRADA 5.5",
+      "category": "Carpas y macetas",
+      "subcategory": "Carpas y macetas",
+      "brand": "",
+      "cost": 590,
+      "finalPrice": 1080.1538461538462,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22940/image_512/%5B4065%5D%20MACETA%20CUADRADA%205.5?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Carpas y macetas",
+      "objective": "Armar mi primer indoor",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Armar mi primer indoor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-398",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2562-maceta-cuadrada-7-22941?category=4479",
+      "sku": "2562",
+      "name": "MACETA CUADRADA 7",
+      "category": "Carpas y macetas",
+      "subcategory": "Carpas y macetas",
+      "brand": "",
+      "cost": 750,
+      "finalPrice": 1373.076923076923,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22941/image_512/%5B2562%5D%20MACETA%20CUADRADA%207?unique=4cc8b7e",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Carpas y macetas",
+      "objective": "Armar mi primer indoor",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Armar mi primer indoor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-411",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3657-maceta-root-builder-11-3-22942?category=4479",
+      "sku": "3657",
+      "name": "MACETA ROOT BUILDER 11.3",
+      "category": "Carpas y macetas",
+      "subcategory": "Carpas y macetas",
+      "brand": "",
+      "cost": 1389,
+      "finalPrice": 2542.938461538461,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22942/image_512/%5B3657%5D%20MACETA%20ROOT%20BUILDER%2011.3?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Carpas y macetas",
+      "objective": "Armar mi primer indoor",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Armar mi primer indoor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-410",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3659-maceta-root-builder-18-9-22943?category=4479",
+      "sku": "3659",
+      "name": "MACETA ROOT BUILDER 18.9",
+      "category": "Carpas y macetas",
+      "subcategory": "Carpas y macetas",
+      "brand": "",
+      "cost": 1789,
+      "finalPrice": 3275.2461538461534,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22943/image_512/%5B3659%5D%20MACETA%20ROOT%20BUILDER%2018.9?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Carpas y macetas",
+      "objective": "Armar mi primer indoor",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Armar mi primer indoor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-409",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3655-maceta-root-builder-7-6-22945?category=4479",
+      "sku": "3655",
+      "name": "MACETA ROOT BUILDER 7.6",
+      "category": "Carpas y macetas",
+      "subcategory": "Carpas y macetas",
+      "brand": "",
+      "cost": 890,
+      "finalPrice": 1629.3846153846152,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22945/image_512/%5B3655%5D%20MACETA%20ROOT%20BUILDER%207.6?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Carpas y macetas",
+      "objective": "Armar mi primer indoor",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Armar mi primer indoor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-408",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4894-maceta-textil-negra-11-22948?category=4479",
+      "sku": "4894",
+      "name": "MACETA TEXTIL NEGRA 11",
+      "category": "Carpas y macetas",
+      "subcategory": "Carpas y macetas",
+      "brand": "",
+      "cost": 1290,
+      "finalPrice": 2361.6923076923076,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22948/image_512/%5B4894%5D%20MACETA%20TEXTIL%20NEGRA%2011?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Carpas y macetas",
+      "objective": "Armar mi primer indoor",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Armar mi primer indoor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-407",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4898-maceta-textil-negra-57-22951?category=4479",
+      "sku": "4898",
+      "name": "MACETA TEXTIL NEGRA 57",
+      "category": "Carpas y macetas",
+      "subcategory": "Carpas y macetas",
+      "brand": "",
+      "cost": 2190,
+      "finalPrice": 4009.3846153846152,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22951/image_512/%5B4898%5D%20MACETA%20TEXTIL%20NEGRA%2057?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Carpas y macetas",
+      "objective": "Armar mi primer indoor",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Armar mi primer indoor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-406",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4900-maceta-textil-negra-95-22952?category=4479",
+      "sku": "4900",
+      "name": "MACETA TEXTIL NEGRA 95",
+      "category": "Carpas y macetas",
+      "subcategory": "Carpas y macetas",
+      "brand": "",
+      "cost": 2990,
+      "finalPrice": 5474,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22952/image_512/%5B4900%5D%20MACETA%20TEXTIL%20NEGRA%2095?unique=5af7fa9",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Carpas y macetas",
+      "objective": "Armar mi primer indoor",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Armar mi primer indoor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-400",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/70559158917231-mesa-rolling-bench-23114?category=4479",
+      "sku": "70559158917231",
+      "name": "MESA ROLLING BENCH",
+      "category": "Carpas y macetas",
+      "subcategory": "Carpas y macetas",
+      "brand": "",
+      "cost": 39900,
+      "finalPrice": 73047.69230769231,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23114/image_512/%5B70559158917231%5D%20MESA%20ROLLING%20BENCH?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Carpas y macetas",
+      "objective": "Armar mi primer indoor",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Armar mi primer indoor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-399",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/mesarolling244-mesa-rolling-bench-con-trellis-122m-x-244-m-23343?category=4479",
+      "sku": "MESAROLLING244",
+      "name": "MESA ROLLING BENCH CON TRELLIS 1,22m x 2,44 m",
+      "category": "Carpas y macetas",
+      "subcategory": "Carpas y macetas",
+      "brand": "",
+      "cost": 299000,
+      "finalPrice": 547400,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23343/image_512/%5BMESAROLLING244%5D%20MESA%20ROLLING%20BENCH%20CON%20TRELLIS%201%2C22m%20x%202%2C44%20m?unique=788dbbb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Carpas y macetas",
+      "objective": "Armar mi primer indoor",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Armar mi primer indoor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-415",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/mesarolling122-mesa-rolling-bench-con-trellis-1-22m-1-22m-24013?category=4479",
+      "sku": "MESAROLLING122",
+      "name": "MESA ROLLING BENCH CON TRELLIS 1.22m*1.22m",
+      "category": "Carpas y macetas",
+      "subcategory": "Carpas y macetas",
+      "brand": "",
+      "cost": 190000,
+      "finalPrice": 347846.1538461538,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/24013/image_512/%5BMESAROLLING122%5D%20MESA%20ROLLING%20BENCH%20CON%20TRELLIS%201.22m%2A1.22m?unique=b0bd90c",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Carpas y macetas",
+      "objective": "Armar mi primer indoor",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Armar mi primer indoor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-405",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3531-plato-cuadrado-11-23090?category=4479",
+      "sku": "3531",
+      "name": "PLATO CUADRADO 11",
+      "category": "Carpas y macetas",
+      "subcategory": "Carpas y macetas",
+      "brand": "",
+      "cost": 450,
+      "finalPrice": 823.8461538461538,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23090/image_512/%5B3531%5D%20PLATO%20CUADRADO%2011?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Carpas y macetas",
+      "objective": "Armar mi primer indoor",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Armar mi primer indoor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-404",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3529-plato-cuadrado-7-23091?category=4479",
+      "sku": "3529",
+      "name": "PLATO CUADRADO 7",
+      "category": "Carpas y macetas",
+      "subcategory": "Carpas y macetas",
+      "brand": "",
+      "cost": 350,
+      "finalPrice": 640.7692307692307,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23091/image_512/%5B3529%5D%20PLATO%20CUADRADO%207?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Carpas y macetas",
+      "objective": "Armar mi primer indoor",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Armar mi primer indoor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-401",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4372-rollo-mylar-diamantado-122-x-152mt-23115?category=4479",
+      "sku": "4372",
+      "name": "ROLLO MYLAR DIAMANTADO 1,22 x 15,2mt",
+      "category": "Carpas y macetas",
+      "subcategory": "Carpas y macetas",
+      "brand": "MYLAR",
+      "cost": 35900,
+      "finalPrice": 65724.61538461538,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23115/image_512/%5B4372%5D%20ROLLO%20MYLAR%20DIAMANTADO%201%2C22%20x%2015%2C2mt?unique=4cc8b7e",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Carpas y macetas",
+      "objective": "Armar mi primer indoor",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Armar mi primer indoor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-403",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3640-rollo-mylar-diamantado-122-x-3mt-23116?category=4479",
+      "sku": "3640",
+      "name": "ROLLO MYLAR DIAMANTADO 1,22 x 3mt",
+      "category": "Carpas y macetas",
+      "subcategory": "Carpas y macetas",
+      "brand": "MYLAR",
+      "cost": 7900,
+      "finalPrice": 14463.076923076922,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23116/image_512/%5B3640%5D%20ROLLO%20MYLAR%20DIAMANTADO%201%2C22%20x%203mt?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Carpas y macetas",
+      "objective": "Armar mi primer indoor",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Armar mi primer indoor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
     {
       "id": "p-49",
       "supplier": "Tecnogrow",
@@ -52,7 +1692,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23463/image_512/SOMA%20GEL%20BERRIES%20BIOECOLOGICAL?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Control de olores",
+      "originalSubcategory": "General",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": false,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": false,
+        "odor": true,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-50",
@@ -69,7 +1730,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23464/image_512/SOMA%20GEL%20LIM%C3%93N%20COCO%20BIOECOLOGICAL?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Control de olores",
+      "originalSubcategory": "General",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": false,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": false,
+        "odor": true,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-52",
@@ -86,7 +1768,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23466/image_512/SOMA%20GEL%20MANDARINA%20BIOECOLOGICAL?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Control de olores",
+      "originalSubcategory": "General",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": false,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": false,
+        "odor": true,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-51",
@@ -103,7 +1806,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23465/image_512/SOMA%20GEL%20MANZANA%20BIOECOLOGICAL%20?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Control de olores",
+      "originalSubcategory": "General",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": false,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": false,
+        "odor": true,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-53",
@@ -120,7 +1844,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23467/image_512/SOMA%20GEL%20TROPICAL%20BIOECOLOGICAL%20?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Control de olores",
+      "originalSubcategory": "General",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": false,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": false,
+        "odor": true,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-56",
@@ -137,7 +1882,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23470/image_512/SOMA%20SPRAY%20BERRIES%20MIX%20BIOECOLOGICAL?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Control de olores",
+      "originalSubcategory": "General",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": false,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": false,
+        "odor": true,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-48",
@@ -154,7 +1920,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23444/image_512/SOMA%20SPRAY%20LIMON%20COCO%20BIOECOLOGICAL?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Control de olores",
+      "originalSubcategory": "General",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": false,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": false,
+        "odor": true,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-47",
@@ -171,7 +1958,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23443/image_512/SOMA%20SPRAY%20MANDARINA%20BIOECOLOGICAL?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Control de olores",
+      "originalSubcategory": "General",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": false,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": false,
+        "odor": true,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-55",
@@ -188,7 +1996,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23469/image_512/SOMA%20SPRAY%20MANZANA%20BIOECOLOGICAL?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Control de olores",
+      "originalSubcategory": "General",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": false,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": false,
+        "odor": true,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-46",
@@ -205,7 +2034,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23437/image_512/SOMA%20SPRAY%20TROPICAL%20MIX%20BIOECOLOGICAL?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Control de olores",
+      "originalSubcategory": "General",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": false,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": false,
+        "odor": true,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-54",
@@ -222,738 +2072,484 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23468/image_512/SOMA%20GEL%20AROMA%20LIMPIO%20BIOECOLOGICAL?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Control de olores",
+      "originalSubcategory": "Limpieza",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": false,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": false,
+        "odor": true,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
-      "id": "p-372",
+      "id": "p-275",
       "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/growtray1m-bandeja-grow-tray-1m-x-1m-23317?category=4478",
-      "sku": "GROWTRAY1M",
-      "name": "BANDEJA GROW TRAY 1m x 1m",
-      "category": "Cultivo",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 25000,
-      "finalPrice": 45769.230769230766,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23317/image_512/%5BGROWTRAY1M%5D%20BANDEJA%20GROW%20TRAY%201m%20x%201m?unique=4c56b04",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-353",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/tabs122-bandeja-grow-tray-abs-1-22m-x-1-22m-22838?category=4478",
-      "sku": "TABS122",
-      "name": "BANDEJA GROW TRAY ABS 1.22m x 1.22m",
-      "category": "Cultivo",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 39900,
-      "finalPrice": 73047.69230769231,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22838/image_512/%5BTABS122%5D%20BANDEJA%20GROW%20TRAY%20ABS%201.22m%20x%201.22m?unique=e3b3a66",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-375",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/tabs244-bandeja-grow-tray-abs-1-22m-x-2-44m-23460?category=4478",
-      "sku": "TABS244",
-      "name": "BANDEJA GROW TRAY ABS 1.22m x 2.44m",
-      "category": "Cultivo",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 74900,
-      "finalPrice": 137124.61538461538,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23460/image_512/%5BTABS244%5D%20BANDEJA%20GROW%20TRAY%20ABS%201.22m%20x%202.44m?unique=4c56b04",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-374",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/bomba-sumergible-vivosun-23457?category=4478",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/calmag-bioecological-23442?category=4470",
       "sku": "",
-      "name": "BOMBA SUMERGIBLE VIVOSUN",
-      "category": "Cultivo",
-      "subcategory": "Accesorios",
-      "brand": "VIVOSUN",
-      "cost": 19900,
-      "finalPrice": 36432.30769230769,
-      "margin": 0.35,
+      "name": "CALMAG+ BIOECOLOGICAL",
+      "category": "Fertilizantes y nutrición",
+      "subcategory": "Control pH y minerales",
+      "brand": "BIOECOLOGICAL",
+      "cost": 6500,
+      "finalPrice": 11900,
+      "margin": 35,
       "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23457/image_512/BOMBA%20SUMERGIBLE%20VIVOSUN?unique=4cc8b7e",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23442/image_512/CALMAG%2B%20BIOECOLOGICAL?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
-      "id": "p-356",
+      "id": "p-336",
       "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/desh50-deshumidificador-50-litros-23314?category=4478",
-      "sku": "DESH50",
-      "name": "DESHUMIDIFICADOR 50 LITROS",
-      "category": "Cultivo",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 290000,
-      "finalPrice": 530923.0769230769,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23314/image_512/%5BDESH50%5D%20DESHUMIDIFICADOR%2050%20LITROS?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-369",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4380-grow-cap-4-22834?category=4478",
-      "sku": "4380",
-      "name": "GROW CAP 4",
-      "category": "Cultivo",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 2458,
-      "finalPrice": 4500.030769230769,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22834/image_512/%5B4380%5D%20GROW%20CAP%204?unique=5d0ddea",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-368",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4067-grow-clip-para-grow-cap-22837?category=4478",
-      "sku": "4067",
-      "name": "GROW CLIP (PARA GROW CAP)",
-      "category": "Cultivo",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 435,
-      "finalPrice": 796.3846153846154,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22837/image_512/%5B4067%5D%20GROW%20CLIP%20%28PARA%20GROW%20CAP%29?unique=5d0ddea",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-367",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4749-guantes-de-nylon-22843?category=4478",
-      "sku": "4749",
-      "name": "GUANTES DE NYLON",
-      "category": "Cultivo",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 3396,
-      "finalPrice": 6217.292307692307,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22843/image_512/%5B4749%5D%20GUANTES%20DE%20NYLON?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-355",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4745-lanza-de-riego-22923?category=4478",
-      "sku": "4745",
-      "name": "LANZA DE RIEGO",
-      "category": "Cultivo",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 8900,
-      "finalPrice": 16293.846153846152,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22923/image_512/%5B4745%5D%20LANZA%20DE%20RIEGO?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-366",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4747-malla-scrog-22957?category=4478",
-      "sku": "4747",
-      "name": "MALLA SCROG",
-      "category": "Cultivo",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 4900,
-      "finalPrice": 8970.76923076923,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22957/image_512/%5B4747%5D%20MALLA%20SCROG?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-365",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4741-manto-calefactor-22973?category=4478",
-      "sku": "4741",
-      "name": "MANTO CALEFACTOR",
-      "category": "Cultivo",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 10900,
-      "finalPrice": 19955.384615384613,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22973/image_512/%5B4741%5D%20MANTO%20CALEFACTOR?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-364",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4733-medidor-de-ph-digital-22983?category=4478",
-      "sku": "4733",
-      "name": "MEDIDOR DE PH DIGITAL",
-      "category": "Cultivo",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 32696,
-      "finalPrice": 59858.830769230764,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22983/image_512/%5B4733%5D%20MEDIDOR%20DE%20PH%20DIGITAL?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-363",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4765-medidor-ec-22984?category=4478",
-      "sku": "4765",
-      "name": "MEDIDOR EC",
-      "category": "Cultivo",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 34900,
-      "finalPrice": 63893.84615384615,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22984/image_512/%5B4765%5D%20MEDIDOR%20EC?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-362",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/331802-ph-meter-yellow-23069?category=4478",
-      "sku": "331802",
-      "name": "PH meter (Yellow)",
-      "category": "Cultivo",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 9899,
-      "finalPrice": 18122.784615384615,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23069/image_512/%5B331802%5D%20PH%20meter%20%28Yellow%29?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-373",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/polear18-polea-ratchet-1-8-23321?category=4478",
-      "sku": "POLEAR18",
-      "name": "POLEA RATCHET 1/8",
-      "category": "Cultivo",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 3900,
-      "finalPrice": 7140,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23321/image_512/%5BPOLEAR18%5D%20POLEA%20RATCHET%201-8?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-357",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4890-pulverizador-manual-2l-23102?category=4478",
-      "sku": "4890",
-      "name": "PULVERIZADOR MANUAL 2L",
-      "category": "Cultivo",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 4800,
-      "finalPrice": 8787.692307692307,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23102/image_512/%5B4890%5D%20PULVERIZADOR%20MANUAL%202L?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-370",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/temporizador-timer-analogo-23313?category=4478",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ph-down-bioecological-regulador-bajar-ph-23991?category=4470",
       "sku": "",
-      "name": "TEMPORIZADOR TIMER ANALOGO",
-      "category": "Cultivo",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 3500,
-      "finalPrice": 6407.692307692308,
-      "margin": 0.35,
+      "name": "pH DOWN BIOECOLOGICAL",
+      "category": "Fertilizantes y nutrición",
+      "subcategory": "Control pH y minerales",
+      "brand": "BIOECOLOGICAL",
+      "cost": 6714,
+      "finalPrice": 12291.784615384615,
+      "margin": 35,
       "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23313/image_512/TEMPORIZADOR%20TIMER%20ANALOGO?unique=53d64eb",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23991/image_512/pH%20DOWN%20%20%20BIOECOLOGICAL?unique=75d17ab",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
-      "id": "p-361",
+      "id": "p-116",
       "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3504-termohigrometro-23201?category=4478",
-      "sku": "3504",
-      "name": "TERMOHIGROMETRO",
-      "category": "Cultivo",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 3500,
-      "finalPrice": 6407.692307692308,
-      "margin": 0.35,
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1660-14eu-ph-perfect-connoisseur-bloom-a-b-1l-advanced-nutrients-23386?category=4470",
+      "sku": "1660-14EU",
+      "name": "PH PERFECT CONNOISSEUR BLOOM A+B 1L ADVANCED NUTRIENTS",
+      "category": "Fertilizantes y nutrición",
+      "subcategory": "Control pH y minerales",
+      "brand": "ADVANCED NUTRIENTS",
+      "cost": 27000,
+      "finalPrice": 49430.76923076923,
+      "margin": 35,
       "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23201/image_512/%5B3504%5D%20TERMOHIGROMETRO?unique=53d64eb",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23386/image_512/%5B1660-14EU%5D%20PH%20PERFECT%20CONNOISSEUR%20BLOOM%20A%2BB%201L%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
-      "id": "p-358",
+      "id": "p-276",
       "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/332020-tijera-bonsai-1-5-in-straight-blades-22602?category=4478",
-      "sku": "332020",
-      "name": "TIJERA BONSAI 1.5 IN STRAIGHT BLADES",
-      "category": "Cultivo",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 2990,
-      "finalPrice": 5474,
-      "margin": 0.35,
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1660-13eu-ph-perfect-connoisseur-bloom-a-b-500ml-advanced-nutrients-23482?category=4470",
+      "sku": "1660-13EU",
+      "name": "PH PERFECT CONNOISSEUR BLOOM A+B 500ML ADVANCED NUTRIENTS",
+      "category": "Fertilizantes y nutrición",
+      "subcategory": "Control pH y minerales",
+      "brand": "ADVANCED NUTRIENTS",
+      "cost": 15000,
+      "finalPrice": 27461.53846153846,
+      "margin": 35,
       "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22602/image_512/%5B332020%5D%20TIJERA%20BONSAI%201.5%20IN%20STRAIGHT%20BLADES?unique=5af7fa9",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23482/image_512/%5B1660-13EU%5D%20PH%20PERFECT%20CONNOISSEUR%20BLOOM%20A%2BB%20500ML%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
-      "id": "p-360",
+      "id": "p-258",
       "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3502-tijera-podadora-23218?category=4478",
-      "sku": "3502",
-      "name": "TIJERA PODADORA",
-      "category": "Cultivo",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 2250,
-      "finalPrice": 4119.2307692307695,
-      "margin": 0.35,
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1660-20eu-ph-perfect-connoisseur-bloom-a-b-5l-advanced-nutrients-23389?category=4470",
+      "sku": "1660-20EU",
+      "name": "PH PERFECT CONNOISSEUR BLOOM A+B 5L ADVANCED NUTRIENTS",
+      "category": "Fertilizantes y nutrición",
+      "subcategory": "Control pH y minerales",
+      "brand": "ADVANCED NUTRIENTS",
+      "cost": 125800,
+      "finalPrice": 230310.76923076922,
+      "margin": 35,
       "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23218/image_512/%5B3502%5D%20TIJERA%20PODADORA?unique=53d64eb",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23389/image_512/%5B1660-20EU%5D%20PH%20PERFECT%20CONNOISSEUR%20BLOOM%20A%2BB%205L%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
-      "id": "p-354",
+      "id": "p-256",
       "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/tijpuntacurv-tijera-podadora-punta-curva-verde-23322?category=4478",
-      "sku": "TIJPUNTACURV",
-      "name": "TIJERA PODADORA PUNTA CURVA VERDE",
-      "category": "Cultivo",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 2500,
-      "finalPrice": 4576.923076923077,
-      "margin": 0.35,
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1660-5-13eu-ph-perfect-connoisseur-grow-a-b-1l-advanced-nutrients-23387?category=4470",
+      "sku": "1660 5-13EU",
+      "name": "PH PERFECT CONNOISSEUR GROW A+B 1L ADVANCED NUTRIENTS",
+      "category": "Fertilizantes y nutrición",
+      "subcategory": "Control pH y minerales",
+      "brand": "ADVANCED NUTRIENTS",
+      "cost": 27000,
+      "finalPrice": 49430.76923076923,
+      "margin": 35,
       "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23322/image_512/%5BTIJPUNTACURV%5D%20TIJERA%20PODADORA%20PUNTA%20CURVA%20VERDE?unique=53d64eb",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23387/image_512/%5B1660%205-13EU%5D%20PH%20PERFECT%20CONNOISSEUR%20GROW%20A%2BB%201L%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
-      "id": "p-371",
+      "id": "p-277",
       "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/tijpuntarect-tijera-podadora-punta-recta-verde-23315?category=4478",
-      "sku": "TIJPUNTARECT",
-      "name": "TIJERA PODADORA PUNTA RECTA VERDE",
-      "category": "Cultivo",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 2500,
-      "finalPrice": 4576.923076923077,
-      "margin": 0.35,
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1680-13eu-ph-perfect-connoisseur-grow-a-b-500ml-advanced-nutrients-23486?category=4470",
+      "sku": "1680-13EU",
+      "name": "PH PERFECT CONNOISSEUR GROW A+B 500ML ADVANCED NUTRIENTS",
+      "category": "Fertilizantes y nutrición",
+      "subcategory": "Control pH y minerales",
+      "brand": "ADVANCED NUTRIENTS",
+      "cost": 15000,
+      "finalPrice": 27461.53846153846,
+      "margin": 35,
       "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23315/image_512/%5BTIJPUNTARECT%5D%20TIJERA%20PODADORA%20PUNTA%20RECTA%20VERDE?unique=5af7fa9",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23486/image_512/%5B1680-13EU%5D%20PH%20PERFECT%20CONNOISSEUR%20GROW%20A%2BB%20500ML%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
-      "id": "p-359",
+      "id": "p-259",
       "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3661-tijera-punta-curva-23219?category=4478",
-      "sku": "3661",
-      "name": "TIJERA PUNTA CURVA",
-      "category": "Cultivo",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 2450,
-      "finalPrice": 4485.384615384615,
-      "margin": 0.35,
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1680-20eu-ph-perfect-connoisseur-grow-a-b-5l-advanced-nutrients-23391?category=4470",
+      "sku": "1680-20EU",
+      "name": "PH PERFECT CONNOISSEUR GROW A+B 5L ADVANCED NUTRIENTS",
+      "category": "Fertilizantes y nutrición",
+      "subcategory": "Control pH y minerales",
+      "brand": "ADVANCED NUTRIENTS",
+      "cost": 125800,
+      "finalPrice": 230310.76923076922,
+      "margin": 35,
       "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23219/image_512/%5B3661%5D%20TIJERA%20PUNTA%20CURVA?unique=5af7fa9",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23391/image_512/%5B1680-20EU%5D%20PH%20PERFECT%20CONNOISSEUR%20GROW%20A%2BB%205L%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
-      "id": "p-376",
+      "id": "p-110",
       "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/timer-wifi-app-tecnogrow-23982?category=4478",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/perfect-tri-pack1l-ph-perfect-tri-pack-1l-advanced-nutrients-23424?category=4470",
+      "sku": "PERFECT-TRI-PACK1L",
+      "name": "PH PERFECT TRI-PACK 1L ADVANCED NUTRIENTS",
+      "category": "Fertilizantes y nutrición",
+      "subcategory": "Control pH y minerales",
+      "brand": "ADVANCED NUTRIENTS",
+      "cost": 33000,
+      "finalPrice": 60415.38461538461,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23424/image_512/%5BPERFECT-TRI-PACK1L%5D%20PH%20PERFECT%20TRI-PACK%201L%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-109",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/perfect-tri-pack500-ph-perfect-tri-pack-500ml-advanced-nutrients-23423?category=4470",
+      "sku": "PERFECT-TRI-PACK500",
+      "name": "PH PERFECT TRI-PACK 500mL ADVANCED NUTRIENTS",
+      "category": "Fertilizantes y nutrición",
+      "subcategory": "Control pH y minerales",
+      "brand": "ADVANCED NUTRIENTS",
+      "cost": 15900,
+      "finalPrice": 29109.23076923077,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23423/image_512/%5BPERFECT-TRI-PACK500%5D%20PH%20PERFECT%20TRI-PACK%20500mL%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-293",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ph-perfect-tri-pack-5l-advanced-nutrients-23507?category=4470",
       "sku": "",
-      "name": "TIMER WIFI APP TECNOGROW",
-      "category": "Cultivo",
-      "subcategory": "Accesorios",
-      "brand": "TECNOGROW",
-      "cost": 9900,
-      "finalPrice": 18124.615384615383,
-      "margin": 0.35,
+      "name": "PH PERFECT TRI-PACK 5L ADVANCED NUTRIENTS",
+      "category": "Fertilizantes y nutrición",
+      "subcategory": "Control pH y minerales",
+      "brand": "ADVANCED NUTRIENTS",
+      "cost": 134800,
+      "finalPrice": 246787.6923076923,
+      "margin": 35,
       "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23982/image_512/TIMER%20WIFI%20APP%20TECNOGROW?unique=b7e6a9e",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23507/image_512/PH%20PERFECT%20TRI-PACK%205L%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
-      "id": "p-352",
+      "id": "p-335",
       "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/trim-tray-set-dabstuffs-23344?category=4478",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ph-up-bioecological-regulador-subir-ph-23990?category=4470",
       "sku": "",
-      "name": "TRIM TRAY SET DABSTUFFS",
-      "category": "Cultivo",
-      "subcategory": "Accesorios",
-      "brand": "DABSTUFFS",
-      "cost": 39900,
-      "finalPrice": 73047.69230769231,
-      "margin": 0.35,
+      "name": "pH UP BIOECOLOGICAL",
+      "category": "Fertilizantes y nutrición",
+      "subcategory": "Control pH y minerales",
+      "brand": "BIOECOLOGICAL",
+      "cost": 6714,
+      "finalPrice": 12291.784615384615,
+      "margin": 35,
       "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23344/image_512/TRIM%20TRAY%20SET%20DABSTUFFS?unique=5af7fa9",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23990/image_512/pH%20UP%20%20BIOECOLOGICAL?unique=fc2c013",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-414",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2540-carpa-indoor-tecnogrow-120x120x200-cm-22637?category=4479",
-      "sku": "2540",
-      "name": "CARPA INDOOR TECNOGROW 120x120x200 cm",
-      "category": "Cultivo",
-      "subcategory": "Carpas y macetas",
-      "brand": "TECNOGROW",
-      "cost": 65900,
-      "finalPrice": 120647.6923076923,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22637/image_512/%5B2540%5D%20CARPA%20INDOOR%20TECNOGROW%20120x120x200%20cm?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-413",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2538-carpa-indoor-tecnogrow-80x80x180-cm-22641?category=4479",
-      "sku": "2538",
-      "name": "CARPA INDOOR TECNOGROW 80x80x180 cm",
-      "category": "Cultivo",
-      "subcategory": "Carpas y macetas",
-      "brand": "TECNOGROW",
-      "cost": 49900,
-      "finalPrice": 91355.38461538461,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22641/image_512/%5B2538%5D%20CARPA%20INDOOR%20TECNOGROW%2080x80x180%20cm?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-402",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2564-maceta-cuadrada-11-22939?category=4479",
-      "sku": "2564",
-      "name": "MACETA CUADRADA 11",
-      "category": "Cultivo",
-      "subcategory": "Carpas y macetas",
-      "brand": "",
-      "cost": 980,
-      "finalPrice": 1794.1538461538462,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22939/image_512/%5B2564%5D%20MACETA%20CUADRADA%2011?unique=4cc8b7e",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-412",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4065-maceta-cuadrada-5-5-22940?category=4479",
-      "sku": "4065",
-      "name": "MACETA CUADRADA 5.5",
-      "category": "Cultivo",
-      "subcategory": "Carpas y macetas",
-      "brand": "",
-      "cost": 590,
-      "finalPrice": 1080.1538461538462,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22940/image_512/%5B4065%5D%20MACETA%20CUADRADA%205.5?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-398",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2562-maceta-cuadrada-7-22941?category=4479",
-      "sku": "2562",
-      "name": "MACETA CUADRADA 7",
-      "category": "Cultivo",
-      "subcategory": "Carpas y macetas",
-      "brand": "",
-      "cost": 750,
-      "finalPrice": 1373.076923076923,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22941/image_512/%5B2562%5D%20MACETA%20CUADRADA%207?unique=4cc8b7e",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-411",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3657-maceta-root-builder-11-3-22942?category=4479",
-      "sku": "3657",
-      "name": "MACETA ROOT BUILDER 11.3",
-      "category": "Cultivo",
-      "subcategory": "Carpas y macetas",
-      "brand": "",
-      "cost": 1389,
-      "finalPrice": 2542.938461538461,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22942/image_512/%5B3657%5D%20MACETA%20ROOT%20BUILDER%2011.3?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-410",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3659-maceta-root-builder-18-9-22943?category=4479",
-      "sku": "3659",
-      "name": "MACETA ROOT BUILDER 18.9",
-      "category": "Cultivo",
-      "subcategory": "Carpas y macetas",
-      "brand": "",
-      "cost": 1789,
-      "finalPrice": 3275.2461538461534,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22943/image_512/%5B3659%5D%20MACETA%20ROOT%20BUILDER%2018.9?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-409",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3655-maceta-root-builder-7-6-22945?category=4479",
-      "sku": "3655",
-      "name": "MACETA ROOT BUILDER 7.6",
-      "category": "Cultivo",
-      "subcategory": "Carpas y macetas",
-      "brand": "",
-      "cost": 890,
-      "finalPrice": 1629.3846153846152,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22945/image_512/%5B3655%5D%20MACETA%20ROOT%20BUILDER%207.6?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-408",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4894-maceta-textil-negra-11-22948?category=4479",
-      "sku": "4894",
-      "name": "MACETA TEXTIL NEGRA 11",
-      "category": "Cultivo",
-      "subcategory": "Carpas y macetas",
-      "brand": "",
-      "cost": 1290,
-      "finalPrice": 2361.6923076923076,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22948/image_512/%5B4894%5D%20MACETA%20TEXTIL%20NEGRA%2011?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-407",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4898-maceta-textil-negra-57-22951?category=4479",
-      "sku": "4898",
-      "name": "MACETA TEXTIL NEGRA 57",
-      "category": "Cultivo",
-      "subcategory": "Carpas y macetas",
-      "brand": "",
-      "cost": 2190,
-      "finalPrice": 4009.3846153846152,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22951/image_512/%5B4898%5D%20MACETA%20TEXTIL%20NEGRA%2057?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-406",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4900-maceta-textil-negra-95-22952?category=4479",
-      "sku": "4900",
-      "name": "MACETA TEXTIL NEGRA 95",
-      "category": "Cultivo",
-      "subcategory": "Carpas y macetas",
-      "brand": "",
-      "cost": 2990,
-      "finalPrice": 5474,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22952/image_512/%5B4900%5D%20MACETA%20TEXTIL%20NEGRA%2095?unique=5af7fa9",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-400",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/70559158917231-mesa-rolling-bench-23114?category=4479",
-      "sku": "70559158917231",
-      "name": "MESA ROLLING BENCH",
-      "category": "Cultivo",
-      "subcategory": "Carpas y macetas",
-      "brand": "",
-      "cost": 39900,
-      "finalPrice": 73047.69230769231,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23114/image_512/%5B70559158917231%5D%20MESA%20ROLLING%20BENCH?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-399",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/mesarolling244-mesa-rolling-bench-con-trellis-122m-x-244-m-23343?category=4479",
-      "sku": "MESAROLLING244",
-      "name": "MESA ROLLING BENCH CON TRELLIS 1,22m x 2,44 m",
-      "category": "Cultivo",
-      "subcategory": "Carpas y macetas",
-      "brand": "",
-      "cost": 299000,
-      "finalPrice": 547400,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23343/image_512/%5BMESAROLLING244%5D%20MESA%20ROLLING%20BENCH%20CON%20TRELLIS%201%2C22m%20x%202%2C44%20m?unique=788dbbb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-415",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/mesarolling122-mesa-rolling-bench-con-trellis-1-22m-1-22m-24013?category=4479",
-      "sku": "MESAROLLING122",
-      "name": "MESA ROLLING BENCH CON TRELLIS 1.22m*1.22m",
-      "category": "Cultivo",
-      "subcategory": "Carpas y macetas",
-      "brand": "",
-      "cost": 190000,
-      "finalPrice": 347846.1538461538,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/24013/image_512/%5BMESAROLLING122%5D%20MESA%20ROLLING%20BENCH%20CON%20TRELLIS%201.22m%2A1.22m?unique=b0bd90c",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-405",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3531-plato-cuadrado-11-23090?category=4479",
-      "sku": "3531",
-      "name": "PLATO CUADRADO 11",
-      "category": "Cultivo",
-      "subcategory": "Carpas y macetas",
-      "brand": "",
-      "cost": 450,
-      "finalPrice": 823.8461538461538,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23090/image_512/%5B3531%5D%20PLATO%20CUADRADO%2011?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-404",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3529-plato-cuadrado-7-23091?category=4479",
-      "sku": "3529",
-      "name": "PLATO CUADRADO 7",
-      "category": "Cultivo",
-      "subcategory": "Carpas y macetas",
-      "brand": "",
-      "cost": 350,
-      "finalPrice": 640.7692307692307,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23091/image_512/%5B3529%5D%20PLATO%20CUADRADO%207?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-401",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4372-rollo-mylar-diamantado-122-x-152mt-23115?category=4479",
-      "sku": "4372",
-      "name": "ROLLO MYLAR DIAMANTADO 1,22 x 15,2mt",
-      "category": "Cultivo",
-      "subcategory": "Carpas y macetas",
-      "brand": "MYLAR",
-      "cost": 35900,
-      "finalPrice": 65724.61538461538,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23115/image_512/%5B4372%5D%20ROLLO%20MYLAR%20DIAMANTADO%201%2C22%20x%2015%2C2mt?unique=4cc8b7e",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-403",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3640-rollo-mylar-diamantado-122-x-3mt-23116?category=4479",
-      "sku": "3640",
-      "name": "ROLLO MYLAR DIAMANTADO 1,22 x 3mt",
-      "category": "Cultivo",
-      "subcategory": "Carpas y macetas",
-      "brand": "MYLAR",
-      "cost": 7900,
-      "finalPrice": 14463.076923076922,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23116/image_512/%5B3640%5D%20ROLLO%20MYLAR%20DIAMANTADO%201%2C22%20x%203mt?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-216",
@@ -961,7 +2557,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3693-monkey-miko-100-23002?category=4470",
       "sku": "3693",
       "name": "-25%",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MONKEY",
       "cost": 9675,
@@ -970,7 +2566,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23002/image_512/%5B3693%5D%20MONKEY%20MIKO%20100?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-133",
@@ -978,7 +2595,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ftmgn3023-algax-maria-green-1l-23299?category=4470",
       "sku": "FTMGN3023",
       "name": "ALGAX MARIA GREEN 1L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MARIA GREEN",
       "cost": 19100,
@@ -987,7 +2604,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23299/image_512/%5BFTMGN3023%5D%20ALGAX%20MARIA%20GREEN%201L?unique=6d06f08",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-134",
@@ -995,7 +2633,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ftmgn3022-algax-maria-green-250ml-23298?category=4470",
       "sku": "FTMGN3022",
       "name": "ALGAX MARIA GREEN 250ML",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MARIA GREEN",
       "cost": 5900,
@@ -1004,7 +2642,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23298/image_512/%5BFTMGN3022%5D%20ALGAX%20MARIA%20GREEN%20%20250ML?unique=d75050f",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-132",
@@ -1012,7 +2671,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ftmgn3024-algax-maria-green-5l-23300?category=4470",
       "sku": "FTMGN3024",
       "name": "ALGAX MARIA GREEN 5L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MARIA GREEN",
       "cost": 76500,
@@ -1021,7 +2680,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23300/image_512/%5BFTMGN3024%5D%20ALGAX%20MARIA%20GREEN%205L?unique=3bc5891",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-253",
@@ -1029,7 +2709,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4653-algen-extract-hng-1l-22445?category=4470",
       "sku": "4653",
       "name": "ALGEN EXTRACT HnG 1L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 55500,
@@ -1038,7 +2718,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22445/image_512/%5B4653%5D%20ALGEN%20EXTRACT%20HnG%201L?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-252",
@@ -1046,7 +2747,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4304-algen-extract-hng-250-ml-22446?category=4470",
       "sku": "4304",
       "name": "ALGEN EXTRACT HnG 250 ML",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 17900,
@@ -1055,7 +2756,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22446/image_512/%5B4304%5D%20ALGEN%20EXTRACT%20HnG%20250%20ML?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-250",
@@ -1063,7 +2785,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4286-amino-hng-100-ml-22452?category=4470",
       "sku": "4286",
       "name": "AMINO HnG 100 ml",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 13900,
@@ -1072,7 +2794,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22452/image_512/%5B4286%5D%20AMINO%20HnG%20100%20ml?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-251",
@@ -1080,7 +2823,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4655-amino-hng-1l-22451?category=4470",
       "sku": "4655",
       "name": "AMINO HnG 1L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 68900,
@@ -1089,7 +2832,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22451/image_512/%5B4655%5D%20AMINO%20HnG%201L?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-249",
@@ -1097,7 +2861,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4308-amino-hng-250-ml-22453?category=4470",
       "sku": "4308",
       "name": "AMINO HnG 250 ML",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 25500,
@@ -1106,7 +2870,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22453/image_512/%5B4308%5D%20AMINO%20HnG%20250%20ML?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-248",
@@ -1114,7 +2899,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4310-amino-hng-500-ml-22454?category=4470",
       "sku": "4310",
       "name": "AMINO HnG 500 ML",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 37900,
@@ -1123,7 +2908,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22454/image_512/%5B4310%5D%20AMINO%20HnG%20500%20ML?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-247",
@@ -1131,7 +2937,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1648646480873-aqua-flakes-a-b-hng-1l-22463?category=4470",
       "sku": "1648646480873",
       "name": "AQUA FLAKES A+B HnG 1L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 19800,
@@ -1140,7 +2946,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22463/image_512/%5B1648646480873%5D%20AQUA%20FLAKES%20A%2BB%20HnG%201L?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-246",
@@ -1148,7 +2975,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4835-aqua-flakes-a-b-hng-5l-22464?category=4470",
       "sku": "4835",
       "name": "AQUA FLAKES A+B HnG 5L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 49800,
@@ -1157,7 +2984,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22464/image_512/%5B4835%5D%20AQUA%20FLAKES%20A%2BB%20HnG%205L?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-302",
@@ -1165,7 +3013,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/atak250ml-atak-250ml-optic-foliar-23582?category=4470",
       "sku": "ATAK250ml",
       "name": "ATAK 250ml OPTIC FOLIAR",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 12000,
@@ -1174,7 +3022,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23582/image_512/%5BATAK250ml%5D%20ATAK%20250ml%20OPTIC%20FOLIAR?unique=7014afc",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-323",
@@ -1182,7 +3051,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/850038693176-athena-balance-1-gal-23913?category=4470",
       "sku": "850038693176",
       "name": "ATHENA BALANCE 1 GAL",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ATHENA",
       "cost": 36900,
@@ -1191,7 +3060,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23913/image_512/%5B850038693176%5D%20ATHENA%20%20BALANCE%201%20GAL?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-322",
@@ -1199,7 +3089,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/850038693169-athena-balance-32-oz-23914?category=4470",
       "sku": "850038693169",
       "name": "ATHENA BALANCE 32 OZ",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ATHENA",
       "cost": 15900,
@@ -1208,7 +3098,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23914/image_512/%5B850038693169%5D%20ATHENA%20%20BALANCE%2032%20OZ?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-321",
@@ -1216,7 +3127,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/850038693183-athena-balance-5-gal-23915?category=4470",
       "sku": "850038693183",
       "name": "ATHENA BALANCE 5 GAL",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ATHENA",
       "cost": 199900,
@@ -1225,7 +3136,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23915/image_512/%5B850038693183%5D%20ATHENA%20%20BALANCE%205%20GAL?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-324",
@@ -1233,7 +3165,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/athena-bloom-a-b-1-gal-23957?category=4470",
       "sku": "",
       "name": "ATHENA BLOOM A+B 1 GAL",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ATHENA",
       "cost": 62400,
@@ -1242,7 +3174,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23957/image_512/ATHENA%20BLOOM%20A%2BB%201%20GAL?unique=72e9989",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-327",
@@ -1250,7 +3203,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/athena-bloom-a-b-32-oz-23960?category=4470",
       "sku": "",
       "name": "ATHENA BLOOM A+B 32 OZ",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ATHENA",
       "cost": 31800,
@@ -1259,7 +3212,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23960/image_512/ATHENA%20BLOOM%20A%2BB%2032%20OZ?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-330",
@@ -1267,7 +3241,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/athena-bloom-a-b-5-gal-23978?category=4470",
       "sku": "",
       "name": "ATHENA BLOOM A+B 5 GAL",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ATHENA",
       "cost": 248000,
@@ -1276,7 +3250,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23978/image_512/ATHENA%20BLOOM%20A%2BB%205%20GAL?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-320",
@@ -1284,7 +3279,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/850038693145-athena-camg-1-gal-23920?category=4470",
       "sku": "850038693145",
       "name": "ATHENA CAMG 1 GAL",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ATHENA",
       "cost": 36900,
@@ -1293,7 +3288,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23920/image_512/%5B850038693145%5D%20ATHENA%20%20CAMG%201%20GAL?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-319",
@@ -1301,7 +3317,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/850038693138-athena-camg-32-oz-23921?category=4470",
       "sku": "850038693138",
       "name": "ATHENA CAMG 32 OZ",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ATHENA",
       "cost": 15900,
@@ -1310,7 +3326,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23921/image_512/%5B850038693138%5D%20ATHENA%20%20CAMG%2032%20OZ?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-318",
@@ -1318,7 +3355,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/850038693152-athena-camg-5-gal-23922?category=4470",
       "sku": "850038693152",
       "name": "ATHENA CAMG 5 GAL",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ATHENA",
       "cost": 173000,
@@ -1327,7 +3364,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23922/image_512/%5B850038693152%5D%20ATHENA%20%20CAMG%205%20GAL?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-317",
@@ -1335,7 +3393,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/850038693206-athena-cleanse-1-gal-23923?category=4470",
       "sku": "850038693206",
       "name": "ATHENA CLEANSE 1 GAL",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ATHENA",
       "cost": 59900,
@@ -1344,7 +3402,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23923/image_512/%5B850038693206%5D%20ATHENA%20%20CLEANSE%201%20GAL?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-316",
@@ -1352,7 +3431,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/850038693190-athena-cleanse-32-oz-23924?category=4470",
       "sku": "850038693190",
       "name": "ATHENA CLEANSE 32 OZ",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ATHENA",
       "cost": 23400,
@@ -1361,7 +3440,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23924/image_512/%5B850038693190%5D%20ATHENA%20%20CLEANSE%2032%20OZ?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-315",
@@ -1369,7 +3469,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/850038693213-athena-cleanse-5-gal-23925?category=4470",
       "sku": "850038693213",
       "name": "ATHENA CLEANSE 5 GAL",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ATHENA",
       "cost": 199900,
@@ -1378,7 +3478,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23925/image_512/%5B850038693213%5D%20ATHENA%20%20CLEANSE%205%20GAL?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-314",
@@ -1386,7 +3507,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/850038693862-athena-fade-1-gal-23926?category=4470",
       "sku": "850038693862",
       "name": "ATHENA FADE 1 GAL",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ATHENA",
       "cost": 36900,
@@ -1395,7 +3516,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23926/image_512/%5B850038693862%5D%20ATHENA%20%20FADE%201%20GAL?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-313",
@@ -1403,7 +3545,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/850038693855-athena-fade-32-oz-23927?category=4470",
       "sku": "850038693855",
       "name": "ATHENA FADE 32 OZ",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ATHENA",
       "cost": 15900,
@@ -1412,7 +3554,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23927/image_512/%5B850038693855%5D%20ATHENA%20%20FADE%2032%20OZ?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-325",
@@ -1420,7 +3583,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/athena-grow-a-b-1-gal-23958?category=4470",
       "sku": "",
       "name": "ATHENA GROW A+B 1 GAL",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ATHENA",
       "cost": 62400,
@@ -1429,7 +3592,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23958/image_512/ATHENA%20GROW%20A%2BB%201%20GAL?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-326",
@@ -1437,7 +3621,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/athena-grow-a-b-32-oz-23959?category=4470",
       "sku": "",
       "name": "ATHENA GROW A+B 32 OZ",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ATHENA",
       "cost": 31800,
@@ -1446,7 +3630,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23959/image_512/ATHENA%20GROW%20A%2BB%2032%20OZ?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-329",
@@ -1454,7 +3659,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/athena-grow-a-b-5-gal-23975?category=4470",
       "sku": "",
       "name": "ATHENA GROW A+B 5 GAL",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ATHENA",
       "cost": 248000,
@@ -1463,7 +3668,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23975/image_512/ATHENA%20GROW%20A%2BB%205%20GAL?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-312",
@@ -1471,7 +3697,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/850038693114-athena-pk-1-gal-23933?category=4470",
       "sku": "850038693114",
       "name": "ATHENA PK 1 GAL",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ATHENA",
       "cost": 36900,
@@ -1480,7 +3706,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23933/image_512/%5B850038693114%5D%20ATHENA%20%20PK%201%20GAL?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-311",
@@ -1488,7 +3735,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/850038693107-athena-pk-32-oz-23934?category=4470",
       "sku": "850038693107",
       "name": "ATHENA PK 32 OZ",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ATHENA",
       "cost": 15900,
@@ -1497,7 +3744,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23934/image_512/%5B850038693107%5D%20ATHENA%20%20PK%2032%20OZ?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-310",
@@ -1505,7 +3773,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/850038693602-athena-pro-balance-10-lb-23936?category=4470",
       "sku": "850038693602",
       "name": "ATHENA PRO BALANCE 10 LB",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ATHENA",
       "cost": 89900,
@@ -1514,7 +3782,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23936/image_512/%5B850038693602%5D%20ATHENA%20PRO%20BALANCE%2010%20LB?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-309",
@@ -1522,7 +3811,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/850038693565-athena-pro-bloom-10-lb-23939?category=4470",
       "sku": "850038693565",
       "name": "ATHENA PRO BLOOM 10 LB",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ATHENA",
       "cost": 89900,
@@ -1531,7 +3820,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23939/image_512/%5B850038693565%5D%20ATHENA%20%20PRO%20BLOOM%2010%20LB?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-308",
@@ -1539,7 +3849,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/850038693466-athena-pro-bloom-25-lb-23940?category=4470",
       "sku": "850038693466",
       "name": "ATHENA PRO BLOOM 25 LB",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ATHENA",
       "cost": 179800,
@@ -1548,7 +3858,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23940/image_512/%5B850038693466%5D%20ATHENA%20PRO%20BLOOM%2025%20LB?unique=033a819",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-307",
@@ -1556,7 +3887,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/850038693541-athena-pro-core-10-lb-23942?category=4470",
       "sku": "850038693541",
       "name": "ATHENA PRO CORE 10 LB",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ATHENA",
       "cost": 89900,
@@ -1565,7 +3896,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23942/image_512/%5B850038693541%5D%20ATHENA%20PRO%20CORE%2010%20LB?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-306",
@@ -1573,7 +3925,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/850038693459-athena-pro-core-25-lb-23943?category=4470",
       "sku": "850038693459",
       "name": "ATHENA PRO CORE 25 LB",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ATHENA",
       "cost": 179800,
@@ -1582,7 +3934,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23943/image_512/%5B850038693459%5D%20ATHENA%20PRO%20CORE%2025%20LB?unique=3d8e92d",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-305",
@@ -1590,7 +3963,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/850038693640-athena-pro-mix-kit-1-kit-23948?category=4470",
       "sku": "850038693640",
       "name": "ATHENA PRO MIX KIT 1 KIT",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ATHENA",
       "cost": 85000,
@@ -1599,7 +3972,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23948/image_512/%5B850038693640%5D%20ATHENA%20%20PRO%20MIX%20KIT%201%20KIT?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-304",
@@ -1607,7 +4001,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/860007760808-athena-stack-32-oz-23950?category=4470",
       "sku": "860007760808",
       "name": "ATHENA STACK 32 OZ",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ATHENA",
       "cost": 70400,
@@ -1616,7 +4010,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23950/image_512/%5B860007760808%5D%20ATHENA%20%20STACK%2032%20OZ?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-129",
@@ -1624,7 +4039,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ftmgn3029-autoflow-maria-green-1-l-23305?category=4470",
       "sku": "FTMGN3029",
       "name": "AUTOFLOW MARIA GREEN 1 L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MARIA GREEN",
       "cost": 9600,
@@ -1633,7 +4048,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23305/image_512/%5BFTMGN3029%5D%20AUTOFLOW%20MARIA%20GREEN%201%20L?unique=7b49a93",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-130",
@@ -1641,7 +4077,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ftmgn3028-autoflow-maria-green-500-ml-23304?category=4470",
       "sku": "FTMGN3028",
       "name": "AUTOFLOW MARIA GREEN 500 ML",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MARIA GREEN",
       "cost": 5500,
@@ -1650,7 +4086,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23304/image_512/%5BFTMGN3028%5D%20AUTOFLOW%20MARIA%20GREEN%20500%20ML?unique=a06cecd",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-131",
@@ -1658,7 +4115,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ftmgn3030-autoflow-maria-green-5l-23306?category=4470",
       "sku": "FTMGN3030",
       "name": "AUTOFLOW MARIA GREEN 5L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MARIA GREEN",
       "cost": 39500,
@@ -1667,7 +4124,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23306/image_512/%5BFTMGN3030%5D%20AUTOFLOW%20MARIA%20GREEN%205L?unique=6956b8a",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-265",
@@ -1675,7 +4153,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2100-14eu-b-52-1l-advanced-nutrients-23400?category=4470",
       "sku": "2100-14EU",
       "name": "B-52 1L ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 34900,
@@ -1684,7 +4162,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23400/image_512/%5B2100-14EU%5D%20B-52%201L%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-340",
@@ -1692,7 +4191,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2100-12eu-b-52-250ml-advanced-nutrients-23995?category=4470",
       "sku": "2100-12EU",
       "name": "B-52 250ml ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 10900,
@@ -1701,7 +4200,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23995/image_512/%5B2100-12EU%5D%20B-52%20250ml%20ADVANCED%20NUTRIENTS?unique=2c1fb16",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-111",
@@ -1709,7 +4229,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2100-13eu-b-52-500ml-advanced-nutrients-23401?category=4470",
       "sku": "2100-13EU",
       "name": "B-52 500ml ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 18900,
@@ -1718,7 +4238,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23401/image_512/%5B2100-13EU%5D%20B-52%20500ml%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-257",
@@ -1726,7 +4267,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5050-14eu-big-bud-1l-advanced-nutrients-23388?category=4470",
       "sku": "5050-14EU",
       "name": "BIG BUD 1L ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 32900,
@@ -1735,7 +4276,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23388/image_512/%5B5050-14EU%5D%20BIG%20BUD%201L%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-339",
@@ -1743,7 +4305,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5050-12eu-big-bud-250ml-advanced-nutrients-23994?category=4470",
       "sku": "5050-12EU",
       "name": "BIG BUD 250ml ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 9900,
@@ -1752,7 +4314,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23994/image_512/%5B5050-12EU%5D%20BIG%20BUD%20250ml%20ADVANCED%20NUTRIENTS?unique=2f8c388",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-115",
@@ -1760,7 +4343,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5050-13eu-big-bud-500ml-advanced-nutrients-23392?category=4470",
       "sku": "5050-13EU",
       "name": "BIG BUD 500ml ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 18000,
@@ -1769,7 +4352,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23392/image_512/%5B5050-13EU%5D%20BIG%20BUD%20500ml%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-279",
@@ -1777,7 +4381,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5050-20eu-big-bud-5l-advanced-nutrients-23492?category=4470",
       "sku": "5050-20EU",
       "name": "BIG BUD 5L ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 129900,
@@ -1786,7 +4390,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23492/image_512/%5B5050-20EU%5D%20BIG%20BUD%205L%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-280",
@@ -1794,7 +4419,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5000-32eu-big-bud-powder-130-gr-advanced-nutrients-23493?category=4470",
       "sku": "5000-32EU",
       "name": "BIG BUD POWDER 130 gr ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 9900,
@@ -1803,7 +4428,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23493/image_512/%5B5000-32EU%5D%20BIG%20BUD%20POWDER%20130%20gr%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-281",
@@ -1811,7 +4457,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5000-36eu-big-bud-powder-500-gr-advanced-nutrients-23494?category=4470",
       "sku": "5000-36EU",
       "name": "BIG BUD POWDER 500 gr ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 12500,
@@ -1820,7 +4466,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23494/image_512/%5B5000-36EU%5D%20BIG%20BUD%20POWDER%20500%20gr%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-119",
@@ -1828,7 +4495,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4713-bio-one-component-hng-1l-22536?category=4470",
       "sku": "4713",
       "name": "BIO ONE COMPONENT HnG 1L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 19900,
@@ -1837,7 +4504,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22536/image_512/%5B4713%5D%20BIO%20ONE%20COMPONENT%20HnG%201L?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-124",
@@ -1845,7 +4533,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4272-bio-one-component-hng-5l-22537?category=4470",
       "sku": "4272",
       "name": "BIO ONE COMPONENT HnG 5L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 49900,
@@ -1854,7 +4542,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22537/image_512/%5B4272%5D%20BIO%20ONE%20COMPONENT%20HnG%205L?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-274",
@@ -1862,7 +4571,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/bioazufre-bioecological-23439?category=4470",
       "sku": "",
       "name": "BIOAZUFRE BIOECOLOGICAL",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "BIOECOLOGICAL",
       "cost": 4290,
@@ -1871,7 +4580,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23439/image_512/BIOAZUFRE%20BIOECOLOGICAL?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-245",
@@ -1879,7 +4609,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1504025-bioestimulante-foliar-indoor-eco-180-cc-22541?category=4470",
       "sku": "1504025",
       "name": "BIOESTIMULANTE FOLIAR INDOOR ECO (180 CC)",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 4200,
@@ -1888,7 +4618,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22541/image_512/%5B1504025%5D%20BIOESTIMULANTE%20FOLIAR%20INDOOR%20ECO%20%28180%20CC%29?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-244",
@@ -1896,7 +4647,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1504026-bioestimulante-radicular-indoor-eco-180-cc-22542?category=4470",
       "sku": "1504026",
       "name": "BIOESTIMULANTE RADICULAR INDOOR ECO (180 CC)",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 4200,
@@ -1905,7 +4656,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22542/image_512/%5B1504026%5D%20BIOESTIMULANTE%20RADICULAR%20INDOOR%20ECO%20%28180%20CC%29?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-273",
@@ -1913,7 +4685,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/bioplagas-bioecological-23438?category=4470",
       "sku": "",
       "name": "BIOPLAGAS BIOECOLOGICAL",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "BIOECOLOGICAL",
       "cost": 4550,
@@ -1922,7 +4694,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23438/image_512/BIOPLAGAS%20BIOECOLOGICAL?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-243",
@@ -1930,7 +4723,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ftmgn3007-bloom-maria-green-1l-22549?category=4470",
       "sku": "FTMGN3007",
       "name": "BLOOM MARIA GREEN 1L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MARIA GREEN",
       "cost": 6900,
@@ -1939,7 +4732,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22549/image_512/%5BFTMGN3007%5D%20BLOOM%20MARIA%20GREEN%201L?unique=9d65272",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-242",
@@ -1947,7 +4761,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ftmgn3002-bloom-maria-green-500-ml-22550?category=4470",
       "sku": "FTMGN3002",
       "name": "BLOOM MARIA GREEN 500 ML",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MARIA GREEN",
       "cost": 4100,
@@ -1956,7 +4770,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22550/image_512/%5BFTMGN3002%5D%20BLOOM%20MARIA%20GREEN%20500%20ML?unique=8518978",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-269",
@@ -1964,7 +4799,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2320-14eu-bud-candy-1l-advanced-nutrients-23407?category=4470",
       "sku": "2320-14EU",
       "name": "BUD CANDY 1L ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 23900,
@@ -1973,7 +4808,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23407/image_512/%5B2320-14EU%5D%20BUD%20CANDY%201L%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-348",
@@ -1981,7 +4837,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/bud-candy-250ml-advanced-nutrients-24003?category=4470",
       "sku": "",
       "name": "BUD CANDY 250ml ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 6900,
@@ -1990,7 +4846,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/24003/image_512/BUD%20CANDY%20250ml%20ADVANCED%20NUTRIENTS?unique=2f8c388",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-117",
@@ -1998,7 +4875,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2320-13eu-bud-candy-500ml-advanced-nutrients-23408?category=4470",
       "sku": "2320-13EU",
       "name": "BUD CANDY 500ml ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 13900,
@@ -2007,7 +4884,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23408/image_512/%5B2320-13EU%5D%20BUD%20CANDY%20500ml%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-270",
@@ -2015,7 +4913,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2320-20eu-bud-candy-5l-advanced-nutrients-23409?category=4470",
       "sku": "2320-20EU",
       "name": "BUD CANDY 5L ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 112900,
@@ -2024,7 +4922,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23409/image_512/%5B2320-20EU%5D%20BUD%20CANDY%205L%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-266",
@@ -2032,7 +4951,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2340-14eu-bud-factor-x-1l-advanced-nutrients-23402?category=4470",
       "sku": "2340-14EU",
       "name": "BUD FACTOR X 1L ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 64900,
@@ -2041,7 +4960,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23402/image_512/%5B2340-14EU%5D%20BUD%20FACTOR%20X%201L%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-114",
@@ -2049,7 +4989,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2340-12eu-bud-factor-x-250ml-advanced-nutrients-23403?category=4470",
       "sku": "2340-12EU",
       "name": "BUD FACTOR X 250ml ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 19900,
@@ -2058,7 +4998,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23403/image_512/%5B2340-12EU%5D%20BUD%20FACTOR%20X%20250ml%20ADVANCED%20NUTRIENTS?unique=b645a5d",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-282",
@@ -2066,7 +5027,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2340-13eu-bud-factor-x-500-ml-advanced-nutrients-23495?category=4470",
       "sku": "2340-13EU",
       "name": "BUD FACTOR X 500 ml ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 35900,
@@ -2075,7 +5036,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23495/image_512/%5B2340-13EU%5D%20BUD%20FACTOR%20X%20500%20ml%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-288",
@@ -2083,7 +5065,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2360-14eu-bud-ignitor-1l-advanced-nutrients-23501?category=4470",
       "sku": "2360-14EU",
       "name": "BUD IGNITOR 1L ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 57900,
@@ -2092,7 +5074,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23501/image_512/%5B2360-14EU%5D%20BUD%20IGNITOR%201L%20ADVANCED%20NUTRIENTS%20?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-287",
@@ -2100,7 +5103,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2360-13eu-bud-ignitor-500-ml-advanced-nutrients-23500?category=4470",
       "sku": "2360-13EU",
       "name": "BUD IGNITOR 500 ml ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 31900,
@@ -2109,7 +5112,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23500/image_512/%5B2360-13EU%5D%20BUD%20IGNITOR%20500%20ml%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-241",
@@ -2117,7 +5141,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4258-bud-xl-hng-1l-22607?category=4470",
       "sku": "4258",
       "name": "BUD XL HnG 1L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 24900,
@@ -2126,7 +5150,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22607/image_512/%5B4258%5D%20BUD%20XL%20HnG%201L?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-240",
@@ -2134,7 +5179,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4254-bud-xl-hng-250-ml-22608?category=4470",
       "sku": "4254",
       "name": "BUD XL HnG 250 ML",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 11500,
@@ -2143,7 +5188,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22608/image_512/%5B4254%5D%20BUD%20XL%20HnG%20250%20ML?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-239",
@@ -2151,7 +5217,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4657-bud-xl-hng-5l-22609?category=4470",
       "sku": "4657",
       "name": "BUD XL HnG 5L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 109900,
@@ -2160,7 +5226,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22609/image_512/%5B4657%5D%20BUD%20XL%20HnG%205L?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-238",
@@ -2168,7 +5255,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/69280603622441-buds-5l-maria-green-5l-22611?category=4470",
       "sku": "69280603622441",
       "name": "BUDS 5L MARIA GREEN 5L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MARIA GREEN",
       "cost": 114900,
@@ -2177,7 +5264,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22611/image_512/%5B69280603622441%5D%20BUDS%205L%20MARIA%20GREEN%205L?unique=a9a1751",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-237",
@@ -2185,7 +5293,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ftmgn3008-buds-maria-green-1l-22612?category=4470",
       "sku": "FTMGN3008",
       "name": "BUDS MARIA GREEN 1L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MARIA GREEN",
       "cost": 27900,
@@ -2194,7 +5302,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22612/image_512/%5BFTMGN3008%5D%20BUDS%20MARIA%20GREEN%201L?unique=9d65272",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-236",
@@ -2202,7 +5331,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ftmgn3003-buds-maria-green-250-ml-22613?category=4470",
       "sku": "FTMGN3003",
       "name": "BUDS MARIA GREEN 250 ML",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MARIA GREEN",
       "cost": 8500,
@@ -2211,24 +5340,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22613/image_512/%5BFTMGN3003%5D%20BUDS%20MARIA%20GREEN%20250%20ML?unique=91308e7",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-275",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/calmag-bioecological-23442?category=4470",
-      "sku": "",
-      "name": "CALMAG+ BIOECOLOGICAL",
-      "category": "Cultivo",
-      "subcategory": "Fertilizantes",
-      "brand": "BIOECOLOGICAL",
-      "cost": 6500,
-      "finalPrice": 11900,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23442/image_512/CALMAG%2B%20BIOECOLOGICAL?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-285",
@@ -2236,7 +5369,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2450-14eu-carboload-1l-advanced-nutrients-23498?category=4470",
       "sku": "2450-14EU",
       "name": "CARBOLOAD 1L ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 15500,
@@ -2245,7 +5378,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23498/image_512/%5B2450-14EU%5D%20CARBOLOAD%201L%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-284",
@@ -2253,7 +5407,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2450-12eu-carboload-250-ml-advanced-nutrients-23497?category=4470",
       "sku": "2450-12EU",
       "name": "CARBOLOAD 250 ml ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 4800,
@@ -2262,7 +5416,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23497/image_512/%5B2450-12EU%5D%20CARBOLOAD%20250%20ml%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-349",
@@ -2270,7 +5445,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2450-13eu-carboload-500-ml-advanced-nutrients-24004?category=4470",
       "sku": "2450-13EU",
       "name": "CARBOLOAD 500 ml ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 9900,
@@ -2279,7 +5454,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/24004/image_512/%5B2450-13EU%5D%20CARBOLOAD%20500%20ml%20ADVANCED%20NUTRIENTS?unique=2f8c388",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-286",
@@ -2287,7 +5483,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2450-20eu-carboload-5l-advanced-nutrients-23499?category=4470",
       "sku": "2450-20EU",
       "name": "CARBOLOAD 5L ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 64900,
@@ -2296,7 +5492,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23499/image_512/%5B2450-20EU%5D%20CARBOLOAD%205L%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-235",
@@ -2304,7 +5521,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1501102-cloca-180cc-22658?category=4470",
       "sku": "1501102",
       "name": "Cloca 180cc",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 2980,
@@ -2313,7 +5530,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22658/image_512/%5B1501102%5D%20Cloca%20180cc?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-127",
@@ -2321,7 +5559,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/71208366176892-clones-elite-91-40ml-22661?category=4470",
       "sku": "71208366176892",
       "name": "CLONES ELITE 91 40ML",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ELITE 91",
       "cost": 7500,
@@ -2330,7 +5568,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22661/image_512/%5B71208366176892%5D%20CLONES%20ELITE%2091%2040ML?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-234",
@@ -2338,7 +5597,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4795-cocos-a-b-hng-1l-22660?category=4470",
       "sku": "4795",
       "name": "COCOS A + B HnG 1L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 19800,
@@ -2347,7 +5606,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22660/image_512/%5B4795%5D%20COCOS%20A%20%2B%20B%20HnG%201L?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-233",
@@ -2355,7 +5635,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4799-cocos-a-b-hng-5l-22662?category=4470",
       "sku": "4799",
       "name": "COCOS A + B HnG 5L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 49900,
@@ -2364,7 +5644,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22662/image_512/%5B4799%5D%20COCOS%20A%20%2B%20B%20HnG%205L?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-232",
@@ -2372,7 +5673,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1500257-conchuelas-lpu-500-cc-22666?category=4470",
       "sku": "1500257",
       "name": "CONCHUELAS LPU (500 CC)",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 4900,
@@ -2381,7 +5682,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22666/image_512/%5B1500257%5D%20CONCHUELAS%20LPU%20%28500%20CC%29?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-113",
@@ -2389,7 +5711,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1420-50eu-cultivator-series-base-1kg-advanced-nutrients-23397?category=4470",
       "sku": "1420-50EU",
       "name": "CULTIVATOR SERIES BASE 1kg ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 36900,
@@ -2398,7 +5720,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23397/image_512/%5B1420-50EU%5D%20CULTIVATOR%20SERIES%20BASE%201kg%20ADVANCED%20NUTRIENTS?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-262",
@@ -2406,7 +5749,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1220-50eu-cultivator-series-bloom-1kg-advanced-nutrients-23395?category=4470",
       "sku": "1220-50EU",
       "name": "CULTIVATOR SERIES BLOOM 1kg ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 36900,
@@ -2415,7 +5758,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23395/image_512/%5B1220-50EU%5D%20CULTIVATOR%20SERIES%20BLOOM%201kg%20ADVANCED%20NUTRIENTS?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-263",
@@ -2423,7 +5787,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1320-50eu-cultivator-series-grow-1kg-advanced-nutrients-23396?category=4470",
       "sku": "1320-50EU",
       "name": "CULTIVATOR SERIES GROW 1kg ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 36900,
@@ -2432,7 +5796,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23396/image_512/%5B1320-50EU%5D%20CULTIVATOR%20SERIES%20GROW%201kg%20ADVANCED%20NUTRIENTS?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-231",
@@ -2440,7 +5825,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4661-drip-clean-hng-1l-22773?category=4470",
       "sku": "4661",
       "name": "DRIP CLEAN HnG 1L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 29900,
@@ -2449,7 +5834,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22773/image_512/%5B4661%5D%20DRIP%20CLEAN%20HnG%201L?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-230",
@@ -2457,7 +5863,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4260-drip-clean-hng-250-ml-22774?category=4470",
       "sku": "4260",
       "name": "DRIP CLEAN HnG 250 ML",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 9900,
@@ -2466,7 +5872,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22774/image_512/%5B4260%5D%20DRIP%20CLEAN%20HnG%20250%20ML?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-229",
@@ -2474,7 +5901,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1642602457420-dynomyco-nutrients-200-22783?category=4470",
       "sku": "1642602457420",
       "name": "DYNOMYCO NUTRIENTS 200",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "DYNOMYCO",
       "cost": 22900,
@@ -2483,7 +5910,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22783/image_512/%5B1642602457420%5D%20DYNOMYCO%20NUTRIENTS%20200?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-334",
@@ -2491,7 +5939,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/final-flush-bioecological-lavado-raices-23989?category=4470",
       "sku": "",
       "name": "FINAL FLUSH BIOECOLOGICAL",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "BIOECOLOGICAL",
       "cost": 10076,
@@ -2500,7 +5948,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23989/image_512/FINAL%20FLUSH%20%20BIOECOLOGICAL?unique=b635e9a",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-292",
@@ -2508,7 +5977,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2605-14eu-flawless-finish-1l-advanced-nutrients-23505?category=4470",
       "sku": "2605-14EU",
       "name": "FLAWLESS FINISH 1L ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 16500,
@@ -2517,7 +5986,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23505/image_512/%5B2605-14EU%5D%20FLAWLESS%20FINISH%201L%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-291",
@@ -2525,7 +6015,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2605-13eu-flawless-finish-500-ml-advanced-nutrients-23504?category=4470",
       "sku": "2605-13EU",
       "name": "FLAWLESS FINISH 500 ml ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 8900,
@@ -2534,7 +6024,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23504/image_512/%5B2605-13EU%5D%20FLAWLESS%20FINISH%20500%20ml%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-332",
@@ -2542,7 +6053,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/flor-plus-bioecological-fertilizante-floracion-23987?category=4470",
       "sku": "",
       "name": "FLOR+ BIOECOLOGICAL",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "BIOECOLOGICAL",
       "cost": 11336,
@@ -2551,7 +6062,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23987/image_512/FLOR%2B%20BIOECOLOGICAL?unique=eaee266",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-228",
@@ -2559,7 +6091,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/67631453307428-fungicida-azufre-magnetico-wp-350g-22823?category=4470",
       "sku": "67631453307428",
       "name": "FUNGICIDA AZUFRE MAGNETICO WP 350G",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 3793,
@@ -2568,7 +6100,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22823/image_512/%5B67631453307428%5D%20FUNGICIDA%20AZUFRE%20MAGNETICO%20WP%20350G?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-225",
@@ -2576,7 +6129,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/69280596966859-grow-crecimiento-5l-maria-green-5l-22829?category=4470",
       "sku": "69280596966859",
       "name": "GROW CRECIMIENTO 5L MARIA GREEN 5L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MARIA GREEN",
       "cost": 26000,
@@ -2585,7 +6138,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22829/image_512/%5B69280596966859%5D%20GROW%20CRECIMIENTO%205L%20MARIA%20GREEN%205L?unique=9d65272",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-227",
@@ -2593,7 +6167,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ftmgn3006-grow-crecimiento-maria-green-1l-22827?category=4470",
       "sku": "FTMGN3006",
       "name": "GROW CRECIMIENTO MARIA GREEN 1L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MARIA GREEN",
       "cost": 6900,
@@ -2602,7 +6176,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22827/image_512/%5BFTMGN3006%5D%20GROW%20CRECIMIENTO%20MARIA%20GREEN%201L?unique=9d65272",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-226",
@@ -2610,7 +6205,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ftmgn3001-grow-crecimiento-maria-green-500-ml-22828?category=4470",
       "sku": "FTMGN3001",
       "name": "GROW CRECIMIENTO MARIA GREEN 500 ML",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MARIA GREEN",
       "cost": 4100,
@@ -2619,7 +6214,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22828/image_512/%5BFTMGN3001%5D%20GROW%20CRECIMIENTO%20MARIA%20GREEN%20500%20ML?unique=8518978",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-224",
@@ -2627,7 +6243,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1504024-guano-liquido-concentrado-indoor-180-cc-22841?category=4470",
       "sku": "1504024",
       "name": "GUANO LIQUIDO CONCENTRADO INDOOR (180 CC)",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 1820,
@@ -2636,7 +6252,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22841/image_512/%5B1504024%5D%20GUANO%20LIQUIDO%20CONCENTRADO%20INDOOR%20%28180%20CC%29?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-222",
@@ -2644,7 +6281,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ftmgn3012-guardian-maria-green-1l-22845?category=4470",
       "sku": "FTMGN3012",
       "name": "GUARDIAN MARIA GREEN 1L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MARIA GREEN",
       "cost": 19500,
@@ -2653,7 +6290,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22845/image_512/%5BFTMGN3012%5D%20GUARDIAN%20MARIA%20GREEN%201L?unique=6d06f08",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-221",
@@ -2661,7 +6319,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ftmgn3011-guardian-maria-green-250-ml-22846?category=4470",
       "sku": "FTMGN3011",
       "name": "GUARDIAN MARIA GREEN 250 ML",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MARIA GREEN",
       "cost": 6200,
@@ -2670,7 +6328,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22846/image_512/%5BFTMGN3011%5D%20GUARDIAN%20MARIA%20GREEN%20250%20ML?unique=8adc991",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-223",
@@ -2678,7 +6357,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/69280607005469-guardian-maria-green-5l-22844?category=4470",
       "sku": "69280607005469",
       "name": "GUARDIAN MARIA GREEN 5L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MARIA GREEN",
       "cost": 77000,
@@ -2687,7 +6366,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22844/image_512/%5B69280607005469%5D%20GUARDIAN%20MARIA%20GREEN%205L?unique=668db5e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-290",
@@ -2695,7 +6395,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3000-14eu-hammerhead-1l-advanced-nutrients-23503?category=4470",
       "sku": "3000-14EU",
       "name": "HAMMERHEAD 1L ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 10200,
@@ -2704,7 +6404,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23503/image_512/%5B3000-14EU%5D%20HAMMERHEAD%201L%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-350",
@@ -2712,7 +6433,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/hammerhead-250-ml-advanced-nutrients-24005?category=4470",
       "sku": "",
       "name": "HAMMERHEAD 250 ml ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 5900,
@@ -2721,7 +6442,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/24005/image_512/HAMMERHEAD%20250%20ml%20ADVANCED%20NUTRIENTS?unique=2f8c388",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-289",
@@ -2729,7 +6471,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3000-13eu-hammerhead-500-ml-advanced-nutrients-23502?category=4470",
       "sku": "3000-13EU",
       "name": "HAMMERHEAD 500 ml ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 6900,
@@ -2738,7 +6480,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23502/image_512/%5B3000-13EU%5D%20HAMMERHEAD%20500%20ml%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-220",
@@ -2746,7 +6509,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1504023-humus-liquido-indoor-22860?category=4470",
       "sku": "1504023",
       "name": "Humus liquido indoor",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 1800,
@@ -2755,7 +6518,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22860/image_512/%5B1504023%5D%20Humus%20liquido%20indoor?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-219",
@@ -2763,7 +6547,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4312-magic-green-hng-250-ml-22953?category=4470",
       "sku": "4312",
       "name": "MAGIC GREEN HnG 250 ML",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 16900,
@@ -2772,7 +6556,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22953/image_512/%5B4312%5D%20MAGIC%20GREEN%20HnG%20250%20ML?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-218",
@@ -2780,7 +6585,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4757-magnesium-mgo-hng-1l-22956?category=4470",
       "sku": "4757",
       "name": "MAGNESIUM MgO HnG 1L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 11900,
@@ -2789,7 +6594,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22956/image_512/%5B4757%5D%20MAGNESIUM%20MgO%20HnG%201L?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-217",
@@ -2797,7 +6623,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1501096-masticadores-150cc-22977?category=4470",
       "sku": "1501096",
       "name": "Masticadores 150cc",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 6190,
@@ -2806,7 +6632,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22977/image_512/%5B1501096%5D%20Masticadores%20150cc?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-333",
@@ -2814,7 +6661,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/micro-plus-bioecological-micronutrientes-23988?category=4470",
       "sku": "",
       "name": "MICRO+ BIOECOLOGICAL",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "BIOECOLOGICAL",
       "cost": 9235,
@@ -2823,7 +6670,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23988/image_512/MICRO%2B%20BIOECOLOGICAL?unique=1755383",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-122",
@@ -2831,7 +6699,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4761-monkey-seaweed-1-kg-23005?category=4470",
       "sku": "4761",
       "name": "MONKEY SEAWEED 1 KG",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MONKEY",
       "cost": 14925,
@@ -2840,7 +6708,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23005/image_512/%5B4761%5D%20MONKEY%20SEAWEED%201%20KG?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-123",
@@ -2848,7 +6737,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4759-monkey-seaweed-500-gramos-23006?category=4470",
       "sku": "4759",
       "name": "MONKEY SEAWEED 500 Gramos",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MONKEY",
       "cost": 8175,
@@ -2857,7 +6746,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23006/image_512/%5B4759%5D%20MONKEY%20SEAWEED%20500%20Gramos?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-215",
@@ -2865,7 +6775,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4266-multizyme-hng-1l-23014?category=4470",
       "sku": "4266",
       "name": "MULTIZYME HnG 1L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 17900,
@@ -2874,7 +6784,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23014/image_512/%5B4266%5D%20MULTIZYME%20HnG%201L?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-214",
@@ -2882,7 +6813,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4293-multizyme-hng-250-ml-23015?category=4470",
       "sku": "4293",
       "name": "MULTIZYME HnG 250 ML",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 7900,
@@ -2891,7 +6822,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23015/image_512/%5B4293%5D%20MULTIZYME%20HnG%20250%20ML?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-213",
@@ -2899,7 +6851,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4711-multizyme-hng-5l-23016?category=4470",
       "sku": "4711",
       "name": "MULTIZYME HnG 5L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 76900,
@@ -2908,7 +6860,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23016/image_512/%5B4711%5D%20MULTIZYME%20HnG%205L?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-272",
@@ -2916,7 +6889,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/mycoboost-bioecological-23436?category=4470",
       "sku": "",
       "name": "MYCOBOOST BIOECOLOGICAL",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "BIOECOLOGICAL",
       "cost": 12900,
@@ -2925,7 +6898,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23436/image_512/MYCOBOOST%20BIOECOLOGICAL?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-212",
@@ -2933,7 +6927,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4318-nitrogen-n27-hng-1l-23043?category=4470",
       "sku": "4318",
       "name": "NITROGEN N27 HnG 1L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 25900,
@@ -2942,7 +6936,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23043/image_512/%5B4318%5D%20NITROGEN%20N27%20HnG%201L?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-211",
@@ -2950,7 +6965,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4316-nitrogen-n27-hng-250-ml-23044?category=4470",
       "sku": "4316",
       "name": "NITROGEN N27 HnG 250 ML",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 8900,
@@ -2959,7 +6974,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23044/image_512/%5B4316%5D%20NITROGEN%20N27%20HnG%20250%20ML?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-261",
@@ -2967,7 +7003,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3750-14eu-overdrive-1l-advanced-nutrients-23394?category=4470",
       "sku": "3750-14EU",
       "name": "OVERDRIVE 1L ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 30900,
@@ -2976,7 +7012,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23394/image_512/%5B3750-14EU%5D%20OVERDRIVE%201L%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-338",
@@ -2984,7 +7041,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3750-12eu-overdrive-250ml-advanced-nutrients-23993?category=4470",
       "sku": "3750-12EU",
       "name": "OVERDRIVE 250ml ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 9900,
@@ -2993,7 +7050,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23993/image_512/%5B3750-12EU%5D%20OVERDRIVE%20250ml%20ADVANCED%20NUTRIENTS?unique=b64b986",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-260",
@@ -3001,7 +7079,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3750-13eu-overdrive-500ml-advanced-nutrients-23393?category=4470",
       "sku": "3750-13EU",
       "name": "OVERDRIVE 500ml ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 16500,
@@ -3010,7 +7088,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23393/image_512/%5B3750-13EU%5D%20OVERDRIVE%20500ml%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-278",
@@ -3018,7 +7117,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3750-20eu-overdrive-5l-advanced-nutrients-23491?category=4470",
       "sku": "3750-20EU",
       "name": "OVERDRIVE 5L ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 129900,
@@ -3027,7 +7126,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23491/image_512/%5B3750-20EU%5D%20OVERDRIVE%205L%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-301",
@@ -3035,7 +7155,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/over1l-overgrow-1l-optic-foliar-23581?category=4470",
       "sku": "OVER1L",
       "name": "OVERGROW 1L OPTIC FOLIAR",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 14990,
@@ -3044,7 +7164,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23581/image_512/%5BOVER1L%5D%20OVERGROW%201L%20OPTIC%20FOLIAR?unique=c12ad1f",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-294",
@@ -3052,7 +7193,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/packoptic60ml-pack-60ml-optic-foliar-23574?category=4470",
       "sku": "PACKOPTIC60ML",
       "name": "PACK 60ml OPTIC FOLIAR",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 24000,
@@ -3061,24 +7202,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23574/image_512/%5BPACKOPTIC60ML%5D%20PACK%2060ml%20OPTIC%20FOLIAR?unique=d425eaa",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-336",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ph-down-bioecological-regulador-bajar-ph-23991?category=4470",
-      "sku": "",
-      "name": "pH DOWN BIOECOLOGICAL",
-      "category": "Cultivo",
-      "subcategory": "Fertilizantes",
-      "brand": "BIOECOLOGICAL",
-      "cost": 6714,
-      "finalPrice": 12291.784615384615,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23991/image_512/pH%20DOWN%20%20%20BIOECOLOGICAL?unique=75d17ab",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-210",
@@ -3086,7 +7231,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/465155-ph-osmosis-stabilizer-hng-1-lt-23070?category=4470",
       "sku": "465155",
       "name": "PH OSMOSIS STABILIZER HnG 1 LT",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 10900,
@@ -3095,177 +7240,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23070/image_512/%5B465155%5D%20PH%20OSMOSIS%20STABILIZER%20HnG%201%20LT?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-116",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1660-14eu-ph-perfect-connoisseur-bloom-a-b-1l-advanced-nutrients-23386?category=4470",
-      "sku": "1660-14EU",
-      "name": "PH PERFECT CONNOISSEUR BLOOM A+B 1L ADVANCED NUTRIENTS",
-      "category": "Cultivo",
-      "subcategory": "Fertilizantes",
-      "brand": "ADVANCED NUTRIENTS",
-      "cost": 27000,
-      "finalPrice": 49430.76923076923,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23386/image_512/%5B1660-14EU%5D%20PH%20PERFECT%20CONNOISSEUR%20BLOOM%20A%2BB%201L%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-276",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1660-13eu-ph-perfect-connoisseur-bloom-a-b-500ml-advanced-nutrients-23482?category=4470",
-      "sku": "1660-13EU",
-      "name": "PH PERFECT CONNOISSEUR BLOOM A+B 500ML ADVANCED NUTRIENTS",
-      "category": "Cultivo",
-      "subcategory": "Fertilizantes",
-      "brand": "ADVANCED NUTRIENTS",
-      "cost": 15000,
-      "finalPrice": 27461.53846153846,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23482/image_512/%5B1660-13EU%5D%20PH%20PERFECT%20CONNOISSEUR%20BLOOM%20A%2BB%20500ML%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-258",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1660-20eu-ph-perfect-connoisseur-bloom-a-b-5l-advanced-nutrients-23389?category=4470",
-      "sku": "1660-20EU",
-      "name": "PH PERFECT CONNOISSEUR BLOOM A+B 5L ADVANCED NUTRIENTS",
-      "category": "Cultivo",
-      "subcategory": "Fertilizantes",
-      "brand": "ADVANCED NUTRIENTS",
-      "cost": 125800,
-      "finalPrice": 230310.76923076922,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23389/image_512/%5B1660-20EU%5D%20PH%20PERFECT%20CONNOISSEUR%20BLOOM%20A%2BB%205L%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-256",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1660-5-13eu-ph-perfect-connoisseur-grow-a-b-1l-advanced-nutrients-23387?category=4470",
-      "sku": "1660 5-13EU",
-      "name": "PH PERFECT CONNOISSEUR GROW A+B 1L ADVANCED NUTRIENTS",
-      "category": "Cultivo",
-      "subcategory": "Fertilizantes",
-      "brand": "ADVANCED NUTRIENTS",
-      "cost": 27000,
-      "finalPrice": 49430.76923076923,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23387/image_512/%5B1660%205-13EU%5D%20PH%20PERFECT%20CONNOISSEUR%20GROW%20A%2BB%201L%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-277",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1680-13eu-ph-perfect-connoisseur-grow-a-b-500ml-advanced-nutrients-23486?category=4470",
-      "sku": "1680-13EU",
-      "name": "PH PERFECT CONNOISSEUR GROW A+B 500ML ADVANCED NUTRIENTS",
-      "category": "Cultivo",
-      "subcategory": "Fertilizantes",
-      "brand": "ADVANCED NUTRIENTS",
-      "cost": 15000,
-      "finalPrice": 27461.53846153846,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23486/image_512/%5B1680-13EU%5D%20PH%20PERFECT%20CONNOISSEUR%20GROW%20A%2BB%20500ML%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-259",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1680-20eu-ph-perfect-connoisseur-grow-a-b-5l-advanced-nutrients-23391?category=4470",
-      "sku": "1680-20EU",
-      "name": "PH PERFECT CONNOISSEUR GROW A+B 5L ADVANCED NUTRIENTS",
-      "category": "Cultivo",
-      "subcategory": "Fertilizantes",
-      "brand": "ADVANCED NUTRIENTS",
-      "cost": 125800,
-      "finalPrice": 230310.76923076922,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23391/image_512/%5B1680-20EU%5D%20PH%20PERFECT%20CONNOISSEUR%20GROW%20A%2BB%205L%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-110",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/perfect-tri-pack1l-ph-perfect-tri-pack-1l-advanced-nutrients-23424?category=4470",
-      "sku": "PERFECT-TRI-PACK1L",
-      "name": "PH PERFECT TRI-PACK 1L ADVANCED NUTRIENTS",
-      "category": "Cultivo",
-      "subcategory": "Fertilizantes",
-      "brand": "ADVANCED NUTRIENTS",
-      "cost": 33000,
-      "finalPrice": 60415.38461538461,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23424/image_512/%5BPERFECT-TRI-PACK1L%5D%20PH%20PERFECT%20TRI-PACK%201L%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-109",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/perfect-tri-pack500-ph-perfect-tri-pack-500ml-advanced-nutrients-23423?category=4470",
-      "sku": "PERFECT-TRI-PACK500",
-      "name": "PH PERFECT TRI-PACK 500mL ADVANCED NUTRIENTS",
-      "category": "Cultivo",
-      "subcategory": "Fertilizantes",
-      "brand": "ADVANCED NUTRIENTS",
-      "cost": 15900,
-      "finalPrice": 29109.23076923077,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23423/image_512/%5BPERFECT-TRI-PACK500%5D%20PH%20PERFECT%20TRI-PACK%20500mL%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-293",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ph-perfect-tri-pack-5l-advanced-nutrients-23507?category=4470",
-      "sku": "",
-      "name": "PH PERFECT TRI-PACK 5L ADVANCED NUTRIENTS",
-      "category": "Cultivo",
-      "subcategory": "Fertilizantes",
-      "brand": "ADVANCED NUTRIENTS",
-      "cost": 134800,
-      "finalPrice": 246787.6923076923,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23507/image_512/PH%20PERFECT%20TRI-PACK%205L%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-335",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ph-up-bioecological-regulador-subir-ph-23990?category=4470",
-      "sku": "",
-      "name": "pH UP BIOECOLOGICAL",
-      "category": "Cultivo",
-      "subcategory": "Fertilizantes",
-      "brand": "BIOECOLOGICAL",
-      "cost": 6714,
-      "finalPrice": 12291.784615384615,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23990/image_512/pH%20UP%20%20BIOECOLOGICAL?unique=fc2c013",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-209",
@@ -3273,7 +7269,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1501137-phyllum-anasac-150cc-23071?category=4470",
       "sku": "1501137",
       "name": "Phyllum Anasac 150cc",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ANASAC",
       "cost": 3600,
@@ -3282,7 +7278,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23071/image_512/%5B1501137%5D%20Phyllum%20Anasac%20150cc?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-299",
@@ -3290,7 +7307,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/portel60ml-portel-60ml-optic-foliar-23579?category=4470",
       "sku": "PORTEL60ml",
       "name": "PORTEL 60ml OPTIC FOLIAR",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 7000,
@@ -3299,7 +7316,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23579/image_512/%5BPORTEL60ml%5D%20PORTEL%2060ml%20OPTIC%20FOLIAR?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-297",
@@ -3307,7 +7345,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/rev60ml-rev-60ml-optic-foliar-23577?category=4470",
       "sku": "REV60ml",
       "name": "REV 60ml OPTIC FOLIAR",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 6500,
@@ -3316,7 +7354,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23577/image_512/%5BREV60ml%5D%20REV%2060ml%20OPTIC%20FOLIAR?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-283",
@@ -3324,7 +7383,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4020-14eu-rhino-skin-1l-advanced-nutrients-23496?category=4470",
       "sku": "4020-14EU",
       "name": "RHINO SKIN 1L ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 21500,
@@ -3333,7 +7392,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23496/image_512/%5B4020-14EU%5D%20RHINO%20SKIN%201L%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-342",
@@ -3341,7 +7421,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4020-12eu-rhino-skin-250ml-advanced-nutrients-23997?category=4470",
       "sku": "4020-12EU",
       "name": "RHINO SKIN 250ml ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 8900,
@@ -3350,7 +7430,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23997/image_512/%5B4020-12EU%5D%20RHINO%20SKIN%20250ml%20ADVANCED%20NUTRIENTS?unique=2f8c388",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-137",
@@ -3358,7 +7459,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4020-13eu-rhino-skin-500ml-advanced-nutrients-23406?category=4470",
       "sku": "4020-13EU",
       "name": "RHINO SKIN 500ml ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 13900,
@@ -3367,7 +7468,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23406/image_512/%5B4020-13EU%5D%20RHINO%20SKIN%20500ml%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-337",
@@ -3375,7 +7497,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4020-20eu-rhino-skin-5l-advanced-nutrients-23992?category=4470",
       "sku": "4020-20EU",
       "name": "RHINO SKIN 5L ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 114900,
@@ -3384,7 +7506,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23992/image_512/%5B4020-20EU%5D%20RHINO%20SKIN%205L%20ADVANCED%20NUTRIENTS?unique=2f8c388",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-128",
@@ -3392,7 +7535,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4302-rhizo-force-hng-4-5-kg-23111?category=4470",
       "sku": "4302",
       "name": "RHIZO FORCE HnG 4.5 Kg",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 24500,
@@ -3401,7 +7544,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23111/image_512/%5B4302%5D%20RHIZO%20FORCE%20HnG%204.5%20Kg?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-208",
@@ -3409,7 +7573,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4326-rhizo-force-hng-500g-23112?category=4470",
       "sku": "4326",
       "name": "RHIZO FORCE HnG 500g",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 7900,
@@ -3418,7 +7582,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23112/image_512/%5B4326%5D%20RHIZO%20FORCE%20HnG%20500g?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-206",
@@ -3426,7 +7611,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4268-roots-gold-hng-100-ml-23131?category=4470",
       "sku": "4268",
       "name": "ROOTS GOLD HnG 100 ML",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 15900,
@@ -3435,7 +7620,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23131/image_512/%5B4268%5D%20ROOTS%20GOLD%20HnG%20100%20ML?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-207",
@@ -3443,7 +7649,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4324-roots-gold-hng-1l-23130?category=4470",
       "sku": "4324",
       "name": "ROOTS GOLD HnG 1L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 124900,
@@ -3452,7 +7658,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23130/image_512/%5B4324%5D%20ROOTS%20GOLD%20HnG%201L?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-205",
@@ -3460,7 +7687,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4320-roots-gold-hng-250-ml-23132?category=4470",
       "sku": "4320",
       "name": "ROOTS GOLD HnG 250 ML",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 36500,
@@ -3469,7 +7696,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23132/image_512/%5B4320%5D%20ROOTS%20GOLD%20HnG%20250%20ML?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-204",
@@ -3477,7 +7725,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4322-roots-gold-hng-500-ml-23133?category=4470",
       "sku": "4322",
       "name": "ROOTS GOLD HnG 500 ML",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 62500,
@@ -3486,7 +7734,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23133/image_512/%5B4322%5D%20ROOTS%20GOLD%20HnG%20500%20ML?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-136",
@@ -3494,7 +7763,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ftmgn3004-roots-maria-green-1l-23134?category=4470",
       "sku": "FTMGN3004",
       "name": "ROOTS MARIA GREEN 1L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MARIA GREEN",
       "cost": 19900,
@@ -3503,7 +7772,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23134/image_512/%5BFTMGN3004%5D%20ROOTS%20MARIA%20GREEN%201L?unique=9d65272",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-135",
@@ -3511,7 +7801,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ftmgn3019-roots-maria-green-250-ml-23135?category=4470",
       "sku": "FTMGN3019",
       "name": "ROOTS MARIA GREEN 250 ML",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MARIA GREEN",
       "cost": 6500,
@@ -3520,7 +7810,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23135/image_512/%5BFTMGN3019%5D%20ROOTS%20MARIA%20GREEN%20250%20ML?unique=8518978",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-255",
@@ -3528,7 +7839,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ftmgn3014-roots-maria-green-5l-23287?category=4470",
       "sku": "FTMGN3014",
       "name": "ROOTS MARIA GREEN 5L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MARIA GREEN",
       "cost": 79000,
@@ -3537,7 +7848,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23287/image_512/%5BFTMGN3014%5D%20ROOTS%20MARIA%20GREEN%205L?unique=9d65272",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-254",
@@ -3545,7 +7877,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/hngsilver250-roots-silver-hng-250-ml-23291?category=4470",
       "sku": "HNGSILVER250",
       "name": "ROOTS SILVER HnG 250 ML",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 41900,
@@ -3554,7 +7886,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23291/image_512/%5BHNGSILVER250%5D%20ROOTS%20SILVER%20HnG%20250%20ML?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-345",
@@ -3562,7 +7915,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/6360-14eu-sensi-cal-mag-xtra-1l-advanced-nutrients-24000?category=4470",
       "sku": "6360-14EU",
       "name": "SENSI CAL-MAG XTRA 1L ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 21900,
@@ -3571,7 +7924,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/24000/image_512/%5B6360-14EU%5D%20SENSI%20CAL-MAG%20XTRA%201L%20ADVANCED%20NUTRIENTS?unique=2f8c388",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-347",
@@ -3579,7 +7953,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/6360-12eu-sensi-cal-mag-xtra-250ml-advanced-nutrients-24002?category=4470",
       "sku": "6360-12EU",
       "name": "SENSI CAL-MAG XTRA 250ml ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 6900,
@@ -3588,7 +7962,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/24002/image_512/%5B6360-12EU%5D%20SENSI%20CAL-MAG%20XTRA%20250ml%20ADVANCED%20NUTRIENTS?unique=2f8c388",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-346",
@@ -3596,7 +7991,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/6360-13eu-sensi-cal-mag-xtra-500ml-advanced-nutrients-24001?category=4470",
       "sku": "6360-13EU",
       "name": "SENSI CAL-MAG XTRA 500ml ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 13900,
@@ -3605,7 +8000,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/24001/image_512/%5B6360-13EU%5D%20SENSI%20CAL-MAG%20XTRA%20500ml%20ADVANCED%20NUTRIENTS?unique=2f8c388",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-344",
@@ -3613,7 +8029,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/6360-20eu-sensi-cal-mag-xtra-5l-advanced-nutrients-23999?category=4470",
       "sku": "6360-20EU",
       "name": "SENSI CAL-MAG XTRA 5L ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 91900,
@@ -3622,7 +8038,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23999/image_512/%5B6360-20EU%5D%20SENSI%20CAL-MAG%20XTRA%205L%20ADVANCED%20NUTRIENTS?unique=2f8c388",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-271",
@@ -3630,7 +8067,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/6550-14eu-sensizym-1l-advanced-nutrients-23410?category=4470",
       "sku": "6550-14EU",
       "name": "SENSIZYM 1L ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 25900,
@@ -3639,7 +8076,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23410/image_512/%5B6550-14EU%5D%20SENSIZYM%201L%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-343",
@@ -3647,7 +8105,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/6550-12eu-sensizym-250ml-advanced-nutrients-23998?category=4470",
       "sku": "6550-12EU",
       "name": "SENSIZYM 250ml ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 9900,
@@ -3656,7 +8114,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23998/image_512/%5B6550-12EU%5D%20SENSIZYM%20250ml%20ADVANCED%20NUTRIENTS?unique=2f8c388",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-118",
@@ -3664,7 +8143,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/6550-13eu-sensizym-500ml-advanced-nutrients-23411?category=4470",
       "sku": "6550-13EU",
       "name": "SENSIZYM 500ml ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 14900,
@@ -3673,7 +8152,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23411/image_512/%5B6550-13EU%5D%20SENSIZYM%20500ml%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-351",
@@ -3681,7 +8181,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/6550-20eu-sensizym-5l-advanced-nutrients-24006?category=4470",
       "sku": "6550-20EU",
       "name": "SENSIZYM 5L ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 119500,
@@ -3690,7 +8190,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/24006/image_512/%5B6550-20EU%5D%20SENSIZYM%205L%20ADVANCED%20NUTRIENTS?unique=2f8c388",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-203",
@@ -3698,7 +8219,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4280-shooting-powder-hng-23160?category=4470",
       "sku": "4280",
       "name": "SHOOTING POWDER HnG",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 6500,
@@ -3707,7 +8228,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23160/image_512/%5B4280%5D%20SHOOTING%20POWDER%20HnG?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-328",
@@ -3715,7 +8257,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/hgieso10l-soil-a-b-hng-10l-23964?category=4470",
       "sku": "HGIESO10L",
       "name": "SOIL A + B HnG 10L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 64900,
@@ -3724,7 +8266,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23964/image_512/%5BHGIESO10L%5D%20SOIL%20A%20%2B%20B%20HnG%2010L?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-158",
@@ -3732,7 +8295,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4352-soil-a-b-hng-1l-23164?category=4470",
       "sku": "4352",
       "name": "SOIL A + B HnG 1L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 17800,
@@ -3741,7 +8304,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23164/image_512/%5B4352%5D%20SOIL%20A%20%2B%20B%20HnG%201L?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-157",
@@ -3749,7 +8333,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1654889237769-soil-a-b-hng-20l-23165?category=4470",
       "sku": "1654889237769",
       "name": "SOIL A + B HnG 20L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 197800,
@@ -3758,7 +8342,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23165/image_512/%5B1654889237769%5D%20SOIL%20A%20%2B%20B%20HnG%2020L?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-156",
@@ -3766,7 +8371,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4354-soil-a-b-hng-5l-23166?category=4470",
       "sku": "4354",
       "name": "SOIL A + B HnG 5L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 44900,
@@ -3775,7 +8380,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23166/image_512/%5B4354%5D%20SOIL%20A%20%2B%20B%20HnG%205L?unique=d3c5ddd",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-155",
@@ -3783,7 +8409,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4299-starter-kit-cocos-hng-23179?category=4470",
       "sku": "4299",
       "name": "STARTER KIT COCOS HnG",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 110900,
@@ -3792,7 +8418,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23179/image_512/%5B4299%5D%20STARTER%20KIT%20COCOS%20HnG?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-154",
@@ -3800,7 +8447,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4278-starter-kit-hng-23180?category=4470",
       "sku": "4278",
       "name": "STARTER KIT HnG",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 110900,
@@ -3809,7 +8456,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23180/image_512/%5B4278%5D%20STARTER%20KIT%20HnG?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-153",
@@ -3817,7 +8485,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ftmgn3013-starter-pack-maria-green-750ml-23181?category=4470",
       "sku": "FTMGN3013",
       "name": "STARTER PACK MARIA GREEN 750ML",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MARIA GREEN",
       "cost": 8500,
@@ -3826,7 +8494,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23181/image_512/%5BFTMGN3013%5D%20STARTER%20PACK%20MARIA%20GREEN%20750ML?unique=9d65272",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-125",
@@ -3834,7 +8523,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ftmgn3025-sugar-clean-maria-green-500-ml-23301?category=4470",
       "sku": "FTMGN3025",
       "name": "SUGAR CLEAN MARIA GREEN 500 ML",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MARIA GREEN",
       "cost": 6100,
@@ -3843,7 +8532,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23301/image_512/%5BFTMGN3025%5D%20SUGAR%20CLEAN%20MARIA%20GREEN%20500%20ML?unique=8518978",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-126",
@@ -3851,7 +8561,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ftmgn3027-sugar-clean-maria-green-5l-23303?category=4470",
       "sku": "FTMGN3027",
       "name": "SUGAR CLEAN MARIA GREEN 5L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MARIA GREEN",
       "cost": 43200,
@@ -3860,7 +8570,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23303/image_512/%5BFTMGN3027%5D%20SUGAR%20CLEAN%20MARIA%20GREEN%205L?unique=6d06f08",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-152",
@@ -3868,7 +8599,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ftmgn3009-superflower-maria-green-150-gr-23196?category=4470",
       "sku": "FTMGN3009",
       "name": "SUPERFLOWER MARIA GREEN 150 GR",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MARIA GREEN",
       "cost": 6500,
@@ -3877,7 +8608,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23196/image_512/%5BFTMGN3009%5D%20SUPERFLOWER%20MARIA%20GREEN%20150%20GR?unique=6d06f08",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-151",
@@ -3885,7 +8637,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ftmgn3010-superflower-maria-green-600-gr-23197?category=4470",
       "sku": "FTMGN3010",
       "name": "SUPERFLOWER MARIA GREEN 600 GR",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "MARIA GREEN",
       "cost": 19800,
@@ -3894,7 +8646,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23197/image_512/%5BFTMGN3010%5D%20SUPERFLOWER%20MARIA%20GREEN%20600%20GR?unique=8518978",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-300",
@@ -3902,7 +8675,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/switch10l-switch-10l-optic-foliar-23580?category=4470",
       "sku": "SWITCH10L",
       "name": "SWITCH 10L OPTIC FOLIAR",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 250000,
@@ -3911,7 +8684,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23580/image_512/%5BSWITCH10L%5D%20SWITCH%2010L%20OPTIC%20FOLIAR?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-303",
@@ -3919,7 +8713,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/switch1l-switch-1l-optic-foliar-23583?category=4470",
       "sku": "SWITCH1L",
       "name": "SWITCH 1L OPTIC FOLIAR",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 20000,
@@ -3928,7 +8722,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23583/image_512/%5BSWITCH1L%5D%20SWITCH%201L%20OPTIC%20FOLIAR?unique=37a1b66",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-298",
@@ -3936,7 +8751,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/switch4l-switch-4l-optic-foliar-23578?category=4470",
       "sku": "SWITCH4L",
       "name": "SWITCH 4L OPTIC FOLIAR",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 65000,
@@ -3945,7 +8760,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23578/image_512/%5BSWITCH4L%5D%20SWITCH%204L%20OPTIC%20FOLIAR?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-267",
@@ -3953,7 +8789,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3550-14eu-tasty-terpenes-1l-advanced-nutrients-23404?category=4470",
       "sku": "3550-14EU",
       "name": "TASTY TERPENES 1L ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 41900,
@@ -3962,7 +8798,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23404/image_512/%5B3550-14EU%5D%20TASTY%20TERPENES%201L%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-341",
@@ -3970,7 +8827,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3550-12eu-tasty-terpenes-250ml-advanced-nutrients-23996?category=4470",
       "sku": "3550-12EU",
       "name": "TASTY TERPENES 250ml ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 13900,
@@ -3979,7 +8836,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23996/image_512/%5B3550-12EU%5D%20TASTY%20TERPENES%20250ml%20ADVANCED%20NUTRIENTS?unique=2f8c388",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-268",
@@ -3987,7 +8865,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3550-13eu-tasty-terpenes-500ml-advanced-nutrients-23405?category=4470",
       "sku": "3550-13EU",
       "name": "TASTY TERPENES 500ml ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 21900,
@@ -3996,7 +8874,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23405/image_512/%5B3550-13EU%5D%20TASTY%20TERPENES%20500ml%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-150",
@@ -4004,7 +8903,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5555-top-booster-hng-1l-23222?category=4470",
       "sku": "5555",
       "name": "TOP BOOSTER HnG 1L",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 12891,
@@ -4013,7 +8912,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23222/image_512/%5B5555%5D%20TOP%20BOOSTER%20HnG%201L?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-149",
@@ -4021,7 +8941,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4328-top-booster-hng-250-ml-23223?category=4470",
       "sku": "4328",
       "name": "TOP BOOSTER HnG 250 ML",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 5900,
@@ -4030,7 +8950,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23223/image_512/%5B4328%5D%20TOP%20BOOSTER%20HnG%20250%20ML?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-148",
@@ -4038,7 +8979,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/hg0001-top-shooter-hng-100-ml-23225?category=4470",
       "sku": "HG0001",
       "name": "TOP SHOOTER HnG 100 ML",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 11900,
@@ -4047,7 +8988,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23225/image_512/%5BHG0001%5D%20TOP%20SHOOTER%20HnG%20100%20ML?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-296",
@@ -4055,7 +9017,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/tran250ml-transport-250ml-optic-foliar-23576?category=4470",
       "sku": "TRAN250ml",
       "name": "TRANSPORT 250ml OPTIC FOLIAR",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 19990,
@@ -4064,7 +9026,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23576/image_512/%5BTRAN250ml%5D%20TRANSPORT%20250ml%20OPTIC%20FOLIAR?unique=86997a0",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-295",
@@ -4072,7 +9055,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/tran60ml-transport-60ml-optic-foliar-23575?category=4470",
       "sku": "TRAN60ml",
       "name": "TRANSPORT 60ml OPTIC FOLIAR",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 7000,
@@ -4081,7 +9064,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23575/image_512/%5BTRAN60ml%5D%20TRANSPORT%2060ml%20OPTIC%20FOLIAR?unique=50701a0",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-120",
@@ -4089,7 +9093,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4878-trichome-mania-quitosano-1-lt-23228?category=4470",
       "sku": "4878",
       "name": "TRICHOME MANIA QUITOSANO 1 LT",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 28298,
@@ -4098,7 +9102,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23228/image_512/%5B4878%5D%20TRICHOME%20MANIA%20QUITOSANO%201%20LT?unique=1614eed",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-121",
@@ -4106,7 +9131,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4939-trichome-mania-quitosano-250-ml-23229?category=4470",
       "sku": "4939",
       "name": "TRICHOME MANIA QUITOSANO 250 ML",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 12542,
@@ -4115,7 +9140,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23229/image_512/%5B4939%5D%20TRICHOME%20MANIA%20QUITOSANO%20250%20ML?unique=1614eed",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-331",
@@ -4123,7 +9169,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/veg-plus-bioecological-fertilizante-crecimiento-23986?category=4470",
       "sku": "",
       "name": "VEG+ BIOECOLOGICAL",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "BIOECOLOGICAL",
       "cost": 11336,
@@ -4132,7 +9178,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23986/image_512/VEG%2B%20BIOECOLOGICAL?unique=d0b922b",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-147",
@@ -4140,7 +9207,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/67361715953108-vitalical-20-gr-23233?category=4470",
       "sku": "67361715953108",
       "name": "VITALICAL 20 GR",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "VITALICAL",
       "cost": 4405,
@@ -4149,7 +9216,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23233/image_512/%5B67361715953108%5D%20VITALICAL%2020%20GR?unique=7de9f33",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-146",
@@ -4157,7 +9245,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/67301210570186-vitalical-50-gr-23235?category=4470",
       "sku": "67301210570186",
       "name": "VITALICAL 50 GR",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "VITALICAL",
       "cost": 9447,
@@ -4166,7 +9254,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23235/image_512/%5B67301210570186%5D%20VITALICAL%2050%20GR?unique=7de9f33",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-145",
@@ -4174,7 +9283,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/67889926404677-vitalipro-20-grs-23237?category=4470",
       "sku": "67889926404677",
       "name": "VITALIPRO 20 GRS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 4405,
@@ -4183,7 +9292,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23237/image_512/%5B67889926404677%5D%20VITALIPRO%2020%20GRS?unique=7de9f33",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-144",
@@ -4191,7 +9321,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/67889927620039-vitalipro-50-grs-23239?category=4470",
       "sku": "67889927620039",
       "name": "VITALIPRO 50 GRS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 9447,
@@ -4200,7 +9330,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23239/image_512/%5B67889927620039%5D%20VITALIPRO%2050%20GRS?unique=7de9f33",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-143",
@@ -4208,7 +9359,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/68787753950828-vitalisil-30-ml-23240?category=4470",
       "sku": "68787753950828",
       "name": "VITALISIL 30 ml",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 6296,
@@ -4217,7 +9368,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23240/image_512/%5B68787753950828%5D%20VITALISIL%2030%20ml?unique=7de9f33",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-138",
@@ -4225,7 +9397,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/67889966255132-vitaliterps-20-grs-23241?category=4470",
       "sku": "67889966255132",
       "name": "VITALITERPS 20 GRS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 4405,
@@ -4234,7 +9406,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23241/image_512/%5B67889966255132%5D%20VITALITERPS%2020%20GRS?unique=7de9f33",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-142",
@@ -4242,7 +9435,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/67889968205057-vitaliterps-250-grs-23242?category=4470",
       "sku": "67889968205057",
       "name": "VITALITERPS 250 GRS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 25204,
@@ -4251,7 +9444,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23242/image_512/%5B67889968205057%5D%20VITALITERPS%20250%20GRS?unique=7de9f33",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-141",
@@ -4259,7 +9473,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/67889967343338-vitaliterps-50-grs-23243?category=4470",
       "sku": "67889967343338",
       "name": "VITALITERPS 50 GRS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "",
       "cost": 9447,
@@ -4268,7 +9482,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23243/image_512/%5B67889967343338%5D%20VITALITERPS%2050%20GRS?unique=7de9f33",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-112",
@@ -4276,7 +9511,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/9375-23eur-voodoo-juice-plus-tablets-0125g-advanced-nutrients-23399?category=4470",
       "sku": "9375-23EUR",
       "name": "VOODOO JUICE PLUS TABLETS 0,125g ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 23900,
@@ -4285,7 +9520,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23399/image_512/%5B9375-23EUR%5D%20VOODOO%20JUICE%20PLUS%20TABLETS%200%2C125g%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-264",
@@ -4293,7 +9549,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/9375-25eur-voodoo-juice-plus-tablets-1g-advanced-nutrients-23398?category=4470",
       "sku": "9375-25EUR",
       "name": "VOODOO JUICE PLUS TABLETS 1g ADVANCED NUTRIENTS",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "ADVANCED NUTRIENTS",
       "cost": 78900,
@@ -4302,7 +9558,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23398/image_512/%5B9375-25EUR%5D%20VOODOO%20JUICE%20PLUS%20TABLETS%201g%20ADVANCED%20NUTRIENTS?unique=4cc8b7e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-140",
@@ -4310,7 +9587,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1644328150379-yo-planto-guano-ultra-100gr-23248?category=4470",
       "sku": "1644328150379",
       "name": "YO PLANTO GUANO ULTRA 100GR",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "YO PLANTO",
       "cost": 3088,
@@ -4319,7 +9596,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23248/image_512/%5B1644328150379%5D%20YO%20PLANTO%20GUANO%20ULTRA%20100GR?unique=7de9f33",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-139",
@@ -4327,7 +9625,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1644328203199-yo-planto-tierra-de-diatomeas-100gr-23250?category=4470",
       "sku": "1644328203199",
       "name": "YO PLANTO TIERRA DE DIATOMEAS 100GR",
-      "category": "Cultivo",
+      "category": "Fertilizantes y nutrición",
       "subcategory": "Fertilizantes",
       "brand": "YO PLANTO",
       "cost": 4979,
@@ -4336,823 +9634,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23250/image_512/%5B1644328203199%5D%20YO%20PLANTO%20TIERRA%20DE%20DIATOMEAS%20100GR?unique=7de9f33",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-424",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/amc-16-17-34-cap-adaptador-macho-cap-de-16-17-mm-a-3-4-23351?category=4495",
-      "sku": "AMC-16-17-34-CAP",
-      "name": "Adaptador Macho CAP de 16-17 mm a 3/4",
-      "category": "Cultivo",
-      "subcategory": "Riego",
-      "brand": "",
-      "cost": 1490,
-      "finalPrice": 2727.846153846154,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23351/image_512/%5BAMC-16-17-34-CAP%5D%20Adaptador%20Macho%20CAP%20de%2016-17%20mm%20a%203-4?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-423",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/adp16-17-34-adaptador-macho-de-16-17-mm-a-3-4-23350?category=4495",
-      "sku": "ADP16-17-34",
-      "name": "Adaptador Macho de 16-17 mm a 3/4",
-      "category": "Cultivo",
-      "subcategory": "Riego",
-      "brand": "",
-      "cost": 1290,
-      "finalPrice": 2361.6923076923076,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23350/image_512/%5BADP16-17-34%5D%20Adaptador%20Macho%20de%2016-17%20mm%20a%203-4?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-425",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/cc-16-17-90-conector-codo-16-17-mm-23353?category=4495",
-      "sku": "CC-16-17-90",
-      "name": "CONECTOR CODO 16-17 mm",
-      "category": "Cultivo",
-      "subcategory": "Riego",
-      "brand": "",
-      "cost": 1390,
-      "finalPrice": 2544.7692307692305,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23353/image_512/%5BCC-16-17-90%5D%20CONECTOR%20CODO%2016-17%20mm?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-427",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/crd-16-17-conector-recta-16-17-mm-23355?category=4495",
-      "sku": "CRD-16-17",
-      "name": "CONECTOR RECTA 16-17 mm",
-      "category": "Cultivo",
-      "subcategory": "Riego",
-      "brand": "",
-      "cost": 1390,
-      "finalPrice": 2544.7692307692305,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23355/image_512/%5BCRD-16-17%5D%20CONECTOR%20RECTA%2016-17%20mm?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-418",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/congoteo3-5mm-conector-riego-por-goteo-3-5mm-23348?category=4495",
-      "sku": "CONGOTEO3-5MM",
-      "name": "CONECTOR RIEGO POR GOTEO 3-5mm",
-      "category": "Cultivo",
-      "subcategory": "Riego",
-      "brand": "",
-      "cost": 99,
-      "finalPrice": 181.24615384615382,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23348/image_512/%5BCONGOTEO3-5MM%5D%20CONECTOR%20RIEGO%20POR%20GOTEO%203-5mm?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-422",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/congoteo4-7mm-conector-riego-por-goteo-4-7mm-23349?category=4495",
-      "sku": "CONGOTEO4-7MM",
-      "name": "CONECTOR RIEGO POR GOTEO 4-7mm",
-      "category": "Cultivo",
-      "subcategory": "Riego",
-      "brand": "",
-      "cost": 99,
-      "finalPrice": 181.24615384615382,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23349/image_512/%5BCONGOTEO4-7MM%5D%20CONECTOR%20RIEGO%20POR%20GOTEO%204-7mm?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-416",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ct-16-17-conector-tee-de-16-17-mm-23352?category=4495",
-      "sku": "CT-16-17",
-      "name": "CONECTOR TEE de 16-17 mm",
-      "category": "Cultivo",
-      "subcategory": "Riego",
-      "brand": "",
-      "cost": 1490,
-      "finalPrice": 2727.846153846154,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23352/image_512/%5BCT-16-17%5D%20CONECTOR%20TEE%20de%2016-17%20mm?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-426",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/tp-47-hdpe-conector-tee-planza-de-4-7mm-23354?category=4495",
-      "sku": "TP-47-HDPE",
-      "name": "CONECTOR TEE PLANZA de 4-7mm",
-      "category": "Cultivo",
-      "subcategory": "Riego",
-      "brand": "",
-      "cost": 99,
-      "finalPrice": 181.24615384615382,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23354/image_512/%5BTP-47-HDPE%5D%20CONECTOR%20TEE%20PLANZA%20de%204-7mm?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-417",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/fgp-1u-4r-estaca-de-riego-por-goteo-23357?category=4495",
-      "sku": "FGP-1U-4R",
-      "name": "ESTACA DE RIEGO POR GOTEO",
-      "category": "Cultivo",
-      "subcategory": "Riego",
-      "brand": "",
-      "cost": 300,
-      "finalPrice": 549.2307692307692,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23357/image_512/%5BFGP-1U-4R%5D%20ESTACA%20DE%20RIEGO%20POR%20GOTEO?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-419",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/planza16-17mm-manguera-planza-16-17mm-23345?category=4495",
-      "sku": "PLANZA16-17MM",
-      "name": "MANGUERA PLANZA 16-17mm",
-      "category": "Cultivo",
-      "subcategory": "Riego",
-      "brand": "",
-      "cost": 800,
-      "finalPrice": 1464.6153846153845,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23345/image_512/%5BPLANZA16-17MM%5D%20MANGUERA%20PLANZA%2016-17mm?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-420",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/planza3-5mm-manguera-planza-3-5mm-23346?category=4495",
-      "sku": "PLANZA3-5MM",
-      "name": "MANGUERA PLANZA 3-5mm",
-      "category": "Cultivo",
-      "subcategory": "Riego",
-      "brand": "",
-      "cost": 250,
-      "finalPrice": 457.6923076923077,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23346/image_512/%5BPLANZA3-5MM%5D%20MANGUERA%20PLANZA%203-5mm?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-421",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/planza4-7mm-manguera-planza-4-7mm-23347?category=4495",
-      "sku": "PLANZA4-7MM",
-      "name": "MANGUERA PLANZA 4-7mm",
-      "category": "Cultivo",
-      "subcategory": "Riego",
-      "brand": "",
-      "cost": 330,
-      "finalPrice": 604.1538461538461,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23347/image_512/%5BPLANZA4-7MM%5D%20MANGUERA%20PLANZA%204-7mm?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-428",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/vpa-34-valvula-de-purga-de-aire-23356?category=4495",
-      "sku": "VPA-34",
-      "name": "VALVULA DE PURGA DE AIRE",
-      "category": "Cultivo",
-      "subcategory": "Riego",
-      "brand": "",
-      "cost": 4900,
-      "finalPrice": 8970.76923076923,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23356/image_512/%5BVPA-34%5D%20VALVULA%20DE%20PURGA%20DE%20AIRE?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-430",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/bioallmix-biobizz-all-mix-50l-22538?category=4474",
-      "sku": "BIOALLMIX",
-      "name": "BIOBIZZ ALL MIX 50L",
-      "category": "Cultivo",
-      "subcategory": "Sustratos",
-      "brand": "BIOBIZZ",
-      "cost": 15400,
-      "finalPrice": 28193.846153846152,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22538/image_512/%5BBIOALLMIX%5D%20BIOBIZZ%20ALL%20MIX%2050L?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-432",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/coigro-bloque5kg-bloques-de-fibra-de-coco-comprimidos-5kg-coirgro-23413?category=4474",
-      "sku": "COIGRO-BLOQUE5KG",
-      "name": "Bloques de Fibra de Coco Comprimidos 5Kg COIRGRO",
-      "category": "Cultivo",
-      "subcategory": "Sustratos",
-      "brand": "COIRGRO",
-      "cost": 8500,
-      "finalPrice": 15561.538461538461,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23413/image_512/%5BCOIGRO-BLOQUE5KG%5D%20Bloques%20de%20Fibra%20de%20Coco%20Comprimidos%205Kg%20COIRGRO?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-435",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/coigro-ez3g-bolsa-ez-con-aireacion-11-1l-coirgro-23416?category=4474",
-      "sku": "COIGRO-EZ3G",
-      "name": "Bolsa EZ con Aireación 11.1L COIRGRO",
-      "category": "Cultivo",
-      "subcategory": "Sustratos",
-      "brand": "COIRGRO",
-      "cost": 2400,
-      "finalPrice": 4393.846153846153,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23416/image_512/%5BCOIGRO-EZ3G%5D%20Bolsa%20EZ%20con%20Aireaci%C3%B3n%2011.1L%20COIRGRO?unique=62ba5ca",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-434",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/coigro-ez2g-bolsa-ez-con-aireacion-7-5l-coirgro-23415?category=4474",
-      "sku": "COIGRO-EZ2G",
-      "name": "Bolsa EZ con Aireación 7.5L COIRGRO",
-      "category": "Cultivo",
-      "subcategory": "Sustratos",
-      "brand": "COIRGRO",
-      "cost": 1900,
-      "finalPrice": 3478.4615384615386,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23415/image_512/%5BCOIGRO-EZ2G%5D%20Bolsa%20EZ%20con%20Aireaci%C3%B3n%207.5L%20COIRGRO?unique=62ba5ca",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-429",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1654611869587-humus-insect-frass-farmtastik-4l-22873?category=4474",
-      "sku": "1654611869587",
-      "name": "HUMUS INSECT FRASS FARMTASTIK 4L",
-      "category": "Cultivo",
-      "subcategory": "Sustratos",
-      "brand": "FARMTASTIK",
-      "cost": 4900,
-      "finalPrice": 8970.76923076923,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22873/image_512/%5B1654611869587%5D%20HUMUS%20INSECT%20FRASS%20FARMTASTIK%204L?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-431",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4685-sustrato-batmix-special-hng-22534?category=4474",
-      "sku": "4685",
-      "name": "SUSTRATO BATMIX SPECIAL HNG",
-      "category": "Cultivo",
-      "subcategory": "Sustratos",
-      "brand": "",
-      "cost": 12500,
-      "finalPrice": 22884.615384615383,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22534/image_512/%5B4685%5D%20SUSTRATO%20BATMIX%20SPECIAL%20HNG?unique=4c56b04",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-433",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/coigro-susper70-30-sustrato-coco-perlita-70-30-premium-coirgro-23414?category=4474",
-      "sku": "COIGRO-SUSPER70/30",
-      "name": "Sustrato Coco + Perlita 70/30 Premium COIRGRO",
-      "category": "Cultivo",
-      "subcategory": "Sustratos",
-      "brand": "COIRGRO",
-      "cost": 12500,
-      "finalPrice": 22884.615384615383,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23414/image_512/%5BCOIGRO-SUSPER70-30%5D%20Sustrato%20Coco%20%2B%20Perlita%2070-30%20Premium%20COIRGRO?unique=5af7fa9",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-436",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/sustrato-dutch-premium-light-mix-50l-23445?category=4474",
-      "sku": "",
-      "name": "SUSTRATO DUTCH PREMIUM LIGHT MIX 50L",
-      "category": "Cultivo",
-      "subcategory": "Sustratos",
-      "brand": "",
-      "cost": 10990,
-      "finalPrice": 20120.153846153844,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23445/image_512/SUSTRATO%20DUTCH%20PREMIUM%20LIGHT%20MIX%2050L?unique=a62fa23",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-395",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3669-abrazadera-ajustable-127-mm-22430?category=4464",
-      "sku": "3669",
-      "name": "ABRAZADERA AJUSTABLE 127 mm",
-      "category": "Cultivo",
-      "subcategory": "Ventilacion",
-      "brand": "",
-      "cost": 310,
-      "finalPrice": 567.5384615384614,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22430/image_512/%5B3669%5D%20ABRAZADERA%20AJUSTABLE%20127%20mm?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-394",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3671-abrazadera-ajustable-152-mm-22431?category=4464",
-      "sku": "3671",
-      "name": "ABRAZADERA AJUSTABLE 152 mm",
-      "category": "Cultivo",
-      "subcategory": "Ventilacion",
-      "brand": "",
-      "cost": 390,
-      "finalPrice": 713.9999999999999,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22431/image_512/%5B3671%5D%20ABRAZADERA%20AJUSTABLE%20152%20mm?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-393",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3647-ducto-aluminio-aislado-5-pulgadas-125mm-22777?category=4464",
-      "sku": "3647",
-      "name": "DUCTO ALUMINIO AISLADO 5 Pulgadas (125mm)",
-      "category": "Cultivo",
-      "subcategory": "Ventilacion",
-      "brand": "",
-      "cost": 9900,
-      "finalPrice": 18124.615384615383,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22777/image_512/%5B3647%5D%20DUCTO%20ALUMINIO%20AISLADO%205%20Pulgadas%20%28125mm%29?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-392",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3649-ducto-aluminio-aislado-6-pulgadas-150mm-22778?category=4464",
-      "sku": "3649",
-      "name": "DUCTO ALUMINIO AISLADO 6 Pulgadas (150mm)",
-      "category": "Cultivo",
-      "subcategory": "Ventilacion",
-      "brand": "",
-      "cost": 10900,
-      "finalPrice": 19955.384615384613,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22778/image_512/%5B3649%5D%20DUCTO%20ALUMINIO%20AISLADO%206%20Pulgadas%20%28150mm%29?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-380",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3651-ducto-aluminio-aislado-8-pulgadas-200mm-22779?category=4464",
-      "sku": "3651",
-      "name": "DUCTO ALUMINIO AISLADO 8 Pulgadas (200mm)",
-      "category": "Cultivo",
-      "subcategory": "Ventilacion",
-      "brand": "",
-      "cost": 14900,
-      "finalPrice": 27278.46153846154,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22779/image_512/%5B3651%5D%20DUCTO%20ALUMINIO%20AISLADO%208%20Pulgadas%20%28200mm%29?unique=4cc8b7e",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-379",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2558-ducto-aluminio-flexible-5-pulgadas-125mm-22780?category=4464",
-      "sku": "2558",
-      "name": "DUCTO ALUMINIO FLEXIBLE 5 Pulgadas (125mm)",
-      "category": "Cultivo",
-      "subcategory": "Ventilacion",
-      "brand": "",
-      "cost": 5900,
-      "finalPrice": 10801.538461538461,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22780/image_512/%5B2558%5D%20DUCTO%20ALUMINIO%20FLEXIBLE%205%20Pulgadas%20%28125mm%29?unique=4cc8b7e",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-384",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/306104c-8-ducto-aluminio-flexible-8-pulgadas-200mm-23452?category=4464",
-      "sku": "306104C-8",
-      "name": "DUCTO ALUMINIO FLEXIBLE 8 Pulgadas (200mm)",
-      "category": "Cultivo",
-      "subcategory": "Ventilacion",
-      "brand": "",
-      "cost": 15900,
-      "finalPrice": 29109.23076923077,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23452/image_512/%5B306104C-8%5D%20DUCTO%20ALUMINIO%20FLEXIBLE%208%20Pulgadas%20%28200mm%29?unique=4cc8b7e",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-391",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3642-extractor-en-linea-4-pulgadas-100mm-22795?category=4464",
-      "sku": "3642",
-      "name": "EXTRACTOR EN LINEA 4 Pulgadas (100mm)",
-      "category": "Cultivo",
-      "subcategory": "Ventilacion",
-      "brand": "",
-      "cost": 8489,
-      "finalPrice": 15541.4,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22795/image_512/%5B3642%5D%20EXTRACTOR%20EN%20LINEA%204%20Pulgadas%20%28100mm%29?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-390",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2546-extractor-en-linea-5-pulgadas-125mm-22796?category=4464",
-      "sku": "2546",
-      "name": "EXTRACTOR EN LINEA 5 Pulgadas (125mm)",
-      "category": "Cultivo",
-      "subcategory": "Ventilacion",
-      "brand": "",
-      "cost": 8900,
-      "finalPrice": 16293.846153846152,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22796/image_512/%5B2546%5D%20EXTRACTOR%20EN%20LINEA%205%20Pulgadas%20%28125mm%29?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-389",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2548-extractor-en-linea-6-pulgadas-150mm-22797?category=4464",
-      "sku": "2548",
-      "name": "EXTRACTOR EN LINEA 6 Pulgadas (150mm)",
-      "category": "Cultivo",
-      "subcategory": "Ventilacion",
-      "brand": "",
-      "cost": 9900,
-      "finalPrice": 18124.615384615383,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22797/image_512/%5B2548%5D%20EXTRACTOR%20EN%20LINEA%206%20Pulgadas%20%28150mm%29?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-396",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/extract150mm-extractor-regulable-150mm-23312?category=4464",
-      "sku": "EXTRACT150MM",
-      "name": "EXTRACTOR REGULABLE 150MM",
-      "category": "Cultivo",
-      "subcategory": "Ventilacion",
-      "brand": "",
-      "cost": 29900,
-      "finalPrice": 54740,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23312/image_512/%5BEXTRACT150MM%5D%20EXTRACTOR%20REGULABLE%20150MM?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-378",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/extractor-regulable-150mm-vivosun-aerozesh-23455?category=4464",
-      "sku": "",
-      "name": "EXTRACTOR REGULABLE 150MM VIVOSUN AEROZESH",
-      "category": "Cultivo",
-      "subcategory": "Ventilacion",
-      "brand": "VIVOSUN",
-      "cost": 98900,
-      "finalPrice": 181063.0769230769,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23455/image_512/EXTRACTOR%20REGULABLE%20150MM%20VIVOSUN%20AEROZESH?unique=4cc8b7e",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-387",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/extractor-regulable-200mm-vivosun-aerozesh-23456?category=4464",
-      "sku": "",
-      "name": "EXTRACTOR REGULABLE 200MM VIVOSUN AEROZESH",
-      "category": "Cultivo",
-      "subcategory": "Ventilacion",
-      "brand": "VIVOSUN",
-      "cost": 139000,
-      "finalPrice": 254476.92307692306,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23456/image_512/EXTRACTOR%20REGULABLE%20200MM%20VIVOSUN%20AEROZESH?unique=4cc8b7e",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-388",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4892-filtro-carbono-150-1000mm-38mm-22804?category=4464",
-      "sku": "4892",
-      "name": "FILTRO CARBONO 150-1000mm*38mm",
-      "category": "Cultivo",
-      "subcategory": "Ventilacion",
-      "brand": "",
-      "cost": 115000,
-      "finalPrice": 210538.46153846153,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22804/image_512/%5B4892%5D%20FILTRO%20CARBONO%20150-1000mm%2A38mm?unique=4cc8b7e",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-377",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/filtro-carbono-150mm-vivosun-23453?category=4464",
-      "sku": "",
-      "name": "FILTRO CARBONO 150mm VIVOSUN",
-      "category": "Cultivo",
-      "subcategory": "Ventilacion",
-      "brand": "VIVOSUN",
-      "cost": 65900,
-      "finalPrice": 120647.6923076923,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23453/image_512/FILTRO%20CARBONO%20150mm%20VIVOSUN?unique=d317291",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-383",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/306123-0839-filtro-carbono-200-1000-mm-x-38mm-22805?category=4464",
-      "sku": "306123-0839",
-      "name": "FILTRO CARBONO 200 - 1000 mm x 38mm",
-      "category": "Cultivo",
-      "subcategory": "Ventilacion",
-      "brand": "",
-      "cost": 104900,
-      "finalPrice": 192047.6923076923,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22805/image_512/%5B306123-0839%5D%20FILTRO%20CARBONO%20200%20-%201000%20mm%20x%2038mm?unique=4cc8b7e",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-386",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/filtro-carbono-200mm-vivosun-23454?category=4464",
-      "sku": "",
-      "name": "FILTRO CARBONO 200mm VIVOSUN",
-      "category": "Cultivo",
-      "subcategory": "Ventilacion",
-      "brand": "VIVOSUN",
-      "cost": 95900,
-      "finalPrice": 175570.76923076922,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23454/image_512/FILTRO%20CARBONO%20200mm%20VIVOSUN?unique=4cc8b7e",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-385",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1652733400014-humidificador-ultrasonico-8-litros-22859?category=4464",
-      "sku": "1652733400014",
-      "name": "HUMIDIFICADOR ULTRASÓNICO 8 LITROS",
-      "category": "Cultivo",
-      "subcategory": "Ventilacion",
-      "brand": "",
-      "cost": 34900,
-      "finalPrice": 63893.84615384615,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22859/image_512/%5B1652733400014%5D%20HUMIDIFICADOR%20ULTRAS%C3%93NICO%208%20LITROS?unique=4cc8b7e",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-397",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ventx2-pack-2-x-ventilador-pared-16-3-velocidades-23331?category=4464",
-      "sku": "VENTX2",
-      "name": "PACK 2 X VENTILADOR PARED 16\" 3 VELOCIDADES",
-      "category": "Cultivo",
-      "subcategory": "Ventilacion",
-      "brand": "",
-      "cost": 34900,
-      "finalPrice": 63893.84615384615,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23331/image_512/%5BVENTX2%5D%20PACK%202%20X%20VENTILADOR%20PARED%2016%22%203%20VELOCIDADES?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-382",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/306102e-ventilador-pared-16-3-velocidades-23231?category=4464",
-      "sku": "306102E",
-      "name": "VENTILADOR PARED 16\" 3 VELOCIDADES",
-      "category": "Cultivo",
-      "subcategory": "Ventilacion",
-      "brand": "",
-      "cost": 28900,
-      "finalPrice": 52909.230769230766,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23231/image_512/%5B306102E%5D%20VENTILADOR%20PARED%2016%22%203%20VELOCIDADES?unique=62ba5ca",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-381",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/331211e-ventilador-pinza-6-2-velocidades-23232?category=4464",
-      "sku": "331211E",
-      "name": "VENTILADOR PINZA 6\" 2 VELOCIDADES",
-      "category": "Cultivo",
-      "subcategory": "Ventilacion",
-      "brand": "",
-      "cost": 12900,
-      "finalPrice": 23616.923076923074,
-      "margin": 0.35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23232/image_512/%5B331211E%5D%20VENTILADOR%20PINZA%206%22%202%20VELOCIDADES?unique=62ba5ca",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-40",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ar21-membrana-75g-osmosis-inversa-10-75g-22985?category=4481",
-      "sku": "AR21",
-      "name": "MEMBRANA 75G OSMOSIS INVERSA 10\" 75G",
-      "category": "Filtro de agua",
-      "subcategory": "General",
-      "brand": "",
-      "cost": 10900,
-      "finalPrice": 19955.384615384613,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22985/image_512/%5BAR21%5D%20MEMBRANA%2075G%20OSMOSIS%20INVERSA%2010%22%2075G?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-37",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ar06-a-purificador-de-agua-1-etapa-10-1-etapa-pp-22807?category=4481",
-      "sku": "AR06-A",
-      "name": "PURIFICADOR DE AGUA 1 ETAPA 10\" 1 ETAPA PP",
-      "category": "Filtro de agua",
-      "subcategory": "General",
-      "brand": "",
-      "cost": 19900,
-      "finalPrice": 36432.30769230769,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22807/image_512/%5BAR06-A%5D%20PURIFICADOR%20DE%20AGUA%201%20ETAPA%2010%22%201%20ETAPA%20PP?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-36",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ar06-b-purificador-de-agua-2-etapas-10-22808?category=4481",
-      "sku": "AR06-B",
-      "name": "PURIFICADOR DE AGUA 2 ETAPAS 10\"",
-      "category": "Filtro de agua",
-      "subcategory": "General",
-      "brand": "",
-      "cost": 29900,
-      "finalPrice": 54740,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22808/image_512/%5BAR06-B%5D%20PURIFICADOR%20DE%20AGUA%202%20ETAPAS%2010%22?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-44",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ar06-c-purificador-de-agua-3-etapas-10-22809?category=4481",
-      "sku": "AR06-C",
-      "name": "PURIFICADOR DE AGUA 3 ETAPAS 10\"",
-      "category": "Filtro de agua",
-      "subcategory": "General",
-      "brand": "",
-      "cost": 39900,
-      "finalPrice": 73047.69230769231,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22809/image_512/%5BAR06-C%5D%20PURIFICADOR%20DE%20AGUA%203%20ETAPAS%2010%22?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-35",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/purificador-agua-osmosis-bomba-23311?category=4481",
-      "sku": "AR01-B",
-      "name": "PURIFICADOR DE AGUA OSMOSIS INVERSA 5 ETAPAS 10\"",
-      "category": "Filtro de agua",
-      "subcategory": "General",
-      "brand": "",
-      "cost": 89899,
-      "finalPrice": 164584.32307692306,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23311/image_512/%5BAR01-B%5D%20PURIFICADOR%20DE%20AGUA%20OSMOSIS%20INVERSA%205%20ETAPAS%2010%22?unique=c96a7b8",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-38",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ar01-e-purificador-de-agua-osmosis-inversa-5-etapas-10-23103?category=4481",
-      "sku": "AR01-E",
-      "name": "PURIFICADOR DE AGUA OSMOSIS INVERSA 5 ETAPAS 10\"",
-      "category": "Filtro de agua",
-      "subcategory": "General",
-      "brand": "",
-      "cost": 69900,
-      "finalPrice": 127970.76923076922,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23103/image_512/%5BAR01-E%5D%20PURIFICADOR%20DE%20AGUA%20OSMOSIS%20INVERSA%205%20ETAPAS%2010%22?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Fertilizantes",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-45",
@@ -5161,7 +9664,7 @@ window.DDV_CATALOG = {
       "sku": "AR12",
       "name": "FILTRO CTO 10\" CARBON BLOCK ELIMINA CLORO CTO",
       "category": "Filtro de agua",
-      "subcategory": "Parafernalia",
+      "subcategory": "Filtros y accesorios",
       "brand": "",
       "cost": 3900,
       "finalPrice": 7140,
@@ -5169,7 +9672,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22806/image_512/%5BAR12%5D%20FILTRO%20CTO%2010%22%20CARBON%20BLOCK%20ELIMINA%20CLORO%20CTO?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Filtro de agua",
+      "originalSubcategory": "Parafernalia",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-43",
@@ -5178,7 +9702,7 @@ window.DDV_CATALOG = {
       "sku": "AR13",
       "name": "FILTRO POST CARBON T33 10\" ANTIBACTERIAL T33",
       "category": "Filtro de agua",
-      "subcategory": "Parafernalia",
+      "subcategory": "Filtros y accesorios",
       "brand": "",
       "cost": 3900,
       "finalPrice": 7140,
@@ -5186,7 +9710,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22810/image_512/%5BAR13%5D%20FILTRO%20POST%20CARBON%20T33%2010%22%20ANTIBACTERIAL%20T33?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Filtro de agua",
+      "originalSubcategory": "Parafernalia",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-42",
@@ -5195,7 +9740,7 @@ window.DDV_CATALOG = {
       "sku": "AR10",
       "name": "FILTRO PP SEDIMENTOS 10\" PP",
       "category": "Filtro de agua",
-      "subcategory": "Parafernalia",
+      "subcategory": "Filtros y accesorios",
       "brand": "",
       "cost": 1900,
       "finalPrice": 3478.4615384615386,
@@ -5203,7 +9748,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22811/image_512/%5BAR10%5D%20FILTRO%20PP%20SEDIMENTOS%2010%22%20PP?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Filtro de agua",
+      "originalSubcategory": "Parafernalia",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-41",
@@ -5212,7 +9778,7 @@ window.DDV_CATALOG = {
       "sku": "AR11",
       "name": "FILTRO UDF 10\" CARBON PARTICLES(ELIMINA CLORO) UDF",
       "category": "Filtro de agua",
-      "subcategory": "Parafernalia",
+      "subcategory": "Filtros y accesorios",
       "brand": "",
       "cost": 3900,
       "finalPrice": 7140,
@@ -5220,7 +9786,66 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22812/image_512/%5BAR11%5D%20FILTRO%20UDF%2010%22%20CARBON%20PARTICLES%28ELIMINA%20CLORO%29%20UDF?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Filtro de agua",
+      "originalSubcategory": "Parafernalia",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-40",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ar21-membrana-75g-osmosis-inversa-10-75g-22985?category=4481",
+      "sku": "AR21",
+      "name": "MEMBRANA 75G OSMOSIS INVERSA 10\" 75G",
+      "category": "Filtro de agua",
+      "subcategory": "Filtros y accesorios",
+      "brand": "",
+      "cost": 10900,
+      "finalPrice": 19955.384615384613,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22985/image_512/%5BAR21%5D%20MEMBRANA%2075G%20OSMOSIS%20INVERSA%2010%22%2075G?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Filtro de agua",
+      "originalSubcategory": "General",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-39",
@@ -5229,7 +9854,7 @@ window.DDV_CATALOG = {
       "sku": "AR20",
       "name": "PACK FILTROS 10\" PP+UDF+CTO",
       "category": "Filtro de agua",
-      "subcategory": "Parafernalia",
+      "subcategory": "Filtros y accesorios",
       "brand": "",
       "cost": 8900,
       "finalPrice": 16293.846153846152,
@@ -5237,7 +9862,218 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23060/image_512/%5BAR20%5D%20PACK%20FILTROS%2010%22%20PP%2BUDF%2BCTO?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Filtro de agua",
+      "originalSubcategory": "Parafernalia",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-37",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ar06-a-purificador-de-agua-1-etapa-10-1-etapa-pp-22807?category=4481",
+      "sku": "AR06-A",
+      "name": "PURIFICADOR DE AGUA 1 ETAPA 10\" 1 ETAPA PP",
+      "category": "Filtro de agua",
+      "subcategory": "Filtros y accesorios",
+      "brand": "",
+      "cost": 19900,
+      "finalPrice": 36432.30769230769,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22807/image_512/%5BAR06-A%5D%20PURIFICADOR%20DE%20AGUA%201%20ETAPA%2010%22%201%20ETAPA%20PP?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Filtro de agua",
+      "originalSubcategory": "General",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-36",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ar06-b-purificador-de-agua-2-etapas-10-22808?category=4481",
+      "sku": "AR06-B",
+      "name": "PURIFICADOR DE AGUA 2 ETAPAS 10\"",
+      "category": "Filtro de agua",
+      "subcategory": "Filtros y accesorios",
+      "brand": "",
+      "cost": 29900,
+      "finalPrice": 54740,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22808/image_512/%5BAR06-B%5D%20PURIFICADOR%20DE%20AGUA%202%20ETAPAS%2010%22?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Filtro de agua",
+      "originalSubcategory": "General",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-44",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ar06-c-purificador-de-agua-3-etapas-10-22809?category=4481",
+      "sku": "AR06-C",
+      "name": "PURIFICADOR DE AGUA 3 ETAPAS 10\"",
+      "category": "Filtro de agua",
+      "subcategory": "Filtros y accesorios",
+      "brand": "",
+      "cost": 39900,
+      "finalPrice": 73047.69230769231,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22809/image_512/%5BAR06-C%5D%20PURIFICADOR%20DE%20AGUA%203%20ETAPAS%2010%22?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Filtro de agua",
+      "originalSubcategory": "General",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-35",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/purificador-agua-osmosis-bomba-23311?category=4481",
+      "sku": "AR01-B",
+      "name": "PURIFICADOR DE AGUA OSMOSIS INVERSA 5 ETAPAS 10\"",
+      "category": "Filtro de agua",
+      "subcategory": "Filtros y accesorios",
+      "brand": "",
+      "cost": 89899,
+      "finalPrice": 164584.32307692306,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23311/image_512/%5BAR01-B%5D%20PURIFICADOR%20DE%20AGUA%20OSMOSIS%20INVERSA%205%20ETAPAS%2010%22?unique=c96a7b8",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Filtro de agua",
+      "originalSubcategory": "General",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-38",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ar01-e-purificador-de-agua-osmosis-inversa-5-etapas-10-23103?category=4481",
+      "sku": "AR01-E",
+      "name": "PURIFICADOR DE AGUA OSMOSIS INVERSA 5 ETAPAS 10\"",
+      "category": "Filtro de agua",
+      "subcategory": "Filtros y accesorios",
+      "brand": "",
+      "cost": 69900,
+      "finalPrice": 127970.76923076922,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23103/image_512/%5BAR01-E%5D%20PURIFICADOR%20DE%20AGUA%20OSMOSIS%20INVERSA%205%20ETAPAS%2010%22?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Filtro de agua",
+      "originalSubcategory": "General",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-34",
@@ -5246,7 +10082,7 @@ window.DDV_CATALOG = {
       "sku": "FGV260",
       "name": "AVIATOR FX CLIP ON, FULL SPECTRUM, LED, CMH METHOD SEVEN",
       "category": "Gafas de cultivo",
-      "subcategory": "General",
+      "subcategory": "Gafas",
       "brand": "METHOD SEVEN",
       "cost": 49900,
       "finalPrice": 91355.38461538461,
@@ -5254,7 +10090,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22473/image_512/%5BFGV260%5D%20AVIATOR%20FX%20CLIP%20ON%2C%20FULL%20SPECTRUM%2C%20LED%2C%20CMH%20METHOD%20SEVEN?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Gafas de cultivo",
+      "originalSubcategory": "General",
+      "objective": "Ninguno / revisar",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-33",
@@ -5263,7 +10120,7 @@ window.DDV_CATALOG = {
       "sku": "FGV013",
       "name": "AVIATOR HPS CLIP ON METHOD SEVEN",
       "category": "Gafas de cultivo",
-      "subcategory": "General",
+      "subcategory": "Gafas",
       "brand": "METHOD SEVEN",
       "cost": 39900,
       "finalPrice": 73047.69230769231,
@@ -5271,7 +10128,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22474/image_512/%5BFGV013%5D%20AVIATOR%20HPS%20CLIP%20ON%20METHOD%20SEVEN?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Gafas de cultivo",
+      "originalSubcategory": "General",
+      "objective": "Ninguno / revisar",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ninguno / revisar",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-27",
@@ -5280,7 +10158,7 @@ window.DDV_CATALOG = {
       "sku": "FGV366",
       "name": "CITADEL FX CLASSIC FULL SPECTRUM LED, CMH METHOD SEVEN",
       "category": "Gafas de cultivo",
-      "subcategory": "General",
+      "subcategory": "Gafas",
       "brand": "METHOD SEVEN",
       "cost": 69900,
       "finalPrice": 127970.76923076922,
@@ -5288,7 +10166,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22654/image_512/%5BFGV366%5D%20CITADEL%20FX%20CLASSIC%20FULL%20SPECTRUM%20LED%2C%20CMH%20METHOD%20SEVEN?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Gafas de cultivo",
+      "originalSubcategory": "General",
+      "objective": "Ninguno / revisar",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-32",
@@ -5297,7 +10196,7 @@ window.DDV_CATALOG = {
       "sku": "FGV363",
       "name": "CITADEL HPS CLASSIC GROW METHOD SEVEN",
       "category": "Gafas de cultivo",
-      "subcategory": "General",
+      "subcategory": "Gafas",
       "brand": "METHOD SEVEN",
       "cost": 54900,
       "finalPrice": 100509.23076923077,
@@ -5305,7 +10204,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22655/image_512/%5BFGV363%5D%20CITADEL%20HPS%20CLASSIC%20GROW%20METHOD%20SEVEN?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Gafas de cultivo",
+      "originalSubcategory": "General",
+      "objective": "Ninguno / revisar",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
     },
     {
       "id": "p-31",
@@ -5314,7 +10234,7 @@ window.DDV_CATALOG = {
       "sku": "FGV020",
       "name": "COUP HPS TRANSITION GLOSSY BLACK METHOD SEVEN",
       "category": "Gafas de cultivo",
-      "subcategory": "General",
+      "subcategory": "Gafas",
       "brand": "METHOD SEVEN",
       "cost": 89900,
       "finalPrice": 164586.15384615384,
@@ -5322,7 +10242,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22681/image_512/%5BFGV020%5D%20COUP%20HPS%20TRANSITION%20GLOSSY%20BLACK%20METHOD%20SEVEN?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Gafas de cultivo",
+      "originalSubcategory": "General",
+      "objective": "Ninguno / revisar",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ninguno / revisar",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-30",
@@ -5331,7 +10272,7 @@ window.DDV_CATALOG = {
       "sku": "FGV267",
       "name": "CULTIVATOR FX CLASSIC METHOD SEVEN",
       "category": "Gafas de cultivo",
-      "subcategory": "General",
+      "subcategory": "Gafas",
       "brand": "METHOD SEVEN",
       "cost": 49900,
       "finalPrice": 91355.38461538461,
@@ -5339,7 +10280,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22710/image_512/%5BFGV267%5D%20CULTIVATOR%20FX%20CLASSIC%20METHOD%20SEVEN?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Gafas de cultivo",
+      "originalSubcategory": "General",
+      "objective": "Ninguno / revisar",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ninguno / revisar",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-29",
@@ -5348,7 +10310,7 @@ window.DDV_CATALOG = {
       "sku": "FGV021",
       "name": "CULTIVATOR HPS CLASSIC METHOD SEVEN",
       "category": "Gafas de cultivo",
-      "subcategory": "General",
+      "subcategory": "Gafas",
       "brand": "METHOD SEVEN",
       "cost": 39900,
       "finalPrice": 73047.69230769231,
@@ -5356,7 +10318,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22711/image_512/%5BFGV021%5D%20CULTIVATOR%20HPS%20CLASSIC%20METHOD%20SEVEN?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Gafas de cultivo",
+      "originalSubcategory": "General",
+      "objective": "Ninguno / revisar",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ninguno / revisar",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-28",
@@ -5365,7 +10348,7 @@ window.DDV_CATALOG = {
       "sku": "4909",
       "name": "LENTES DE PROTECCIÓN UVA, UVB, UVC",
       "category": "Gafas de cultivo",
-      "subcategory": "General",
+      "subcategory": "Gafas",
       "brand": "",
       "cost": 12521,
       "finalPrice": 22923.061538461538,
@@ -5373,7 +10356,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22937/image_512/%5B4909%5D%20LENTES%20DE%20PROTECCI%C3%93N%20UVA%2C%20UVB%2C%20UVC?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Gafas de cultivo",
+      "originalSubcategory": "General",
+      "objective": "Ninguno / revisar",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-18",
@@ -5381,7 +10385,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4694-balastro-600w-nanolux-22475?category=4489",
       "sku": "4694",
       "name": "BALASTRO 600w NANOLUX",
-      "category": "Iluminación Profesional",
+      "category": "Iluminación",
       "subcategory": "Accesorios",
       "brand": "Nanolux",
       "cost": 66387,
@@ -5390,7 +10394,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22475/image_512/%5B4694%5D%20BALASTRO%20600w%20NANOLUX?unique=f4e137e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Iluminación Profesional",
+      "originalSubcategory": "Accesorios",
+      "objective": "Elegir iluminacion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Elegir iluminacion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-24",
@@ -5398,7 +10423,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/luxmind-controlador-luxmind-3ch-nanolux-23587?category=4489",
       "sku": "LUXMIND",
       "name": "CONTROLADOR LUXMIND 3CH NANOLUX",
-      "category": "Iluminación Profesional",
+      "category": "Iluminación",
       "subcategory": "Accesorios",
       "brand": "Nanolux",
       "cost": 349000,
@@ -5407,7 +10432,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23587/image_512/%5BLUXMIND%5D%20%20CONTROLADOR%20LUXMIND%203CH%20NANOLUX%20?unique=67ddd93",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Iluminación Profesional",
+      "originalSubcategory": "Accesorios",
+      "objective": "Elegir iluminacion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Elegir iluminacion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-17",
@@ -5415,7 +10461,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/nccs-dtu-app-controlador-nanolux-dtu-app-22675?category=4489",
       "sku": "NCCS-DTU-APP",
       "name": "CONTROLADOR NANOLUX DTU-APP",
-      "category": "Iluminación Profesional",
+      "category": "Iluminación",
       "subcategory": "Accesorios",
       "brand": "Nanolux",
       "cost": 109060,
@@ -5424,7 +10470,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22675/image_512/%5BNCCS-DTU-APP%5D%20CONTROLADOR%20NANOLUX%20DTU-APP?unique=f4e137e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Iluminación Profesional",
+      "originalSubcategory": "Accesorios",
+      "objective": "Elegir iluminacion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Elegir iluminacion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-16",
@@ -5432,7 +10499,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/nccs-rtu-app-controlador-nanolux-rtu-usb-22676?category=4489",
       "sku": "NCCS-RTU-APP",
       "name": "CONTROLADOR NANOLUX RTU-USB",
-      "category": "Iluminación Profesional",
+      "category": "Iluminación",
       "subcategory": "Accesorios",
       "brand": "Nanolux",
       "cost": 17220,
@@ -5441,7 +10508,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22676/image_512/%5BNCCS-RTU-APP%5D%20CONTROLADOR%20NANOLUX%20RTU-USB?unique=f4e137e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Iluminación Profesional",
+      "originalSubcategory": "Accesorios",
+      "objective": "Elegir iluminacion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Elegir iluminacion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-12",
@@ -5449,7 +10537,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3496-reflector-wing-23109?category=4489",
       "sku": "3496",
       "name": "REFLECTOR WING",
-      "category": "Iluminación Profesional",
+      "category": "Iluminación",
       "subcategory": "Accesorios",
       "brand": "",
       "cost": 10900,
@@ -5458,7 +10546,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23109/image_512/%5B3496%5D%20REFLECTOR%20WING?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Iluminación Profesional",
+      "originalSubcategory": "Accesorios",
+      "objective": "Elegir iluminacion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Elegir iluminacion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": true,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-22",
@@ -5466,7 +10575,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4061-ampolleta-cmh-315w-3k-nanolux-22456?category=4489",
       "sku": "4061",
       "name": "AMPOLLETA CMH 315W 3K NANOLUX",
-      "category": "Iluminación Profesional",
+      "category": "Iluminación",
       "subcategory": "CMH",
       "brand": "Nanolux",
       "cost": 59000,
@@ -5475,7 +10584,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22456/image_512/%5B4061%5D%20AMPOLLETA%20CMH%20315W%203K%20NANOLUX?unique=4c56b04",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Iluminación Profesional",
+      "originalSubcategory": "CMH",
+      "objective": "Elegir iluminacion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Elegir iluminacion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-8",
@@ -5483,7 +10613,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4692-iluminacion-cmh-315w-nanolux-22869?category=4489",
       "sku": "4692",
       "name": "ILUMINACION CMH 315W NANOLUX",
-      "category": "Iluminación Profesional",
+      "category": "Iluminación",
       "subcategory": "CMH",
       "brand": "Nanolux",
       "cost": 209000,
@@ -5492,7 +10622,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22869/image_512/%5B4692%5D%20ILUMINACION%20CMH%20315W%20NANOLUX?unique=b16f1f6",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Iluminación Profesional",
+      "originalSubcategory": "CMH",
+      "objective": "Elegir iluminacion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Elegir iluminacion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-11",
@@ -5500,7 +10651,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ledpgf-barra-led-pgf-18w-clone-light-nanolux-23296?category=4489",
       "sku": "LEDPGF",
       "name": "Barra LED PGF 18W Clone light NANOLUX",
-      "category": "Iluminación Profesional",
+      "category": "Iluminación",
       "subcategory": "LED",
       "brand": "Nanolux",
       "cost": 34900,
@@ -5509,7 +10660,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23296/image_512/%5BLEDPGF%5D%20Barra%20LED%20PGF%2018W%20Clone%20light%20NANOLUX?unique=b8c8e6c",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Iluminación Profesional",
+      "originalSubcategory": "LED",
+      "objective": "Elegir iluminacion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Elegir iluminacion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-7",
@@ -5517,7 +10689,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/led-rg150-led-board-quantum-nanolux-150w-22924?category=4489",
       "sku": "LED-RG150",
       "name": "LED BOARD QUANTUM NANOLUX 150W",
-      "category": "Iluminación Profesional",
+      "category": "Iluminación",
       "subcategory": "LED",
       "brand": "Nanolux",
       "cost": 139000,
@@ -5526,7 +10698,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22924/image_512/%5BLED-RG150%5D%20LED%20BOARD%20QUANTUM%20NANOLUX%20150W?unique=b16f1f6",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Iluminación Profesional",
+      "originalSubcategory": "LED",
+      "objective": "Elegir iluminacion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Elegir iluminacion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-3",
@@ -5534,7 +10727,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/led-rg320-led-board-quantum-nanolux-320w-22925?category=4489",
       "sku": "LED-RG320",
       "name": "LED BOARD QUANTUM NANOLUX 320W",
-      "category": "Iluminación Profesional",
+      "category": "Iluminación",
       "subcategory": "LED",
       "brand": "Nanolux",
       "cost": 219000,
@@ -5543,7 +10736,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22925/image_512/%5BLED-RG320%5D%20LED%20BOARD%20QUANTUM%20NANOLUX%20320W?unique=b16f1f6",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Iluminación Profesional",
+      "originalSubcategory": "LED",
+      "objective": "Elegir iluminacion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Elegir iluminacion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-2",
@@ -5551,7 +10765,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/led-rg480-led-board-quantum-nanolux-480w-22926?category=4489",
       "sku": "LED-RG480",
       "name": "LED BOARD QUANTUM NANOLUX 480W",
-      "category": "Iluminación Profesional",
+      "category": "Iluminación",
       "subcategory": "LED",
       "brand": "Nanolux",
       "cost": 249000,
@@ -5560,7 +10774,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22926/image_512/%5BLED-RG480%5D%20LED%20BOARD%20QUANTUM%20NANOLUX%20480W?unique=b16f1f6",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Iluminación Profesional",
+      "originalSubcategory": "LED",
+      "objective": "Elegir iluminacion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Elegir iluminacion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-26",
@@ -5568,7 +10803,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/830pro-24012?category=4489",
       "sku": "AS860F",
       "name": "LED ORION PRO 860W NANOLUX",
-      "category": "Iluminación Profesional",
+      "category": "Iluminación",
       "subcategory": "LED",
       "brand": "Nanolux",
       "cost": 590000,
@@ -5577,7 +10812,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/24012/image_512/%5BAS860F%5D%20LED%20ORION%20PRO%20860W%20NANOLUX?unique=821a57a",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Iluminación Profesional",
+      "originalSubcategory": "LED",
+      "objective": "Elegir iluminacion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Elegir iluminacion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-4",
@@ -5585,7 +10841,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/70119045402997-led-pad-720w-nanolux-22927?category=4489",
       "sku": "70119045402997",
       "name": "LED PAD 720W NANOLUX",
-      "category": "Iluminación Profesional",
+      "category": "Iluminación",
       "subcategory": "LED",
       "brand": "Nanolux",
       "cost": 749000,
@@ -5594,7 +10850,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22927/image_512/%5B70119045402997%5D%20LED%20PAD%20720W%20NANOLUX?unique=b16f1f6",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Iluminación Profesional",
+      "originalSubcategory": "LED",
+      "objective": "Elegir iluminacion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Elegir iluminacion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-6",
@@ -5602,7 +10879,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/sn630pro-22929?category=4489",
       "sku": "SN630PRO",
       "name": "LED SN 630W PRO NANOLUX",
-      "category": "Iluminación Profesional",
+      "category": "Iluminación",
       "subcategory": "LED",
       "brand": "Nanolux",
       "cost": 599000,
@@ -5611,7 +10888,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22929/image_512/%5BSN630PRO%5D%20LED%20SN%20630W%20PRO%20NANOLUX?unique=b16f1f6",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Iluminación Profesional",
+      "originalSubcategory": "LED",
+      "objective": "Elegir iluminacion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Elegir iluminacion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-10",
@@ -5619,7 +10917,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/sn830pro-22928?category=4489",
       "sku": "SN830PRO",
       "name": "LED Sn 830W Pro NANOLUX",
-      "category": "Iluminación Profesional",
+      "category": "Iluminación",
       "subcategory": "LED",
       "brand": "Nanolux",
       "cost": 769000,
@@ -5628,7 +10926,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22928/image_512/%5BSN830PRO%5D%20LED%20Sn%20830W%20Pro%20NANOLUX?unique=b16f1f6",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Iluminación Profesional",
+      "originalSubcategory": "LED",
+      "objective": "Elegir iluminacion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Elegir iluminacion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-25",
@@ -5636,7 +10955,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/taurus-420w-23588?category=4489",
       "sku": "LEDNOVA-420W",
       "name": "LED TAURUS 420 NANOLUX",
-      "category": "Iluminación Profesional",
+      "category": "Iluminación",
       "subcategory": "LED",
       "brand": "Nanolux",
       "cost": 199000,
@@ -5645,7 +10964,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23588/image_512/%5BLEDNOVA-420W%5D%20LED%20TAURUS%20420%20NANOLUX?unique=913aa10",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Iluminación Profesional",
+      "originalSubcategory": "LED",
+      "objective": "Elegir iluminacion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Elegir iluminacion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-15",
@@ -5653,7 +10993,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1648481814073-ledex-110w-nanolux-b110-blue-450nm-22932?category=4489",
       "sku": "1648481814073",
       "name": "LEDex 110W NANOLUX B110 BLUE(450nm)",
-      "category": "Iluminación Profesional",
+      "category": "Iluminación",
       "subcategory": "LED",
       "brand": "Nanolux",
       "cost": 119000,
@@ -5662,7 +11002,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22932/image_512/%5B1648481814073%5D%20LEDex%20110W%20NANOLUX%20B110%20BLUE%28450nm%29?unique=f4e137e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Iluminación Profesional",
+      "originalSubcategory": "LED",
+      "objective": "Elegir iluminacion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Elegir iluminacion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-14",
@@ -5670,7 +11031,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1648481840778-ledex-110w-nanolux-f110-full-spectrum-white-22933?category=4489",
       "sku": "1648481840778",
       "name": "LEDex 110W NANOLUX F110 FULL SPECTRUM WHITE",
-      "category": "Iluminación Profesional",
+      "category": "Iluminación",
       "subcategory": "LED",
       "brand": "Nanolux",
       "cost": 119000,
@@ -5679,7 +11040,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22933/image_512/%5B1648481840778%5D%20LEDex%20110W%20NANOLUX%20F110%20FULL%20SPECTRUM%20WHITE?unique=f4e137e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Iluminación Profesional",
+      "originalSubcategory": "LED",
+      "objective": "Elegir iluminacion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Elegir iluminacion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-13",
@@ -5687,7 +11069,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1648483233078-ledex-t-2-track-lamps-of-4pcs-nanolux-22936?category=4489",
       "sku": "1648483233078",
       "name": "LEDex T-2 Track Lamps of 4pcs NANOLUX",
-      "category": "Iluminación Profesional",
+      "category": "Iluminación",
       "subcategory": "LED",
       "brand": "Nanolux",
       "cost": 64900,
@@ -5696,7 +11078,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22936/image_512/%5B1648483233078%5D%20LEDex%20T-2%20Track%20Lamps%20of%204pcs%20NANOLUX?unique=f4e137e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Iluminación Profesional",
+      "originalSubcategory": "LED",
+      "objective": "Elegir iluminacion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Elegir iluminacion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-1",
@@ -5704,7 +11107,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/sn830pro-23363?category=4489",
       "sku": "zxF720",
       "name": "LEDzx F720W NANOLUX",
-      "category": "Iluminación Profesional",
+      "category": "Iluminación",
       "subcategory": "LED",
       "brand": "Nanolux",
       "cost": 329000,
@@ -5713,7 +11116,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23363/image_512/%5BzxF720%5D%20LEDzx%20F720W%20NANOLUX?unique=26fe742",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Iluminación Profesional",
+      "originalSubcategory": "LED",
+      "objective": "Elegir iluminacion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Elegir iluminacion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-23",
@@ -5721,7 +11145,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/under-canopy-23586?category=4489",
       "sku": "SUBRAY-F120W",
       "name": "UNDER CANOPY SUB-RAY LEDex F-120W NANOLUX",
-      "category": "Iluminación Profesional",
+      "category": "Iluminación",
       "subcategory": "LED",
       "brand": "Nanolux",
       "cost": 129000,
@@ -5730,7 +11154,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23586/image_512/%5BSUBRAY-F120W%5D%20UNDER%20CANOPY%20SUB-RAY%20LEDex%20F-120W%20NANOLUX%20?unique=0e97fe9",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Iluminación Profesional",
+      "originalSubcategory": "LED",
+      "objective": "Elegir iluminacion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Elegir iluminacion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-21",
@@ -5738,7 +11183,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3631-ampolleta-haluro-metal-600w-22460?category=4489",
       "sku": "3631",
       "name": "AMPOLLETA HALURO METAL 600W",
-      "category": "Iluminación Profesional",
+      "category": "Iluminación",
       "subcategory": "Sodio haluro",
       "brand": "",
       "cost": 10900,
@@ -5747,7 +11192,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22460/image_512/%5B3631%5D%20AMPOLLETA%20HALURO%20METAL%20600W?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Iluminación Profesional",
+      "originalSubcategory": "Sodio haluro",
+      "objective": "Elegir iluminacion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Elegir iluminacion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-20",
@@ -5755,7 +11221,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4797-ampolleta-hps-1000w-de-nanolux-22461?category=4489",
       "sku": "4797",
       "name": "AMPOLLETA HPS 1000w DE NANOLUX",
-      "category": "Iluminación Profesional",
+      "category": "Iluminación",
       "subcategory": "Sodio haluro",
       "brand": "Nanolux",
       "cost": 47500,
@@ -5764,7 +11230,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22461/image_512/%5B4797%5D%20AMPOLLETA%20HPS%201000w%20DE%20NANOLUX?unique=f4e137e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Iluminación Profesional",
+      "originalSubcategory": "Sodio haluro",
+      "objective": "Elegir iluminacion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Elegir iluminacion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-19",
@@ -5772,7 +11259,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2521-ampolleta-sodio-600w-22462?category=4489",
       "sku": "2521",
       "name": "AMPOLLETA SODIO 600W",
-      "category": "Iluminación Profesional",
+      "category": "Iluminación",
       "subcategory": "Sodio haluro",
       "brand": "",
       "cost": 10900,
@@ -5781,7 +11268,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22462/image_512/%5B2521%5D%20AMPOLLETA%20SODIO%20600W?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Iluminación Profesional",
+      "originalSubcategory": "Sodio haluro",
+      "objective": "Elegir iluminacion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Elegir iluminacion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-5",
@@ -5789,7 +11297,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5217-kit-iluminacion-sodio-22910?category=4489",
       "sku": "5217",
       "name": "KIT ILUMINACION SODIO",
-      "category": "Iluminación Profesional",
+      "category": "Iluminación",
       "subcategory": "Sodio haluro",
       "brand": "",
       "cost": 71700,
@@ -5798,7 +11306,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22910/image_512/%5B5217%5D%20KIT%20ILUMINACION%20SODIO?unique=f4e137e",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Iluminación Profesional",
+      "originalSubcategory": "Sodio haluro",
+      "objective": "Elegir iluminacion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Elegir iluminacion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-9",
@@ -5806,7 +11335,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4342-super-hps-1000w-double-ended-nanolux-23037?category=4489",
       "sku": "4342",
       "name": "SUPER HPS 1000W DOUBLE ENDED NANOLUX",
-      "category": "Iluminación Profesional",
+      "category": "Iluminación",
       "subcategory": "Sodio haluro",
       "brand": "Nanolux",
       "cost": 250000,
@@ -5815,364 +11344,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23037/image_512/%5B4342%5D%20SUPER%20HPS%201000W%20DOUBLE%20ENDED%20NANOLUX?unique=b16f1f6",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-100",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4040-coil-master-521-mini-v2-22664?category=4491",
-      "sku": "4040",
-      "name": "COIL MASTER 521 MINI V2",
-      "category": "Smokeshop",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 16723,
-      "finalPrice": 30615.953846153843,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22664/image_512/%5B4040%5D%20COIL%20MASTER%20521%20MINI%20V2?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-99",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4927-contenedor-circular-pyrex-5-ml-22671?category=4491",
-      "sku": "4927",
-      "name": "CONTENEDOR CIRCULAR PYREX 5 ML",
-      "category": "Smokeshop",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 648,
-      "finalPrice": 1186.3384615384616,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22671/image_512/%5B4927%5D%20CONTENEDOR%20CIRCULAR%20PYREX%205%20ML?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-61",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/71208360544601-contenedor-pyrex-5ml-cuadrado-22673?category=4491",
-      "sku": "71208360544601",
-      "name": "CONTENEDOR PYREX 5ML CUADRADO",
-      "category": "Smokeshop",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 648,
-      "finalPrice": 1186.3384615384616,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22673/image_512/%5B71208360544601%5D%20CONTENEDOR%20PYREX%205ML%20CUADRADO%20?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-98",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5052-dab-cap-adaptador-blanco-22715?category=4491",
-      "sku": "5052",
-      "name": "DAB CAP ADAPTADOR Blanco",
-      "category": "Smokeshop",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 832,
-      "finalPrice": 1523.1999999999998,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22715/image_512/%5B5052%5D%20DAB%20CAP%20ADAPTADOR%20Blanco?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-97",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5053-dab-cap-adaptador-naranjo-22716?category=4491",
-      "sku": "5053",
-      "name": "DAB CAP ADAPTADOR Naranjo",
-      "category": "Smokeshop",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 832,
-      "finalPrice": 1523.1999999999998,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22716/image_512/%5B5053%5D%20DAB%20CAP%20ADAPTADOR%20Naranjo?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-96",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5051-dab-cap-adaptador-negro-22717?category=4491",
-      "sku": "5051",
-      "name": "DAB CAP ADAPTADOR Negro",
-      "category": "Smokeshop",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 832,
-      "finalPrice": 1523.1999999999998,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22717/image_512/%5B5051%5D%20DAB%20CAP%20ADAPTADOR%20Negro?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-95",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4042-dab-cap-adaptador-rojo-22718?category=4491",
-      "sku": "4042",
-      "name": "DAB CAP ADAPTADOR Rojo",
-      "category": "Smokeshop",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 832,
-      "finalPrice": 1523.1999999999998,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22718/image_512/%5B4042%5D%20DAB%20CAP%20ADAPTADOR%20Rojo?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-66",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/70558506589286-gas-butano-zengaz-300ml-23251?category=4491",
-      "sku": "70558506589286",
-      "name": "GAS BUTANO ZENGAZ 300ML",
-      "category": "Smokeshop",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 2000,
-      "finalPrice": 3661.5384615384614,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23251/image_512/%5B70558506589286%5D%20GAS%20BUTANO%20ZENGAZ%20300ML%20?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-68",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/68597950425430-kit-rude-banger-grinder-thievery-50-ml-23138?category=4491",
-      "sku": "68597950425430",
-      "name": "KIT RUDE BANGER GRINDER THIEVERY 50 ML",
-      "category": "Smokeshop",
-      "subcategory": "Accesorios",
-      "brand": "THIEVERY",
-      "cost": 2000,
-      "finalPrice": 3661.5384615384614,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23138/image_512/%5B68597950425430%5D%20KIT%20RUDE%20BANGER%20GRINDER%20THIEVERY%2050%20ML?unique=b16f1f6",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-81",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4044-mod-tesla-200w-22992?category=4491",
-      "sku": "4044",
-      "name": "MOD TESLA 200W",
-      "category": "Smokeshop",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 33613,
-      "finalPrice": 61537.64615384615,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22992/image_512/%5B4044%5D%20MOD%20TESLA%20200W?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-80",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3992-nail-titanio-inner-two-23031?category=4491",
-      "sku": "3992",
-      "name": "NAIL TITANIO INNER TWO",
-      "category": "Smokeshop",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 8403,
-      "finalPrice": 15383.953846153845,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23031/image_512/%5B3992%5D%20NAIL%20TITANIO%20INNER%20TWO?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-79",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4020-nail-titanio-queen-23033?category=4491",
-      "sku": "4020",
-      "name": "NAIL TITANIO QUEEN",
-      "category": "Smokeshop",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 8403,
-      "finalPrice": 15383.953846153845,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23033/image_512/%5B4020%5D%20NAIL%20TITANIO%20QUEEN?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-78",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3996-nail-titanio-sfere-23034?category=4491",
-      "sku": "3996",
-      "name": "NAIL TITANIO SFERE",
-      "category": "Smokeshop",
-      "subcategory": "Accesorios",
-      "brand": "",
-      "cost": 7142,
-      "finalPrice": 13075.353846153845,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23034/image_512/%5B3996%5D%20NAIL%20TITANIO%20SFERE?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-92",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/70722863333215-guantes-farmer-care-thievery-22800?category=4491",
-      "sku": "70722863333215",
-      "name": "GUANTES FARMER CARE THIEVERY",
-      "category": "Smokeshop",
-      "subcategory": "General",
-      "brand": "THIEVERY",
-      "cost": 743,
-      "finalPrice": 1360.2615384615383,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22800/image_512/%5B70722863333215%5D%20GUANTES%20FARMER%20CARE%20THIEVERY?unique=b16f1f6",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-89",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4289-hasdon-one-negro-22851?category=4491",
-      "sku": "4289",
-      "name": "HASDON ONE Negro",
-      "category": "Smokeshop",
-      "subcategory": "General",
-      "brand": "",
-      "cost": 15500,
-      "finalPrice": 28376.923076923074,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22851/image_512/%5B4289%5D%20HASDON%20ONE%20Negro?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-88",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5002-hasdon-one-purpura-22852?category=4491",
-      "sku": "5002",
-      "name": "HASDON ONE Purpura",
-      "category": "Smokeshop",
-      "subcategory": "General",
-      "brand": "",
-      "cost": 15500,
-      "finalPrice": 28376.923076923074,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22852/image_512/%5B5002%5D%20HASDON%20ONE%20Purpura?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-85",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4833-magic-stick-22955?category=4491",
-      "sku": "4833",
-      "name": "MAGIC STICK",
-      "category": "Smokeshop",
-      "subcategory": "General",
-      "brand": "",
-      "cost": 680,
-      "finalPrice": 1244.9230769230767,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22955/image_512/%5B4833%5D%20MAGIC%20STICK?unique=53d64eb",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-72",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ronson-12-ronson-just-display-12-un-23125?category=4491",
-      "sku": "RONSON-12",
-      "name": "RONSON Just display 12 un",
-      "category": "Smokeshop",
-      "subcategory": "General",
-      "brand": "RONSON",
-      "cost": 8382,
-      "finalPrice": 15345.507692307692,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23125/image_512/%5BRONSON-12%5D%20RONSON%20Just%20display%2012%20un?unique=7de9f33",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-71",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/rrp-prem-ronson-premium-rojo-1x25-23127?category=4491",
-      "sku": "RRP.PREM",
-      "name": "RONSON Premium Rojo 1x25",
-      "category": "Smokeshop",
-      "subcategory": "General",
-      "brand": "RONSON",
-      "cost": 12599,
-      "finalPrice": 23065.861538461537,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23127/image_512/%5BRRP.PREM%5D%20RONSON%20Premium%20Rojo%201x25?unique=7de9f33",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-70",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4882-rude-banger-solution-thievery-30-ml-23136?category=4491",
-      "sku": "4882",
-      "name": "RUDE BANGER SOLUTION THIEVERY 30 ml",
-      "category": "Smokeshop",
-      "subcategory": "General",
-      "brand": "THIEVERY",
-      "cost": 1500,
-      "finalPrice": 2746.153846153846,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23136/image_512/%5B4882%5D%20RUDE%20BANGER%20SOLUTION%20THIEVERY%2030%20ml?unique=b16f1f6",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
-    },
-    {
-      "id": "p-69",
-      "supplier": "Tecnogrow",
-      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/rude-500-rude-banger-solution-thievery-500-ml-23137?category=4491",
-      "sku": "RUDE-500",
-      "name": "RUDE BANGER SOLUTION THIEVERY 500 ml",
-      "category": "Smokeshop",
-      "subcategory": "General",
-      "brand": "THIEVERY",
-      "cost": 4760,
-      "finalPrice": 8714.461538461537,
-      "margin": 35,
-      "stock": "",
-      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23137/image_512/%5BRUDE-500%5D%20RUDE%20BANGER%20SOLUTION%20THIEVERY%20500%20ml?unique=b16f1f6",
-      "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Iluminación Profesional",
+      "originalSubcategory": "Sodio haluro",
+      "objective": "Elegir iluminacion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Elegir iluminacion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": true,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     },
     {
       "id": "p-197",
@@ -6180,7 +11373,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/67364570249202-alcohol-iso-99-thievery-500ml-22444?category=4491",
       "sku": "67364570249202",
       "name": "ALCOHOL ISO 99% THIEVERY 500ML",
-      "category": "Smokeshop",
+      "category": "Limpieza",
       "subcategory": "Limpieza",
       "brand": "THIEVERY",
       "cost": 2900,
@@ -6189,7 +11382,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22444/image_512/%5B67364570249202%5D%20ALCOHOL%20ISO%2099%25%20THIEVERY%20500ML?unique=b16f1f6",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Limpieza",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-94",
@@ -6197,7 +11411,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/67854636963173-daily-use-limpiador-thievery-1l-22745?category=4491",
       "sku": "67854636963173",
       "name": "DAILY USE LIMPIADOR THIEVERY 1L",
-      "category": "Smokeshop",
+      "category": "Limpieza",
       "subcategory": "Limpieza",
       "brand": "THIEVERY",
       "cost": 4257,
@@ -6206,7 +11420,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22745/image_512/%5B67854636963173%5D%20DAILY%20USE%20LIMPIADOR%20THIEVERY%201L?unique=b16f1f6",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Limpieza",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-200",
@@ -6214,7 +11449,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/cleanme-mango-detox-mango-500ml-cleanme-23473?category=4491",
       "sku": "CLEANME-MANGO",
       "name": "DETOX MANGO 500ml CleanMe",
-      "category": "Smokeshop",
+      "category": "Limpieza",
       "subcategory": "Limpieza",
       "brand": "CLEANME",
       "cost": 25200,
@@ -6223,7 +11458,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23473/image_512/%5BCLEANME-MANGO%5D%20DETOX%20MANGO%20500ml%20CleanMe?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Limpieza",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-199",
@@ -6231,7 +11487,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/cleanme-naranja-detox-naranja-500ml-cleanme-23474?category=4491",
       "sku": "CLEANME-NARANJA",
       "name": "DETOX NARANJA 500ml CleanMe",
-      "category": "Smokeshop",
+      "category": "Limpieza",
       "subcategory": "Limpieza",
       "brand": "CLEANME",
       "cost": 25200,
@@ -6240,7 +11496,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23474/image_512/%5BCLEANME-NARANJA%5D%20DETOX%20NARANJA%20500ml%20CleanMe?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Limpieza",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-198",
@@ -6248,7 +11525,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/cleanme-sandia-detox-sandia-500ml-cleanme-23475?category=4491",
       "sku": "CLEANME-SANDIA",
       "name": "DETOX SANDÍA 500ml CleanMe",
-      "category": "Smokeshop",
+      "category": "Limpieza",
       "subcategory": "Limpieza",
       "brand": "CLEANME",
       "cost": 25200,
@@ -6257,7 +11534,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23475/image_512/%5BCLEANME-SANDIA%5D%20DETOX%20SAND%C3%8DA%20500ml%20CleanMe?unique=013ecfc",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Limpieza",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-93",
@@ -6265,7 +11563,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4827-eco-dab-cleaner-thievery-22785?category=4491",
       "sku": "4827",
       "name": "ECO DAB CLEANER THIEVERY",
-      "category": "Smokeshop",
+      "category": "Limpieza",
       "subcategory": "Limpieza",
       "brand": "THIEVERY",
       "cost": 5714,
@@ -6274,7 +11572,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22785/image_512/%5B4827%5D%20ECO%20DAB%20CLEANER%20THIEVERY?unique=b16f1f6",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Limpieza",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-58",
@@ -6282,7 +11601,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/fs420cherry-formula-420-cherry-250ml-23365?category=4491",
       "sku": "FS420CHERRY",
       "name": "FORMULA 420 CHERRY 250ml",
-      "category": "Smokeshop",
+      "category": "Limpieza",
       "subcategory": "Limpieza",
       "brand": "FORMULA 420",
       "cost": 2647,
@@ -6291,7 +11610,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23365/image_512/%5BFS420CHERRY%5D%20FORMULA%20420%20CHERRY%20250ml?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Limpieza",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-60",
@@ -6299,7 +11639,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/fs420mzn-formula-420-manzana-250ml-23364?category=4491",
       "sku": "FS420MZN",
       "name": "FORMULA 420 MANZANA 250ml",
-      "category": "Smokeshop",
+      "category": "Limpieza",
       "subcategory": "Limpieza",
       "brand": "FORMULA 420",
       "cost": 2647,
@@ -6308,7 +11648,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23364/image_512/%5BFS420MZN%5D%20FORMULA%20420%20MANZANA%20250ml?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Limpieza",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-87",
@@ -6316,7 +11677,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4884-iso-alcohol-thievery-50ml-22878?category=4491",
       "sku": "4884",
       "name": "ISO ALCOHOL THIEVERY 50ML",
-      "category": "Smokeshop",
+      "category": "Limpieza",
       "subcategory": "Limpieza",
       "brand": "THIEVERY",
       "cost": 1286,
@@ -6325,7 +11686,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22878/image_512/%5B4884%5D%20ISO%20ALCOHOL%20THIEVERY%C2%A050ML?unique=b16f1f6",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Limpieza",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-57",
@@ -6333,7 +11715,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/kit100mlmzn-kit-formula-420-manzana-100ml-23367?category=4491",
       "sku": "kit100mlmzn",
       "name": "KIT FORMULA 420 MANZANA 100ml",
-      "category": "Smokeshop",
+      "category": "Limpieza",
       "subcategory": "Limpieza",
       "brand": "FORMULA 420",
       "cost": 2714,
@@ -6342,7 +11724,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23367/image_512/%5Bkit100mlmzn%5D%20KIT%20FORMULA%20420%20MANZANA%20100ml?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Limpieza",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-59",
@@ -6350,7 +11753,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/kit60ml710-kit-formula-710-resina-60ml-23368?category=4491",
       "sku": "kit60ml710",
       "name": "KIT FORMULA 710 RESINA 60ml",
-      "category": "Smokeshop",
+      "category": "Limpieza",
       "subcategory": "Limpieza",
       "brand": "",
       "cost": 2714,
@@ -6359,7 +11762,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23368/image_512/%5Bkit60ml710%5D%20KIT%20FORMULA%20710%20RESINA%2060ml?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Limpieza",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-86",
@@ -6367,7 +11791,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/kit-limpieza-dab-kit-limpieza-420-thievery-22912?category=4491",
       "sku": "KIT-LIMPIEZA-DAB",
       "name": "KIT LIMPIEZA 420 THIEVERY",
-      "category": "Smokeshop",
+      "category": "Limpieza",
       "subcategory": "Limpieza",
       "brand": "THIEVERY",
       "cost": 2100,
@@ -6376,7 +11800,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22912/image_512/%5BKIT-LIMPIEZA-DAB%5D%20KIT%20LIMPIEZA%20420%20THIEVERY%20?unique=b16f1f6",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Limpieza",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-64",
@@ -6384,7 +11829,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/68597940822849-silicone-limpiador-thievery-250-ml-23161?category=4491",
       "sku": "68597940822849",
       "name": "SILICONE LIMPIADOR THIEVERY 250 ML",
-      "category": "Smokeshop",
+      "category": "Limpieza",
       "subcategory": "Limpieza",
       "brand": "THIEVERY",
       "cost": 3542,
@@ -6393,7 +11838,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23161/image_512/%5B68597940822849%5D%20SILICONE%20LIMPIADOR%20THIEVERY%20250%20ML?unique=b16f1f6",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Limpieza",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-67",
@@ -6401,7 +11867,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4825-super-dab-cleaner-thievery-250ml-23195?category=4491",
       "sku": "4825",
       "name": "SUPER DAB CLEANER THIEVERY 250ml",
-      "category": "Smokeshop",
+      "category": "Limpieza",
       "subcategory": "Limpieza",
       "brand": "THIEVERY",
       "cost": 2690,
@@ -6410,7 +11876,1016 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23195/image_512/%5B4825%5D%20SUPER%20DAB%20CLEANER%20THIEVERY%20250ml?unique=b16f1f6",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Limpieza",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
+    },
+    {
+      "id": "p-424",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/amc-16-17-34-cap-adaptador-macho-cap-de-16-17-mm-a-3-4-23351?category=4495",
+      "sku": "AMC-16-17-34-CAP",
+      "name": "Adaptador Macho CAP de 16-17 mm a 3/4",
+      "category": "Riego y medición",
+      "subcategory": "Riego y medición",
+      "brand": "",
+      "cost": 1490,
+      "finalPrice": 2727.846153846154,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23351/image_512/%5BAMC-16-17-34-CAP%5D%20Adaptador%20Macho%20CAP%20de%2016-17%20mm%20a%203-4?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Riego",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-423",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/adp16-17-34-adaptador-macho-de-16-17-mm-a-3-4-23350?category=4495",
+      "sku": "ADP16-17-34",
+      "name": "Adaptador Macho de 16-17 mm a 3/4",
+      "category": "Riego y medición",
+      "subcategory": "Riego y medición",
+      "brand": "",
+      "cost": 1290,
+      "finalPrice": 2361.6923076923076,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23350/image_512/%5BADP16-17-34%5D%20Adaptador%20Macho%20de%2016-17%20mm%20a%203-4?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Riego",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-425",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/cc-16-17-90-conector-codo-16-17-mm-23353?category=4495",
+      "sku": "CC-16-17-90",
+      "name": "CONECTOR CODO 16-17 mm",
+      "category": "Riego y medición",
+      "subcategory": "Riego y medición",
+      "brand": "",
+      "cost": 1390,
+      "finalPrice": 2544.7692307692305,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23353/image_512/%5BCC-16-17-90%5D%20CONECTOR%20CODO%2016-17%20mm?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Riego",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-427",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/crd-16-17-conector-recta-16-17-mm-23355?category=4495",
+      "sku": "CRD-16-17",
+      "name": "CONECTOR RECTA 16-17 mm",
+      "category": "Riego y medición",
+      "subcategory": "Riego y medición",
+      "brand": "",
+      "cost": 1390,
+      "finalPrice": 2544.7692307692305,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23355/image_512/%5BCRD-16-17%5D%20CONECTOR%20RECTA%2016-17%20mm?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Riego",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-418",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/congoteo3-5mm-conector-riego-por-goteo-3-5mm-23348?category=4495",
+      "sku": "CONGOTEO3-5MM",
+      "name": "CONECTOR RIEGO POR GOTEO 3-5mm",
+      "category": "Riego y medición",
+      "subcategory": "Riego y medición",
+      "brand": "",
+      "cost": 99,
+      "finalPrice": 181.24615384615382,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23348/image_512/%5BCONGOTEO3-5MM%5D%20CONECTOR%20RIEGO%20POR%20GOTEO%203-5mm?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Riego",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-422",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/congoteo4-7mm-conector-riego-por-goteo-4-7mm-23349?category=4495",
+      "sku": "CONGOTEO4-7MM",
+      "name": "CONECTOR RIEGO POR GOTEO 4-7mm",
+      "category": "Riego y medición",
+      "subcategory": "Riego y medición",
+      "brand": "",
+      "cost": 99,
+      "finalPrice": 181.24615384615382,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23349/image_512/%5BCONGOTEO4-7MM%5D%20CONECTOR%20RIEGO%20POR%20GOTEO%204-7mm?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Riego",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-416",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ct-16-17-conector-tee-de-16-17-mm-23352?category=4495",
+      "sku": "CT-16-17",
+      "name": "CONECTOR TEE de 16-17 mm",
+      "category": "Riego y medición",
+      "subcategory": "Riego y medición",
+      "brand": "",
+      "cost": 1490,
+      "finalPrice": 2727.846153846154,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23352/image_512/%5BCT-16-17%5D%20CONECTOR%20TEE%20de%2016-17%20mm?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Riego",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-426",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/tp-47-hdpe-conector-tee-planza-de-4-7mm-23354?category=4495",
+      "sku": "TP-47-HDPE",
+      "name": "CONECTOR TEE PLANZA de 4-7mm",
+      "category": "Riego y medición",
+      "subcategory": "Riego y medición",
+      "brand": "",
+      "cost": 99,
+      "finalPrice": 181.24615384615382,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23354/image_512/%5BTP-47-HDPE%5D%20CONECTOR%20TEE%20PLANZA%20de%204-7mm?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Riego",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-417",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/fgp-1u-4r-estaca-de-riego-por-goteo-23357?category=4495",
+      "sku": "FGP-1U-4R",
+      "name": "ESTACA DE RIEGO POR GOTEO",
+      "category": "Riego y medición",
+      "subcategory": "Riego y medición",
+      "brand": "",
+      "cost": 300,
+      "finalPrice": 549.2307692307692,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23357/image_512/%5BFGP-1U-4R%5D%20ESTACA%20DE%20RIEGO%20POR%20GOTEO?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Riego",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-419",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/planza16-17mm-manguera-planza-16-17mm-23345?category=4495",
+      "sku": "PLANZA16-17MM",
+      "name": "MANGUERA PLANZA 16-17mm",
+      "category": "Riego y medición",
+      "subcategory": "Riego y medición",
+      "brand": "",
+      "cost": 800,
+      "finalPrice": 1464.6153846153845,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23345/image_512/%5BPLANZA16-17MM%5D%20MANGUERA%20PLANZA%2016-17mm?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Riego",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-420",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/planza3-5mm-manguera-planza-3-5mm-23346?category=4495",
+      "sku": "PLANZA3-5MM",
+      "name": "MANGUERA PLANZA 3-5mm",
+      "category": "Riego y medición",
+      "subcategory": "Riego y medición",
+      "brand": "",
+      "cost": 250,
+      "finalPrice": 457.6923076923077,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23346/image_512/%5BPLANZA3-5MM%5D%20MANGUERA%20PLANZA%203-5mm?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Riego",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-421",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/planza4-7mm-manguera-planza-4-7mm-23347?category=4495",
+      "sku": "PLANZA4-7MM",
+      "name": "MANGUERA PLANZA 4-7mm",
+      "category": "Riego y medición",
+      "subcategory": "Riego y medición",
+      "brand": "",
+      "cost": 330,
+      "finalPrice": 604.1538461538461,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23347/image_512/%5BPLANZA4-7MM%5D%20MANGUERA%20PLANZA%204-7mm?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Riego",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-428",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/vpa-34-valvula-de-purga-de-aire-23356?category=4495",
+      "sku": "VPA-34",
+      "name": "VALVULA DE PURGA DE AIRE",
+      "category": "Riego y medición",
+      "subcategory": "Riego y medición",
+      "brand": "",
+      "cost": 4900,
+      "finalPrice": 8970.76923076923,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23356/image_512/%5BVPA-34%5D%20VALVULA%20DE%20PURGA%20DE%20AIRE?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Riego",
+      "objective": "Ordenar riego y medicion",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-100",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4040-coil-master-521-mini-v2-22664?category=4491",
+      "sku": "4040",
+      "name": "COIL MASTER 521 MINI V2",
+      "category": "Smokeshop y parafernalia",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 16723,
+      "finalPrice": 30615.953846153843,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22664/image_512/%5B4040%5D%20COIL%20MASTER%20521%20MINI%20V2?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Accesorios",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
+    },
+    {
+      "id": "p-99",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4927-contenedor-circular-pyrex-5-ml-22671?category=4491",
+      "sku": "4927",
+      "name": "CONTENEDOR CIRCULAR PYREX 5 ML",
+      "category": "Smokeshop y parafernalia",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 648,
+      "finalPrice": 1186.3384615384616,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22671/image_512/%5B4927%5D%20CONTENEDOR%20CIRCULAR%20PYREX%205%20ML?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Accesorios",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
+    },
+    {
+      "id": "p-61",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/71208360544601-contenedor-pyrex-5ml-cuadrado-22673?category=4491",
+      "sku": "71208360544601",
+      "name": "CONTENEDOR PYREX 5ML CUADRADO",
+      "category": "Smokeshop y parafernalia",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 648,
+      "finalPrice": 1186.3384615384616,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22673/image_512/%5B71208360544601%5D%20CONTENEDOR%20PYREX%205ML%20CUADRADO%20?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Accesorios",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
+    },
+    {
+      "id": "p-98",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5052-dab-cap-adaptador-blanco-22715?category=4491",
+      "sku": "5052",
+      "name": "DAB CAP ADAPTADOR Blanco",
+      "category": "Smokeshop y parafernalia",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 832,
+      "finalPrice": 1523.1999999999998,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22715/image_512/%5B5052%5D%20DAB%20CAP%20ADAPTADOR%20Blanco?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Accesorios",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
+    },
+    {
+      "id": "p-97",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5053-dab-cap-adaptador-naranjo-22716?category=4491",
+      "sku": "5053",
+      "name": "DAB CAP ADAPTADOR Naranjo",
+      "category": "Smokeshop y parafernalia",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 832,
+      "finalPrice": 1523.1999999999998,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22716/image_512/%5B5053%5D%20DAB%20CAP%20ADAPTADOR%20Naranjo?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Accesorios",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
+    },
+    {
+      "id": "p-96",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5051-dab-cap-adaptador-negro-22717?category=4491",
+      "sku": "5051",
+      "name": "DAB CAP ADAPTADOR Negro",
+      "category": "Smokeshop y parafernalia",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 832,
+      "finalPrice": 1523.1999999999998,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22717/image_512/%5B5051%5D%20DAB%20CAP%20ADAPTADOR%20Negro?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Accesorios",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
+    },
+    {
+      "id": "p-95",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4042-dab-cap-adaptador-rojo-22718?category=4491",
+      "sku": "4042",
+      "name": "DAB CAP ADAPTADOR Rojo",
+      "category": "Smokeshop y parafernalia",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 832,
+      "finalPrice": 1523.1999999999998,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22718/image_512/%5B4042%5D%20DAB%20CAP%20ADAPTADOR%20Rojo?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Accesorios",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
+    },
+    {
+      "id": "p-66",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/70558506589286-gas-butano-zengaz-300ml-23251?category=4491",
+      "sku": "70558506589286",
+      "name": "GAS BUTANO ZENGAZ 300ML",
+      "category": "Smokeshop y parafernalia",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 2000,
+      "finalPrice": 3661.5384615384614,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23251/image_512/%5B70558506589286%5D%20GAS%20BUTANO%20ZENGAZ%20300ML%20?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Accesorios",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
+    },
+    {
+      "id": "p-68",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/68597950425430-kit-rude-banger-grinder-thievery-50-ml-23138?category=4491",
+      "sku": "68597950425430",
+      "name": "KIT RUDE BANGER GRINDER THIEVERY 50 ML",
+      "category": "Smokeshop y parafernalia",
+      "subcategory": "Accesorios",
+      "brand": "THIEVERY",
+      "cost": 2000,
+      "finalPrice": 3661.5384615384614,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23138/image_512/%5B68597950425430%5D%20KIT%20RUDE%20BANGER%20GRINDER%20THIEVERY%2050%20ML?unique=b16f1f6",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Accesorios",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
+    },
+    {
+      "id": "p-81",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4044-mod-tesla-200w-22992?category=4491",
+      "sku": "4044",
+      "name": "MOD TESLA 200W",
+      "category": "Smokeshop y parafernalia",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 33613,
+      "finalPrice": 61537.64615384615,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22992/image_512/%5B4044%5D%20MOD%20TESLA%20200W?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Accesorios",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
+    },
+    {
+      "id": "p-80",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3992-nail-titanio-inner-two-23031?category=4491",
+      "sku": "3992",
+      "name": "NAIL TITANIO INNER TWO",
+      "category": "Smokeshop y parafernalia",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 8403,
+      "finalPrice": 15383.953846153845,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23031/image_512/%5B3992%5D%20NAIL%20TITANIO%20INNER%20TWO?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Accesorios",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
+    },
+    {
+      "id": "p-79",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4020-nail-titanio-queen-23033?category=4491",
+      "sku": "4020",
+      "name": "NAIL TITANIO QUEEN",
+      "category": "Smokeshop y parafernalia",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 8403,
+      "finalPrice": 15383.953846153845,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23033/image_512/%5B4020%5D%20NAIL%20TITANIO%20QUEEN?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Accesorios",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
+    },
+    {
+      "id": "p-78",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3996-nail-titanio-sfere-23034?category=4491",
+      "sku": "3996",
+      "name": "NAIL TITANIO SFERE",
+      "category": "Smokeshop y parafernalia",
+      "subcategory": "Accesorios",
+      "brand": "",
+      "cost": 7142,
+      "finalPrice": 13075.353846153845,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23034/image_512/%5B3996%5D%20NAIL%20TITANIO%20SFERE?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Accesorios",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-84",
@@ -6418,7 +12893,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4829-mallas-thievery-bags-10-unidades-120-micras-22967?category=4491",
       "sku": "4829",
       "name": "MALLAS THIEVERY BAGS 10 unidades - 120 micras",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Mallas",
       "brand": "THIEVERY",
       "cost": 4490,
@@ -6427,7 +12902,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22967/image_512/%5B4829%5D%20MALLAS%20THIEVERY%20BAGS%2010%20unidades%20-%20120%20micras?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Mallas",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-202",
@@ -6435,7 +12931,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/mallas-thievery-bags-10-unidades-140-micras-23511?category=4491",
       "sku": "",
       "name": "MALLAS THIEVERY BAGS 10 unidades - 140 micras",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Mallas",
       "brand": "THIEVERY",
       "cost": 4490,
@@ -6444,7 +12940,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23511/image_512/MALLAS%20THIEVERY%20BAGS%2010%20unidades%20-%20140%20micras?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Mallas",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-83",
@@ -6452,7 +12969,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4888-mallas-thievery-bags-10-unidades-25-micras-22968?category=4491",
       "sku": "4888",
       "name": "MALLAS THIEVERY BAGS 10 unidades - 25 Micras",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Mallas",
       "brand": "THIEVERY",
       "cost": 4490,
@@ -6461,7 +12978,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22968/image_512/%5B4888%5D%20MALLAS%20THIEVERY%20BAGS%2010%20unidades%20-%2025%20Micras?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Mallas",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-82",
@@ -6469,7 +13007,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4880-mallas-thievery-bags-10-unidades-90-micras-22969?category=4491",
       "sku": "4880",
       "name": "MALLAS THIEVERY BAGS 10 unidades - 90 Micras",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Mallas",
       "brand": "THIEVERY",
       "cost": 4490,
@@ -6478,7 +13016,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22969/image_512/%5B4880%5D%20MALLAS%20THIEVERY%20BAGS%2010%20unidades%20-%2090%20Micras?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Mallas",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-193",
@@ -6486,7 +13045,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5218-bandeja-rolling-khemo-verde-22487?category=4491",
       "sku": "5218",
       "name": "-25%",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Parafernalia",
       "brand": "KHEMO",
       "cost": 5609,
@@ -6495,7 +13054,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22487/image_512/%5B5218%5D%20BANDEJA%20ROLLING%20KHEMO%20Verde?unique=7de9f33",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Parafernalia",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-194",
@@ -6503,7 +13083,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5219-bandeja-rolling-khemo-amarillo-22485?category=4491",
       "sku": "5219",
       "name": "-25%",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Parafernalia",
       "brand": "KHEMO",
       "cost": 5609,
@@ -6512,7 +13092,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22485/image_512/%5B5219%5D%20BANDEJA%20ROLLING%20KHEMO%20Amarillo?unique=7de9f33",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Parafernalia",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-196",
@@ -6520,7 +13121,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5223-bandeja-psycho-ovni-22482?category=4491",
       "sku": "5223",
       "name": "BANDEJA PSYCHO OVNI",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Parafernalia",
       "brand": "",
       "cost": 2000,
@@ -6529,7 +13130,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22482/image_512/%5B5223%5D%20BANDEJA%20PSYCHO%20OVNI?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Parafernalia",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-195",
@@ -6537,7 +13159,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5224-bandeja-psycho-rick-morty-22483?category=4491",
       "sku": "5224",
       "name": "BANDEJA PSYCHO RICK & MORTY",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Parafernalia",
       "brand": "",
       "cost": 2000,
@@ -6546,7 +13168,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22483/image_512/%5B5224%5D%20BANDEJA%20PSYCHO%20RICK%20%26%20MORTY?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Parafernalia",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-63",
@@ -6554,7 +13197,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/r2-world-bandeja-psycho-world-22484?category=4491",
       "sku": "R2-WORLD",
       "name": "BANDEJA PSYCHO WORLD",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Parafernalia",
       "brand": "",
       "cost": 2000,
@@ -6563,7 +13206,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22484/image_512/%5BR2-WORLD%5D%20BANDEJA%20PSYCHO%20WORLD?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Parafernalia",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-62",
@@ -6571,7 +13235,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4839-bandeja-rolling-khemo-negro-22486?category=4491",
       "sku": "4839",
       "name": "BANDEJA ROLLING KHEMO Negro",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Parafernalia",
       "brand": "KHEMO",
       "cost": 5609,
@@ -6580,7 +13244,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22486/image_512/%5B4839%5D%20BANDEJA%20ROLLING%20KHEMO%20Negro?unique=7de9f33",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Parafernalia",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-192",
@@ -6588,7 +13273,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5211-bandeja-rolling-silicona-azul-22489?category=4491",
       "sku": "5211",
       "name": "BANDEJA ROLLING SILICONA Azul",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Parafernalia",
       "brand": "",
       "cost": 7500,
@@ -6597,7 +13282,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22489/image_512/%5B5211%5D%20BANDEJA%20ROLLING%20SILICONA%20Azul?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Parafernalia",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-191",
@@ -6605,7 +13311,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5213-bandeja-rolling-silicona-negro-22490?category=4491",
       "sku": "5213",
       "name": "BANDEJA ROLLING SILICONA Negro",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Parafernalia",
       "brand": "",
       "cost": 7500,
@@ -6614,7 +13320,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22490/image_512/%5B5213%5D%20BANDEJA%20ROLLING%20SILICONA%20Negro?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Parafernalia",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-201",
@@ -6622,7 +13349,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/cono-900-display-900-conos-element-23510?category=4491",
       "sku": "CONO-900",
       "name": "DISPLAY 900 CONOS ELEMENT",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Parafernalia",
       "brand": "",
       "cost": 85000,
@@ -6631,7 +13358,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23510/image_512/%5BCONO-900%5D%20DISPLAY%20900%20CONOS%20ELEMENT?unique=53d64eb",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Parafernalia",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-91",
@@ -6639,7 +13387,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3767-filtros-silver-premium-10-unidades-22814?category=4491",
       "sku": "3767",
       "name": "FILTROS SILVER PREMIUM 10 Unidades",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Parafernalia",
       "brand": "",
       "cost": 11912,
@@ -6648,7 +13396,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22814/image_512/%5B3767%5D%20FILTROS%20SILVER%20PREMIUM%2010%20Unidades?unique=7de9f33",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Parafernalia",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-90",
@@ -6656,7 +13425,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5221-filtros-woods-pulp-10-unidades-22816?category=4491",
       "sku": "5221",
       "name": "FILTROS WOODS PULP 10 Unidades",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Parafernalia",
       "brand": "",
       "cost": 11912,
@@ -6665,7 +13434,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22816/image_512/%5B5221%5D%20FILTROS%20WOODS%20PULP%2010%20Unidades?unique=7de9f33",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Parafernalia",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-159",
@@ -6673,7 +13463,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5123-bong-silicona-dab-rig-modelo-5-22591?category=4491",
       "sku": "5123",
       "name": "-25%",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 8175,
@@ -6682,7 +13472,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22591/image_512/%5B5123%5D%20BONG%20SILICONA%20DAB%20RIG%20Modelo%205?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-160",
@@ -6690,7 +13501,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5121-bong-silicona-dab-rig-modelo-3-22589?category=4491",
       "sku": "5121",
       "name": "-25%",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 1875,
@@ -6699,7 +13510,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22589/image_512/%5B5121%5D%20BONG%20SILICONA%20DAB%20RIG%20Modelo%203?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-161",
@@ -6707,7 +13539,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5120-bong-silicona-dab-rig-modelo-2-22588?category=4491",
       "sku": "5120",
       "name": "-25%",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 1875,
@@ -6716,7 +13548,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22588/image_512/%5B5120%5D%20BONG%20SILICONA%20DAB%20RIG%20Modelo%202?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-162",
@@ -6724,7 +13577,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4777-bong-silicona-dab-rig-modelo-1-22587?category=4491",
       "sku": "4777",
       "name": "-25%",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 1875,
@@ -6733,7 +13586,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22587/image_512/%5B4777%5D%20BONG%20SILICONA%20DAB%20RIG%20Modelo%201?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-163",
@@ -6741,7 +13615,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5016-bong-silicona-big-water-pipe-verde-22586?category=4491",
       "sku": "5016",
       "name": "-25%",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 1875,
@@ -6750,7 +13624,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22586/image_512/%5B5016%5D%20BONG%20SILICONA%20BIG%20WATER%20PIPE%20Verde?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-164",
@@ -6758,7 +13653,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5018-bong-silicona-big-water-pipe-rosa-22584?category=4491",
       "sku": "5018",
       "name": "-25%",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 1875,
@@ -6767,7 +13662,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22584/image_512/%5B5018%5D%20BONG%20SILICONA%20BIG%20WATER%20PIPE%20Rosa?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-165",
@@ -6775,7 +13691,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5030-bong-silicona-big-water-pipe-rojo-22583?category=4491",
       "sku": "5030",
       "name": "-25%",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 10430,
@@ -6784,7 +13700,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22583/image_512/%5B5030%5D%20BONG%20SILICONA%20BIG%20WATER%20PIPE%20Rojo?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-166",
@@ -6792,7 +13729,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5017-bong-silicona-big-water-pipe-celeste-22582?category=4491",
       "sku": "5017",
       "name": "-25%",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 8925,
@@ -6801,7 +13738,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22582/image_512/%5B5017%5D%20BONG%20SILICONA%20BIG%20WATER%20PIPE%20Celeste?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-167",
@@ -6809,7 +13767,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5136-bong-round-beaker-h149-modelo-6-22581?category=4491",
       "sku": "5136",
       "name": "-25%",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 8925,
@@ -6818,7 +13776,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22581/image_512/%5B5136%5D%20BONG%20ROUND%20BEAKER%20H149%20Modelo%206?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-168",
@@ -6826,7 +13805,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5135-bong-round-beaker-h149-modelo-5-22580?category=4491",
       "sku": "5135",
       "name": "-25%",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 8925,
@@ -6835,7 +13814,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22580/image_512/%5B5135%5D%20BONG%20ROUND%20BEAKER%20H149%20Modelo%205?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-169",
@@ -6843,7 +13843,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5134-bong-round-beaker-h149-modelo-4-22579?category=4491",
       "sku": "5134",
       "name": "-25%",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 8925,
@@ -6852,7 +13852,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22579/image_512/%5B5134%5D%20BONG%20ROUND%20BEAKER%20H149%20Modelo%204?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-170",
@@ -6860,7 +13881,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5133-bong-round-beaker-h149-modelo-3-22578?category=4491",
       "sku": "5133",
       "name": "-25%",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 8925,
@@ -6869,7 +13890,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22578/image_512/%5B5133%5D%20BONG%20ROUND%20BEAKER%20H149%20Modelo%203?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-171",
@@ -6877,7 +13919,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4919-bong-round-beaker-h149-modelo-1-22576?category=4491",
       "sku": "4919",
       "name": "-25%",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 7425,
@@ -6886,7 +13928,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22576/image_512/%5B4919%5D%20BONG%20ROUND%20BEAKER%20H149%20Modelo%201?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-185",
@@ -6894,7 +13957,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5233-bong-cono-silicona-modelo-5-22560?category=4491",
       "sku": "5233",
       "name": "-25%",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 6675,
@@ -6903,7 +13966,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22560/image_512/%5B5233%5D%20BONG%20CONO%20SILICONA%20Modelo%205?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-186",
@@ -6911,7 +13995,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5232-bong-cono-silicona-modelo-4-22559?category=4491",
       "sku": "5232",
       "name": "-25%",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 6675,
@@ -6920,7 +14004,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22559/image_512/%5B5232%5D%20BONG%20CONO%20SILICONA%20Modelo%204?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-187",
@@ -6928,7 +14033,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4781-bong-cono-silicona-modelo-3-22558?category=4491",
       "sku": "4781",
       "name": "-25%",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 6675,
@@ -6937,7 +14042,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22558/image_512/%5B4781%5D%20BONG%20CONO%20SILICONA%20Modelo%203?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-188",
@@ -6945,7 +14071,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5230-bong-cono-silicona-modelo-2-22557?category=4491",
       "sku": "5230",
       "name": "-25%",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 6675,
@@ -6954,7 +14080,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22557/image_512/%5B5230%5D%20BONG%20CONO%20SILICONA%20Modelo%202?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-189",
@@ -6962,7 +14109,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5231-bong-cono-silicona-modelo-1-22556?category=4491",
       "sku": "5231",
       "name": "-25%",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 6675,
@@ -6971,7 +14118,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22556/image_512/%5B5231%5D%20BONG%20CONO%20SILICONA%20Modelo%201?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-190",
@@ -6979,7 +14147,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4933-bong-black-n-yellow-glass-22555?category=4491",
       "sku": "4933",
       "name": "BONG Black n Yellow Glass",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 19900,
@@ -6988,7 +14156,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22555/image_512/%5B4933%5D%20BONG%20Black%20n%20Yellow%20Glass?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-184",
@@ -6996,7 +14185,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/s012-bong-gear-blue-glass-22562?category=4491",
       "sku": "s012",
       "name": "BONG GEAR BLUE GLASS",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 13930,
@@ -7005,7 +14194,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22562/image_512/%5Bs012%5D%20BONG%20GEAR%20BLUE%20GLASS?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-183",
@@ -7013,7 +14223,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/s013-bong-gear-green-glass-22563?category=4491",
       "sku": "s013",
       "name": "BONG GEAR GREEN GLASS",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 13930,
@@ -7022,7 +14232,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22563/image_512/%5Bs013%5D%20BONG%20GEAR%20GREEN%20GLASS?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-182",
@@ -7030,7 +14261,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/s17-bong-glove-blue-glass-22564?category=4491",
       "sku": "S17",
       "name": "BONG GLOVE BLUE GLASS",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 13930,
@@ -7039,7 +14270,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22564/image_512/%5BS17%5D%20BONG%20GLOVE%20BLUE%20GLASS?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-181",
@@ -7047,7 +14299,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/s18-bong-glove-green-glass-22565?category=4491",
       "sku": "s18",
       "name": "BONG GLOVE GREEN GLASS",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 13230,
@@ -7056,7 +14308,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22565/image_512/%5Bs18%5D%20BONG%20GLOVE%20GREEN%20GLASS?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-180",
@@ -7064,7 +14337,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4935-bong-green-flower-22566?category=4491",
       "sku": "4935",
       "name": "BONG GREEN FLOWER",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 12530,
@@ -7073,7 +14346,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22566/image_512/%5B4935%5D%20BONG%20GREEN%20FLOWER?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-179",
@@ -7081,7 +14375,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/s07-bong-ice-baker-green-glass-22567?category=4491",
       "sku": "s07",
       "name": "BONG ICE BAKER GREEN GLASS",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 13930,
@@ -7090,7 +14384,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22567/image_512/%5Bs07%5D%20BONG%20ICE%20BAKER%20GREEN%20GLASS?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-178",
@@ -7098,7 +14413,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/s014-bong-ice-spin-glass-22568?category=4491",
       "sku": "s014",
       "name": "BONG ICE SPIN GLASS",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 18130,
@@ -7107,7 +14422,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22568/image_512/%5Bs014%5D%20BONG%20ICE%20SPIN%20GLASS?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-177",
@@ -7115,7 +14451,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/s04-bong-inverted-blue-glass-22569?category=4491",
       "sku": "s04",
       "name": "BONG INVERTED BLUE GLASS",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 16030,
@@ -7124,7 +14460,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22569/image_512/%5Bs04%5D%20BONG%20INVERTED%20BLUE%20GLASS?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-176",
@@ -7132,7 +14489,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/s05-bong-inverted-green-glass-22570?category=4491",
       "sku": "s05",
       "name": "BONG INVERTED GREEN GLASS",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 16030,
@@ -7141,7 +14498,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22570/image_512/%5Bs05%5D%20BONG%20INVERTED%20GREEN%20GLASS?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-175",
@@ -7149,7 +14527,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/s019-bong-rick-n-morty-22571?category=4491",
       "sku": "s019",
       "name": "BONG RICK N MORTY",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 11830,
@@ -7158,7 +14536,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22571/image_512/%5Bs019%5D%20BONG%20RICK%20N%20MORTY?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-174",
@@ -7166,7 +14565,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4929-bong-rig-blue-glass-22572?category=4491",
       "sku": "4929",
       "name": "BONG RIG BLUE GLASS",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 11830,
@@ -7175,7 +14574,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22572/image_512/%5B4929%5D%20BONG%20RIG%20BLUE%20GLASS?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-173",
@@ -7183,7 +14603,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/s15-bong-rig-green-glass-22573?category=4491",
       "sku": "s15",
       "name": "BONG RIG GREEN GLASS",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 11830,
@@ -7192,7 +14612,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22573/image_512/%5Bs15%5D%20BONG%20RIG%20GREEN%20GLASS?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-172",
@@ -7200,7 +14641,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/s16-bong-rig-light-glass-22574?category=4491",
       "sku": "s16",
       "name": "BONG RIG LIGHT GLASS",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 11830,
@@ -7209,7 +14650,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22574/image_512/%5Bs16%5D%20BONG%20RIG%20LIGHT%20GLASS?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-65",
@@ -7217,7 +14679,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5132-bong-round-beaker-h149-modelo-2-22577?category=4491",
       "sku": "5132",
       "name": "BONG ROUND BEAKER H149 Modelo 2",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 8175,
@@ -7226,7 +14688,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22577/image_512/%5B5132%5D%20BONG%20ROUND%20BEAKER%20H149%20Modelo%202?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-108",
@@ -7234,7 +14717,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/h76-m7-bong-silicona-dab-rig-modelo-7-22593?category=4491",
       "sku": "H76-M7",
       "name": "BONG SILICONA DAB RIG Modelo 7",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 7425,
@@ -7243,7 +14726,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22593/image_512/%5BH76-M7%5D%20BONG%20SILICONA%20DAB%20RIG%20Modelo%207?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-107",
@@ -7251,7 +14755,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/h76-m8-bong-silicona-dab-rig-modelo-8-22594?category=4491",
       "sku": "H76-M8",
       "name": "BONG SILICONA DAB RIG Modelo 8",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 7425,
@@ -7260,7 +14764,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22594/image_512/%5BH76-M8%5D%20BONG%20SILICONA%20DAB%20RIG%20Modelo%208?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-106",
@@ -7268,7 +14793,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4917-bong-silicone-puffco-modelo-1-22595?category=4491",
       "sku": "4917",
       "name": "BONG SILICONE PUFFCO Modelo 1",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 8925,
@@ -7277,7 +14802,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22595/image_512/%5B4917%5D%20BONG%20SILICONE%20PUFFCO%20Modelo%201?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-105",
@@ -7285,7 +14831,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5301-bong-silicone-puffco-modelo-2-22596?category=4491",
       "sku": "5301",
       "name": "BONG SILICONE PUFFCO Modelo 2",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 8925,
@@ -7294,7 +14840,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22596/image_512/%5B5301%5D%20BONG%20SILICONE%20PUFFCO%20Modelo%202?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-104",
@@ -7302,7 +14869,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5302-bong-silicone-puffco-modelo-3-22597?category=4491",
       "sku": "5302",
       "name": "BONG SILICONE PUFFCO Modelo 3",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 8925,
@@ -7311,7 +14878,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22597/image_512/%5B5302%5D%20BONG%20SILICONE%20PUFFCO%20Modelo%203?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-103",
@@ -7319,7 +14907,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5304-bong-silicone-puffco-modelo-4-22598?category=4491",
       "sku": "5304",
       "name": "BONG SILICONE PUFFCO Modelo 4",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 8925,
@@ -7328,7 +14916,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22598/image_512/%5B5304%5D%20BONG%20SILICONE%20PUFFCO%20Modelo%204?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-102",
@@ -7336,7 +14945,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5699-bong-silicone-puffco-modelo-5-22599?category=4491",
       "sku": "5699",
       "name": "BONG SILICONE PUFFCO Modelo 5",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 8925,
@@ -7345,7 +14954,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22599/image_512/%5B5699%5D%20BONG%20SILICONE%20PUFFCO%20Modelo%205?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-101",
@@ -7353,7 +14983,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/s27-bong-tube-water-glass-22601?category=4491",
       "sku": "s27",
       "name": "BONG TUBE WATER GLASS",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 10430,
@@ -7362,7 +14992,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22601/image_512/%5Bs27%5D%20BONG%20TUBE%20WATER%20GLASS?unique=62ba5ca",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-77",
@@ -7370,7 +15021,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5125-pipa-silicona-modelo-1-23078?category=4491",
       "sku": "5125",
       "name": "PIPA SILICONA Modelo 1",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 1875,
@@ -7379,7 +15030,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23078/image_512/%5B5125%5D%20PIPA%20SILICONA%20Modelo%201?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-76",
@@ -7387,7 +15059,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5667-pipa-silicona-modelo-10-23079?category=4491",
       "sku": "5667",
       "name": "PIPA SILICONA Modelo 10",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 1875,
@@ -7396,7 +15068,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23079/image_512/%5B5667%5D%20PIPA%20SILICONA%20Modelo%2010?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-75",
@@ -7404,7 +15097,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5789-pipa-silicona-modelo-11-23080?category=4491",
       "sku": "5789",
       "name": "PIPA SILICONA Modelo 11",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 1875,
@@ -7413,7 +15106,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23080/image_512/%5B5789%5D%20PIPA%20SILICONA%20Modelo%2011?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-74",
@@ -7421,7 +15135,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5665-pipa-silicona-modelo-8-23087?category=4491",
       "sku": "5665",
       "name": "PIPA SILICONA Modelo 8",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 1875,
@@ -7430,7 +15144,28 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23087/image_512/%5B5665%5D%20PIPA%20SILICONA%20Modelo%208?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
     },
     {
       "id": "p-73",
@@ -7438,7 +15173,7 @@ window.DDV_CATALOG = {
       "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5666-pipa-silicona-modelo-9-23088?category=4491",
       "sku": "5666",
       "name": "PIPA SILICONA Modelo 9",
-      "category": "Smokeshop",
+      "category": "Smokeshop y parafernalia",
       "subcategory": "Pipas Bong",
       "brand": "",
       "cost": 1875,
@@ -7447,8 +15182,1442 @@ window.DDV_CATALOG = {
       "stock": "",
       "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23088/image_512/%5B5666%5D%20PIPA%20SILICONA%20Modelo%209?unique=74af2d5",
       "status": "publicar",
-      "notes": "extraido desde pagina publica"
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "Pipas Bong",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
+    },
+    {
+      "id": "p-92",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/70722863333215-guantes-farmer-care-thievery-22800?category=4491",
+      "sku": "70722863333215",
+      "name": "GUANTES FARMER CARE THIEVERY",
+      "category": "Smokeshop y parafernalia",
+      "subcategory": "Smokeshop",
+      "brand": "THIEVERY",
+      "cost": 743,
+      "finalPrice": 1360.2615384615383,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22800/image_512/%5B70722863333215%5D%20GUANTES%20FARMER%20CARE%20THIEVERY?unique=b16f1f6",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "General",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
+    },
+    {
+      "id": "p-89",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4289-hasdon-one-negro-22851?category=4491",
+      "sku": "4289",
+      "name": "HASDON ONE Negro",
+      "category": "Smokeshop y parafernalia",
+      "subcategory": "Smokeshop",
+      "brand": "",
+      "cost": 15500,
+      "finalPrice": 28376.923076923074,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22851/image_512/%5B4289%5D%20HASDON%20ONE%20Negro?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "General",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
+    },
+    {
+      "id": "p-88",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/5002-hasdon-one-purpura-22852?category=4491",
+      "sku": "5002",
+      "name": "HASDON ONE Purpura",
+      "category": "Smokeshop y parafernalia",
+      "subcategory": "Smokeshop",
+      "brand": "",
+      "cost": 15500,
+      "finalPrice": 28376.923076923074,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22852/image_512/%5B5002%5D%20HASDON%20ONE%20Purpura?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "General",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
+    },
+    {
+      "id": "p-85",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4833-magic-stick-22955?category=4491",
+      "sku": "4833",
+      "name": "MAGIC STICK",
+      "category": "Smokeshop y parafernalia",
+      "subcategory": "Smokeshop",
+      "brand": "",
+      "cost": 680,
+      "finalPrice": 1244.9230769230767,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22955/image_512/%5B4833%5D%20MAGIC%20STICK?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "General",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
+    },
+    {
+      "id": "p-72",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ronson-12-ronson-just-display-12-un-23125?category=4491",
+      "sku": "RONSON-12",
+      "name": "RONSON Just display 12 un",
+      "category": "Smokeshop y parafernalia",
+      "subcategory": "Smokeshop",
+      "brand": "RONSON",
+      "cost": 8382,
+      "finalPrice": 15345.507692307692,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23125/image_512/%5BRONSON-12%5D%20RONSON%20Just%20display%2012%20un?unique=7de9f33",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "General",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
+    },
+    {
+      "id": "p-71",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/rrp-prem-ronson-premium-rojo-1x25-23127?category=4491",
+      "sku": "RRP.PREM",
+      "name": "RONSON Premium Rojo 1x25",
+      "category": "Smokeshop y parafernalia",
+      "subcategory": "Smokeshop",
+      "brand": "RONSON",
+      "cost": 12599,
+      "finalPrice": 23065.861538461537,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23127/image_512/%5BRRP.PREM%5D%20RONSON%20Premium%20Rojo%201x25?unique=7de9f33",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "General",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
+    },
+    {
+      "id": "p-70",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4882-rude-banger-solution-thievery-30-ml-23136?category=4491",
+      "sku": "4882",
+      "name": "RUDE BANGER SOLUTION THIEVERY 30 ml",
+      "category": "Smokeshop y parafernalia",
+      "subcategory": "Smokeshop",
+      "brand": "THIEVERY",
+      "cost": 1500,
+      "finalPrice": 2746.153846153846,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23136/image_512/%5B4882%5D%20RUDE%20BANGER%20SOLUTION%20THIEVERY%2030%20ml?unique=b16f1f6",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "General",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
+    },
+    {
+      "id": "p-69",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/rude-500-rude-banger-solution-thievery-500-ml-23137?category=4491",
+      "sku": "RUDE-500",
+      "name": "RUDE BANGER SOLUTION THIEVERY 500 ml",
+      "category": "Smokeshop y parafernalia",
+      "subcategory": "Smokeshop",
+      "brand": "THIEVERY",
+      "cost": 4760,
+      "finalPrice": 8714.461538461537,
+      "margin": 35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23137/image_512/%5BRUDE-500%5D%20RUDE%20BANGER%20SOLUTION%20THIEVERY%20500%20ml?unique=b16f1f6",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Smokeshop",
+      "originalSubcategory": "General",
+      "objective": "Buscar accesorios de consumo",
+      "groups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      },
+      "catalogComment": "",
+      "manualObjective": "Buscar accesorios de consumo",
+      "manualGroups": {
+        "indoor": false,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": true
+      }
+    },
+    {
+      "id": "p-430",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/bioallmix-biobizz-all-mix-50l-22538?category=4474",
+      "sku": "BIOALLMIX",
+      "name": "BIOBIZZ ALL MIX 50L",
+      "category": "Sustratos",
+      "subcategory": "Sustratos",
+      "brand": "BIOBIZZ",
+      "cost": 15400,
+      "finalPrice": 28193.846153846152,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22538/image_512/%5BBIOALLMIX%5D%20BIOBIZZ%20ALL%20MIX%2050L?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Sustratos",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-432",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/coigro-bloque5kg-bloques-de-fibra-de-coco-comprimidos-5kg-coirgro-23413?category=4474",
+      "sku": "COIGRO-BLOQUE5KG",
+      "name": "Bloques de Fibra de Coco Comprimidos 5Kg COIRGRO",
+      "category": "Sustratos",
+      "subcategory": "Sustratos",
+      "brand": "COIRGRO",
+      "cost": 8500,
+      "finalPrice": 15561.538461538461,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23413/image_512/%5BCOIGRO-BLOQUE5KG%5D%20Bloques%20de%20Fibra%20de%20Coco%20Comprimidos%205Kg%20COIRGRO?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Sustratos",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-435",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/coigro-ez3g-bolsa-ez-con-aireacion-11-1l-coirgro-23416?category=4474",
+      "sku": "COIGRO-EZ3G",
+      "name": "Bolsa EZ con Aireación 11.1L COIRGRO",
+      "category": "Sustratos",
+      "subcategory": "Sustratos",
+      "brand": "COIRGRO",
+      "cost": 2400,
+      "finalPrice": 4393.846153846153,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23416/image_512/%5BCOIGRO-EZ3G%5D%20Bolsa%20EZ%20con%20Aireaci%C3%B3n%2011.1L%20COIRGRO?unique=62ba5ca",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Sustratos",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-434",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/coigro-ez2g-bolsa-ez-con-aireacion-7-5l-coirgro-23415?category=4474",
+      "sku": "COIGRO-EZ2G",
+      "name": "Bolsa EZ con Aireación 7.5L COIRGRO",
+      "category": "Sustratos",
+      "subcategory": "Sustratos",
+      "brand": "COIRGRO",
+      "cost": 1900,
+      "finalPrice": 3478.4615384615386,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23415/image_512/%5BCOIGRO-EZ2G%5D%20Bolsa%20EZ%20con%20Aireaci%C3%B3n%207.5L%20COIRGRO?unique=62ba5ca",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Sustratos",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-429",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1654611869587-humus-insect-frass-farmtastik-4l-22873?category=4474",
+      "sku": "1654611869587",
+      "name": "HUMUS INSECT FRASS FARMTASTIK 4L",
+      "category": "Sustratos",
+      "subcategory": "Sustratos",
+      "brand": "FARMTASTIK",
+      "cost": 4900,
+      "finalPrice": 8970.76923076923,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22873/image_512/%5B1654611869587%5D%20HUMUS%20INSECT%20FRASS%20FARMTASTIK%204L?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Sustratos",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-431",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4685-sustrato-batmix-special-hng-22534?category=4474",
+      "sku": "4685",
+      "name": "SUSTRATO BATMIX SPECIAL HNG",
+      "category": "Sustratos",
+      "subcategory": "Sustratos",
+      "brand": "",
+      "cost": 12500,
+      "finalPrice": 22884.615384615383,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22534/image_512/%5B4685%5D%20SUSTRATO%20BATMIX%20SPECIAL%20HNG?unique=4c56b04",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Sustratos",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Ordenar riego y medicion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": true,
+        "nutrition": true,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-433",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/coigro-susper70-30-sustrato-coco-perlita-70-30-premium-coirgro-23414?category=4474",
+      "sku": "COIGRO-SUSPER70/30",
+      "name": "Sustrato Coco + Perlita 70/30 Premium COIRGRO",
+      "category": "Sustratos",
+      "subcategory": "Sustratos",
+      "brand": "COIRGRO",
+      "cost": 12500,
+      "finalPrice": 22884.615384615383,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23414/image_512/%5BCOIGRO-SUSPER70-30%5D%20Sustrato%20Coco%20%2B%20Perlita%2070-30%20Premium%20COIRGRO?unique=5af7fa9",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Sustratos",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-436",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/sustrato-dutch-premium-light-mix-50l-23445?category=4474",
+      "sku": "",
+      "name": "SUSTRATO DUTCH PREMIUM LIGHT MIX 50L",
+      "category": "Sustratos",
+      "subcategory": "Sustratos",
+      "brand": "",
+      "cost": 10990,
+      "finalPrice": 20120.153846153844,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23445/image_512/SUSTRATO%20DUTCH%20PREMIUM%20LIGHT%20MIX%2050L?unique=a62fa23",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Sustratos",
+      "objective": "Cambiar sustrato o nutricion",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Cambiar sustrato o nutricion",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": true,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-395",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3669-abrazadera-ajustable-127-mm-22430?category=4464",
+      "sku": "3669",
+      "name": "ABRAZADERA AJUSTABLE 127 mm",
+      "category": "Ventilación y olor",
+      "subcategory": "Ventilación",
+      "brand": "",
+      "cost": 310,
+      "finalPrice": 567.5384615384614,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22430/image_512/%5B3669%5D%20ABRAZADERA%20AJUSTABLE%20127%20mm?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Ventilacion",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-394",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3671-abrazadera-ajustable-152-mm-22431?category=4464",
+      "sku": "3671",
+      "name": "ABRAZADERA AJUSTABLE 152 mm",
+      "category": "Ventilación y olor",
+      "subcategory": "Ventilación",
+      "brand": "",
+      "cost": 390,
+      "finalPrice": 713.9999999999999,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22431/image_512/%5B3671%5D%20ABRAZADERA%20AJUSTABLE%20152%20mm?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Ventilacion",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-393",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3647-ducto-aluminio-aislado-5-pulgadas-125mm-22777?category=4464",
+      "sku": "3647",
+      "name": "DUCTO ALUMINIO AISLADO 5 Pulgadas (125mm)",
+      "category": "Ventilación y olor",
+      "subcategory": "Ventilación",
+      "brand": "",
+      "cost": 9900,
+      "finalPrice": 18124.615384615383,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22777/image_512/%5B3647%5D%20DUCTO%20ALUMINIO%20AISLADO%205%20Pulgadas%20%28125mm%29?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Ventilacion",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-392",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3649-ducto-aluminio-aislado-6-pulgadas-150mm-22778?category=4464",
+      "sku": "3649",
+      "name": "DUCTO ALUMINIO AISLADO 6 Pulgadas (150mm)",
+      "category": "Ventilación y olor",
+      "subcategory": "Ventilación",
+      "brand": "",
+      "cost": 10900,
+      "finalPrice": 19955.384615384613,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22778/image_512/%5B3649%5D%20DUCTO%20ALUMINIO%20AISLADO%206%20Pulgadas%20%28150mm%29?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Ventilacion",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-380",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3651-ducto-aluminio-aislado-8-pulgadas-200mm-22779?category=4464",
+      "sku": "3651",
+      "name": "DUCTO ALUMINIO AISLADO 8 Pulgadas (200mm)",
+      "category": "Ventilación y olor",
+      "subcategory": "Ventilación",
+      "brand": "",
+      "cost": 14900,
+      "finalPrice": 27278.46153846154,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22779/image_512/%5B3651%5D%20DUCTO%20ALUMINIO%20AISLADO%208%20Pulgadas%20%28200mm%29?unique=4cc8b7e",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Ventilacion",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-379",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2558-ducto-aluminio-flexible-5-pulgadas-125mm-22780?category=4464",
+      "sku": "2558",
+      "name": "DUCTO ALUMINIO FLEXIBLE 5 Pulgadas (125mm)",
+      "category": "Ventilación y olor",
+      "subcategory": "Ventilación",
+      "brand": "",
+      "cost": 5900,
+      "finalPrice": 10801.538461538461,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22780/image_512/%5B2558%5D%20DUCTO%20ALUMINIO%20FLEXIBLE%205%20Pulgadas%20%28125mm%29?unique=4cc8b7e",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Ventilacion",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-384",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/306104c-8-ducto-aluminio-flexible-8-pulgadas-200mm-23452?category=4464",
+      "sku": "306104C-8",
+      "name": "DUCTO ALUMINIO FLEXIBLE 8 Pulgadas (200mm)",
+      "category": "Ventilación y olor",
+      "subcategory": "Ventilación",
+      "brand": "",
+      "cost": 15900,
+      "finalPrice": 29109.23076923077,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23452/image_512/%5B306104C-8%5D%20DUCTO%20ALUMINIO%20FLEXIBLE%208%20Pulgadas%20%28200mm%29?unique=4cc8b7e",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Ventilacion",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-391",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/3642-extractor-en-linea-4-pulgadas-100mm-22795?category=4464",
+      "sku": "3642",
+      "name": "EXTRACTOR EN LINEA 4 Pulgadas (100mm)",
+      "category": "Ventilación y olor",
+      "subcategory": "Ventilación",
+      "brand": "",
+      "cost": 8489,
+      "finalPrice": 15541.4,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22795/image_512/%5B3642%5D%20EXTRACTOR%20EN%20LINEA%204%20Pulgadas%20%28100mm%29?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Ventilacion",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-390",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2546-extractor-en-linea-5-pulgadas-125mm-22796?category=4464",
+      "sku": "2546",
+      "name": "EXTRACTOR EN LINEA 5 Pulgadas (125mm)",
+      "category": "Ventilación y olor",
+      "subcategory": "Ventilación",
+      "brand": "",
+      "cost": 8900,
+      "finalPrice": 16293.846153846152,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22796/image_512/%5B2546%5D%20EXTRACTOR%20EN%20LINEA%205%20Pulgadas%20%28125mm%29?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Ventilacion",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-389",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/2548-extractor-en-linea-6-pulgadas-150mm-22797?category=4464",
+      "sku": "2548",
+      "name": "EXTRACTOR EN LINEA 6 Pulgadas (150mm)",
+      "category": "Ventilación y olor",
+      "subcategory": "Ventilación",
+      "brand": "",
+      "cost": 9900,
+      "finalPrice": 18124.615384615383,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22797/image_512/%5B2548%5D%20EXTRACTOR%20EN%20LINEA%206%20Pulgadas%20%28150mm%29?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Ventilacion",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-396",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/extract150mm-extractor-regulable-150mm-23312?category=4464",
+      "sku": "EXTRACT150MM",
+      "name": "EXTRACTOR REGULABLE 150MM",
+      "category": "Ventilación y olor",
+      "subcategory": "Ventilación",
+      "brand": "",
+      "cost": 29900,
+      "finalPrice": 54740,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23312/image_512/%5BEXTRACT150MM%5D%20EXTRACTOR%20REGULABLE%20150MM?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Ventilacion",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-378",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/extractor-regulable-150mm-vivosun-aerozesh-23455?category=4464",
+      "sku": "",
+      "name": "EXTRACTOR REGULABLE 150MM VIVOSUN AEROZESH",
+      "category": "Ventilación y olor",
+      "subcategory": "Ventilación",
+      "brand": "VIVOSUN",
+      "cost": 98900,
+      "finalPrice": 181063.0769230769,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23455/image_512/EXTRACTOR%20REGULABLE%20150MM%20VIVOSUN%20AEROZESH?unique=4cc8b7e",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Ventilacion",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-387",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/extractor-regulable-200mm-vivosun-aerozesh-23456?category=4464",
+      "sku": "",
+      "name": "EXTRACTOR REGULABLE 200MM VIVOSUN AEROZESH",
+      "category": "Ventilación y olor",
+      "subcategory": "Ventilación",
+      "brand": "VIVOSUN",
+      "cost": 139000,
+      "finalPrice": 254476.92307692306,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23456/image_512/EXTRACTOR%20REGULABLE%20200MM%20VIVOSUN%20AEROZESH?unique=4cc8b7e",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Ventilacion",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-388",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/4892-filtro-carbono-150-1000mm-38mm-22804?category=4464",
+      "sku": "4892",
+      "name": "FILTRO CARBONO 150-1000mm*38mm",
+      "category": "Ventilación y olor",
+      "subcategory": "Ventilación",
+      "brand": "",
+      "cost": 115000,
+      "finalPrice": 210538.46153846153,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22804/image_512/%5B4892%5D%20FILTRO%20CARBONO%20150-1000mm%2A38mm?unique=4cc8b7e",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Ventilacion",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-377",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/filtro-carbono-150mm-vivosun-23453?category=4464",
+      "sku": "",
+      "name": "FILTRO CARBONO 150mm VIVOSUN",
+      "category": "Ventilación y olor",
+      "subcategory": "Ventilación",
+      "brand": "VIVOSUN",
+      "cost": 65900,
+      "finalPrice": 120647.6923076923,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23453/image_512/FILTRO%20CARBONO%20150mm%20VIVOSUN?unique=d317291",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Ventilacion",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-383",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/306123-0839-filtro-carbono-200-1000-mm-x-38mm-22805?category=4464",
+      "sku": "306123-0839",
+      "name": "FILTRO CARBONO 200 - 1000 mm x 38mm",
+      "category": "Ventilación y olor",
+      "subcategory": "Ventilación",
+      "brand": "",
+      "cost": 104900,
+      "finalPrice": 192047.6923076923,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22805/image_512/%5B306123-0839%5D%20FILTRO%20CARBONO%20200%20-%201000%20mm%20x%2038mm?unique=4cc8b7e",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Ventilacion",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-386",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/filtro-carbono-200mm-vivosun-23454?category=4464",
+      "sku": "",
+      "name": "FILTRO CARBONO 200mm VIVOSUN",
+      "category": "Ventilación y olor",
+      "subcategory": "Ventilación",
+      "brand": "VIVOSUN",
+      "cost": 95900,
+      "finalPrice": 175570.76923076922,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23454/image_512/FILTRO%20CARBONO%20200mm%20VIVOSUN?unique=4cc8b7e",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Ventilacion",
+      "objective": "Mejorar el olor",
+      "groups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Mejorar el olor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": true,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-385",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/1652733400014-humidificador-ultrasonico-8-litros-22859?category=4464",
+      "sku": "1652733400014",
+      "name": "HUMIDIFICADOR ULTRASÓNICO 8 LITROS",
+      "category": "Ventilación y olor",
+      "subcategory": "Ventilación",
+      "brand": "",
+      "cost": 34900,
+      "finalPrice": 63893.84615384615,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/22859/image_512/%5B1652733400014%5D%20HUMIDIFICADOR%20ULTRAS%C3%93NICO%208%20LITROS?unique=4cc8b7e",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Ventilacion",
+      "objective": "Armar mi primer indoor",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Armar mi primer indoor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-397",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/ventx2-pack-2-x-ventilador-pared-16-3-velocidades-23331?category=4464",
+      "sku": "VENTX2",
+      "name": "PACK 2 X VENTILADOR PARED 16\" 3 VELOCIDADES",
+      "category": "Ventilación y olor",
+      "subcategory": "Ventilación",
+      "brand": "",
+      "cost": 34900,
+      "finalPrice": 63893.84615384615,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23331/image_512/%5BVENTX2%5D%20PACK%202%20X%20VENTILADOR%20PARED%2016%22%203%20VELOCIDADES?unique=53d64eb",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Ventilacion",
+      "objective": "Armar mi primer indoor",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Armar mi primer indoor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-382",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/306102e-ventilador-pared-16-3-velocidades-23231?category=4464",
+      "sku": "306102E",
+      "name": "VENTILADOR PARED 16\" 3 VELOCIDADES",
+      "category": "Ventilación y olor",
+      "subcategory": "Ventilación",
+      "brand": "",
+      "cost": 28900,
+      "finalPrice": 52909.230769230766,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23231/image_512/%5B306102E%5D%20VENTILADOR%20PARED%2016%22%203%20VELOCIDADES?unique=62ba5ca",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Ventilacion",
+      "objective": "Armar mi primer indoor",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Armar mi primer indoor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
+    },
+    {
+      "id": "p-381",
+      "supplier": "Tecnogrow",
+      "supplierUrl": "https://www.tienda.tecnogrow.cl/shop/331211e-ventilador-pinza-6-2-velocidades-23232?category=4464",
+      "sku": "331211E",
+      "name": "VENTILADOR PINZA 6\" 2 VELOCIDADES",
+      "category": "Ventilación y olor",
+      "subcategory": "Ventilación",
+      "brand": "",
+      "cost": 12900,
+      "finalPrice": 23616.923076923074,
+      "margin": 0.35,
+      "stock": "",
+      "image": "https://www.tienda.tecnogrow.cl/web/image/product.template/23232/image_512/%5B331211E%5D%20VENTILADOR%20PINZA%206%22%202%20VELOCIDADES?unique=62ba5ca",
+      "status": "publicar",
+      "notes": "extraido desde pagina publica",
+      "originalCategory": "Cultivo",
+      "originalSubcategory": "Ventilacion",
+      "objective": "Armar mi primer indoor",
+      "groups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      },
+      "catalogComment": "",
+      "manualObjective": "Armar mi primer indoor",
+      "manualGroups": {
+        "indoor": true,
+        "odor": false,
+        "light": false,
+        "water": false,
+        "nutrition": false,
+        "consumption": false
+      }
     }
-  ]
-}
-;
+  ],
+  "groupCounts": {
+    "indoor": 73,
+    "odor": 28,
+    "light": 26,
+    "water": 31,
+    "nutrition": 213,
+    "consumption": 96
+  }
+};

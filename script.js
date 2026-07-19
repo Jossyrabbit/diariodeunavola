@@ -38,6 +38,7 @@ let activeQuickCategories = [];
 let activeQuickSubcategories = [];
 let activeQuickTagCategories = [];
 let activeQuickTagSubcategories = [];
+let activeQuickGroups = [];
 
 function normalize(value) {
   return String(value || "")
@@ -104,13 +105,14 @@ function productMatches(product, query, category, subcategory, quickTerms = []) 
     product.subcategory,
   ].join(" "));
   const terms = queryTerms(query);
-  const hasQuickRule = activeQuickCategories.length || activeQuickSubcategories.length || quickTerms.length;
+  const hasQuickRule = activeQuickGroups.length || activeQuickCategories.length || activeQuickSubcategories.length || quickTerms.length;
   const inQuickTagScope = activeQuickTagCategories.length || activeQuickTagSubcategories.length
     ? activeQuickTagCategories.includes(product.category)
       || activeQuickTagSubcategories.includes(product.subcategory)
     : true;
   const matchesQuick = hasQuickRule
-    ? activeQuickCategories.includes(product.category)
+    ? activeQuickGroups.some((group) => product.groups?.[group])
+      || activeQuickCategories.includes(product.category)
       || activeQuickSubcategories.includes(product.subcategory)
       || (inQuickTagScope && quickTerms.some((term) => haystack.includes(term)))
     : true;
@@ -129,6 +131,7 @@ function resetQuickFilters() {
   activeQuickSubcategories = [];
   activeQuickTagCategories = [];
   activeQuickTagSubcategories = [];
+  activeQuickGroups = [];
 }
 
 function sortProducts(items, sortMode) {
@@ -279,6 +282,7 @@ function initializeCatalog() {
       activeQuickTerms = queryTerms(button.dataset.tags || "");
       activeQuickTagCategories = dataList(button.dataset.tagCategories || "");
       activeQuickTagSubcategories = dataList(button.dataset.tagSubcategories || "");
+      activeQuickGroups = dataList(button.dataset.groups || "");
 
       if (searchInput) searchInput.value = query;
       if (categorySelect) categorySelect.value = category && activeQuickCategories.length === 1 ? category : "";
