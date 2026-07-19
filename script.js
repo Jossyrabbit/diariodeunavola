@@ -33,6 +33,7 @@ const quickCatalogButtons = document.querySelectorAll("[data-catalog-quick]");
 const pageSize = 36;
 let visibleLimit = pageSize;
 let filteredProducts = [];
+let activeQuickTerms = [];
 
 function normalize(value) {
   return String(value || "")
@@ -63,6 +64,13 @@ function uniqueSorted(values) {
   return [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b, "es"));
 }
 
+function queryTerms(value) {
+  return normalize(value)
+    .split(/\s+/)
+    .map((term) => term.trim())
+    .filter((term) => term.length > 1);
+}
+
 function fillSelect(select, values, placeholder) {
   if (!select) return;
   const current = select.value;
@@ -76,7 +84,7 @@ function fillSelect(select, values, placeholder) {
   if (values.includes(current)) select.value = current;
 }
 
-function productMatches(product, query, category, subcategory) {
+function productMatches(product, query, category, subcategory, quickTerms = []) {
   const haystack = normalize([
     product.name,
     product.brand,
@@ -84,8 +92,12 @@ function productMatches(product, query, category, subcategory) {
     product.category,
     product.subcategory,
   ].join(" "));
+  const terms = queryTerms(query);
+  const matchesQuery = quickTerms.length
+    ? quickTerms.some((term) => haystack.includes(term))
+    : terms.every((term) => haystack.includes(term));
 
-  return (!query || haystack.includes(query))
+  return matchesQuery
     && (!category || product.category === category)
     && (!subcategory || product.subcategory === subcategory);
 }
@@ -170,7 +182,7 @@ function applyFilters({ resetLimit = true } = {}) {
   const sortMode = sortSelect?.value || "name";
 
   filteredProducts = sortProducts(
-    products.filter((product) => productMatches(product, query, category, subcategory)),
+    products.filter((product) => productMatches(product, query, category, subcategory, activeQuickTerms)),
     sortMode,
   );
 
@@ -195,7 +207,10 @@ function initializeCatalog() {
   filteredProducts = sortProducts(products, "name");
   renderProducts();
 
-  searchInput?.addEventListener("input", () => applyFilters());
+  searchInput?.addEventListener("input", () => {
+    activeQuickTerms = [];
+    applyFilters();
+  });
   sortSelect?.addEventListener("change", () => applyFilters());
 
   categorySelect?.addEventListener("change", () => {
@@ -207,6 +222,7 @@ function initializeCatalog() {
   subcategorySelect?.addEventListener("change", () => applyFilters());
 
   clearButton?.addEventListener("click", () => {
+    activeQuickTerms = [];
     if (searchInput) searchInput.value = "";
     if (categorySelect) categorySelect.value = "";
     if (subcategorySelect) subcategorySelect.value = "";
@@ -225,6 +241,7 @@ function initializeCatalog() {
       const category = button.dataset.category || "";
       const subcategory = button.dataset.subcategory || "";
       const query = button.dataset.query || "";
+      activeQuickTerms = queryTerms(button.dataset.tags || "");
 
       if (searchInput) searchInput.value = query;
       if (categorySelect) categorySelect.value = category;

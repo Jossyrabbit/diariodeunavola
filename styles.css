@@ -3003,8 +3003,8 @@ body {
 
 @media (min-width: 720px) {
   .catalog-page-hero {
-    grid-template-columns: minmax(0, 1fr) 260px;
-    align-items: end;
+    grid-template-columns: 1fr;
+    align-items: start;
     padding-top: 58px;
   }
 
