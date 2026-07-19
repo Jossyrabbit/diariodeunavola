@@ -1,4 +1,4 @@
-Planificador basico de riego - Diario de una Volá
+Planificador basico de riego - Diario de una Vola
 
 Fecha | Planta | Volumen | pH | EC | Nutrientes | Observaciones
 ------|--------|---------|----|----|------------|--------------

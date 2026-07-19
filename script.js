@@ -37,7 +37,16 @@ document.querySelectorAll("[data-share-url]").forEach((button) => {
 });
 
 const catalog = window.DDV_CATALOG || { products: [] };
-const products = Array.isArray(catalog.products) ? catalog.products : [];
+const products = Array.isArray(catalog.products)
+  ? catalog.products.filter((product) => product
+    && product.status !== "ocultar"
+    && product.name
+    && !/^[-\d%\s]+$/.test(product.name.trim()))
+  : [];
+const DDV_WHATSAPP_NUMBER = "56999815822";
+const DDV_CART_KEY = "ddv-cart";
+const DDV_SHIPPING_ESTIMATE = "2 a 3 días hábiles";
+const DDV_DEFAULT_IMAGE = "https://static.wixstatic.com/media/1287cc_9b7b1f6130bd4ab78fbfe3cd286fecb8~mv2.jpg/v1/fill/w_900,h_700,fp_0.50_0.50,q_85,enc_avif,quality_auto/1287cc_9b7b1f6130bd4ab78fbfe3cd286fecb8~mv2.jpg";
 
 const searchInput = document.querySelector("#catalog-search");
 const categorySelect = document.querySelector("#catalog-category");
@@ -50,6 +59,15 @@ const emptyState = document.querySelector("#catalog-empty");
 const clearButton = document.querySelector("#catalog-clear");
 const loadMoreButton = document.querySelector("#catalog-load-more");
 const quickCatalogButtons = document.querySelectorAll("[data-catalog-quick]");
+const cartPanel = document.querySelector("#cart-panel");
+const cartList = document.querySelector("#cart-list");
+const cartEmpty = document.querySelector("#cart-empty");
+const cartTotal = document.querySelector("#cart-total");
+const cartCount = document.querySelector("#cart-count");
+const cartOpenButtons = document.querySelectorAll("[data-cart-open]");
+const cartCloseButtons = document.querySelectorAll("[data-cart-close]");
+const cartOrderButton = document.querySelector("#cart-order");
+const cartDownloadButton = document.querySelector("#cart-download");
 
 const pageSize = 36;
 let visibleLimit = pageSize;
@@ -66,6 +84,22 @@ function normalize(value) {
     .toLocaleLowerCase("es-CL")
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "");
+}
+
+function slugPart(value) {
+  return normalize(value)
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function productSlug(product) {
+  const namePart = slugPart(product.name).slice(0, 84) || "producto";
+  const keyPart = slugPart(product.id || product.sku || product.name).slice(0, 36);
+  return keyPart && keyPart !== namePart ? `${namePart}-${keyPart}` : namePart;
+}
+
+function productDetailPath(product) {
+  return `/productos/${productSlug(product)}.html`;
 }
 
 function formatPrice(value) {
@@ -174,10 +208,164 @@ function whatsappUrl(product) {
     product.name,
     product.sku ? `SKU: ${product.sku}` : "",
     `Precio web: ${price}`,
-    product.supplierUrl,
+    `Despacho estimado: ${DDV_SHIPPING_ESTIMATE}`,
+    new URL(productDetailPath(product), window.location.origin).href,
   ].filter(Boolean).join("\n");
 
-  return `https://wa.me/?text=${encodeURIComponent(message)}`;
+  return `https://wa.me/${DDV_WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+}
+
+function readCart() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(DDV_CART_KEY) || "{}");
+    return parsed && typeof parsed === "object" ? parsed : {};
+  } catch {
+    return {};
+  }
+}
+
+function writeCart(cart) {
+  localStorage.setItem(DDV_CART_KEY, JSON.stringify(cart));
+}
+
+function findProduct(productId) {
+  return products.find((product) => product.id === productId);
+}
+
+function cartRows() {
+  const cart = readCart();
+  return Object.entries(cart)
+    .map(([productId, quantity]) => {
+      const product = findProduct(productId);
+      const qty = Math.max(1, Number(quantity) || 1);
+      if (!product) return null;
+      const unit = Number.isFinite(product.finalPrice) ? Math.round(product.finalPrice) : 0;
+      return {
+        product,
+        quantity: qty,
+        unit,
+        subtotal: unit * qty,
+      };
+    })
+    .filter(Boolean);
+}
+
+function cartSummary(rows = cartRows()) {
+  return rows.reduce((summary, row) => {
+    summary.count += row.quantity;
+    summary.total += row.subtotal;
+    return summary;
+  }, { count: 0, total: 0 });
+}
+
+function renderCart() {
+  if (!cartPanel) return;
+  const rows = cartRows();
+  const summary = cartSummary(rows);
+
+  if (cartCount) cartCount.textContent = String(summary.count);
+  if (cartTotal) cartTotal.textContent = formatPrice(summary.total);
+  if (cartEmpty) cartEmpty.hidden = rows.length > 0;
+  if (cartOrderButton) cartOrderButton.disabled = rows.length === 0;
+  if (cartDownloadButton) cartDownloadButton.disabled = rows.length === 0;
+
+  if (cartList) {
+    cartList.innerHTML = rows.map(({ product, quantity, subtotal }) => `
+      <article class="cart-item">
+        <img src="${escapeHtml(product.image || DDV_DEFAULT_IMAGE)}" alt="${escapeHtml(product.name)}" loading="lazy">
+        <div>
+          <strong>${escapeHtml(product.name)}</strong>
+          <span>${escapeHtml([product.category, product.sku ? `SKU ${product.sku}` : ""].filter(Boolean).join(" / "))}</span>
+          <small>${escapeHtml(formatPrice(product.finalPrice))} c/u</small>
+          <div class="cart-item-controls">
+            <button type="button" data-cart-decrease="${escapeHtml(product.id)}" aria-label="Restar ${escapeHtml(product.name)}">-</button>
+            <span>${quantity}</span>
+            <button type="button" data-cart-increase="${escapeHtml(product.id)}" aria-label="Sumar ${escapeHtml(product.name)}">+</button>
+            <button type="button" data-cart-remove="${escapeHtml(product.id)}">Quitar</button>
+          </div>
+        </div>
+        <em>${escapeHtml(formatPrice(subtotal))}</em>
+      </article>
+    `).join("");
+  }
+}
+
+function addToCart(productId, amount = 1) {
+  const product = findProduct(productId);
+  if (!product) return;
+  const cart = readCart();
+  cart[productId] = Math.max(1, (Number(cart[productId]) || 0) + amount);
+  writeCart(cart);
+  renderCart();
+  openCart();
+}
+
+function updateCartItem(productId, quantity) {
+  const cart = readCart();
+  const qty = Number(quantity);
+  if (qty > 0) {
+    cart[productId] = qty;
+  } else {
+    delete cart[productId];
+  }
+  writeCart(cart);
+  renderCart();
+}
+
+function openCart() {
+  if (!cartPanel) return;
+  cartPanel.classList.add("is-open");
+  cartPanel.setAttribute("aria-hidden", "false");
+}
+
+function closeCart() {
+  if (!cartPanel) return;
+  cartPanel.classList.remove("is-open");
+  cartPanel.setAttribute("aria-hidden", "true");
+}
+
+function cartCsv() {
+  const rows = cartRows();
+  const header = ["Producto", "SKU", "Categoria", "Cantidad", "Precio unitario", "Subtotal", "Despacho estimado"];
+  const body = rows.map(({ product, quantity, unit, subtotal }) => [
+    product.name,
+    product.sku || "",
+    [product.category, product.subcategory].filter(Boolean).join(" / "),
+    quantity,
+    unit,
+    subtotal,
+    DDV_SHIPPING_ESTIMATE,
+  ]);
+  return [header, ...body]
+    .map((row) => row.map((cell) => `"${String(cell).replace(/"/g, '""')}"`).join(";"))
+    .join("\n");
+}
+
+function downloadCartCsv() {
+  const rows = cartRows();
+  if (!rows.length) return;
+  const blob = new Blob([`\ufeff${cartCsv()}`], { type: "text/csv;charset=utf-8" });
+  const link = document.createElement("a");
+  link.href = URL.createObjectURL(blob);
+  link.download = "pedido-diario-de-una-vola.csv";
+  document.body.appendChild(link);
+  link.click();
+  URL.revokeObjectURL(link.href);
+  link.remove();
+}
+
+function orderWhatsappMessage() {
+  const rows = cartRows();
+  const summary = cartSummary(rows);
+  return [
+    "Hola Diario de una Vola, quiero hacer este pedido:",
+    "",
+    ...rows.map(({ product, quantity, subtotal }, index) => `${index + 1}. ${product.name}${product.sku ? ` / SKU ${product.sku}` : ""} / Cantidad: ${quantity} / Subtotal: ${formatPrice(subtotal)}`),
+    "",
+    `Total estimado: ${formatPrice(summary.total)}`,
+    `Despacho estimado: ${DDV_SHIPPING_ESTIMATE}`,
+    "Disponibilidad y precio final a confirmar.",
+  ].join("\n");
 }
 
 function renderProducts() {
@@ -189,23 +377,26 @@ function renderProducts() {
     const brand = product.brand || "Sin marca";
     const sku = product.sku ? `SKU ${product.sku}` : "";
     const price = formatPrice(product.finalPrice);
+    const detailPath = productDetailPath(product);
 
     return `
       <article class="product-card">
-        <div class="product-media">
-          <img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.name)}" loading="lazy">
-        </div>
+        <a class="product-media" href="${escapeHtml(detailPath)}">
+          <img src="${escapeHtml(product.image || DDV_DEFAULT_IMAGE)}" alt="${escapeHtml(product.name)}" loading="lazy">
+        </a>
         <div class="product-body">
           <p class="product-kicker">${escapeHtml(categoryLine)}</p>
-          <h3>${escapeHtml(product.name)}</h3>
+          <h3><a href="${escapeHtml(detailPath)}">${escapeHtml(product.name)}</a></h3>
           <div class="product-meta">
             <span>${escapeHtml(brand)}</span>
             ${sku ? `<span>${escapeHtml(sku)}</span>` : ""}
           </div>
           <strong class="product-price">${escapeHtml(price)}</strong>
+          <small class="product-shipping">Despacho ${escapeHtml(DDV_SHIPPING_ESTIMATE)}</small>
           <div class="product-actions">
             <a class="button primary small" href="${whatsappUrl(product)}" target="_blank" rel="noopener">Consultar</a>
-            <a class="button ghost small" href="${escapeHtml(product.supplierUrl)}" target="_blank" rel="noopener">Ficha</a>
+            <button class="button secondary small" type="button" data-add-to-cart data-product-id="${escapeHtml(product.id)}">Agregar</button>
+            <a class="button ghost small" href="${escapeHtml(detailPath)}">Ficha</a>
           </div>
         </div>
       </article>
@@ -316,7 +507,53 @@ function initializeCatalog() {
   });
 }
 
+document.addEventListener("click", (event) => {
+  const target = event.target;
+  if (!(target instanceof Element)) return;
+
+  const addButton = target.closest("[data-add-to-cart]");
+  if (addButton instanceof HTMLElement) {
+    event.preventDefault();
+    addToCart(addButton.dataset.productId || "");
+    return;
+  }
+
+  const increaseButton = target.closest("[data-cart-increase]");
+  if (increaseButton instanceof HTMLElement) {
+    const productId = increaseButton.dataset.cartIncrease || "";
+    const cart = readCart();
+    updateCartItem(productId, (Number(cart[productId]) || 1) + 1);
+    return;
+  }
+
+  const decreaseButton = target.closest("[data-cart-decrease]");
+  if (decreaseButton instanceof HTMLElement) {
+    const productId = decreaseButton.dataset.cartDecrease || "";
+    const cart = readCart();
+    updateCartItem(productId, (Number(cart[productId]) || 1) - 1);
+    return;
+  }
+
+  const removeButton = target.closest("[data-cart-remove]");
+  if (removeButton instanceof HTMLElement) {
+    updateCartItem(removeButton.dataset.cartRemove || "", 0);
+  }
+});
+
+cartOpenButtons.forEach((button) => button.addEventListener("click", openCart));
+cartCloseButtons.forEach((button) => button.addEventListener("click", closeCart));
+
+cartDownloadButton?.addEventListener("click", downloadCartCsv);
+
+cartOrderButton?.addEventListener("click", () => {
+  const rows = cartRows();
+  if (!rows.length) return;
+  downloadCartCsv();
+  window.open(`https://wa.me/${DDV_WHATSAPP_NUMBER}?text=${encodeURIComponent(orderWhatsappMessage())}`, "_blank", "noopener");
+});
+
 initializeCatalog();
+renderCart();
 
 const searchIndex = Array.isArray(window.DDV_SEARCH_INDEX) ? window.DDV_SEARCH_INDEX : [];
 const siteSearchForm = document.querySelector(".search-page-form");

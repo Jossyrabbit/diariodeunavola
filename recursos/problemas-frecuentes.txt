@@ -1,4 +1,4 @@
-Guía de problemas frecuentes - Diario de una Volá
+Guía de problemas frecuentes - Diario de una Vola
 
 1. Observa si el problema aparece en hojas nuevas o antiguas.
 2. Revisa pH, EC, temperatura, humedad y ventilacion.
