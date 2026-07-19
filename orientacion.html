@@ -4,23 +4,23 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Confirmacion de suscripcion a Diario de una Vola.">
-    <link rel="canonical" href="https://diariodeunavola.netlify.app/gracias.html">
+    <meta name="description" content="Orientación para elegir productos del catálogo DDV según espacio, etapa y presupuesto.">
+    <link rel="canonical" href="https://diariodeunavola.netlify.app/orientacion.html">
     <meta property="og:site_name" content="Diario de una Vola">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Gracias | Diario de una Vola">
-    <meta property="og:description" content="Confirmacion de suscripcion a Diario de una Vola.">
-    <meta property="og:url" content="https://diariodeunavola.netlify.app/gracias.html">
+    <meta property="og:title" content="Pedir orientación | Diario de una Vola">
+    <meta property="og:description" content="Orientación para elegir productos del catálogo DDV según espacio, etapa y presupuesto.">
+    <meta property="og:url" content="https://diariodeunavola.netlify.app/orientacion.html">
     <meta property="og:image" content="https://static.wixstatic.com/media/1287cc_9b7b1f6130bd4ab78fbfe3cd286fecb8~mv2.jpg/v1/fill/w_1600,h_900,fp_0.50_0.50,q_90,enc_avif,quality_auto/1287cc_9b7b1f6130bd4ab78fbfe3cd286fecb8~mv2.jpg">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Gracias | Diario de una Vola">
-    <meta name="twitter:description" content="Confirmacion de suscripcion a Diario de una Vola.">
+    <meta name="twitter:title" content="Pedir orientación | Diario de una Vola">
+    <meta name="twitter:description" content="Orientación para elegir productos del catálogo DDV según espacio, etapa y presupuesto.">
     <meta name="twitter:image" content="https://static.wixstatic.com/media/1287cc_9b7b1f6130bd4ab78fbfe3cd286fecb8~mv2.jpg/v1/fill/w_1600,h_900,fp_0.50_0.50,q_90,enc_avif,quality_auto/1287cc_9b7b1f6130bd4ab78fbfe3cd286fecb8~mv2.jpg">
-    <title>Gracias | Diario de una Vola</title>
+    <title>Pedir orientación | Diario de una Vola</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="/styles.css">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Gracias | Diario de una Vola","description":"Confirmacion de suscripcion a Diario de una Vola.","url":"https://diariodeunavola.netlify.app/gracias.html"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Pedir orientación | Diario de una Vola","description":"Orientación para elegir productos del catálogo DDV según espacio, etapa y presupuesto.","url":"https://diariodeunavola.netlify.app/orientacion.html"}</script>
   </head>
   <body>
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
@@ -42,13 +42,13 @@
       </button>
 
       <nav class="site-nav" id="site-nav" aria-label="Navegación principal">
-        <a href="/index.html" aria-current="page">Inicio</a>
+        <a href="/index.html">Inicio</a>
         <a href="/revista/">Revista</a>
         <a href="/cultivo/">Cultivo</a>
         <a href="/cultura/">Cultura</a>
         <a href="/actualidad/">Actualidad</a>
         <a href="/eventos/">Eventos</a>
-        <a href="/catalogo.html">Catálogo</a>
+        <a href="/catalogo.html" aria-current="page">Catálogo</a>
         <a href="/comunidad.html">Comunidad</a>
       </nav>
 
@@ -63,16 +63,37 @@
     </header>
     <main id="contenido">
 
-      <section class="thanks-section">
-        <div class="thanks-card">
-          <p class="eyebrow">Gracias</p>
-          <h1>Quedaste en la lista DDV.</h1>
-          <p>Recibimos tu información. Si completaste una solicitud de orientación, también puedes escribirnos directo por WhatsApp para continuar la conversación.</p>
-          <div class="hero-actions">
-            <a class="button primary" href="https://wa.me/56999815822?text=Hola%20Diario%20de%20una%20Vola%2C%20acabo%20de%20enviar%20un%20formulario%20desde%20la%20web%20y%20quiero%20continuar%20por%20WhatsApp." target="_blank" rel="noopener noreferrer">Continuar por WhatsApp</a>
-            <a class="button secondary outline" href="/catalogo.html">Volver al catálogo</a>
-          </div>
+      <section class="orientation-hero">
+        <div>
+          <p class="eyebrow">Orientación DDV</p>
+          <h1>Cuéntanos qué estás armando y ordenamos opciones contigo.</h1>
+          <p>No necesitas llegar con todo claro. Describe tu espacio, etapa, presupuesto y dudas; te ayudamos a elegir sin comprar de más.</p>
         </div>
+        <aside class="orientation-whatsapp">
+          <p class="eyebrow">Respuesta rápida</p>
+          <h2>Hablar por WhatsApp</h2>
+          <p>Si prefieres conversar directo, escribe al WhatsApp de Diario de una Vola.</p>
+          <a class="button primary" href="https://wa.me/56999815822?text=Hola%20Diario%20de%20una%20Vola%2C%20necesito%20orientaci%C3%B3n%20para%20elegir%20productos%20del%20cat%C3%A1logo." target="_blank" rel="noopener noreferrer">Escribir por WhatsApp</a>
+        </aside>
+      </section>
+      <section class="orientation-section" aria-labelledby="orientation-form-title">
+        <form class="editorial-form orientation-form" name="orientacion-catalogo" method="post" action="/gracias.html" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="orientacion-catalogo">
+          <p class="form-hidden"><label>No completar <input name="bot-field"></label></p>
+          <h2 id="orientation-form-title">Formulario de orientación</h2>
+          <label for="orientation-name">Nombre<input id="orientation-name" name="name" type="text" autocomplete="name" required></label>
+          <label for="orientation-email">Correo<input id="orientation-email" name="email" type="email" autocomplete="email" required></label>
+          <label for="orientation-whatsapp">WhatsApp recomendado<input id="orientation-whatsapp" name="whatsapp" type="tel" autocomplete="tel" placeholder="+56 9 1234 5678"></label>
+          <label for="orientation-stage">¿Qué necesitas resolver?<select id="orientation-stage" name="need" required><option value="">Selecciona</option><option>Armar mi primer indoor</option><option>Elegir iluminación</option><option>Mejorar ventilación u olor</option><option>Ordenar riego y medición</option><option>Elegir sustrato o nutrición</option><option>Buscar accesorios de consumo</option></select></label>
+          <label for="orientation-budget">Presupuesto aproximado<input id="orientation-budget" name="budget" type="text" placeholder="Ej: $80.000, $150.000, aún no sé"></label>
+          <label for="orientation-message">Cuéntanos tu espacio, etapa y dudas<textarea id="orientation-message" name="message" rows="6" required></textarea></label>
+          <button class="button primary" type="submit">Enviar solicitud</button>
+        </form>
+        <aside class="subscription-note">
+          <p class="eyebrow">Qué miramos</p>
+          <h2>Para orientar mejor</h2>
+          <p>Nos ayuda saber medidas del espacio, si ya tienes luz, ventilación, macetas, sustrato o medidores, y qué quieres priorizar: precio, facilidad, discreción o rendimiento.</p>
+        </aside>
       </section>
     </main>
 
