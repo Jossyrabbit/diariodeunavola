@@ -1,6 +1,66 @@
 const menuButton = document.querySelector(".menu-toggle");
 const nav = document.querySelector("#site-nav");
 
+/**
+ * Reusable advertising slot.
+ * Configure each placement with image, href, alt, advertiser and size attributes.
+ * With no image it intentionally renders an editorial placeholder, never a fake ad.
+ */
+class DdvAdBanner extends HTMLElement {
+  connectedCallback() {
+    if (this.dataset.ready === "true") return;
+
+    const size = this.getAttribute("size") || "1200x250";
+    const advertiser = this.getAttribute("advertiser") || "Banner de marca";
+    const image = this.getAttribute("image") || "";
+    const href = this.getAttribute("href") || "";
+    const alt = this.getAttribute("alt") || advertiser;
+    const frame = document.createElement("div");
+    const [slotWidth, slotHeight] = size.split("x").map(Number);
+    const sizeClass = size === "500x500"
+      ? "ddv-ad-square"
+      : size === "970x250"
+        ? "ddv-ad-medium"
+        : "ddv-ad-wide";
+
+    frame.className = `ddv-ad-frame ${sizeClass}`;
+    frame.dataset.size = size;
+    if (slotWidth > 0 && slotHeight > 0) {
+      frame.style.aspectRatio = `${slotWidth} / ${slotHeight}`;
+    }
+
+    if (image) {
+      const media = document.createElement(href ? "a" : "span");
+      const img = document.createElement("img");
+      img.src = image;
+      img.alt = alt;
+      img.loading = "lazy";
+      img.decoding = "async";
+      if (href) media.href = href;
+      media.append(img);
+      frame.append(media);
+    } else {
+      frame.setAttribute("role", "img");
+      frame.setAttribute("aria-label", `Publicidad, ${advertiser}, espacio ${size}`);
+      const content = document.createElement("span");
+      const label = document.createElement("strong");
+      const dimensions = document.createElement("small");
+      content.className = "ddv-ad-content";
+      label.textContent = `Publicidad · ${advertiser}`;
+      dimensions.textContent = size.replace("x", " × ") + " px";
+      content.append(label, dimensions);
+      frame.append(content);
+    }
+
+    this.replaceChildren(frame);
+    this.dataset.ready = "true";
+  }
+}
+
+if (!customElements.get("ddv-ad-banner")) {
+  customElements.define("ddv-ad-banner", DdvAdBanner);
+}
+
 if (menuButton && nav) {
   menuButton.addEventListener("click", () => {
     const isOpen = nav.classList.toggle("is-open");
@@ -69,7 +129,7 @@ document.querySelectorAll("form[name='newsletter-ddv']").forEach((form) => {
       }
       if (submitButton) {
         submitButton.disabled = false;
-        submitButton.textContent = "Suscribirme";
+        submitButton.textContent = submitButton.dataset.defaultLabel || "Suscribirme";
       }
     }
   });

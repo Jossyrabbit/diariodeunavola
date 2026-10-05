@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .line{fill:none;stroke:currentColor;stroke-width:2.1;stroke-linecap:round;stroke-linejoin:round}
+      .thin{fill:none;stroke:currentColor;stroke-width:1.45;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+    <symbol id="star" viewBox="0 0 48 48">
+      <path class="line" d="M24 3.5c-.6 8.7-.4 13.4-.7 20.3M8 12.2c6.7 5.2 10 8.3 15 12.2m17-12.8c-6.5 5.6-10.3 8.4-16.2 12.9M4.5 29c8-1.9 13-3 19.1-4.2m16.2 6.9c-6.9-3.5-11.1-5-16-6.5M15.9 44c3-7.5 5.1-12.6 7.8-18.6m11.2 16.9c-4.7-6.5-7.2-10.7-10.8-16.9"/>
+    </symbol>
+    <symbol id="arrow" viewBox="0 0 90 55">
+      <path class="line" d="M4 10c15 2 27 8 34 17 6 7 8 14 4 21"/>
+      <path class="line" d="M31 40c4 2 8 5 11 8 2-5 5-9 9-13"/>
+    </symbol>
+    <symbol id="underline" viewBox="0 0 120 22">
+      <path class="line" d="M4 13c23-4 47-4 69-4 16 0 28-2 43-4M8 18c31-3 61-2 96-6"/>
+    </symbol>
+    <symbol id="circle" viewBox="0 0 80 60">
+      <path class="line" d="M70 13C61 2 28 2 12 12-1 21 3 43 18 51c16 9 47 3 55-10 7-12 4-22-3-28Z"/>
+    </symbol>
+    <symbol id="leaf" viewBox="0 0 120 150">
+      <path class="line" d="M61 144c-2-33-1-68 3-116M63 81C45 60 33 45 17 31c2 22 11 42 43 57M64 66c16-19 27-33 38-50 2 23-8 43-39 58M62 108C43 93 30 84 12 76c7 21 21 36 49 39M62 101c18-14 31-23 47-30-6 22-20 35-48 40"/>
+      <path class="thin" d="M23 37c13 12 25 25 38 41M95 25C83 39 73 51 64 64M22 82c14 7 27 17 38 26M100 79c-13 6-25 15-37 26"/>
+    </symbol>
+    <symbol id="sprout" viewBox="0 0 80 80">
+      <path class="line" d="M40 70c0-18 0-31-2-48M39 41C26 23 16 20 8 20c3 15 13 24 30 25M39 34c10-17 22-21 34-19-4 15-14 22-33 23M22 70c12-4 25-4 38 0"/>
+    </symbol>
+    <symbol id="scales" viewBox="0 0 80 80">
+      <path class="line" d="M40 10v58M20 20h40M18 21 8 44h21L18 21Zm44 0L51 44h22L62 21ZM9 45c3 8 15 8 19 0m24 0c3 8 16 8 20 0M25 69h31"/>
+    </symbol>
+    <symbol id="flask" viewBox="0 0 80 80">
+      <path class="line" d="M30 9h20M34 10v22L16 63c-3 5 0 8 6 8h37c6 0 8-4 5-9L46 32V10M24 54c11 4 22-5 33 0M28 62h5m7-10h4"/>
+    </symbol>
+    <symbol id="book" viewBox="0 0 80 80">
+      <path class="line" d="M8 15c12-3 23 0 32 7 9-7 20-10 32-7v49c-12-2-22 1-32 8-10-7-20-10-32-8V15Zm32 7v50M15 27c7 0 13 2 19 6m-19 7c7 0 13 2 19 6m12-13c6-4 12-6 19-6M46 46c6-4 12-6 19-6"/>
+    </symbol>
+    <symbol id="newspaper" viewBox="0 0 80 80">
+      <path class="line" d="M11 13h54v55H11V13Zm54 11h6v39c0 3-2 5-6 5M20 23h18v18H20V23Zm25 1h12M45 32h12M20 50h37M20 59h29"/>
+    </symbol>
+    <symbol id="ticket" viewBox="0 0 80 80">
+      <path class="line" d="m12 27 49-13 7 27c-6 1-9 6-7 11L12 65 5 39c6-2 9-7 7-12Z"/>
+      <path class="thin" d="m31 23 9 35M47 25l8-2m-5 11 8-2m-5 11 8-2"/>
+    </symbol>
+  </defs>
+</svg>
