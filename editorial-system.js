@@ -170,8 +170,26 @@
       .replace(/'/g, "&#039;");
   }
 
+  function globalNewsletterElement(context = "interior") {
+    const section = document.createElement("section");
+    const emailId = `newsletter-email-${slugify(context) || "interior"}`;
+    section.className = "ddv-newsletter ddv-interior-newsletter";
+    section.setAttribute("aria-labelledby", `${emailId}-title`);
+    section.innerHTML = `
+      <div><h2 id="${emailId}-title">No te pierdas en la volá.</h2><p>Una selección de DDV directo a tu correo. Noticias, artículos, eventos y más.</p></div>
+      <form name="newsletter-ddv" method="post" action="/gracias.html" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="newsletter-ddv"><input type="hidden" name="source" value="newsletter-${escapeHtml(context)}">
+        <p class="form-hidden" aria-hidden="true"><label>No completar <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+        <label class="sr-only" for="${emailId}">Tu correo electrónico</label>
+        <div class="ddv-newsletter-row"><input id="${emailId}" name="email" type="email" autocomplete="email" placeholder="Tu correo electrónico" required><button class="ddv-newsletter-button" type="submit">Quiero recibir DDV</button></div>
+        <label class="ddv-consent" for="${emailId}-consent"><input id="${emailId}-consent" name="consent" type="checkbox" required> Acepto recibir correos de DDV y puedo salir de la lista cuando quiera.</label>
+      </form>
+      <div class="ddv-newsletter-note">conocimiento · comunidad · cultura<br>directo a tu mail</div>`;
+    return section;
+  }
+
   function articleSlug(path = currentPath) {
-    const match = path.match(/\/notas\/([^/]+)\.html$/);
+    const match = path.match(/\/notas\/([^/]+?)(?:\.html)?\/?$/);
     return match ? match[1] : "";
   }
 
@@ -251,6 +269,7 @@
             <a class="ddv-related-image" href="${escapeHtml(article.href)}"><img src="${escapeHtml(article.image)}" alt="" loading="lazy" decoding="async"></a>
             <a class="ddv-kicker" href="${escapeHtml(article.categoryHref || "#")}">${escapeHtml(article.category || "DDV")}</a>
             <h3><a href="${escapeHtml(article.href)}">${escapeHtml(article.title)}</a></h3>
+            ${article.readTime ? `<span class="ddv-related-time">${escapeHtml(article.readTime)}</span>` : ""}
           </article>`).join("")}</div>`;
     }
   }
@@ -301,6 +320,8 @@
     const link = card.querySelector("h3 a, h2 a") || card.querySelector(".editorial-card-media");
     const image = card.querySelector("img");
     const category = card.querySelector(".category-link, .ddv-kicker");
+    const meta = card.querySelector(".card-meta, .ddv-meta")?.textContent || "";
+    const readTime = meta.match(/\b\d+\s*min(?:\s+de\s+lectura)?\b/i)?.[0] || "";
     if (!link || !image) return null;
     return {
       href: new URL(link.getAttribute("href"), window.location.origin).pathname,
@@ -308,6 +329,7 @@
       image: image.getAttribute("src") || "",
       category: category?.textContent.trim() || "DDV",
       categoryHref: category?.getAttribute("href") || "#",
+      readTime,
     };
   }
 
@@ -325,11 +347,64 @@
     const toc = document.createElement("aside");
     toc.className = "ddv-article-toc";
     toc.setAttribute("aria-label", "Índice del artículo");
-    toc.innerHTML = `<p>En esta volá</p><ol>${headings.map((heading) => `<li class="is-${heading.tagName.toLowerCase()}"><a href="#${heading.id}">${escapeHtml(heading.textContent.trim())}</a></li>`).join("")}</ol>`;
+    toc.innerHTML = `<p>En esta volá</p><ol>${headings.map((heading) => `<li class="is-${heading.tagName.toLowerCase()}"><a href="#${heading.id}">${escapeHtml(heading.dataset.tocLabel || heading.textContent.trim())}</a></li>`).join("")}</ol>`;
     const layout = document.createElement("div");
     layout.className = "ddv-article-reading-layout";
     articleBody.before(layout);
     layout.append(toc, articleBody);
+  }
+
+  function enhanceStepArticle(articleBody) {
+    const directParagraphs = [...articleBody.children].filter((node) => node.matches("p"));
+    const materialsLabel = directParagraphs.find((node) => /^materiales:?$/i.test(node.textContent.trim()));
+    if (materialsLabel) {
+      const materials = document.createElement("section");
+      materials.className = "ddv-materials-block";
+      const heading = document.createElement("h2");
+      heading.textContent = materialsLabel.textContent.trim();
+      heading.dataset.tocLabel = materialsLabel.textContent.trim().replace(/:$/, "");
+      materialsLabel.before(materials);
+      materials.append(heading);
+      let cursor = materialsLabel.nextElementSibling;
+      materialsLabel.remove();
+      while (cursor && cursor.matches("p") && !/^paso\s+n[º°o]?\s*\d+/i.test(cursor.textContent.trim())) {
+        const next = cursor.nextElementSibling;
+        if (/^(recipiente limpio|papel absorbente|agua destilada)$/i.test(cursor.textContent.trim())) {
+          const item = document.createElement("p");
+          item.textContent = cursor.textContent;
+          materials.append(item);
+          cursor.remove();
+        } else {
+          break;
+        }
+        cursor = next;
+      }
+    }
+
+    [...articleBody.children].filter((node) => node.matches("p")).forEach((paragraph) => {
+      const match = paragraph.textContent.trim().match(/^paso\s+n[º°o]?\s*(\d+)/i);
+      if (!match) return;
+      const number = String(Number(match[1])).padStart(2, "0");
+      const heading = document.createElement("h2");
+      heading.className = "ddv-step-heading";
+      heading.id = `paso-${number}`;
+      heading.dataset.tocLabel = paragraph.textContent.trim();
+      heading.innerHTML = `<span class="ddv-step-number" aria-hidden="true">${number}</span><span>${escapeHtml(paragraph.textContent.trim())}</span>`;
+      paragraph.replaceWith(heading);
+    });
+  }
+
+  function insertArticleAd(articleBody, contentCount) {
+    if (contentCount < 12) return;
+    const ad = document.createElement("article-ad");
+    ad.setAttribute("size", "970x250");
+    const steps = [...articleBody.querySelectorAll(".ddv-step-heading")];
+    if (steps.length >= 3) {
+      steps[2].before(ad);
+      return;
+    }
+    const blocks = [...articleBody.children].filter((node) => node.matches("p, ul, ol, blockquote, figure"));
+    blocks[Math.min(8, blocks.length - 1)]?.after(ad);
   }
 
   function addSeriesContext(article, slug) {
@@ -348,6 +423,18 @@
         ${next ? `<a href="/notas/${next}.html">Siguiente capítulo →</a>` : `<a href="/series/${seriesSlug}/">Ver la serie →</a>`}
       </nav>`;
     article.querySelector(".note-hero-figure")?.before(block);
+    const categoryLink = article.querySelector(".note-header .category-link");
+    if (categoryLink && !article.querySelector(".ddv-series-kicker")) {
+      categoryLink.insertAdjacentHTML("afterend", `<span class="ddv-series-kicker"> · Serie DDV</span>`);
+    }
+    if (next) {
+      const continuation = document.createElement("aside");
+      continuation.className = "ddv-series-next";
+      continuation.innerHTML = `<p>Continúa la serie</p><a href="/notas/${next}.html"><span>Siguiente capítulo →</span><strong>${escapeHtml(series.name)}</strong></a>`;
+      const anchor = article.querySelector(".note-products, .newsletter-inline");
+      if (anchor) anchor.before(continuation);
+      else article.append(continuation);
+    }
   }
 
   async function addArticleContinuity(article, categoryPath, slug) {
@@ -382,14 +469,17 @@
     const related = [...new Map(candidates.map((item) => [item.href, item])).values()].slice(0, 3);
     const relatedBlock = document.createElement("related-articles");
     relatedBlock.articles = related;
-    article.append(relatedBlock);
+    const insertionAnchor = article.querySelector(".ddv-series-next, .note-products, .ddv-interior-newsletter");
+    if (insertionAnchor) insertionAnchor.before(relatedBlock);
+    else article.append(relatedBlock);
 
     const nav = document.createElement("article-navigation");
     nav.links = {
       previous: currentIndex > 0 ? items[currentIndex - 1] : null,
       next: currentIndex >= 0 && currentIndex < items.length - 1 ? items[currentIndex + 1] : null,
     };
-    article.append(nav);
+    if (insertionAnchor) insertionAnchor.before(nav);
+    else article.append(nav);
   }
 
   function enhanceArticle() {
@@ -402,19 +492,25 @@
     if (!articleBody || !categoryLink || !slug) return;
 
     article.querySelector(".note-header")?.insertAdjacentHTML("beforeend", `<svg class="ddv-article-star" aria-hidden="true"><use href="/assets/ddv-doodles.svg#star"></use></svg>`);
+    enhanceStepArticle(articleBody);
     const paragraphs = [...articleBody.children].filter((node) => node.matches("p, ul, ol, blockquote, figure"));
     if (paragraphs.length >= 7) {
       const ornament = document.createElement("ddv-note");
       ornament.setAttribute("decorative", "");
       paragraphs[Math.min(4, paragraphs.length - 1)].after(ornament);
     }
-    if (paragraphs.length >= 12) {
-      const ad = document.createElement("article-ad");
-      ad.setAttribute("size", "970x250");
-      paragraphs[Math.min(8, paragraphs.length - 1)].after(ad);
-    }
+    insertArticleAd(articleBody, paragraphs.length);
     addArticleToc(articleBody);
     addSeriesContext(article, slug);
+    const products = article.querySelector(".note-products");
+    if (products) {
+      const eyebrow = products.querySelector(".eyebrow");
+      const title = products.querySelector("h2");
+      if (eyebrow) eyebrow.textContent = "Productos relacionados";
+      if (title) title.textContent = "Puede servirte";
+    }
+    const oldNewsletter = article.querySelector(".newsletter-inline");
+    oldNewsletter?.replaceWith(globalNewsletterElement(`article-${slug}`));
     addArticleContinuity(article, categoryLink.getAttribute("href"), slug);
   }
 
@@ -468,6 +564,7 @@
       deck: doc.querySelector(".article-deck")?.textContent.trim() || "",
       category: doc.querySelector(".category-link")?.textContent.trim() || "DDV",
       categoryHref: doc.querySelector(".category-link")?.getAttribute("href") || "#",
+      readTime: [...doc.querySelectorAll(".article-meta span")].find((node) => /min/i.test(node.textContent))?.textContent.trim() || "",
     };
   }
 
@@ -499,11 +596,54 @@
     if (start) start.setAttribute("href", articles[0]?.href || "/notas.html");
   }
 
-  function enhanceEvents() {
+  async function enhanceEvents() {
     if (!currentPath.startsWith("/eventos")) return;
     body.classList.add("ddv-events-page");
-    const empty = [...document.querySelectorAll("p, h2, h3")].find((element) => /no hay eventos/i.test(element.textContent));
-    empty?.closest("section, article, div")?.remove();
+    if (currentPath !== "/eventos" && currentPath !== "/eventos/" && currentPath !== "/eventos.html") return;
+    const hero = document.querySelector(".page-hero");
+    const section = document.querySelector("main .editorial-section");
+    const main = document.querySelector("main");
+    if (!hero || !section || !main) return;
+
+    hero.classList.add("ddv-events-hero");
+    hero.innerHTML = `
+      <p class="ddv-kicker">De la escena</p>
+      <h1>Agenda DDV</h1>
+      <p>Encuentros, ferias y cultura cannábica en Chile.</p>
+      <span class="ddv-events-note" aria-hidden="true">cultura / en vivo</span>
+      <svg class="ddv-events-arrow" aria-hidden="true"><use href="/assets/ddv-doodles.svg#arrow"></use></svg>`;
+
+    const upcoming = [...section.querySelectorAll(".event-card:not(.is-past)")];
+    if (upcoming.length) {
+      section.classList.add("ddv-events-landing");
+      section.querySelector(".section-heading")?.replaceChildren();
+      section.insertAdjacentHTML("afterbegin", `<header class="ddv-events-section-heading"><p class="ddv-kicker">Lo que viene</p><h2>Próximos encuentros</h2></header>`);
+    } else {
+      const archive = await fetchDocument("/eventos/archivo.html");
+      const archiveCards = [...archive.querySelectorAll(".event-card")];
+      section.className = "editorial-section ddv-events-landing";
+      section.innerHTML = `
+        <header class="ddv-events-section-heading"><p class="ddv-kicker">Mientras tanto...</p><h2>Pégate una vuelta por lo que ya pasó.</h2><p>Por ahora no tenemos próximas fechas publicadas.</p></header>`;
+      if (archiveCards.length) {
+        const lead = document.importNode(archiveCards[0], true);
+        lead.classList.add("ddv-event-lead");
+        section.append(lead);
+        const ad = document.createElement("article-ad");
+        ad.className = "ddv-events-ad";
+        ad.setAttribute("size", "1200x250");
+        section.append(ad);
+        if (archiveCards.length > 1) {
+          const archiveHeading = document.createElement("header");
+          archiveHeading.className = "ddv-events-archive-heading";
+          archiveHeading.innerHTML = `<div><p class="ddv-kicker">Archivo DDV</p><h2>Eventos anteriores</h2></div><a class="ddv-text-link" href="/eventos/archivo.html">Ver todo el archivo →</a>`;
+          const grid = document.createElement("div");
+          grid.className = "event-grid ddv-events-archive-grid";
+          archiveCards.slice(1).forEach((card) => grid.append(document.importNode(card, true)));
+          section.append(archiveHeading, grid);
+        }
+      }
+    }
+    main.append(globalNewsletterElement("eventos"));
   }
 
   function enhanceGeneralPage() {
@@ -516,6 +656,6 @@
   enhanceArticle();
   enhanceCategory();
   enhanceSeriesPage().catch((error) => console.warn("DDV: no se pudo construir la serie", error));
-  enhanceEvents();
+  enhanceEvents().catch((error) => console.warn("DDV: no se pudo construir la portada de eventos", error));
   enhanceGeneralPage();
 })();
