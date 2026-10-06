@@ -40,5 +40,13 @@
       <path class="line" d="m12 27 49-13 7 27c-6 1-9 6-7 11L12 65 5 39c6-2 9-7 7-12Z"/>
       <path class="thin" d="m31 23 9 35M47 25l8-2m-5 11 8-2m-5 11 8-2"/>
     </symbol>
+    <symbol id="molecule" viewBox="0 0 150 100">
+      <path class="line" d="m31 35 25-15 26 14 1 29-26 15-26-14V35Zm51-1 24-13 23 15-1 27-24 13-21-13M56 20l1 58m49-57-2 55M31 35l26 14 25-15M31 64l26-15 26 14"/>
+      <path class="thin" d="m31 35-17-10m17 39L13 75m116-39 15-9m-16 36 15 11M57 78v17M82 34l1-20"/>
+      <text x="2" y="26" font-family="serif" font-size="12" fill="currentColor">HO</text>
+      <text x="1" y="84" font-family="serif" font-size="12" fill="currentColor">H₃C</text>
+      <text x="131" y="27" font-family="serif" font-size="12" fill="currentColor">OH</text>
+      <text x="135" y="87" font-family="serif" font-size="12" fill="currentColor">CH₃</text>
+    </symbol>
   </defs>
 </svg>

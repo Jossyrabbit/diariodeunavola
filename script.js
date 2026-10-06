@@ -958,3 +958,10 @@ newsletterForms.forEach((form) => {
     }
   });
 });
+
+// Interior pages share one progressively enhanced DDV editorial system.
+// Keeping it separate prevents article/category components from bloating homepage markup.
+const ddvEditorialSystem = document.createElement("script");
+ddvEditorialSystem.src = "/editorial-system.js";
+ddvEditorialSystem.defer = true;
+document.head.append(ddvEditorialSystem);
