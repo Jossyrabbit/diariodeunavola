@@ -6,6 +6,9 @@
 (function initDdvEditorialSystem() {
   "use strict";
 
+  if (window.__DDV_EDITORIAL_SYSTEM_LOADED__) return;
+  window.__DDV_EDITORIAL_SYSTEM_LOADED__ = true;
+
   const body = document.body;
   const currentPath = window.location.pathname.replace(/\/index\.html$/, "/");
   const isHome = body.classList.contains("ddv-home") || currentPath === "/" || currentPath === "/index.html";
@@ -68,6 +71,7 @@
     if (currentPath.startsWith("/legislacion") || currentPath === "/categorias/legislacion.html") return "ley";
     if (currentPath === "/categorias/ciencia-salud.html") return "ciencia";
     if (currentPath.startsWith("/eventos")) return "eventos";
+    if (currentPath === "/catalogo" || currentPath === "/catalogo.html" || currentPath.startsWith("/productos/")) return "tienda";
     if (currentPath.startsWith("/revista")) return "revista";
     return "";
   }
@@ -96,6 +100,8 @@
         ${navLink("/legislacion/", "Ley", "ley")}
         ${navLink("/categorias/ciencia-salud.html", "Ciencia", "ciencia")}
         ${navLink("/eventos/", "Eventos", "eventos")}
+        ${navLink("/catalogo.html", "Tienda", "tienda")}
+        <a class="ddv-mobile-revista" href="/revista/"${currentSection() === "revista" ? ' aria-current="page"' : ""}>Revista →</a>
       </nav>
       <div class="header-actions ddv-header-actions">
         <p class="ddv-header-manifesto" aria-hidden="true">El primer paso<br>para una revolución<br>es tener información.</p>
@@ -115,11 +121,83 @@
           <a href="https://www.instagram.com/ddv.chile/" target="_blank" rel="noopener noreferrer">Instagram @ddv.chile</a>
         </div>
         <nav aria-label="Explora"><strong>Explora</strong><a href="/actualidad/">Actualidad</a><a href="/cultivo/">Cultivo</a><a href="/cultura/">Cultura</a><a href="/legislacion/">Ley</a><a href="/categorias/ciencia-salud.html">Ciencia</a><a href="/eventos/">Eventos</a></nav>
-        <nav aria-label="Más DDV"><strong>Más DDV</strong><a href="/revista/">La Revista</a><a href="/comunidad.html">Comunidad</a><a href="/catalogo.html">Catálogo</a><a href="/sobre-ddv.html">Sobre DDV</a><a href="/contacto.html">Contacto</a></nav>
+        <nav aria-label="Más DDV"><strong>Más DDV</strong><a href="/revista/">La Revista</a><a href="/comunidad.html">Comunidad</a><a href="/catalogo.html">Tienda</a><a href="/sobre-ddv.html">Sobre DDV</a><a href="/contacto.html">Contacto</a></nav>
         <nav aria-label="Redes y políticas"><strong>Síguenos</strong><a href="https://www.instagram.com/ddv.chile/" target="_blank" rel="noopener noreferrer">Instagram</a><a href="/politica-editorial.html">Política editorial</a><a href="/politica-privacidad.html">Privacidad</a><a href="/terminos.html">Términos</a></nav>
         <svg class="ddv-footer-leaf" aria-hidden="true"><use href="/assets/ddv-doodles.svg#leaf"></use></svg>
       </div>
       <p class="footer-bottom">© 2026 Diario de una Volá. Cultura cannábica desde Chile.</p>`;
+  }
+
+  class DDVHeader extends HTMLElement {
+    connectedCallback() {
+      if (this.dataset.ready) return;
+      this.dataset.ready = "true";
+      const header = document.createElement("header");
+      header.className = "site-header ddv-home-header ddv-global-header";
+      header.innerHTML = globalHeaderMarkup();
+      this.replaceWith(header);
+    }
+  }
+
+  class DDVFooter extends HTMLElement {
+    connectedCallback() {
+      if (this.dataset.ready) return;
+      this.dataset.ready = "true";
+      const footer = document.createElement("footer");
+      footer.className = "site-footer ddv-footer ddv-global-footer";
+      footer.innerHTML = globalFooterMarkup();
+      this.replaceWith(footer);
+    }
+  }
+
+  class DDVContainer extends HTMLElement {
+    static apply(element) {
+      element?.classList.add("ddv-container");
+      return element;
+    }
+
+    connectedCallback() {
+      this.classList.add("ddv-container");
+    }
+  }
+
+  class CategoryHero {
+    constructor(element) {
+      this.element = element;
+    }
+
+    enhance() {
+      const hero = DDVContainer.apply(this.element);
+      if (!hero) return "";
+      const eyebrow = hero.querySelector(".eyebrow");
+      if (eyebrow) eyebrow.textContent = "Archivo DDV";
+      const key = slugify(hero.querySelector("h1")?.textContent || "");
+      if (!hero.querySelector(".ddv-category-note")) {
+        const note = document.createElement("p");
+        note.className = "ddv-category-note";
+        note.setAttribute("aria-hidden", "true");
+        note.textContent = categoryNotes[key] || "una portada para seguir leyendo";
+        hero.append(note);
+      }
+      if (!hero.querySelector(".ddv-category-arrow")) {
+        hero.insertAdjacentHTML("beforeend", `<svg class="ddv-category-arrow" aria-hidden="true"><use href="/assets/ddv-doodles.svg#arrow"></use></svg>`);
+      }
+      return key;
+    }
+  }
+
+  class ArticleCard {
+    constructor(element) {
+      this.element = element;
+    }
+
+    enhance({ featured = false, eager = false } = {}) {
+      if (!this.element) return;
+      this.element.classList.add("ddv-article-card");
+      if (featured) this.element.classList.add("ddv-category-feature");
+      const image = this.element.querySelector("img");
+      if (image && eager) image.loading = "eager";
+    }
   }
 
   function installGlobalShell() {
@@ -293,7 +371,50 @@
     }
   }
 
+  // Empty by default: editors can later map an article slug to real product IDs
+  // without coupling commercial recommendations to the article templates.
+  window.DDV_RELATED_PRODUCTS = window.DDV_RELATED_PRODUCTS || Object.create(null);
+
+  class DdvProductRecommendations extends HTMLElement {
+    connectedCallback() {
+      if (this.dataset.ready) return;
+      this.dataset.ready = "true";
+      const article = this.getAttribute("for") || articleSlug();
+      const ids = window.DDV_RELATED_PRODUCTS[article] || [];
+      const catalogProducts = window.DDV_CATALOG?.products || [];
+      const items = ids.map((id) => catalogProducts.find((product) => product.id === id)).filter(Boolean);
+      if (!items.length) {
+        this.hidden = true;
+        return;
+      }
+      const productPath = (product) => {
+        const clean = String(product.name || "producto")
+          .toLocaleLowerCase("es-CL")
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .replace(/[^a-z0-9]+/g, "-")
+          .replace(/^-+|-+$/g, "")
+          .slice(0, 84) || "producto";
+        const key = String(product.id || product.sku || "")
+          .toLocaleLowerCase("es-CL")
+          .replace(/[^a-z0-9]+/g, "-")
+          .replace(/^-+|-+$/g, "")
+          .slice(0, 36);
+        return `/productos/${key && key !== clean ? `${clean}-${key}` : clean}.html`;
+      };
+      const price = (value) => Number.isFinite(value)
+        ? new Intl.NumberFormat("es-CL", { style: "currency", currency: "CLP", maximumFractionDigits: 0 }).format(Math.round(value))
+        : "Consultar";
+      this.innerHTML = `
+        <header><p class="ddv-kicker">Selección vinculada</p><h2>Puede servirte</h2></header>
+        <div>${items.map((product) => `<article><a href="${productPath(product)}"><img src="${escapeHtml(product.image || "")}" alt="${escapeHtml(product.name)}" loading="lazy" decoding="async"></a><p>${escapeHtml(product.category || "Tienda DDV")}</p><h3><a href="${productPath(product)}">${escapeHtml(product.name)}</a></h3><strong>${escapeHtml(price(product.finalPrice))}</strong></article>`).join("")}</div>`;
+    }
+  }
+
   const componentDefinitions = [
+    ["ddv-header", DDVHeader],
+    ["ddv-footer", DDVFooter],
+    ["ddv-container", DDVContainer],
     ["ddv-pull-quote", DdvPullQuote],
     ["ddv-note", DdvNote],
     ["ddv-fact-box", DdvFactBox],
@@ -301,9 +422,19 @@
     ["article-ad", ArticleAd],
     ["related-articles", RelatedArticles],
     ["article-navigation", ArticleNavigation],
+    ["ddv-product-recommendations", DdvProductRecommendations],
   ];
   componentDefinitions.forEach(([name, component]) => {
     if (!customElements.get(name)) customElements.define(name, component);
+  });
+  window.DDVComponents = Object.freeze({
+    DDVHeader,
+    DDVFooter,
+    DDVContainer,
+    CategoryHero,
+    ArticleCard,
+    AdBanner: customElements.get("ddv-ad-banner"),
+    DDVNote: DdvNote,
   });
 
   function documentFromHtml(html) {
@@ -518,6 +649,7 @@
     cultivo: "cultivar también es observar",
     actualidad: "contexto para cachar qué pasa",
     cultura: "la memoria también se cultiva",
+    "cultura-e-historia": "la memoria también se cultiva",
     legislacion: "la ley, en palabras humanas",
     "ciencia-y-salud": "preguntar · investigar · comprender",
     eventos: "la cultura se encuentra en vivo",
@@ -530,20 +662,15 @@
     const grid = document.querySelector(".editorial-grid");
     if (!hero || !grid) return;
     body.classList.add("ddv-category-page");
-    const key = slugify(hero.querySelector("h1")?.textContent || "");
-    const note = document.createElement("p");
-    note.className = "ddv-category-note";
-    note.setAttribute("aria-hidden", "true");
-    note.textContent = categoryNotes[key] || "una portada para seguir leyendo";
-    hero.append(note);
-    hero.insertAdjacentHTML("beforeend", `<svg class="ddv-category-arrow" aria-hidden="true"><use href="/assets/ddv-doodles.svg#arrow"></use></svg>`);
+    const key = new CategoryHero(hero).enhance();
+    DDVContainer.apply(grid.closest(".editorial-section"));
 
     const cards = [...grid.querySelectorAll(":scope > .editorial-card")];
     if (!cards.length) return;
-    cards[0].classList.add("ddv-category-feature");
+    cards.forEach((card, index) => new ArticleCard(card).enhance({ featured: index === 0, eager: index === 0 }));
     const recentHeading = document.createElement("div");
     recentHeading.className = "ddv-category-list-heading";
-    recentHeading.innerHTML = `<p class="ddv-kicker">Archivo DDV</p><h2>Más publicaciones</h2>`;
+    recentHeading.innerHTML = `<p class="ddv-kicker">Archivo reciente</p><h2>Últimas publicaciones</h2>`;
     if (cards[1]) cards[1].before(recentHeading);
     if (cards.length > 5) {
       const ad = document.createElement("article-ad");
@@ -551,6 +678,51 @@
       ad.setAttribute("size", "970x250");
       cards[5].before(ad);
     }
+
+    const initialCardCount = 10;
+    if (cards.length > initialCardCount) {
+      cards.slice(initialCardCount).forEach((card) => card.classList.add("ddv-category-card-hidden"));
+      const more = document.createElement("button");
+      more.className = "button ddv-category-more";
+      more.type = "button";
+      more.setAttribute("aria-expanded", "false");
+      more.textContent = "Ver más publicaciones ↓";
+      more.addEventListener("click", () => {
+        const hiddenCards = cards.filter((card) => card.classList.contains("ddv-category-card-hidden"));
+        hiddenCards.slice(0, 6).forEach((card) => card.classList.remove("ddv-category-card-hidden"));
+        const remaining = cards.some((card) => card.classList.contains("ddv-category-card-hidden"));
+        more.setAttribute("aria-expanded", String(!remaining));
+        if (!remaining) more.remove();
+      });
+      grid.append(more);
+    }
+
+    if (key === "cultivo") {
+      const editorialSection = grid.closest(".editorial-section");
+      const series = document.createElement("section");
+      series.className = "ddv-category-series ddv-container";
+      series.setAttribute("aria-labelledby", "cultivo-series-title");
+      series.innerHTML = `
+        <header><p class="ddv-kicker">Colecciones reales</p><h2 id="cultivo-series-title">Series de cultivo</h2><p>Recorridos para leer con tiempo y seguir cada proceso en orden.</p></header>
+        <div>
+          <a href="/series/cultivo-desde-cero/"><span>Serie DDV</span><strong>Cultivo desde cero</strong><small>${seriesRegistry["cultivo-desde-cero"].articles.length} capítulos publicados</small></a>
+          <a href="/series/abcdiario-del-cultivo/"><span>Serie DDV</span><strong>ABCDiario del cultivo</strong><small>${seriesRegistry["abcdiario-del-cultivo"].articles.length} capítulos publicados</small></a>
+        </div>`;
+      editorialSection?.after(series);
+    }
+  }
+
+  function enhanceCatalog() {
+    const productSection = document.querySelector("#catalogo-productos");
+    const hero = document.querySelector(".catalog-page-hero");
+    if (!productSection || !hero) return;
+    body.classList.add("ddv-catalog-page");
+    const main = document.querySelector("main");
+    main?.querySelectorAll(":scope > .catalog-page-hero, :scope > .catalog-discovery, :scope > .catalog-banner, :scope > .catalog-section")
+      .forEach((section) => section.classList.add("ddv-container"));
+    const eyebrow = hero.querySelector(".eyebrow");
+    if (eyebrow) eyebrow.textContent = "Tienda DDV";
+    hero.insertAdjacentHTML("beforeend", `<p class="ddv-catalog-note" aria-hidden="true">elegir mejor<br>también es cultivar</p><svg class="ddv-catalog-arrow" aria-hidden="true"><use href="/assets/ddv-doodles.svg#arrow"></use></svg>`);
   }
 
   async function articleDataFromSlug(slug) {
@@ -647,7 +819,7 @@
   }
 
   function enhanceGeneralPage() {
-    if (isHome || body.classList.contains("ddv-article-page") || body.classList.contains("ddv-category-page") || body.classList.contains("ddv-series-page")) return;
+    if (isHome || body.classList.contains("ddv-article-page") || body.classList.contains("ddv-category-page") || body.classList.contains("ddv-series-page") || body.classList.contains("ddv-catalog-page")) return;
     body.classList.add("ddv-editorial-page");
     document.querySelector(".page-hero")?.insertAdjacentHTML("beforeend", `<svg class="ddv-page-hero-star" aria-hidden="true"><use href="/assets/ddv-doodles.svg#star"></use></svg>`);
   }
@@ -655,6 +827,7 @@
   installGlobalShell();
   enhanceArticle();
   enhanceCategory();
+  enhanceCatalog();
   enhanceSeriesPage().catch((error) => console.warn("DDV: no se pudo construir la serie", error));
   enhanceEvents().catch((error) => console.warn("DDV: no se pudo construir la portada de eventos", error));
   enhanceGeneralPage();

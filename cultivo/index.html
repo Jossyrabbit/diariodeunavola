@@ -20,48 +20,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="/styles.css">
+    <script src="/editorial-system.js" defer></script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Cultivo | Diario de una Vola","description":"Guias, procesos y herramientas para cultivar con criterio, paciencia y contexto local.","url":"https://diariodeunavola.netlify.app/cultivo/"}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Cultivo | Diario de una Vola","description":"Guias, procesos y herramientas para cultivar con criterio, paciencia y contexto local.","url":"https://diariodeunavola.netlify.app/cultivo/"}</script>
   </head>
   <body>
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
-    <header class="site-header">
-      <a class="brand" href="/index.html" aria-label="Diario de una Vola">
-        <span class="brand-mark">DV</span>
-        <span>
-          <strong>Diario de una Vola</strong>
-          <small>Revista cannábica chilena</small>
-        </span>
-      </a>
-
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-        <span></span>
-        <span></span>
-        <span></span>
-        Menu
-      </button>
-
-      <nav class="site-nav" id="site-nav" aria-label="Navegación principal">
-        <a href="/index.html">Inicio</a>
-        <a href="/revista/">Revista</a>
-        <a href="/cultivo/" aria-current="page">Cultivo</a>
-        <a href="/cultura/">Cultura</a>
-        <a href="/actualidad/">Actualidad</a>
-        <a href="/eventos/">Eventos</a>
-        <a href="/catalogo.html">Catálogo</a>
-        <a href="/comunidad.html">Comunidad</a>
-      </nav>
-
-      <div class="header-actions">
-        <form class="site-search" action="/buscar.html" method="get" role="search">
-          <label class="sr-only" for="header-search">Buscar en Diario de una Vola</label>
-          <input id="header-search" name="q" type="search" placeholder="Buscar">
-          <button type="submit">Buscar</button>
-        </form>
-        <a class="button nav-cta" href="/suscripcion.html">Suscribirme</a>
-      </div>
-    </header>
+    <ddv-header></ddv-header>
     <main id="contenido">
 
       <section class="page-hero category-hero">
@@ -314,53 +280,7 @@
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a class="brand" href="/index.html" aria-label="Diario de una Vola">
-            <span class="brand-mark">DV</span>
-            <span>
-              <strong>Diario de una Vola</strong>
-              <small>Revista cannábica chilena</small>
-            </span>
-          </a>
-          <p>Revista digital chilena sobre cannabis, cultura, cultivo, ciencia, legislación y comunidad. Contenido informativo para personas mayores de edad.</p>
-          <a href="https://www.instagram.com/ddv.chile/" target="_blank" rel="noopener noreferrer">Instagram @ddv.chile</a>
-        </div>
-        <nav aria-label="Revista">
-          <strong>Revista</strong>
-          <a href="/revista/">Últimas publicaciones</a>
-          <a href="/buscar.html">Buscar</a>
-          <a href="/autores/equipo-ddv.html">Autores</a>
-          <a href="/suscripcion.html">Newsletter</a>
-        </nav>
-        <nav aria-label="Categorías">
-          <strong>Categorías</strong>
-          <a href="/cultivo/">Cultivo</a>
-          <a href="/categorias/ciencia-salud.html">Ciencia y salud</a>
-          <a href="/legislacion/">Legislación</a>
-          <a href="/cultura/">Cultura e historia</a>
-          <a href="/actualidad/">Actualidad</a>
-        </nav>
-        <nav aria-label="Comunidad">
-          <strong>Comunidad</strong>
-          <a href="/eventos/">Eventos</a>
-          <a href="/eventos/archivo.html">Archivo de eventos</a>
-          <a href="/catalogo.html">Catálogo</a>
-          <a href="/comunidad.html">Comunidad</a>
-          <a href="/sobre-ddv.html">Sobre DDV</a>
-          <a href="/contacto.html">Contacto</a>
-        </nav>
-        <nav aria-label="Políticas">
-          <strong>Transparencia</strong>
-          <a href="/politica-privacidad.html">Política de privacidad</a>
-          <a href="/terminos.html">Términos y condiciones</a>
-          <a href="/politica-editorial.html">Política editorial</a>
-          <a href="/contenido-patrocinado.html">Contenido patrocinado</a>
-        </nav>
-      </div>
-      <p class="footer-bottom">© 2026 Diario de una Vola. Información responsable, lectura crítica y cultura cannábica desde Chile.</p>
-    </footer>
+    <ddv-footer></ddv-footer>
 
     <script src="/script.js"></script>
   </body>

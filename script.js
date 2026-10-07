@@ -177,7 +177,13 @@ const favoritesCloseButtons = document.querySelectorAll("[data-favorites-close]"
 const galleryModal = document.querySelector("#image-zoom-modal");
 const galleryModalImage = document.querySelector("[data-gallery-modal-image]");
 
-const pageSize = 36;
+// Keep the shop quick to scan on small screens; the existing load-more control
+// continues exposing the complete real catalog in progressively larger batches.
+const pageSize = window.matchMedia("(max-width: 719px)").matches
+  ? 12
+  : window.matchMedia("(max-width: 1079px)").matches
+    ? 24
+    : 36;
 let visibleLimit = pageSize;
 let filteredProducts = [];
 let activeQuickTerms = [];
@@ -961,7 +967,9 @@ newsletterForms.forEach((form) => {
 
 // Interior pages share one progressively enhanced DDV editorial system.
 // Keeping it separate prevents article/category components from bloating homepage markup.
-const ddvEditorialSystem = document.createElement("script");
-ddvEditorialSystem.src = "/editorial-system.js";
-ddvEditorialSystem.defer = true;
-document.head.append(ddvEditorialSystem);
+if (!document.querySelector('script[src="/editorial-system.js"]') && !window.__DDV_EDITORIAL_SYSTEM_LOADED__) {
+  const ddvEditorialSystem = document.createElement("script");
+  ddvEditorialSystem.src = "/editorial-system.js";
+  ddvEditorialSystem.defer = true;
+  document.head.append(ddvEditorialSystem);
+}
