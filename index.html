@@ -19,6 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="/styles.css">
+    <script src="/editorial-system.js" defer></script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Diario de una Volá | Cultura cannábica en Chile","description":"Revista digital chilena sobre cannabis, cultivo, ciencia y salud, legislación, cultura, actualidad, entrevistas y eventos.","url":"https://diariodeunavola.netlify.app/"}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Diario de una Volá","url":"https://diariodeunavola.netlify.app","sameAs":["https://www.instagram.com/ddv.chile/"]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Diario de una Volá","url":"https://diariodeunavola.netlify.app","potentialAction":{"@type":"SearchAction","target":"https://diariodeunavola.netlify.app/buscar.html?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
@@ -26,26 +27,7 @@
   <body class="ddv-home">
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
-    <header class="site-header ddv-home-header">
-      <a class="brand ddv-wordmark" href="/index.html" aria-label="Diario de una Volá, inicio">
-        <span class="ddv-wordmark-main">Diario</span>
-        <span class="ddv-wordmark-small">de una</span>
-        <span class="ddv-wordmark-main ddv-wordmark-bottom">Volá</span>
-        <svg class="ddv-wordmark-star" aria-hidden="true"><use href="/assets/ddv-doodles.svg#star"></use></svg>
-      </a>
-      <p class="ddv-header-note" aria-hidden="true">Conocimiento<br>Comunidad<br>Cultura<br>Chile</p>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-        <span></span><span></span><span></span><b>Menú</b>
-      </button>
-      <nav class="site-nav" id="site-nav" aria-label="Navegación principal">
-        <a href="/actualidad/">Actualidad</a><a href="/cultivo/">Cultivo</a><a href="/cultura/">Cultura</a><a href="/legislacion/">Ley</a><a href="/categorias/ciencia-salud.html">Ciencia</a><a href="/eventos/">Eventos</a><a href="/catalogo.html">Tienda</a><a class="ddv-mobile-revista" href="/revista/">Revista →</a>
-      </nav>
-      <div class="header-actions ddv-header-actions">
-        <p class="ddv-header-manifesto" aria-hidden="true">El primer paso<br>para una revolución<br>es tener información.</p>
-        <a class="ddv-search-link" href="/buscar.html" aria-label="Buscar en Diario de una Volá"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.25"></circle><path d="m15.2 15.2 5 5"></path></svg></a>
-        <a class="button nav-cta ddv-revista-button" href="/revista/">Revista <span aria-hidden="true">→</span></a>
-      </div>
-    </header>
+    <ddv-header></ddv-header>
 
     <main id="contenido">
       <section class="ddv-hero ddv-shell" aria-labelledby="home-title">
@@ -157,16 +139,7 @@
       </div>
     </main>
 
-    <footer class="site-footer ddv-footer">
-      <div class="footer-grid ddv-footer-grid">
-        <div class="footer-brand"><a class="brand ddv-wordmark ddv-footer-wordmark" href="/index.html" aria-label="Diario de una Volá, inicio"><span class="ddv-wordmark-main">DDV</span><span class="ddv-wordmark-small">Diario de una Volá</span></a><p>Hecho en Chile para una cultura más libre y consciente.</p><a href="https://www.instagram.com/ddv.chile/" target="_blank" rel="noopener noreferrer">Instagram @ddv.chile</a></div>
-        <nav aria-label="Explora"><strong>Explora</strong><a href="/actualidad/">Actualidad</a><a href="/cultivo/">Cultivo</a><a href="/cultura/">Cultura</a><a href="/legislacion/">Ley</a><a href="/categorias/ciencia-salud.html">Ciencia</a><a href="/eventos/">Eventos</a></nav>
-        <nav aria-label="Más DDV"><strong>Más DDV</strong><a href="/revista/">La Revista</a><a href="/comunidad.html">Comunidad</a><a href="/catalogo.html">Tienda</a><a href="/sobre-ddv.html">Sobre DDV</a><a href="/contacto.html">Contacto</a></nav>
-        <nav aria-label="Redes y políticas"><strong>Síguenos</strong><a href="https://www.instagram.com/ddv.chile/" target="_blank" rel="noopener noreferrer">Instagram</a><a href="/politica-editorial.html">Política editorial</a><a href="/politica-privacidad.html">Privacidad</a><a href="/terminos.html">Términos</a></nav>
-        <svg class="ddv-footer-leaf" aria-hidden="true"><use href="/assets/ddv-doodles.svg#leaf"></use></svg>
-      </div>
-      <p class="footer-bottom">© 2026 Diario de una Volá. Cultura cannábica desde Chile.</p>
-    </footer>
+    <ddv-footer></ddv-footer>
     <script src="/script.js"></script>
   </body>
 </html>
