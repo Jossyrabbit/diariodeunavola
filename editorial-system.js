@@ -657,6 +657,256 @@
     opinion: "ideas para abrir la conversación",
   };
 
+  const cultivoTopics = [
+    {
+      key: "etapas",
+      label: "Etapas del cultivo",
+      note: "del inicio al cierre del ciclo",
+      description: "Lecturas para recorrer las distintas etapas del cultivo y reconocer qué observar en cada momento.",
+      articles: [
+        "vegetacion-y-lo-que-debemos-saber",
+        "prefloracionn-stretching",
+        "etapa-final-floracion",
+        "plantas-macho",
+      ],
+    },
+    {
+      key: "ambiente",
+      label: "Ambiente",
+      note: "leer el espacio también importa",
+      description: "Artículos del archivo sobre iluminación, temperatura y humedad en el espacio de cultivo.",
+      articles: [
+        "iluminacion-de-alta-presion-y-led-fight",
+        "humedad-y-temperatura",
+      ],
+    },
+    {
+      key: "nutricion",
+      label: "Nutrición",
+      note: "agua · raíces · nutrientes",
+      description: "Riego, raíces, microorganismos y nutrientes explicados desde las publicaciones existentes de DDV.",
+      articles: [
+        "nutrientes-cuales-necesitamos-y-para-que",
+        "ec-y-ph-por-que-importan-en-mi-riego",
+        "micorrizas-y-trichodermas-que-son-y-por-que-las-debo-usar-en-mi-cultivo",
+        "raices-en-que-ayudan-a-mi-planta",
+        "semilla-de-canamo-un-superalimento",
+      ],
+    },
+    {
+      key: "sanidad",
+      label: "Sanidad",
+      note: "mirar antes de intervenir",
+      description: "Señales y problemas del cultivo abordados en el archivo editorial de DDV.",
+      articles: ["que-es-el-trips"],
+    },
+    {
+      key: "tecnicas",
+      label: "Técnicas",
+      note: "prácticas para seguir aprendiendo",
+      description: "Herramientas y prácticas para preparar, observar y acompañar el desarrollo de las plantas.",
+      articles: [
+        "empecemos-a-cultivar-los-insumos-necesarios-para-partir",
+        "esquejes-clones-patitas",
+        "tricomas",
+        "nudos-que-podemos-aprender-de-ellos",
+      ],
+    },
+  ];
+
+  const actualidadLanes = [
+    { key: "regulacion", label: "Regulación" },
+    { key: "industria", label: "Industria" },
+    { key: "investigacion", label: "Investigación" },
+    { key: "comunidad", label: "Comunidad" },
+  ];
+
+  const actualidadArticleLanes = {
+    "canada-y-la-fiebre-verde": "industria",
+    "onu-y-su-decision-ante-el-cannabis-medicinal": "regulacion",
+    "llamado-de-fundacion-daya-y-mama-cultiva-ante-opinion-de-colmed": "comunidad",
+  };
+
+  function cardSlug(card) {
+    const href = card?.querySelector("h3 a, .editorial-card-media")?.getAttribute("href") || "";
+    return articleSlug(href);
+  }
+
+  async function cleanCategoryExcerpt(card) {
+    const excerpt = card?.querySelector(".editorial-card-body > p");
+    if (!excerpt) return;
+    const original = excerpt.textContent.replace(/\s+/g, " ").trim();
+    if (!original) return;
+    const hasExportCut = /(?:\.{3}|…)+\s*$/.test(original);
+    if (hasExportCut) {
+      const href = card.querySelector("h3 a, .editorial-card-media")?.getAttribute("href");
+      if (href) {
+        try {
+          const article = await fetchDocument(href);
+          const completeParagraph = [...article.querySelectorAll(".note-body > p")]
+            .map((paragraph) => paragraph.textContent.replace(/\s+/g, " ").trim())
+            .find((text) => text.length >= 80 && /[.!?]$/.test(text));
+          if (completeParagraph) {
+            excerpt.textContent = completeParagraph;
+            return;
+          }
+        } catch (error) {
+          console.warn(`No se pudo completar el extracto de ${href}`, error);
+        }
+      }
+    }
+    const withoutExportCut = original.replace(/(?:\.{3}|…)+\s*$/, "").trim();
+    const completedSentence = withoutExportCut.match(/^(.{20,220}?[.!?])(?:\s|$)/)?.[1];
+    if (completedSentence) {
+      excerpt.textContent = completedSentence.replace(/\.{2,}$/, ".");
+      return;
+    }
+    const maximumLength = 190;
+    if (withoutExportCut.length <= maximumLength) {
+      excerpt.textContent = withoutExportCut;
+      return;
+    }
+    const wordBoundary = withoutExportCut.slice(0, maximumLength).lastIndexOf(" ");
+    excerpt.textContent = `${withoutExportCut.slice(0, Math.max(wordBoundary, 120)).trim()}…`;
+  }
+
+  function relatedReadingElement(cards, slugs) {
+    const links = slugs
+      .map((slug) => cards.find((card) => cardSlug(card) === slug))
+      .filter(Boolean)
+      .map((card) => {
+        const link = card.querySelector("h3 a");
+        return link ? `<a href="${escapeHtml(link.getAttribute("href"))}">${escapeHtml(link.textContent.trim())}<span aria-hidden="true">→</span></a>` : "";
+      })
+      .filter(Boolean)
+      .join("");
+    if (!links) return null;
+    const nav = document.createElement("nav");
+    nav.className = "ddv-feature-related";
+    nav.setAttribute("aria-label", "Lecturas relacionadas");
+    nav.innerHTML = `<strong>Lecturas relacionadas</strong>${links}`;
+    return nav;
+  }
+
+  function enhanceCultivoCategory(grid, cards) {
+    const featureSlug = "germinacion-empecemos-a-cultivar";
+    const feature = cards.find((card) => cardSlug(card) === featureSlug) || cards[0];
+    const cardsBySlug = new Map(cards.map((card) => [cardSlug(card), card]));
+    const used = new Set([cardSlug(feature)]);
+
+    cards.forEach((card) => card.classList.remove("ddv-category-feature"));
+    new ArticleCard(feature).enhance({ featured: true, eager: true });
+    const featureLabel = document.createElement("p");
+    featureLabel.className = "ddv-kicker ddv-feature-label";
+    featureLabel.textContent = "Guía destacada";
+    feature.querySelector(".editorial-card-body")?.prepend(featureLabel);
+    const related = relatedReadingElement(cards, [
+      "empecemos-a-cultivar-los-insumos-necesarios-para-partir",
+      "vegetacion-y-lo-que-debemos-saber",
+      "prefloracionn-stretching",
+    ]);
+    if (related) feature.querySelector(".editorial-card-body")?.append(related);
+
+    grid.classList.add("ddv-curated-grid", "ddv-cultivo-curated");
+    grid.replaceChildren(feature);
+
+    const routeNav = document.createElement("nav");
+    routeNav.className = "ddv-topic-nav";
+    routeNav.setAttribute("aria-labelledby", "cultivo-rutas-title");
+    routeNav.innerHTML = `
+      <header><p class="ddv-kicker">Navega por tema</p><h2 id="cultivo-rutas-title">¿Qué necesitas revisar?</h2><p>Entra por etapa o problema y sigue leyendo desde ahí.</p></header>
+      <div>${cultivoTopics.map((topic) => `<a href="#cultivo-${topic.key}"><span>${escapeHtml(topic.label)}</span><small>${topic.articles.length} ${topic.articles.length === 1 ? "lectura" : "lecturas"}</small></a>`).join("")}</div>`;
+    grid.append(routeNav);
+
+    cultivoTopics.forEach((topic, index) => {
+      const topicCards = topic.articles.map((slug) => cardsBySlug.get(slug)).filter(Boolean);
+      topicCards.forEach((card) => used.add(cardSlug(card)));
+      if (!topicCards.length) return;
+      const section = document.createElement("section");
+      section.className = "ddv-topic-section";
+      section.id = `cultivo-${topic.key}`;
+      section.setAttribute("aria-labelledby", `${section.id}-title`);
+      section.innerHTML = `
+        <header><div><p class="ddv-kicker">Ruta de lectura</p><h2 id="${section.id}-title">${escapeHtml(topic.label)}</h2></div><div><span aria-hidden="true">${escapeHtml(topic.note)}</span><p>${escapeHtml(topic.description)}</p></div></header>
+        <div class="ddv-topic-grid"></div>`;
+      const topicGrid = section.querySelector(".ddv-topic-grid");
+      topicCards.forEach((card) => topicGrid.append(card));
+      grid.append(section);
+      if (index === 1) {
+        const ad = document.createElement("article-ad");
+        ad.className = "ddv-category-ad ddv-curated-ad";
+        ad.setAttribute("size", "970x250");
+        grid.append(ad);
+      }
+    });
+
+    const ungrouped = cards.filter((card) => !used.has(cardSlug(card)));
+    if (ungrouped.length) {
+      const section = document.createElement("section");
+      section.className = "ddv-topic-section";
+      section.id = "cultivo-mas-lecturas";
+      section.innerHTML = `<header><div><p class="ddv-kicker">Archivo DDV</p><h2>Más lecturas de cultivo</h2></div></header><div class="ddv-topic-grid"></div>`;
+      ungrouped.forEach((card) => section.querySelector(".ddv-topic-grid")?.append(card));
+      grid.append(section);
+    }
+  }
+
+  function enhanceActualidadCategory(grid, cards) {
+    const now = Date.now();
+    const recentWindow = 365 * 24 * 60 * 60 * 1000;
+    const feature = cards[0];
+    cards.forEach((card) => {
+      card.classList.remove("ddv-category-feature");
+      const lane = actualidadArticleLanes[cardSlug(card)] || "";
+      if (lane) card.dataset.editorialLane = lane;
+    });
+    new ArticleCard(feature).enhance({ featured: true, eager: true });
+
+    const featureDate = Date.parse(feature.querySelector("time")?.getAttribute("datetime") || "");
+    const featureIsRecent = Number.isFinite(featureDate) && now - featureDate <= recentWindow;
+    const featureLabel = document.createElement("p");
+    featureLabel.className = "ddv-kicker ddv-feature-label";
+    featureLabel.textContent = featureIsRecent ? "Noticia principal" : "Destacado del archivo";
+    feature.querySelector(".editorial-card-body")?.prepend(featureLabel);
+    const related = relatedReadingElement(cards, cards.slice(1, 3).map(cardSlug));
+    if (related) feature.querySelector(".editorial-card-body")?.append(related);
+
+    const remaining = cards.slice(1);
+    const recentCards = remaining.filter((card) => {
+      const published = Date.parse(card.querySelector("time")?.getAttribute("datetime") || "");
+      return Number.isFinite(published) && now - published <= recentWindow;
+    });
+    const archiveCards = remaining.filter((card) => !recentCards.includes(card));
+
+    grid.classList.add("ddv-curated-grid", "ddv-actualidad-curated");
+    grid.replaceChildren(feature);
+
+    const recent = document.createElement("section");
+    recent.className = "ddv-actualidad-recent";
+    recent.setAttribute("aria-labelledby", "actualidad-reciente-title");
+    recent.innerHTML = `
+      <header><div><p class="ddv-kicker">Portada abierta</p><h2 id="actualidad-reciente-title">Noticias recientes</h2></div><p>Esta sección reunirá las nuevas publicaciones sin alterar el orden ni las fechas del archivo histórico.</p></header>
+      <div class="ddv-actualidad-lanes" aria-label="Líneas editoriales preparadas">${actualidadLanes.map((lane) => `<span data-editorial-lane="${lane.key}">${escapeHtml(lane.label)}</span>`).join("")}</div>
+      <div class="ddv-recent-grid"></div>`;
+    const recentGrid = recent.querySelector(".ddv-recent-grid");
+    if (recentCards.length) recentCards.forEach((card) => recentGrid.append(card));
+    else recentGrid.innerHTML = `<p class="ddv-actualidad-empty">Las publicaciones disponibles pertenecen al archivo histórico. Cuando exista una noticia nueva, aparecerá aquí con su fecha original.</p>`;
+    grid.append(recent);
+
+    if (archiveCards.length) {
+      const archive = document.createElement("section");
+      archive.className = "ddv-actualidad-archive";
+      archive.id = "actualidad-archivo";
+      archive.setAttribute("aria-labelledby", "actualidad-archivo-title");
+      archive.innerHTML = `
+        <header><p class="ddv-kicker">Memoria editorial</p><h2 id="actualidad-archivo-title">Archivo de actualidad</h2><p>Publicaciones históricas de DDV, conservadas con sus fechas originales.</p></header>
+        <div class="ddv-archive-grid"></div>`;
+      const archiveGrid = archive.querySelector(".ddv-archive-grid");
+      archiveCards.forEach((card) => archiveGrid.append(card));
+      grid.append(archive);
+    }
+  }
+
   function enhanceCategory() {
     const hero = document.querySelector(".category-hero");
     const grid = document.querySelector(".editorial-grid");
@@ -667,12 +917,21 @@
 
     const cards = [...grid.querySelectorAll(":scope > .editorial-card")];
     if (!cards.length) return;
-    cards.forEach((card, index) => new ArticleCard(card).enhance({ featured: index === 0, eager: index === 0 }));
+    cards.forEach((card) => {
+      new ArticleCard(card).enhance();
+      if (key === "cultivo" || key === "actualidad") void cleanCategoryExcerpt(card);
+    });
+
+    if (key === "cultivo") enhanceCultivoCategory(grid, cards);
+    else if (key === "actualidad") enhanceActualidadCategory(grid, cards);
+    else cards.forEach((card, index) => new ArticleCard(card).enhance({ featured: index === 0, eager: index === 0 }));
+
+    const isCuratedCategory = key === "cultivo" || key === "actualidad";
     const recentHeading = document.createElement("div");
     recentHeading.className = "ddv-category-list-heading";
     recentHeading.innerHTML = `<p class="ddv-kicker">Archivo reciente</p><h2>Últimas publicaciones</h2>`;
-    if (cards[1]) cards[1].before(recentHeading);
-    if (cards.length > 5) {
+    if (!isCuratedCategory && cards[1]) cards[1].before(recentHeading);
+    if (!isCuratedCategory && cards.length > 5) {
       const ad = document.createElement("article-ad");
       ad.className = "ddv-category-ad";
       ad.setAttribute("size", "970x250");
@@ -680,7 +939,7 @@
     }
 
     const initialCardCount = 10;
-    if (cards.length > initialCardCount) {
+    if (!isCuratedCategory && cards.length > initialCardCount) {
       cards.slice(initialCardCount).forEach((card) => card.classList.add("ddv-category-card-hidden"));
       const more = document.createElement("button");
       more.className = "button ddv-category-more";
