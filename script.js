@@ -61,6 +61,24 @@ if (!customElements.get("ddv-ad-banner")) {
   customElements.define("ddv-ad-banner", DdvAdBanner);
 }
 
+const DDV_IMAGE_FALLBACK = "/assets/ddv-image-fallback.svg";
+
+function applyImageFallback(image) {
+  if (!(image instanceof HTMLImageElement) || image.dataset.ddvFallbackApplied === "true") return;
+  image.dataset.ddvFallbackApplied = "true";
+  image.classList.add("ddv-image-fallback");
+  image.removeAttribute("srcset");
+  image.src = DDV_IMAGE_FALLBACK;
+}
+
+document.addEventListener("error", (event) => {
+  if (event.target instanceof HTMLImageElement) applyImageFallback(event.target);
+}, true);
+
+document.querySelectorAll("img").forEach((image) => {
+  if (image.complete && image.naturalWidth === 0) applyImageFallback(image);
+});
+
 if (menuButton && nav) {
   menuButton.addEventListener("click", () => {
     const isOpen = nav.classList.toggle("is-open");
@@ -96,9 +114,35 @@ document.querySelectorAll("[data-share-url]").forEach((button) => {
   });
 });
 
-document.querySelectorAll("form[name='newsletter-ddv']").forEach((form) => {
-  form.addEventListener("submit", async (event) => {
-    event.preventDefault();
+function validateNewsletterForm(form) {
+  const email = form.querySelector("input[type='email']");
+  const interest = form.querySelector("select[name='interest']");
+  const frequency = form.querySelector("select[name='frequency']");
+  const interestChecks = [...form.querySelectorAll("input[name='interests']")];
+  const consent = form.querySelector("input[name='consent']");
+  const message = form.querySelector(".form-message");
+  const emailIsValid = email instanceof HTMLInputElement && email.validity.valid && email.value.trim();
+  const interestIsValid = !(interest instanceof HTMLSelectElement) || interest.value;
+  const interestsAreValid = interestChecks.length === 0 || interestChecks.some((input) => input.checked);
+  const frequencyIsValid = !(frequency instanceof HTMLSelectElement) || frequency.value;
+  const consentIsValid = !(consent instanceof HTMLInputElement) || consent.checked;
+  const isValid = Boolean(emailIsValid && interestIsValid && interestsAreValid && frequencyIsValid && consentIsValid);
+
+  if (!isValid && message) {
+    message.textContent = "Revisa el correo, selecciona al menos un tema, elige una frecuencia y acepta recibir correos para continuar.";
+    message.classList.add("is-error");
+    message.classList.remove("is-success");
+  }
+  return isValid;
+}
+
+document.addEventListener("submit", async (event) => {
+  const form = event.target;
+  if (!(form instanceof HTMLFormElement) || form.getAttribute("name") !== "newsletter-ddv") return;
+
+  event.preventDefault();
+  if (!validateNewsletterForm(form)) return;
+
     const submitButton = form.querySelector("button[type='submit']");
     const formMessage = form.querySelector(".form-message");
     const formData = new FormData(form);
@@ -109,8 +153,10 @@ document.querySelectorAll("form[name='newsletter-ddv']").forEach((form) => {
       submitButton.disabled = true;
       submitButton.textContent = "Enviando...";
     }
+    form.setAttribute("aria-busy", "true");
     if (formMessage) {
       formMessage.classList.remove("is-error");
+      formMessage.classList.remove("is-success");
       formMessage.textContent = "Estamos guardando tu suscripción.";
     }
 
@@ -131,8 +177,8 @@ document.querySelectorAll("form[name='newsletter-ddv']").forEach((form) => {
         submitButton.disabled = false;
         submitButton.textContent = submitButton.dataset.defaultLabel || "Suscribirme";
       }
+      form.removeAttribute("aria-busy");
     }
-  });
 });
 
 const catalog = window.DDV_CATALOG || { products: [] };
@@ -526,31 +572,101 @@ function toggleFavorite(productId) {
   renderFavorites();
 }
 
-function openCart() {
-  if (!cartPanel) return;
-  closeFavorites();
-  cartPanel.classList.add("is-open");
-  cartPanel.setAttribute("aria-hidden", "false");
+let cartReturnFocus = null;
+let favoritesReturnFocus = null;
+const commerceInertState = new Map();
+
+function configureCommerceDialog(panel, labelPrefix) {
+  if (!panel) return;
+  panel.setAttribute("role", "dialog");
+  panel.setAttribute("aria-modal", "true");
+  panel.setAttribute("tabindex", "-1");
+  const heading = panel.querySelector("h2");
+  if (heading) {
+    if (!heading.id) heading.id = `${labelPrefix}-title`;
+    panel.setAttribute("aria-labelledby", heading.id);
+    panel.removeAttribute("aria-label");
+  }
 }
 
-function closeCart() {
+function clearCommerceBackgroundInert() {
+  commerceInertState.forEach((wasInert, element) => {
+    element.inert = wasInert;
+  });
+  commerceInertState.clear();
+  document.body.classList.remove("has-open-commerce-panel");
+}
+
+function setCommerceBackgroundInert(activePanel) {
+  clearCommerceBackgroundInert();
+  const main = activePanel?.closest("main");
+  const candidates = [
+    ...[...document.body.children].filter((element) => element !== main && element.tagName !== "SCRIPT"),
+    ...[...(main?.children || [])],
+  ];
+
+  candidates.forEach((element) => {
+    if (!(element instanceof HTMLElement) || element === activePanel || element.contains(activePanel)) return;
+    commerceInertState.set(element, element.inert);
+    element.inert = true;
+  });
+  document.body.classList.add("has-open-commerce-panel");
+}
+
+function focusCommerceDialog(panel) {
+  const closeButton = panel?.querySelector("[data-cart-close], [data-favorites-close]");
+  if (closeButton instanceof HTMLElement) closeButton.focus({ preventScroll: true });
+  else panel?.focus({ preventScroll: true });
+}
+
+function focusableElements(panel) {
+  if (!panel) return [];
+  return [...panel.querySelectorAll("a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex='-1'])")]
+    .filter((element) => element instanceof HTMLElement && !element.hidden && element.getClientRects().length > 0);
+}
+
+configureCommerceDialog(cartPanel, "cart-panel");
+configureCommerceDialog(favoritesPanel, "favorites-panel");
+
+function openCart() {
   if (!cartPanel) return;
+  closeFavorites(false);
+  cartReturnFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+  cartPanel.classList.add("is-open");
+  cartPanel.setAttribute("aria-hidden", "false");
+  setCommerceBackgroundInert(cartPanel);
+  focusCommerceDialog(cartPanel);
+}
+
+function closeCart(restoreFocus = true) {
+  if (!cartPanel) return;
+  const wasOpen = cartPanel.classList.contains("is-open");
   cartPanel.classList.remove("is-open");
   cartPanel.setAttribute("aria-hidden", "true");
+  if (!favoritesPanel?.classList.contains("is-open")) clearCommerceBackgroundInert();
+  if (restoreFocus && wasOpen && cartReturnFocus?.isConnected) cartReturnFocus.focus({ preventScroll: true });
+  if (wasOpen) cartReturnFocus = null;
 }
 
 function openFavorites() {
   if (!favoritesPanel) return;
-  closeCart();
+  closeCart(false);
+  favoritesReturnFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
   renderFavorites();
   favoritesPanel.classList.add("is-open");
   favoritesPanel.setAttribute("aria-hidden", "false");
+  setCommerceBackgroundInert(favoritesPanel);
+  focusCommerceDialog(favoritesPanel);
 }
 
-function closeFavorites() {
+function closeFavorites(restoreFocus = true) {
   if (!favoritesPanel) return;
+  const wasOpen = favoritesPanel.classList.contains("is-open");
   favoritesPanel.classList.remove("is-open");
   favoritesPanel.setAttribute("aria-hidden", "true");
+  if (!cartPanel?.classList.contains("is-open")) clearCommerceBackgroundInert();
+  if (restoreFocus && wasOpen && favoritesReturnFocus?.isConnected) favoritesReturnFocus.focus({ preventScroll: true });
+  if (wasOpen) favoritesReturnFocus = null;
 }
 
 function cartCsv() {
@@ -826,12 +942,36 @@ favoritesOpenButtons.forEach((button) => button.addEventListener("click", openFa
 favoritesCloseButtons.forEach((button) => button.addEventListener("click", closeFavorites));
 
 document.addEventListener("keydown", (event) => {
-  if (event.key !== "Escape") return;
-  closeCart();
-  closeFavorites();
-  if (galleryModal) {
-    galleryModal.classList.remove("is-open");
-    galleryModal.setAttribute("aria-hidden", "true");
+  const activeCommercePanel = cartPanel?.classList.contains("is-open")
+    ? cartPanel
+    : favoritesPanel?.classList.contains("is-open")
+      ? favoritesPanel
+      : null;
+
+  if (event.key === "Tab" && activeCommercePanel) {
+    const focusables = focusableElements(activeCommercePanel);
+    const first = focusables[0];
+    const last = focusables.at(-1);
+    if (!first || !last) {
+      event.preventDefault();
+      activeCommercePanel.focus({ preventScroll: true });
+    } else if (event.shiftKey && document.activeElement === first) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault();
+      first.focus();
+    }
+    return;
+  }
+
+  if (event.key === "Escape") {
+    closeCart();
+    closeFavorites();
+    if (galleryModal) {
+      galleryModal.classList.remove("is-open");
+      galleryModal.setAttribute("aria-hidden", "true");
+    }
   }
 });
 
@@ -931,39 +1071,6 @@ function initializeSiteSearch() {
 }
 
 initializeSiteSearch();
-
-const newsletterForms = document.querySelectorAll(".newsletter-panel");
-
-newsletterForms.forEach((form) => {
-  form.addEventListener("submit", (event) => {
-    const email = form.querySelector("input[type='email']");
-    const interest = form.querySelector("select[name='interest']");
-    const frequency = form.querySelector("select[name='frequency']");
-    const interestChecks = [...form.querySelectorAll("input[name='interests']")];
-    const consent = form.querySelector("input[name='consent']");
-    const message = form.querySelector(".form-message");
-    const emailIsValid = email instanceof HTMLInputElement && email.validity.valid && email.value.trim();
-    const interestIsValid = !(interest instanceof HTMLSelectElement) || interest.value;
-    const interestsAreValid = interestChecks.length === 0 || interestChecks.some((input) => input.checked);
-    const frequencyIsValid = !(frequency instanceof HTMLSelectElement) || frequency.value;
-    const consentIsValid = !(consent instanceof HTMLInputElement) || consent.checked;
-
-    if (!emailIsValid || !interestIsValid || !interestsAreValid || !frequencyIsValid || !consentIsValid) {
-      event.preventDefault();
-      if (message) {
-        message.textContent = "Revisa el correo, selecciona al menos un tema, elige una frecuencia y acepta recibir correos para continuar.";
-        message.classList.add("is-error");
-      }
-      return;
-    }
-
-    if (message) {
-      message.textContent = "Listo. Te llevaremos a la confirmacion.";
-      message.classList.remove("is-error");
-      message.classList.add("is-success");
-    }
-  });
-});
 
 // Interior pages share one progressively enhanced DDV editorial system.
 // Keeping it separate prevents article/category components from bloating homepage markup.

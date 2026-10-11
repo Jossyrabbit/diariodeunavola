@@ -100,7 +100,7 @@
         ${navLink("/legislacion/", "Ley", "ley")}
         ${navLink("/categorias/ciencia-salud.html", "Ciencia", "ciencia")}
         ${navLink("/eventos/", "Eventos", "eventos")}
-        ${navLink("/catalogo.html", "Tienda", "tienda")}
+        ${navLink("/catalogo", "Tienda", "tienda")}
         <a class="ddv-mobile-revista" href="/revista/"${currentSection() === "revista" ? ' aria-current="page"' : ""}>Revista →</a>
       </nav>
       <div class="header-actions ddv-header-actions">
@@ -121,7 +121,7 @@
           <a href="https://www.instagram.com/ddv.chile/" target="_blank" rel="noopener noreferrer">Instagram @ddv.chile</a>
         </div>
         <nav aria-label="Explora"><strong>Explora</strong><a href="/actualidad/">Actualidad</a><a href="/cultivo/">Cultivo</a><a href="/cultura/">Cultura</a><a href="/legislacion/">Ley</a><a href="/categorias/ciencia-salud.html">Ciencia</a><a href="/eventos/">Eventos</a></nav>
-        <nav aria-label="Más DDV"><strong>Más DDV</strong><a href="/revista/">La Revista</a><a href="/comunidad.html">Comunidad</a><a href="/catalogo.html">Tienda</a><a href="/sobre-ddv.html">Sobre DDV</a><a href="/contacto.html">Contacto</a></nav>
+        <nav aria-label="Más DDV"><strong>Más DDV</strong><a href="/revista/">La Revista</a><a href="/comunidad.html">Comunidad</a><a href="/catalogo">Tienda</a><a href="/sobre-ddv.html">Sobre DDV</a><a href="/contacto.html">Contacto</a></nav>
         <nav aria-label="Redes y políticas"><strong>Síguenos</strong><a href="https://www.instagram.com/ddv.chile/" target="_blank" rel="noopener noreferrer">Instagram</a><a href="/politica-editorial.html">Política editorial</a><a href="/politica-privacidad.html">Privacidad</a><a href="/terminos.html">Términos</a></nav>
         <svg class="ddv-footer-leaf" aria-hidden="true"><use href="/assets/ddv-doodles.svg#leaf"></use></svg>
       </div>
@@ -710,6 +710,11 @@
         </div>`;
       editorialSection?.after(series);
     }
+
+    const main = hero.closest("main");
+    if (main && !main.querySelector(".ddv-interior-newsletter")) {
+      main.append(globalNewsletterElement(`categoria-${key || "ddv"}`));
+    }
   }
 
   function enhanceCatalog() {
@@ -791,19 +796,22 @@
       section.querySelector(".section-heading")?.replaceChildren();
       section.insertAdjacentHTML("afterbegin", `<header class="ddv-events-section-heading"><p class="ddv-kicker">Lo que viene</p><h2>Próximos encuentros</h2></header>`);
     } else {
-      const archive = await fetchDocument("/eventos/archivo.html");
-      const archiveCards = [...archive.querySelectorAll(".event-card")];
+      let archiveCards = [...section.querySelectorAll(".event-card.is-past")];
+      if (!archiveCards.length) {
+        const archive = await fetchDocument("/eventos/archivo.html");
+        archiveCards = [...archive.querySelectorAll(".event-card")];
+      }
       section.className = "editorial-section ddv-events-landing";
       section.innerHTML = `
-        <header class="ddv-events-section-heading"><p class="ddv-kicker">Mientras tanto...</p><h2>Pégate una vuelta por lo que ya pasó.</h2><p>Por ahora no tenemos próximas fechas publicadas.</p></header>`;
+        <header class="ddv-events-section-heading">
+          <p class="ddv-kicker">Mientras tanto...</p>
+          <h2>Pégate una vuelta por lo que ya pasó.</h2>
+          <div class="ddv-events-empty-note"><p>Por ahora no tenemos próximas fechas publicadas.</p><a class="ddv-ink-button" href="/contacto.html">Proponer una actividad <span aria-hidden="true">→</span></a></div>
+        </header>`;
       if (archiveCards.length) {
         const lead = document.importNode(archiveCards[0], true);
         lead.classList.add("ddv-event-lead");
         section.append(lead);
-        const ad = document.createElement("article-ad");
-        ad.className = "ddv-events-ad";
-        ad.setAttribute("size", "1200x250");
-        section.append(ad);
         if (archiveCards.length > 1) {
           const archiveHeading = document.createElement("header");
           archiveHeading.className = "ddv-events-archive-heading";
@@ -819,7 +827,7 @@
   }
 
   function enhanceGeneralPage() {
-    if (isHome || body.classList.contains("ddv-article-page") || body.classList.contains("ddv-category-page") || body.classList.contains("ddv-series-page") || body.classList.contains("ddv-catalog-page")) return;
+    if (isHome || body.classList.contains("ddv-article-page") || body.classList.contains("ddv-category-page") || body.classList.contains("ddv-series-page") || body.classList.contains("ddv-catalog-page") || body.classList.contains("ddv-events-page")) return;
     body.classList.add("ddv-editorial-page");
     document.querySelector(".page-hero")?.insertAdjacentHTML("beforeend", `<svg class="ddv-page-hero-star" aria-hidden="true"><use href="/assets/ddv-doodles.svg#star"></use></svg>`);
   }

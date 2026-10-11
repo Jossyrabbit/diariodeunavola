@@ -10,6 +10,7 @@ const publicOutputs = [
   ["/legislacion/", "legislacion/index.html"],
   ["/categorias/ciencia-salud.html", "categorias/ciencia-salud.html"],
   ["/eventos", "eventos.html"],
+  ["/eventos/", "eventos/index.html"],
 ];
 
 const requiredMarkup = [

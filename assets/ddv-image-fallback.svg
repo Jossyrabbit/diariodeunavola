@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title description">
+  <title id="title">Imagen no disponible</title>
+  <desc id="description">Marcador editorial de Diario de una Volá.</desc>
+  <rect width="1200" height="800" fill="#eeeae0"/>
+  <path d="M0 0h1200v20H0zM0 780h1200v20H0z" fill="#103b2c"/>
+  <g fill="none" stroke="#a4493e" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="18" d="M841 142c-8 103-5 160-8 242M646 246c81 63 121 101 181 148m206-142c-78 67-123 101-194 155M604 448c96-23 156-36 229-50m194 83c-83-42-133-60-192-78M741 628c36-90 61-151 94-223m133 203c-56-78-86-128-130-203"/>
+    <path stroke-width="10" d="M185 591c8-92 7-190 19-319m-16 144c-77-62-127-108-183-160m187 107c69-76 121-130 178-198m-177 295c-80-51-142-83-217-112m214 86c73-50 132-86 200-110"/>
+  </g>
+  <g fill="#151a16">
+    <text x="110" y="165" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" letter-spacing="8">ARCHIVO DDV</text>
+    <text x="110" y="650" font-family="Georgia, serif" font-size="78" font-weight="700">Imagen no disponible</text>
+    <text x="114" y="708" font-family="Arial, Helvetica, sans-serif" font-size="27" letter-spacing="2">DIARIO DE UNA VOLÁ · CHILE</text>
+  </g>
+</svg>

@@ -10626,3 +10626,122 @@ ddv-product-recommendations img {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+/* ========================================================================== */
+/* DDV shared editorial axes — homepage, category covers and events            */
+/* ========================================================================== */
+
+:root {
+  --ddv-content-max: 1280px;
+  --ddv-page-gutter: clamp(20px, 4vw, 64px);
+  --ddv-page-start: clamp(48px, 7vw, 92px);
+}
+
+.ddv-shell,
+.ddv-container,
+.ddv-ad-zone {
+  box-sizing: border-box;
+  width: min(calc(100% - var(--ddv-page-gutter) - var(--ddv-page-gutter)), var(--ddv-content-max));
+  margin-inline: auto;
+}
+
+body.ddv-interior {
+  --ddv-shell: min(calc(100% - var(--ddv-page-gutter) - var(--ddv-page-gutter)), var(--ddv-content-max));
+}
+
+.ddv-home-header,
+.ddv-global-header {
+  box-sizing: border-box;
+  padding-inline: max(var(--ddv-page-gutter), calc((100% - var(--ddv-content-max)) / 2));
+}
+
+.ddv-footer,
+.ddv-global-footer {
+  padding-inline: max(var(--ddv-page-gutter), calc((100% - var(--ddv-content-max)) / 2));
+}
+
+.ddv-category-page .category-hero,
+.ddv-events-page .ddv-events-hero {
+  grid-template-rows: auto minmax(0, 1fr);
+  padding-top: var(--ddv-page-start);
+}
+
+.ddv-category-page .category-hero > p:not(.eyebrow, .ddv-category-note),
+.ddv-events-page .ddv-events-hero > p:not(.ddv-kicker) {
+  max-width: 680px;
+}
+
+.ddv-category-page .ddv-category-feature {
+  grid-template-columns: minmax(0, 3fr) minmax(280px, 2fr);
+}
+
+.ddv-events-empty-note {
+  display: grid;
+  justify-items: start;
+  gap: 16px;
+  max-width: 340px;
+  margin-bottom: 5px;
+}
+
+.ddv-events-empty-note p {
+  margin: 0;
+  color: rgba(21, 26, 22, 0.68);
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.ddv-events-empty-note .ddv-ink-button {
+  padding: 11px 16px;
+  color: #fff;
+  background: var(--ddv-green);
+  text-decoration: none;
+}
+
+.ddv-events-page .ddv-events-archive-grid {
+  width: 100%;
+  max-width: none;
+}
+
+@media (max-width: 1079px) {
+  .ddv-category-page .ddv-category-feature {
+    grid-template-columns: minmax(0, 3fr) minmax(260px, 2fr);
+  }
+}
+
+@media (max-width: 719px) {
+  :root {
+    --ddv-page-start: clamp(44px, 12vw, 54px);
+  }
+
+  .ddv-category-page .category-hero,
+  .ddv-events-page .ddv-events-hero {
+    padding-top: var(--ddv-page-start);
+  }
+
+  .ddv-category-page .ddv-category-feature {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .ddv-events-empty-note {
+    margin-top: 18px;
+  }
+}
+
+/* Shared failure and modal states. Keep them neutral so editorial layouts retain
+   their existing hierarchy when a remote image or commerce panel changes state. */
+img.ddv-image-fallback {
+  object-fit: contain !important;
+  object-position: center;
+  background: var(--ddv-paper, var(--paper));
+}
+
+body.has-open-commerce-panel {
+  overflow: hidden;
+}
+
+/* The compact newsletter row uses max-content columns on desktop. The full
+   preferences form must remain a single fluid column inside its split layout. */
+.newsletter-panel .newsletter-fields {
+  min-width: 0;
+  grid-template-columns: minmax(0, 1fr);
+}
