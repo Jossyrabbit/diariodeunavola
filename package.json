@@ -1,0 +1,25 @@
+{
+  "name": "diario-de-una-vola",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/verify-public-output.mjs && node scripts/verify-commerce-infra.mjs",
+    "test": "node --test --test-concurrency=1",
+    "test:unit": "node --test tests/unit/*.test.mjs",
+    "test:database": "node --test --test-concurrency=1 tests/database/*.test.mjs"
+  },
+  "dependencies": {
+    "@netlify/database": "^2.0.1",
+    "@netlify/functions": "^6.0.2",
+    "@netlify/identity": "^2.0.0"
+  },
+  "devDependencies": {
+    "@netlify/database-dev": "^1.0.1",
+    "pg": "^8.23.1"
+  },
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=22"
+  }
+}

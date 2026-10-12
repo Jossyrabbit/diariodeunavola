@@ -1,0 +1,41 @@
+[
+  {
+    "id": "caja-ddv-01",
+    "sku": "DDV-BOX-01",
+    "name": "Caja DDV N.º 01",
+    "price_clp": 15990,
+    "currency": "CLP",
+    "magazines": 1,
+    "boxes": 1,
+    "delivery_count": 1,
+    "collectible_photo_eligible": true,
+    "active": false,
+    "catalog_version": 1
+  },
+  {
+    "id": "suscripcion-ddv-anual",
+    "sku": "DDV-SUB-ANUAL",
+    "name": "Suscripción DDV",
+    "price_clp": 29990,
+    "currency": "CLP",
+    "magazines": 3,
+    "boxes": 0,
+    "delivery_count": 3,
+    "collectible_photo_eligible": false,
+    "active": false,
+    "catalog_version": 1
+  },
+  {
+    "id": "club-ddv-anual",
+    "sku": "DDV-CLUB-ANUAL",
+    "name": "Club DDV",
+    "price_clp": 39990,
+    "currency": "CLP",
+    "magazines": 3,
+    "boxes": 3,
+    "delivery_count": 3,
+    "collectible_photo_eligible": false,
+    "active": false,
+    "catalog_version": 1
+  }
+]

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Acceso administrativo | Diario de una Volá</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/editorial-system.js" defer></script>
+    <script src="/admin/login/admin-login.js" defer></script>
+  </head>
+  <body class="ddv-admin-login-page">
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <ddv-header></ddv-header>
+    <main id="contenido" class="ddv-admin-login ddv-container">
+      <section>
+        <p class="ddv-kicker">Área privada · DDV SpA</p>
+        <h1>Administración editorial.</h1>
+        <p>Acceso exclusivo para cuentas invitadas con rol <strong>admin</strong>. El registro público no forma parte de este sistema.</p>
+        <form data-admin-login-form>
+          <label>Correo de administración<input name="email" type="email" autocomplete="username" required></label>
+          <label>Contraseña<input name="password" type="password" autocomplete="current-password" required></label>
+          <button class="ddv-ink-button" type="submit">Ingresar</button>
+          <p data-login-status role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+    <ddv-footer></ddv-footer>
+  </body>
+</html>

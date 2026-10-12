@@ -1,3 +1,23 @@
 [build]
-  command = "node scripts/verify-public-output.mjs"
+  command = "npm run build"
   publish = "."
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/admin/login/*"
+  to = "/admin/login/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/admin/*"
+  to = "/admin/:splat"
+  status = 200
+  force = true
+  conditions = {Role = ["admin"]}
+
+[[redirects]]
+  from = "/admin/*"
+  to = "/admin/login/index.html"
+  status = 401
+  force = true

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="Administración privada de pedidos y suscripciones DDV.">
+    <title>Administración editorial | Diario de una Volá</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/editorial-system.js" defer></script>
+    <script src="/admin/admin.js" defer></script>
+  </head>
+  <body class="ddv-admin-page">
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <ddv-header></ddv-header>
+    <main id="contenido" class="ddv-admin-shell ddv-container">
+      <header class="ddv-admin-hero">
+        <div>
+          <p class="ddv-kicker">Área privada · DDV SpA</p>
+          <h1>Pedidos y suscripciones.</h1>
+          <p>Panel operativo de la infraestructura editorial. El checkout y los cobros públicos permanecen desactivados.</p>
+        </div>
+        <div class="ddv-admin-session">
+          <span data-admin-email>Verificando sesión…</span>
+          <button class="ddv-text-button" type="button" data-admin-logout>Cerrar sesión</button>
+        </div>
+      </header>
+
+      <p class="ddv-admin-alert" data-admin-status role="status" aria-live="polite">Cargando datos protegidos…</p>
+
+      <section class="ddv-admin-overview" aria-labelledby="admin-overview-title">
+        <h2 id="admin-overview-title">Resumen</h2>
+        <div class="ddv-admin-metrics" data-admin-overview></div>
+      </section>
+
+      <section class="ddv-admin-section" aria-labelledby="admin-orders-title">
+        <header><div><p class="ddv-kicker">Operación</p><h2 id="admin-orders-title">Pedidos</h2></div><button class="ddv-text-button" type="button" data-admin-refresh>Actualizar</button></header>
+        <div class="ddv-admin-table-wrap"><table><thead><tr><th>Referencia</th><th>Cliente</th><th>Producto</th><th>Estado</th><th>Total</th><th>Foto</th></tr></thead><tbody data-admin-orders></tbody></table></div>
+      </section>
+
+      <section class="ddv-admin-section" aria-labelledby="admin-subscriptions-title">
+        <header><div><p class="ddv-kicker">Plan anual</p><h2 id="admin-subscriptions-title">Suscriptores</h2></div></header>
+        <div class="ddv-admin-table-wrap"><table><thead><tr><th>Cliente</th><th>Plan</th><th>Progreso</th><th>Dirección vigente</th><th>Acción</th></tr></thead><tbody data-admin-subscriptions></tbody></table></div>
+      </section>
+
+      <section class="ddv-admin-section" aria-labelledby="admin-deliveries-title">
+        <header><div><p class="ddv-kicker">Preparación y despacho</p><h2 id="admin-deliveries-title">Entregas</h2></div></header>
+        <div class="ddv-admin-table-wrap"><table><thead><tr><th>Pedido</th><th>Entrega</th><th>Contenido</th><th>Estado</th><th>Seguimiento</th><th>Acción</th></tr></thead><tbody data-admin-deliveries></tbody></table></div>
+      </section>
+    </main>
+
+    <dialog class="ddv-admin-dialog" data-address-dialog>
+      <form method="dialog" data-address-form>
+        <header><div><p class="ddv-kicker">Historial protegido</p><h2>Actualizar dirección</h2></div><button type="button" class="ddv-dialog-close" data-dialog-close aria-label="Cerrar">×</button></header>
+        <input type="hidden" name="customer_id">
+        <p>La dirección anterior se conserva en el historial. Las entregas ya preparadas mantienen su snapshot.</p>
+        <div class="ddv-admin-form-grid">
+          <label>Región<input name="region" required maxlength="160"></label>
+          <label>Comuna<input name="commune" required maxlength="160"></label>
+          <label class="is-wide">Dirección<input name="address_line_1" required maxlength="160"></label>
+          <label>Número<input name="street_number" maxlength="240"></label>
+          <label>Departamento<input name="apartment" maxlength="240"></label>
+          <label>Código postal<input name="postal_code" maxlength="240"></label>
+          <label class="is-wide">Indicaciones<textarea name="delivery_notes" rows="3" maxlength="240"></textarea></label>
+        </div>
+        <div class="ddv-admin-actions"><button class="ddv-ink-button" type="submit" value="save">Guardar dirección</button><button class="ddv-text-button" type="button" data-dialog-close>Cancelar</button></div>
+      </form>
+    </dialog>
+
+    <dialog class="ddv-admin-dialog" data-delivery-dialog>
+      <form method="dialog" data-delivery-form>
+        <header><div><p class="ddv-kicker">Trazabilidad</p><h2>Actualizar entrega</h2></div><button type="button" class="ddv-dialog-close" data-dialog-close aria-label="Cerrar">×</button></header>
+        <input type="hidden" name="delivery_id">
+        <div class="ddv-admin-form-grid">
+          <label>Estado<select name="status" required><option value="pending">Pendiente</option><option value="ready">Preparada</option><option value="shipped">Despachada</option><option value="delivered">Entregada</option><option value="returned">Devuelta</option><option value="cancelled">Cancelada</option></select></label>
+          <label>Transportista<input name="carrier" maxlength="120"></label>
+          <label class="is-wide">Código de seguimiento<input name="tracking_code" maxlength="160"></label>
+        </div>
+        <div class="ddv-admin-actions"><button class="ddv-ink-button" type="submit" value="save">Guardar entrega</button><button class="ddv-text-button" type="button" data-dialog-close>Cancelar</button></div>
+      </form>
+    </dialog>
+
+    <ddv-footer></ddv-footer>
+  </body>
+</html>
