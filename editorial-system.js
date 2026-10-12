@@ -121,7 +121,7 @@
           <a href="https://www.instagram.com/ddv.chile/" target="_blank" rel="noopener noreferrer">Instagram @ddv.chile</a>
         </div>
         <nav aria-label="Explora"><strong>Explora</strong><a href="/actualidad/">Actualidad</a><a href="/cultivo/">Cultivo</a><a href="/cultura/">Cultura</a><a href="/legislacion/">Ley</a><a href="/categorias/ciencia-salud.html">Ciencia</a><a href="/eventos/">Eventos</a></nav>
-        <nav aria-label="Más DDV"><strong>Más DDV</strong><a href="/revista/">La Revista</a><a href="/comunidad.html">Comunidad</a><a href="/catalogo">Tienda</a><a href="/sobre-ddv.html">Sobre DDV</a><a href="/contacto.html">Contacto</a></nav>
+        <nav aria-label="Más DDV"><strong>Más DDV</strong><a href="/revista/">La Revista</a><a href="/revista/planes/">Cajas y suscripciones</a><a href="/suscripcion.html">Newsletter gratuito</a><a href="/comunidad.html">Comunidad</a><a href="/catalogo">Tienda</a><a href="/sobre-ddv.html">Sobre DDV</a><a href="/contacto.html">Contacto</a></nav>
         <nav aria-label="Redes y políticas"><strong>Síguenos</strong><a href="https://www.instagram.com/ddv.chile/" target="_blank" rel="noopener noreferrer">Instagram</a><a href="/politica-editorial.html">Política editorial</a><a href="/politica-privacidad.html">Privacidad</a><a href="/terminos.html">Términos</a></nav>
         <svg class="ddv-footer-leaf" aria-hidden="true"><use href="/assets/ddv-doodles.svg#leaf"></use></svg>
       </div>
@@ -411,6 +411,88 @@
     }
   }
 
+  function editorialProduct(productId) {
+    const products = Array.isArray(window.DDV_EDITORIAL_PRODUCTS) ? window.DDV_EDITORIAL_PRODUCTS : [];
+    return products.find((product) => product.id === productId) || null;
+  }
+
+  function editorialPrice(value) {
+    return new Intl.NumberFormat("es-CL", {
+      style: "currency",
+      currency: "CLP",
+      maximumFractionDigits: 0,
+    }).format(value);
+  }
+
+  class DdvPlanCard extends HTMLElement {
+    static get observedAttributes() {
+      return ["product"];
+    }
+
+    connectedCallback() {
+      this.render();
+    }
+
+    attributeChangedCallback() {
+      if (this.isConnected) this.render();
+    }
+
+    render() {
+      const product = editorialProduct(this.getAttribute("product"));
+      if (!product) {
+        this.hidden = true;
+        return;
+      }
+      this.hidden = false;
+      this.dataset.planId = product.id;
+      this.innerHTML = `
+        <article class="ddv-plan-card">
+          <header><p class="ddv-kicker">${escapeHtml(product.badge)}</p><h2>${escapeHtml(product.name)}</h2><p>${escapeHtml(product.description)}</p></header>
+          <p class="ddv-plan-price"><strong>${escapeHtml(editorialPrice(product.price))}</strong><span>${escapeHtml(product.cadence)}</span></p>
+          <ul>${product.benefits.map((benefit) => `<li>${escapeHtml(benefit)}</li>`).join("")}</ul>
+          ${product.limitedBenefit ? `<p class="ddv-plan-limited"><svg aria-hidden="true"><use href="/assets/ddv-doodles.svg#star"></use></svg>${escapeHtml(product.limitedBenefit)}</p>` : ""}
+          ${product.pendingBenefit ? `<p class="ddv-plan-pending">Los beneficios adicionales se comunicarán antes de activar la venta.</p>` : ""}
+          <a class="ddv-ink-button" href="/revista/pedido/?plan=${encodeURIComponent(product.id)}">Elegir ${escapeHtml(product.shortName)} <span aria-hidden="true">→</span></a>
+        </article>`;
+    }
+  }
+
+  class DdvOrderSummary extends HTMLElement {
+    static get observedAttributes() {
+      return ["product"];
+    }
+
+    connectedCallback() {
+      this.render();
+    }
+
+    attributeChangedCallback() {
+      if (this.isConnected) this.render();
+    }
+
+    render() {
+      const product = editorialProduct(this.getAttribute("product"));
+      if (!product) {
+        this.hidden = true;
+        return;
+      }
+      this.hidden = false;
+      this.innerHTML = `
+        <article class="ddv-order-summary-card">
+          <p class="ddv-kicker">Tu selección</p>
+          <h2>${escapeHtml(product.name)}</h2>
+          <p>${escapeHtml(product.description)}</p>
+          <dl>
+            <div><dt>Modalidad</dt><dd>${escapeHtml(product.cadence)}</dd></div>
+            <div><dt>Producto</dt><dd>${escapeHtml(editorialPrice(product.price))}</dd></div>
+            <div><dt>Despacho</dt><dd>Por definir antes del pago</dd></div>
+          </dl>
+          <strong class="ddv-order-total">Subtotal <span>${escapeHtml(editorialPrice(product.price))}</span></strong>
+          <small>El precio no incluye despacho. No se realizará ningún cobro en esta etapa.</small>
+        </article>`;
+    }
+  }
+
   const componentDefinitions = [
     ["ddv-header", DDVHeader],
     ["ddv-footer", DDVFooter],
@@ -423,6 +505,8 @@
     ["related-articles", RelatedArticles],
     ["article-navigation", ArticleNavigation],
     ["ddv-product-recommendations", DdvProductRecommendations],
+    ["ddv-plan-card", DdvPlanCard],
+    ["ddv-order-summary", DdvOrderSummary],
   ];
   componentDefinitions.forEach(([name, component]) => {
     if (!customElements.get(name)) customElements.define(name, component);
@@ -435,6 +519,8 @@
     ArticleCard,
     AdBanner: customElements.get("ddv-ad-banner"),
     DDVNote: DdvNote,
+    DDVPlanCard: DdvPlanCard,
+    DDVOrderSummary: DdvOrderSummary,
   });
 
   function documentFromHtml(html) {

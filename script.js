@@ -171,11 +171,11 @@ document.addEventListener("submit", async (event) => {
     } catch {
       if (formMessage) {
         formMessage.classList.add("is-error");
-        formMessage.innerHTML = `No pudimos guardar tus datos en este momento. Puedes intentarlo nuevamente o <a href="https://wa.me/${DDV_WHATSAPP_NUMBER}?text=Hola%20Diario%20de%20una%20Vola%2C%20quiero%20suscribirme%20a%20la%20revista." target="_blank" rel="noopener noreferrer">escribirnos por WhatsApp</a>.`;
+        formMessage.innerHTML = `No pudimos guardar tus datos en este momento. Puedes intentarlo nuevamente o <a href="https://wa.me/${DDV_WHATSAPP_NUMBER}?text=Hola%20Diario%20de%20una%20Vola%2C%20quiero%20recibir%20el%20newsletter%20gratuito." target="_blank" rel="noopener noreferrer">escribirnos por WhatsApp</a>.`;
       }
       if (submitButton) {
         submitButton.disabled = false;
-        submitButton.textContent = submitButton.dataset.defaultLabel || "Suscribirme";
+        submitButton.textContent = submitButton.dataset.defaultLabel || "Recibir newsletter gratis";
       }
       form.removeAttribute("aria-busy");
     }
