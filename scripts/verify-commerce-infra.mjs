@@ -41,12 +41,25 @@ for (const forbidden of ["create-checkout.mjs", "mercadopago-webhook.mjs", "crea
   if (functionNames.has(forbidden)) throw new Error(`Fase 1 no permite ${forbidden}`);
 }
 
+const identityPasswordFunction = await read("netlify/functions/identity-password.mjs");
+for (const marker of ["verifyRequestOrigin", "acceptInvite", "recoverPassword"]) {
+  if (!identityPasswordFunction.includes(marker)) throw new Error(`Flujo Identity: falta ${marker}`);
+}
+if (/\bsignup\b/.test(identityPasswordFunction)) throw new Error("El flujo Identity no puede habilitar registro público");
+
 const orderPage = await read("revista/pedido/index.html");
 if (!orderPage.includes('type="submit" disabled aria-disabled="true"')) throw new Error("El checkout público dejó de estar desactivado");
 
 const adminPage = await read("admin/index.html");
 if (!adminPage.includes('meta name="robots" content="noindex, nofollow"')) throw new Error("El panel debe usar noindex");
 if (/sign[ -]?up|registrarse|crear cuenta/i.test(adminPage)) throw new Error("El panel no debe ofrecer registro público");
+
+const loginPage = await read("admin/login/index.html");
+if (!loginPage.includes("data-identity-password-form")) throw new Error("Falta el formulario de contraseña de Identity");
+const loginScript = await read("admin/login/admin-login.js");
+for (const marker of ["invite_token", "recovery_token", "history.replaceState", "/api/admin/identity-password"]) {
+  if (!loginScript.includes(marker)) throw new Error(`Flujo Identity: falta ${marker}`);
+}
 
 console.log(JSON.stringify({
   commercePhase: 1,

@@ -9,6 +9,12 @@
   if (window.__DDV_EDITORIAL_SYSTEM_LOADED__) return;
   window.__DDV_EDITORIAL_SYSTEM_LOADED__ = true;
 
+  const identityCallback = /^#(?:invite_token|recovery_token)=/.test(window.location.hash);
+  if (identityCallback && !window.location.pathname.startsWith("/admin/login")) {
+    window.location.replace(`/admin/login/${window.location.hash}`);
+    return;
+  }
+
   const body = document.body;
   const currentPath = window.location.pathname.replace(/\/index\.html$/, "/");
   const isHome = body.classList.contains("ddv-home") || currentPath === "/" || currentPath === "/index.html";

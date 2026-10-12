@@ -13,7 +13,7 @@
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
     <ddv-header></ddv-header>
     <main id="contenido" class="ddv-admin-login ddv-container">
-      <section>
+      <section data-admin-login-panel>
         <p class="ddv-kicker">Área privada · DDV SpA</p>
         <h1>Administración editorial.</h1>
         <p>Acceso exclusivo para cuentas invitadas con rol <strong>admin</strong>. El registro público no forma parte de este sistema.</p>
@@ -22,6 +22,17 @@
           <label>Contraseña<input name="password" type="password" autocomplete="current-password" required></label>
           <button class="ddv-ink-button" type="submit">Ingresar</button>
           <p data-login-status role="status" aria-live="polite"></p>
+        </form>
+      </section>
+      <section data-identity-password-panel hidden>
+        <p class="ddv-kicker">Acceso privado · DDV SpA</p>
+        <h1 data-identity-password-title>Define tu contraseña.</h1>
+        <p data-identity-password-copy>Elige una contraseña nueva para completar el acceso a la administración.</p>
+        <form data-identity-password-form>
+          <label>Nueva contraseña<input name="password" type="password" autocomplete="new-password" minlength="10" maxlength="128" required></label>
+          <label>Repetir contraseña<input name="password_confirmation" type="password" autocomplete="new-password" minlength="10" maxlength="128" required></label>
+          <button class="ddv-ink-button" type="submit">Guardar contraseña</button>
+          <p data-identity-password-status role="status" aria-live="polite"></p>
         </form>
       </section>
     </main>
