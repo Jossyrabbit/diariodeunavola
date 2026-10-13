@@ -18,7 +18,7 @@ for (const product of catalog) {
   if (product.price_clp !== rule.price || product.currency !== "CLP") throw new Error(`Precio no autorizado: ${product.id}`);
   if (product.collectible_photo_eligible !== rule.photo) throw new Error(`Elegibilidad de fotografía incorrecta: ${product.id}`);
   if (product.delivery_count !== rule.deliveries) throw new Error(`Cantidad de entregas incorrecta: ${product.id}`);
-  if (product.active !== false) throw new Error(`El producto ${product.id} no puede activarse en Fase 1`);
+  if (product.active !== false) throw new Error(`El producto ${product.id} no puede activarse durante la preparación de Fase 2`);
 }
 
 const migrationFiles = await readdir(path.join(root, "netlify/database/migrations"));
@@ -38,7 +38,17 @@ for (const file of protectedFunctions) {
 
 const functionNames = new Set(functions);
 for (const forbidden of ["create-checkout.mjs", "mercadopago-webhook.mjs", "create-order.mjs"]) {
-  if (functionNames.has(forbidden)) throw new Error(`Fase 1 no permite ${forbidden}`);
+  if (functionNames.has(forbidden)) throw new Error(`La preparación local no permite ${forbidden}`);
+}
+
+const commerceConfig = await read("lib/server/commerce-config.mjs");
+for (const marker of ["publicRequestsEnabled: false", "paymentsEnabled: false", 'shippingOrigin: "Santiago, Chile"', "quoteValidityDays: 7"]) {
+  if (!commerceConfig.includes(marker)) throw new Error(`Configuración comercial segura: falta ${marker}`);
+}
+
+const phaseTwoMigration = await read("netlify/database/migrations/20261012213000_ddv_commerce_phase_two_quotes.sql");
+for (const marker of ["CREATE TABLE shipping_quotes", "CREATE TABLE payment_requests", "CREATE TABLE payment_webhook_events", "covers_deliveries", "valid_until"]) {
+  if (!phaseTwoMigration.includes(marker)) throw new Error(`Migración Fase 2: falta ${marker}`);
 }
 
 const identityPasswordFunction = await read("netlify/functions/identity-password.mjs");
@@ -49,10 +59,11 @@ if (/\bsignup\b/.test(identityPasswordFunction)) throw new Error("El flujo Ident
 
 const orderPage = await read("revista/pedido/index.html");
 if (!orderPage.includes('type="submit" disabled aria-disabled="true"')) throw new Error("El checkout público dejó de estar desactivado");
+if (!orderPage.includes("no constituye una compra ni genera un cobro")) throw new Error("Falta aclarar que la solicitud no constituye una compra");
 
 const adminPage = await read("admin/index.html");
 if (!adminPage.includes('meta name="robots" content="noindex, nofollow"')) throw new Error("El panel debe usar noindex");
-if (/sign[ -]?up|registrarse|crear cuenta/i.test(adminPage)) throw new Error("El panel no debe ofrecer registro público");
+if (/sign[ -]?up|>\s*(?:registrarse|crear cuenta)\s*</i.test(adminPage)) throw new Error("El panel no debe ofrecer registro público");
 
 const loginPage = await read("admin/login/index.html");
 if (!loginPage.includes("data-identity-password-form")) throw new Error("Falta el formulario de contraseña de Identity");
@@ -62,8 +73,9 @@ for (const marker of ["invite_token", "recovery_token", "history.replaceState", 
 }
 
 console.log(JSON.stringify({
-  commercePhase: 1,
+  commercePhase: 2,
   publicCheckout: false,
+  paymentsEnabled: false,
   publicRegistration: false,
   products: catalog.map(({ id, price_clp, active }) => ({ id, price_clp, active })),
   protectedFunctions,

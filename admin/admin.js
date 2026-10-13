@@ -8,6 +8,8 @@
   const deliveriesNode = document.querySelector("[data-admin-deliveries]");
   const addressDialog = document.querySelector("[data-address-dialog]");
   const deliveryDialog = document.querySelector("[data-delivery-dialog]");
+  const quoteDialog = document.querySelector("[data-quote-dialog]");
+  let currentQuoteOrder = null;
 
   const stateLabels = {
     draft: "Borrador",
@@ -24,6 +26,14 @@
     shipped: "Despachada",
     delivered: "Entregada",
     returned: "Devuelta",
+    pending_quote: "Pendiente de cotización",
+    quoted: "Cotizada",
+    accepted: "Aceptada",
+    declined: "Rechazada",
+    expired: "Vencida",
+    not_requested: "No solicitado",
+    approved: "Aprobado",
+    rejected: "Rechazado",
   };
 
   function element(tag, options = {}) {
@@ -65,6 +75,8 @@
     const metrics = [
       ["Pedidos", data.orders_total],
       ["Pagados", data.orders_paid],
+      ["Por cotizar", data.quotes_pending],
+      ["Esperando aceptación", data.quotes_waiting_acceptance],
       ["Suscripciones activas", data.subscriptions_active],
       ["Entregas pendientes", data.deliveries_pending],
       ["Listas para despacho", data.deliveries_ready],
@@ -82,20 +94,25 @@
     if (!orders.length) {
       const row = element("tr");
       const empty = cell("No existen pedidos. El checkout público está desactivado.");
-      empty.colSpan = 6;
+      empty.colSpan = 7;
       row.append(empty);
       ordersNode.append(row);
       return;
     }
     orders.forEach((order) => {
       const row = element("tr");
+      const action = element("td");
+      const button = element("button", { className: "ddv-text-button", text: "Gestionar", type: "button" });
+      button.addEventListener("click", () => openQuoteDialog(order));
+      action.append(button);
       row.append(
         cell(order.public_reference),
         cell(`${order.full_name}\n${order.email_normalized}`),
         cell(order.product_name_snapshot),
-        cell(stateLabels[order.status] || order.status),
+        cell(stateLabels[order.quote_status] || order.quote_status),
+        cell(stateLabels[order.payment_status] || order.payment_status),
         cell(formatMoney(order.total_clp)),
-        cell(order.collectible_photo_slot ? `N.º ${order.collectible_photo_slot}` : "—"),
+        action,
       );
       ordersNode.append(row);
     });
@@ -183,6 +200,56 @@
     deliveryDialog.showModal();
   }
 
+  function quoteSummary(order, shippingValue) {
+    const shipping = Number.isSafeInteger(shippingValue) ? shippingValue : Number(order.shipping_clp);
+    const hasShipping = Number.isSafeInteger(shipping) && shipping >= 0;
+    const total = hasShipping ? Number(order.unit_price_clp) + shipping : null;
+    const deliveries = Number(order.covers_deliveries) || (order.product_name_snapshot.includes("Caja DDV") ? 1 : 3);
+    return [
+      `Solicitud ${order.public_reference}`,
+      `${order.product_name_snapshot}: ${formatMoney(order.unit_price_clp)}`,
+      `Despacho desde Santiago${deliveries === 3 ? " (cubre 3 entregas)" : ""}: ${hasShipping ? formatMoney(shipping) : "pendiente"}`,
+      `Total: ${total === null ? "pendiente" : formatMoney(total)}`,
+      "Esta cotización tiene una vigencia de 7 días. El pago se solicita únicamente después de aceptar este total.",
+    ].join("\n");
+  }
+
+  function whatsappUrl(phone, message) {
+    const normalized = String(phone || "").replace(/\D/g, "");
+    return normalized ? `https://wa.me/${normalized}?text=${encodeURIComponent(message)}` : "";
+  }
+
+  function refreshQuotePreview() {
+    if (!currentQuoteOrder) return;
+    const form = quoteDialog.querySelector("form");
+    const raw = form.elements.shipping_clp.value;
+    const shipping = raw === "" ? null : Number(raw);
+    const total = Number.isSafeInteger(shipping) && shipping >= 0
+      ? Number(currentQuoteOrder.unit_price_clp) + shipping
+      : null;
+    form.elements.total.value = total === null ? "Pendiente" : formatMoney(total);
+    const summary = quoteSummary(currentQuoteOrder, shipping);
+    quoteDialog.querySelector("[data-quote-summary]").textContent = summary;
+    const whatsapp = quoteDialog.querySelector("[data-open-whatsapp]");
+    const href = whatsappUrl(currentQuoteOrder.phone, summary);
+    whatsapp.href = href || "#";
+    whatsapp.hidden = !href;
+  }
+
+  function openQuoteDialog(order) {
+    currentQuoteOrder = order;
+    const form = quoteDialog.querySelector("form");
+    form.reset();
+    form.elements.order_id.value = order.id;
+    form.elements.product_price.value = formatMoney(order.unit_price_clp);
+    form.elements.shipping_clp.value = order.shipping_clp ?? "";
+    const deliveries = Number(order.covers_deliveries) || (order.product_name_snapshot.includes("Caja DDV") ? 1 : 3);
+    form.elements.delivery_scope.value = deliveries === 3 ? "Tres entregas del año" : "Una entrega";
+    quoteDialog.querySelector("[data-accept-quote]").disabled = order.quote_status !== "quoted";
+    refreshQuotePreview();
+    quoteDialog.showModal();
+  }
+
   async function load() {
     showStatus("Cargando datos protegidos…");
     try {
@@ -236,6 +303,51 @@
       });
       deliveryDialog.close();
       await load();
+    } catch (error) {
+      showStatus(error.message, "error");
+    }
+  });
+
+  document.querySelector("[data-quote-form]")?.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const values = Object.fromEntries(new FormData(event.currentTarget));
+    try {
+      await fetchJson("/api/admin/order-quote", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ order_id: values.order_id, shipping_clp: Number(values.shipping_clp) }),
+      });
+      quoteDialog.close();
+      await load();
+      showStatus("Cotización guardada por 7 días. Aún no se ha solicitado ningún pago.", "success");
+    } catch (error) {
+      showStatus(error.message, "error");
+    }
+  });
+
+  quoteDialog?.querySelector("input[name='shipping_clp']")?.addEventListener("input", refreshQuotePreview);
+  quoteDialog?.querySelector("[data-copy-order]")?.addEventListener("click", async () => {
+    if (!currentQuoteOrder) return;
+    const raw = quoteDialog.querySelector("input[name='shipping_clp']").value;
+    const shipping = raw === "" ? null : Number(raw);
+    try {
+      await navigator.clipboard.writeText(quoteSummary(currentQuoteOrder, shipping));
+      showStatus("Resumen copiado. Revisa el texto antes de enviarlo al comprador.", "success");
+    } catch {
+      showStatus("No fue posible copiar el resumen automáticamente.", "error");
+    }
+  });
+  quoteDialog?.querySelector("[data-accept-quote]")?.addEventListener("click", async () => {
+    if (!currentQuoteOrder || currentQuoteOrder.quote_status !== "quoted") return;
+    try {
+      await fetchJson("/api/admin/order-quote-accept", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ order_id: currentQuoteOrder.id }),
+      });
+      quoteDialog.close();
+      await load();
+      showStatus("Aceptación por WhatsApp registrada. Mercado Pago continúa desactivado.", "success");
     } catch (error) {
       showStatus(error.message, "error");
     }

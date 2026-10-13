@@ -20,7 +20,7 @@
       <section class="ddv-order-hero ddv-container">
         <p class="ddv-kicker">Recorrido de compra</p>
         <h1>Prepara tu pedido.</h1>
-        <p>Revisa la opción elegida y los datos que necesitaremos para el despacho. Este formulario todavía no envía ni guarda información.</p>
+        <p>Revisa la opción elegida y los datos que necesitaremos para cotizar el despacho desde Santiago. Enviar una solicitud no constituye una compra ni genera un cobro.</p>
         <a class="ddv-text-link" href="/revista/planes/">← Volver a comparar</a>
       </section>
 
@@ -31,7 +31,7 @@
 
         <form class="ddv-shipping-form" data-editorial-order-form>
           <input type="hidden" name="product_id">
-          <header><p class="ddv-kicker">Datos necesarios</p><h2>¿Dónde recibirías DDV?</h2><p>No completes datos reales todavía: las ventas están desactivadas y el formulario no será enviado.</p></header>
+          <header><p class="ddv-kicker">Datos necesarios</p><h2>¿Dónde recibirías DDV?</h2><p>No completes datos reales todavía: las ventas están desactivadas y el formulario no será enviado. Cuando se habilite, DDV cotizará el despacho por WhatsApp antes de solicitar cualquier pago.</p></header>
           <fieldset>
             <legend>Contacto</legend>
             <label>Nombre completo<input name="full_name" type="text" autocomplete="name"></label>
@@ -50,10 +50,10 @@
           </fieldset>
           <fieldset>
             <legend>Consentimientos</legend>
-            <label class="ddv-order-check"><input name="purchase_terms" type="checkbox"><span>Confirmaré términos, precio final y costo de despacho antes de pagar.</span></label>
+            <label class="ddv-order-check"><input name="purchase_terms" type="checkbox"><span>Solicito una cotización y entiendo que esto no constituye una compra ni genera un cobro.</span></label>
             <label class="ddv-order-check"><input name="marketing_consent" type="checkbox"><span>Quiero recibir novedades editoriales de DDV. <small>Opcional y separado de la compra.</small></span></label>
           </fieldset>
-          <p class="ddv-payment-safety"><strong>DDV nunca pedirá datos de tarjeta en este formulario.</strong> Un proveedor de pagos procesará esa información cuando la venta sea habilitada.</p>
+          <p class="ddv-payment-safety"><strong>DDV nunca pedirá datos de tarjeta en este formulario.</strong> Solo después de aceptar por WhatsApp el producto, despacho y total, Mercado Pago procesará el pago cuando la venta sea habilitada.</p>
           <button class="ddv-ink-button" type="submit" disabled aria-disabled="true">Pago aún no disponible</button>
           <p class="ddv-commerce-status" data-commerce-status tabindex="-1" aria-live="polite">Las ventas están desactivadas. Ningún dato será enviado ni almacenado.</p>
         </form>

@@ -35,7 +35,7 @@
 
       <section class="ddv-admin-section" aria-labelledby="admin-orders-title">
         <header><div><p class="ddv-kicker">Operación</p><h2 id="admin-orders-title">Pedidos</h2></div><button class="ddv-text-button" type="button" data-admin-refresh>Actualizar</button></header>
-        <div class="ddv-admin-table-wrap"><table><thead><tr><th>Referencia</th><th>Cliente</th><th>Producto</th><th>Estado</th><th>Total</th><th>Foto</th></tr></thead><tbody data-admin-orders></tbody></table></div>
+        <div class="ddv-admin-table-wrap"><table><thead><tr><th>Referencia</th><th>Cliente</th><th>Producto</th><th>Cotización</th><th>Pago</th><th>Total</th><th>Acción</th></tr></thead><tbody data-admin-orders></tbody></table></div>
       </section>
 
       <section class="ddv-admin-section" aria-labelledby="admin-subscriptions-title">
@@ -64,6 +64,29 @@
           <label class="is-wide">Indicaciones<textarea name="delivery_notes" rows="3" maxlength="240"></textarea></label>
         </div>
         <div class="ddv-admin-actions"><button class="ddv-ink-button" type="submit" value="save">Guardar dirección</button><button class="ddv-text-button" type="button" data-dialog-close>Cancelar</button></div>
+      </form>
+    </dialog>
+
+    <dialog class="ddv-admin-dialog" data-quote-dialog>
+      <form method="dialog" data-quote-form>
+        <header><div><p class="ddv-kicker">Cotización manual</p><h2>Despacho desde Santiago</h2></div><button type="button" class="ddv-dialog-close" data-dialog-close aria-label="Cerrar">×</button></header>
+        <input type="hidden" name="order_id">
+        <p data-quote-summary></p>
+        <div class="ddv-admin-form-grid">
+          <label>Precio del producto<input name="product_price" readonly></label>
+          <label>Despacho total en CLP<input name="shipping_clp" type="number" min="0" max="1000000" step="1" required></label>
+          <label class="is-wide">Cobertura<input name="delivery_scope" readonly></label>
+          <label class="is-wide">Total acordado<input name="total" readonly></label>
+        </div>
+        <p>La cotización tendrá una vigencia de 7 días. La aceptación solo debe registrarse después de recibir la confirmación del comprador por WhatsApp.</p>
+        <div class="ddv-admin-actions">
+          <button class="ddv-ink-button" type="submit">Guardar cotización</button>
+          <button class="ddv-text-button" type="button" data-copy-order>Copiar resumen</button>
+          <a class="ddv-text-button" data-open-whatsapp target="_blank" rel="noopener">Abrir WhatsApp</a>
+          <button class="ddv-text-button" type="button" data-accept-quote>Registrar aceptación</button>
+          <button class="ddv-text-button" type="button" disabled aria-disabled="true" title="Mercado Pago permanece desactivado">Generar pago (desactivado)</button>
+          <button class="ddv-text-button" type="button" data-dialog-close>Cancelar</button>
+        </div>
       </form>
     </dialog>
 
